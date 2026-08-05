@@ -7,8 +7,6 @@
     * [conceitos-gerais](manual-markdown/gitbook/apresentacao/conceitos-gerais.md)
     * [A quem se destina o atendimento](manual-markdown/gitbook/apresentacao/a-quem-se-destina.md)
     * [estrutura-do-sistema](manual-markdown/gitbook/apresentacao/estrutura-do-sistema.md)
-    * [Principais conceitos vinculados à operação do sistema](manual-markdown/gitbook/apresentacao/principais-conceitos.md)
-    * [Profissionais do SUAS responsáveis pelo registro de atendimento](manual-markdown/gitbook/apresentacao/profissionais-do-suas.md)
   * [Acesso ao Prontuário Eletrônico do SUAS](manual-markdown/gitbook/acesso-ao-prontuario/README.md)
     * [CadSUAS e as permissões do prontuário SUAS](manual-markdown/gitbook/acesso-ao-prontuario/cadsuas-e-permissoes.md)
     * [Login no sistema](manual-markdown/gitbook/acesso-ao-prontuario/login-no-sistema.md)
