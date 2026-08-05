@@ -21,7 +21,3 @@ As informações inseridas no Prontuário Eletrônico são sigilosas e podem ser
 Com isto, o acesso ao sistema Prontuário Eletrônico deve ser restrito aos profissionais do SUAS, em especial, aos técnicos de nível superior das equipes de referência, de acordo com os perfis de acesso.
 
 ---
-
-# Conceitos gerais
-
----
