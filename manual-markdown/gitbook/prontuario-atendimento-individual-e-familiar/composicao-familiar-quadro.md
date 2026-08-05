@@ -1,8 +1,6 @@
-## Composição familiar
+# Composição familiar
 
 No agrupamento <kbd>8</kbd> **Composição Familiar**, você pode verificar os dados cadastrais dos membros que compõem o núcleo familiar da pessoa, de acordo com o **Cadastro Único**.
-
-![Composição Familiar](composicao-familiar-1.png)
 
 Conforme imagem ao lado, o agrupamento é composto pelos campos:
 
@@ -13,6 +11,6 @@ Conforme imagem ao lado, o agrupamento é composto pelos campos:
 * **Sexo** – campo que informa o sexo do membro da composição familiar;
 * **Cor/ raça** – campo que informa o sexo do membro da composição familiar;
 * **Data de nascimento** – campo que informa a data de nascimento do membro da composição familiar.
-* **Ocorrências e pendências** – opção que ao ser acionada, expande apresentado ocorrências e pendencias para o cadastro do membro da composição familiar. Não havendo ocorrências e pendencias, será apresentada a mensagem: *"Nenhuma ocorrência ou pendência encontrada."*
+* **Ocorrências e pendências** – opção que ao ser acionada, expande apresentado ocorrências e pendencias para o cadastro do membro da composição familiar. Não havendo ocorrências e pendencias, será apresentada a mensagem: _"Nenhuma ocorrência ou pendência encontrada."_
 
----
+***

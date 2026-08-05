@@ -1,10 +1,8 @@
 # Prontuário: Painel Estatístico
 
----
+***
 
-![Prontuário: Painel Estatístico](prontuario-painel-estatistico-1.png)
-
----
+***
 
 ### Painel Estatístico
 
@@ -22,13 +20,13 @@ Preencha os campos conforme as informações que deseja visualizar:
 * **Município** – campo para informar o município das Unidades que serão consultadas, conforme uf escolhida no campo anterior;
 * **Unidade** – campo para informar uma ou mais unidades para compor o painel;
 * **Atendimento** – campo para informar o tipo de atendimento a ser consultado. As alternativas são:
-    * Todos;
-    * Atendimentos Particularizados;
-    * Atendimento Coletivo;
-    * Benefícios Eventuais;
-    * Encaminhamentos;
+  * Todos;
+  * Atendimentos Particularizados;
+  * Atendimento Coletivo;
+  * Benefícios Eventuais;
+  * Encaminhamentos;
 
----
+***
 
 * Comprimento Histórico de Medidas Socioeducativas;
 * Acompanhamento Familiar.
@@ -41,7 +39,7 @@ Preencha os campos conforme as informações que deseja visualizar:
 
 Quanto mais específicos forem os filtros aplicados, mais precisos serão os resultados apresentados nos painéis. Uma vez indicados os filtros, acione a opção <kbd>2</kbd> **Pesquisar**, e o sistema apresentará o Painel estatístico referente à pesquisa indicada.
 
----
+***
 
 ### Painel Estatístico
 
@@ -68,7 +66,7 @@ O agrupamento <kbd>7</kbd> **Raça/ Cor** traz dados referentes à raça e cor d
 
 Esse indicador auxilia na análise do perfil étnico-racial do público atendido, contribuindo para o planejamento e a implementação de políticas mais inclusivas e equitativas.
 
----
+***
 
 ### Painel Estatístico
 
@@ -95,7 +93,7 @@ O agrupamento <kbd>7</kbd> **GPTE** traz dados referentes ao Grupo Populacional 
 * Família Quilombola;
 * Família Indígena;
 
----
+***
 
 * Família em Situação de Rua;
 * Família de pescadores artesanais;
@@ -119,7 +117,7 @@ Mostra a **quantidade de atendimentos realizados** com participantes do programa
 * Está no PBF;
 * Não está no PBF.
 
----
+***
 
 ### Painel Estatístico
 
@@ -136,4 +134,4 @@ Ao selecionar a opção <kbd>10</kbd> **Baixe as informações do painel**, o si
 
 Utilize a exportação para análises mais aprofundadas ou para integrar os dados com relatórios e planilhas externas.
 
----
+***

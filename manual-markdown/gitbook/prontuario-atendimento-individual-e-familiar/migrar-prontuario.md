@@ -1,27 +1,23 @@
-## Migrar Prontuário
+# migrar-prontuario
+
+### Migrar Prontuário
 
 Para migrar o prontuário eletrônico para outra unidade de atendimento, acione o ícone <kbd>2</kbd> **opções** e em seguida <kbd>3</kbd> **Migrar prontuário**, então o sistema vai apresentar a janela:
-
-![Menu Opções](migrar-prontuario-1.png)
-
-![Janela Migrar Prontuário](migrar-prontuario-2.png)
 
 Conforme representado na janela representada na página anterior, o agrupamento é composto pelos campos:
 
 * **Texto informativo** – Ao confirmar a operação, será criada uma solicitação de migração do prontuário da pessoa e demais membros da família para a unidade de destino.
 
-### Informações do Prontuário
+#### Informações do Prontuário
 
 * **N.º do prontuário** – campo que informa o número do prontuário da pessoa;
 * **Data de abertura** – campo que informa a data da abertura do prontuário da pessoa;
 * **Unidade atual** – campo que informa o nome da unidade de atendimento atual;
 * **Município** – campo que informa o município e estado da unidade de atendimento atual;
 
----
+***
 
-## Identificação da pessoa de referência e endereço da família
-
-![Identificação da pessoa](migrar-prontuario-3.png)
+### Identificação da pessoa de referência e endereço da família
 
 * **Nome** – campo que informa o nome da pessoa;
 * **CPF** – campo que informa o número do CPF da pessoa;
@@ -40,11 +36,9 @@ Conforme representado na janela representada na página anterior, o agrupamento 
 * **Município/UF** – campo que informa o município/ UF da residência da pessoa/ família;
 * **CEP** – campo que informa o número do CEP da residência da pessoa/ família;
 
----
+***
 
-### Campos de preenchimento
-
-![Campos de preenchimento](migrar-prontuario-4.png)
+#### Campos de preenchimento
 
 * **Migrar para** – campo que informa a migração para outra unidade;
 * **Nome do técnico responsável** – campo que informa o nome do técnico responsável pela solicitação;
@@ -54,4 +48,4 @@ Conforme representado na janela representada na página anterior, o agrupamento 
 * **Cancelar** – opção que ao ser acionada, cancela a ação e fecha a janela;
 * **Confirmar** – opção que, ao ser acionada, salva a solicitação de migração do prontuário eletrônico.
 
----
+***

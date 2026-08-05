@@ -1,10 +1,10 @@
-### Visualizar atendimento coletivo
+# visualizar-atendimento-coletivo
+
+#### Visualizar atendimento coletivo
 
 Para **visualizar o atendimento coletivo**, acione a opção <kbd>8</kbd> **Visualizar atendimento coletivo** na coluna ação, então o sistema vai apresentar a janela com as informações.
 
-![Visualizar atendimento coletivo](prontuario-atendimento-coletivo-7.png)
-
----
+***
 
 A janela <kbd>8</kbd> **Visualizar atendimento coletivo**, representada na página anterior, contém os seguintes dados:
 
@@ -17,6 +17,6 @@ A janela <kbd>8</kbd> **Visualizar atendimento coletivo**, representada na pági
 * **Unidade** – campo que informa o nome da unidade de atendimento;
 * **Fechar** – opção que, ao ser acionada, fecha a janela.
 
----
+***
 
-### Atendimento coletivo
+#### Atendimento coletivo

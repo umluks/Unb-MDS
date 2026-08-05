@@ -1,24 +1,20 @@
-## Condições de trabalho e rendimento da família
+# Condições de trabalho e rendimento da família
 
 Ao acionar o bloco <kbd>1</kbd> **Condições de trabalho e rendimento da família**, para expandir as informações, você pode consultar, por membro da composição familiar, a condição de trabalho, valores recebidos por programa e observações complementares.
 
-### Condições de trabalho da família
+## Condições de trabalho da família
 
 A lista das <kbd>2</kbd> **condições de trabalho da família** é composta por:
-
-![Tabela de Condições de Trabalho](condicoes-de-trabalho-e-rendimento-da-familia-1.png)
 
 * **Pessoa** – a coluna informa o nome do membro da composição familiar;
 * **Idade** – a coluna informa a idade do membro da composição familiar;
 * **N.º da CTPS** – a coluna informa o número da carteira de trabalho e previdência social do membro da composição familiar.
 
----
+***
 
-### Valores recebidos por Programas Sociais
+## Valores recebidos por Programas Sociais
 
 O <kbd>3</kbd> **agrupamento de campos dos valores recebidos por Programas Sociais** é composto por:
-
-![Valores recebidos por Programas Sociais](condicoes-de-trabalho-e-rendimento-da-familia-2.png)
 
 * **Recebe Bolsa Família** – campo que informa se a família recebe o Bolsa Família;
 * **Nome** – campo que informa o nome do membro da composição familiar;
@@ -28,14 +24,12 @@ O <kbd>3</kbd> **agrupamento de campos dos valores recebidos por Programas Socia
 * **Seguro-desemprego** – campo que informa se o membro da composição familiar está recebendo seguro-desemprego;
 * **Pensão alimentícia** – campo que informa o recebimento e valor da pensão alimentícia pelo membro da composição familiar;
 
----
+***
 
-### Observações das condições de trabalho e rendimento da família
+## Observações das condições de trabalho e rendimento da família
 
 Para mais informações sobre o <kbd>4</kbd> **registro de observações**, consulte a página 19 deste manual.
 
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5</kbd> **ícone**.
 
-![Observações e Expandir](condicoes-de-trabalho-e-rendimento-da-familia-3.png)
-
----
+***

@@ -1,8 +1,6 @@
-### Lista de atendimentos coletivos
+# Lista de atendimentos coletivos
 
 O sistema apresentará a funcionalidade **Atendimento Coletivo** com a <kbd>6</kbd> **lista de atendimentos coletivos** realizados pela unidade.
-
-![Lista de atendimentos coletivos](prontuario-atendimento-coletivo-3.png)
 
 A lista de atendimento coletivo é composta por:
 

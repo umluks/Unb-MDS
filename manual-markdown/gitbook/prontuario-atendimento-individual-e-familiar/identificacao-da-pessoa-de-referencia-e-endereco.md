@@ -1,8 +1,6 @@
-## Identificação da pessoa de referência e endereço da família
+# Identificação da pessoa de referência e endereço da família
 
 No agrupamento <kbd>5</kbd> **Identificação da pessoa de referência e endereço da família**, você pode verificar informações pessoais, endereço e composição da família de acordo com o Cadastro Único, à qual o prontuário pertence.
-
-![Agrupamento Identificação](identificacao-da-pessoa-de-referencia-e-endereco-da-familia-1.png)
 
 Conforme tela representada ao lado, o agrupamento é composto pelos campos:
 
@@ -12,27 +10,23 @@ Conforme tela representada ao lado, o agrupamento é composto pelos campos:
 * **Data de Nascimento** – Campo que informa a data de nascimento da pessoa;
 * **Nome da Mãe** – Campo que informa o nome da mãe da pessoa;
 
----
+***
 
-### Dados Pessoais
-
-![Dados Pessoais](identificacao-da-pessoa-de-referencia-e-endereco-da-familia-2.png)
+## Dados Pessoais
 
 Conforme tela ao lado, a funcionalidade **Dados Pessoais** é composta pelos campos:
 
 * **CPF** – campo que informa o número do cadastro de pessoa física – CPF da pessoa;
-    * Para copiar o número do CPF, acione o ícone <kbd>6</kbd> **Copiar**.
+  * Para copiar o número do CPF, acione o ícone <kbd>6</kbd> **Copiar**.
 * **NIS** – campo que informa o número de identificação social - NIS da pessoa;
 * **RG** – campo que informa o número do registro geral - RG (também conhecido como carteira de identidade) da pessoa;
 * **Data de Emissão do RG** – campo que informa a data de emissão do registro geral;
 * **Órgão** – campo que informa o órgão expedidor do registro geral;
 * **UF** – campo que informa o estado do órgão expedidor.
 
----
+***
 
-### Dados do Endereço
-
-![Dados do Endereço](identificacao-da-pessoa-de-referencia-e-endereco-da-familia-3.png)
+## Dados do Endereço
 
 Conforme tela ao lado, a funcionalidade **Dados do Endereço** é composta pelos campos:
 
@@ -47,4 +41,4 @@ Conforme tela ao lado, a funcionalidade **Dados do Endereço** é composta pelos
 
 > **Observação:** As informações acima são apenas para consulta, não sendo possível alterá-las por meio do Prontuário Eletrônico.
 
----
+***

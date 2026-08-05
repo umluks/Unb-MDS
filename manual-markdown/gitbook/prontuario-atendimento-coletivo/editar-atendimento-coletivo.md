@@ -1,12 +1,10 @@
-### Editar atendimento coletivo
+# Editar atendimento coletivo
 
 Para **editar o registro de atendimento coletivo**, acione a opção <kbd>9</kbd> **Alterar atendimento coletivo** na coluna ação, então o sistema vai apresentar a janela com os campos habilitados.
 
-![Editar atendimento coletivo](prontuario-atendimento-coletivo-10.png)
+***
 
----
-
-Informe os ajustes e acione a opção <kbd>13</kbd> **Alterar**, em seguida o sistema fecha a janela, atualiza a lista e apresenta a mensagem “*Atendimento coletivo alterado com sucesso*”.
+Informe os ajustes e acione a opção <kbd>13</kbd> **Alterar**, em seguida o sistema fecha a janela, atualiza a lista e apresenta a mensagem “_Atendimento coletivo alterado com sucesso_”.
 
 A janela <kbd>9</kbd> **Alterar atendimento coletivo**, representada na página anterior, possui os seguintes campos:
 
@@ -18,13 +16,13 @@ A janela <kbd>9</kbd> **Alterar atendimento coletivo**, representada na página 
 * **Data do atendimento** – campo para informar a data em que o atendimento foi realizado;
 * **Nome do técnico responsável** – campo que informa o nome do técnico responsável pelo registro do atendimento;
 * **Tipo de atendimento coletivo** – campo para informar o tipo de atendimento coletivo a ser ofertado. As alternativas são:
-    * Oficinas;
-    * Acolhida coletiva;
-    * Ações comunitárias;
-    * Rodas de conversa;
-    * Arranjos participativos.
+  * Oficinas;
+  * Acolhida coletiva;
+  * Ações comunitárias;
+  * Rodas de conversa;
+  * Arranjos participativos.
 
----
+***
 
 * **Descrição** – campo para informar a descrição do atendimento;
 * **Unidade** – campo que informa o nome da unidade de atendimento;

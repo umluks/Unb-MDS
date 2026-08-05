@@ -1,8 +1,6 @@
-## Informações do Prontuário
+# Informações do Prontuário
 
 No agrupamento <kbd>1</kbd> **Informações do Prontuário**, você pode verificar as informações referentes a abertura do Prontuário.
-
-![Informações do Prontuário](informacoes-do-prontuario-1.png)
 
 Conforme representado na tela ao lado, o agrupamento é composto pelos campos:
 
@@ -12,6 +10,6 @@ Conforme representado na tela ao lado, o agrupamento é composto pelos campos:
 * **Unidade** – campo que informa o nome da unidade CRAS responsável pelo cadastro do prontuário de atendimento da pessoa;
 * **Município/ UF** – campo que informa o município e estado onde está localizada a unidade CRAS responsável pelo cadastro do prontuário de atendimento da pessoa.
 
-Caso exista solicitação de migração para o prontuário eletrônico da pessoa/ família, será apresentada a mensagem: *"Existe solicitação de migração em andamento para a unidade <<cód. e nome da unidade de destino>>"*.
+Caso exista solicitação de migração para o prontuário eletrônico da pessoa/ família, será apresentada a mensagem: _"Existe solicitação de migração em andamento para a unidade <\<cód. e nome da unidade de destino>>"_.
 
----
+***

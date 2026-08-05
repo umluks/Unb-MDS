@@ -1,8 +1,6 @@
-## Informações da família
+# Informações da família
 
 No agrupamento <kbd>7</kbd> **Informações da Família**, você pode verificar os dados cadastrais da família à qual a pessoa pertence, de acordo com o **Cadastro Único**.
-
-![Informações da Família](informacoes-da-familia-1.png)
 
 Conforme tela ao lado, o agrupamento é composto pelos campos:
 
@@ -14,4 +12,4 @@ Conforme tela ao lado, o agrupamento é composto pelos campos:
 
 > **Observação:** As informações acima são apenas para consulta, não sendo possível alterá-las por meio do Prontuário Eletrônico.
 
----
+***

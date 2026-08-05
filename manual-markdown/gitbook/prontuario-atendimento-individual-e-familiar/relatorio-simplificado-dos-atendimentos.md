@@ -1,10 +1,8 @@
-## Relatório simplificado dos atendimentos
+# Relatório simplificado dos atendimentos
 
 Ao acionar o bloco <kbd>1</kbd> **Relatório simplificado dos atendimentos**, para expandir as informações, você pode consultar os atendimentos coletivos ao qual a família participou.
 
-![Relatório simplificado dos atendimentos](relatorio-simplificado-dos-atendimentos-1.png)
-
-### Atendimentos da pessoa
+## Atendimentos da pessoa
 
 A <kbd>2</kbd> **lista atendimentos da pessoa** é composta por:
 
@@ -17,4 +15,4 @@ A <kbd>2</kbd> **lista atendimentos da pessoa** é composta por:
 
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>3</kbd> **ícone**.
 
----
+***

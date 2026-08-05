@@ -1,8 +1,6 @@
-## Termo de uso
+# Termo de uso
 
 No primeiro acesso ao sistema, é obrigatório o preenchimento e aceite do **Termo de Uso**.
-
-![Tela do Termo de Uso](termo-de-uso-1.png)
 
 Esse procedimento tem como objetivo garantir o uso responsável, seguro e ético das informações registradas e acessadas no sistema.
 
@@ -16,4 +14,4 @@ Ao ler e aceitar o Termo de Uso, o usuário se compromete a:
 
 > O aceite do Termo de Uso é condição indispensável para liberar o acesso às funcionalidades do sistema.
 
----
+***
