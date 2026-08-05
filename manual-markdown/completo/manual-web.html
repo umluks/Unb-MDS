@@ -1,0 +1,2293 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Manual</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../assets/sakura.css" />
+  <link rel="stylesheet" href="../assets/toc.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Manual</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#sumário" id="toc-sumário">Sumário</a></li>
+<li><a href="#apresentação" id="toc-apresentação">Apresentação</a></li>
+<li><a href="#conceitos-gerais" id="toc-conceitos-gerais">Conceitos gerais</a></li>
+<li><a href="#profissionais-do-suas-responsáveis-pelo-registro-de-atendimento" id="toc-profissionais-do-suas-responsáveis-pelo-registro-de-atendimento">Profissionais do SUAS responsáveis pelo registro de atendimento</a></li>
+<li><a href="#a-quem-se-destina-o-atendimento" id="toc-a-quem-se-destina-o-atendimento">A quem se destina o atendimento</a></li>
+<li><a href="#principais-conceitos-vinculados-à-operação-do-sistema" id="toc-principais-conceitos-vinculados-à-operação-do-sistema">Principais conceitos vinculados à operação do sistema</a></li>
+<li><a href="#estrutura-do-sistema" id="toc-estrutura-do-sistema">Estrutura do sistema</a>
+<ul>
+<li><a href="#prontuário-eletrônico-da-família" id="toc-prontuário-eletrônico-da-família">Prontuário Eletrônico da Família</a></li>
+<li><a href="#atendimento-coletivo" id="toc-atendimento-coletivo">Atendimento Coletivo</a></li>
+</ul></li>
+<li><a href="#migrar-prontuário" id="toc-migrar-prontuário">Migrar Prontuário</a>
+<ul>
+<li><a href="#painel-estatístico" id="toc-painel-estatístico">Painel Estatístico</a></li>
+</ul></li>
+<li><a href="#acesso-ao-prontuário-eletrônico-do-suas" id="toc-acesso-ao-prontuário-eletrônico-do-suas">Acesso ao Prontuário Eletrônico do SUAS</a></li>
+<li><a href="#cadsuas-e-as-permissões-do-prontuário-suas" id="toc-cadsuas-e-as-permissões-do-prontuário-suas">CadSUAS e as permissões do prontuário SUAS</a>
+<ul>
+<li><a href="#prontuário-eletrônico-do-suas" id="toc-prontuário-eletrônico-do-suas">Prontuário Eletrônico do SUAS</a></li>
+<li><a href="#cadsuas" id="toc-cadsuas">CadSUAS</a></li>
+<li><a href="#perfis-de-acesso" id="toc-perfis-de-acesso">Perfis de Acesso</a></li>
+<li><a href="#administrador-federal" id="toc-administrador-federal">Administrador Federal</a></li>
+<li><a href="#gestor-municipal" id="toc-gestor-municipal">Gestor Municipal</a></li>
+<li><a href="#técnico-da-gestão-municipal" id="toc-técnico-da-gestão-municipal">Técnico da Gestão Municipal</a></li>
+<li><a href="#gestor-estadual" id="toc-gestor-estadual">Gestor Estadual</a></li>
+<li><a href="#técnico-da-gestão-estadual" id="toc-técnico-da-gestão-estadual">Técnico da Gestão Estadual</a></li>
+<li><a href="#conselheiro" id="toc-conselheiro">Conselheiro</a></li>
+<li><a href="#apoio-administrativo-cras" id="toc-apoio-administrativo-cras">Apoio Administrativo – CRAS</a></li>
+<li><a href="#coordenador-cras" id="toc-coordenador-cras">Coordenador – CRAS</a></li>
+<li><a href="#psicólogo-cras" id="toc-psicólogo-cras">Psicólogo – CRAS</a></li>
+<li><a href="#assistente-social-cras" id="toc-assistente-social-cras">Assistente Social – CRAS</a></li>
+<li><a href="#educador-social-cras" id="toc-educador-social-cras">Educador Social – CRAS</a></li>
+<li><a href="#técnico-de-nível-superior-cras" id="toc-técnico-de-nível-superior-cras">Técnico de Nível Superior – CRAS</a></li>
+<li><a href="#técnico-de-nível-médio-cras" id="toc-técnico-de-nível-médio-cras">Técnico de Nível Médio – CRAS</a></li>
+</ul></li>
+<li><a href="#login-no-sistema" id="toc-login-no-sistema">Login no sistema</a>
+<ul>
+<li><a href="#login-no-sistema-continuação" id="toc-login-no-sistema-continuação">Login no sistema (Continuação)</a></li>
+</ul></li>
+<li><a href="#termo-de-uso" id="toc-termo-de-uso">Termo de uso</a></li>
+<li><a href="#prontuário-atendimento-individual-e-familiar" id="toc-prontuário-atendimento-individual-e-familiar">Prontuário: Atendimento individual e familiar</a></li>
+<li><a href="#realizar-atendimento" id="toc-realizar-atendimento">Realizar atendimento</a>
+<ul>
+<li><a href="#consulta-simples" id="toc-consulta-simples">Consulta simples:</a></li>
+<li><a href="#consulta-avançada" id="toc-consulta-avançada">Consulta avançada:</a></li>
+</ul></li>
+<li><a href="#aspectos-globais-do-módulo-prontuário" id="toc-aspectos-globais-do-módulo-prontuário">Aspectos globais do módulo Prontuário</a>
+<ul>
+<li><a href="#registro-de-observações" id="toc-registro-de-observações">Registro de observações</a></li>
+<li><a href="#visualizar-e-alterar-observação" id="toc-visualizar-e-alterar-observação">Visualizar e Alterar observação</a></li>
+<li><a href="#regras-e-limites" id="toc-regras-e-limites">Regras e Limites</a></li>
+<li><a href="#limite-de-caracteres" id="toc-limite-de-caracteres">Limite de caracteres</a></li>
+<li><a href="#janela-temporal-para-inserções-e-alterações" id="toc-janela-temporal-para-inserções-e-alterações">Janela temporal para inserções e alterações</a></li>
+<li><a href="#expansão-e-retração-de-todos-os-blocos-de-atendimento" id="toc-expansão-e-retração-de-todos-os-blocos-de-atendimento">Expansão e retração de todos os blocos de atendimento</a></li>
+<li><a href="#registro-de-pessoa-e-família" id="toc-registro-de-pessoa-e-família">Registro de pessoa e família</a></li>
+</ul></li>
+<li><a href="#informações-do-prontuário" id="toc-informações-do-prontuário">Informações do Prontuário</a></li>
+<li><a href="#migrar-prontuário-1" id="toc-migrar-prontuário-1">Migrar Prontuário</a>
+<ul>
+<li><a href="#informações-do-prontuário-1" id="toc-informações-do-prontuário-1">Informações do Prontuário</a></li>
+</ul></li>
+<li><a href="#identificação-da-pessoa-de-referência-e-endereço-da-família" id="toc-identificação-da-pessoa-de-referência-e-endereço-da-família">Identificação da pessoa de referência e endereço da família</a>
+<ul>
+<li><a href="#campos-de-preenchimento" id="toc-campos-de-preenchimento">Campos de preenchimento</a></li>
+</ul></li>
+<li><a href="#excluir-prontuário" id="toc-excluir-prontuário">Excluir Prontuário</a></li>
+<li><a href="#identificação-da-pessoa-de-referência-e-endereço-da-família-1" id="toc-identificação-da-pessoa-de-referência-e-endereço-da-família-1">Identificação da pessoa de referência e endereço da família</a>
+<ul>
+<li><a href="#dados-pessoais" id="toc-dados-pessoais">Dados Pessoais</a></li>
+<li><a href="#dados-do-endereço" id="toc-dados-do-endereço">Dados do Endereço</a></li>
+</ul></li>
+<li><a href="#informações-da-família" id="toc-informações-da-família">Informações da família</a></li>
+<li><a href="#composição-familiar" id="toc-composição-familiar">Composição familiar</a></li>
+<li><a href="#forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento" id="toc-forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento">Forma de ingresso na unidade e motivo do primeiro atendimento</a>
+<ul>
+<li><a href="#adicionar-registro" id="toc-adicionar-registro">Adicionar registro</a></li>
+<li><a href="#visualizar-registro" id="toc-visualizar-registro">Visualizar registro</a></li>
+<li><a href="#editar-registro" id="toc-editar-registro">Editar registro</a></li>
+<li><a href="#excluir-registro" id="toc-excluir-registro">Excluir registro</a></li>
+</ul></li>
+<li><a href="#composição-familiar-detalhamento" id="toc-composição-familiar-detalhamento">Composição familiar (Detalhamento)</a>
+<ul>
+<li><a href="#perfil-etário-do-grupo-familiar" id="toc-perfil-etário-do-grupo-familiar">Perfil etário do grupo familiar</a></li>
+<li><a href="#especificidades-sociais-étnicas-ou-culturais-da-família" id="toc-especificidades-sociais-étnicas-ou-culturais-da-família">Especificidades sociais, étnicas ou culturais da família</a></li>
+<li><a href="#observações-da-composição-familiar" id="toc-observações-da-composição-familiar">Observações da composição familiar</a></li>
+</ul></li>
+<li><a href="#condições-habitacionais-da-família" id="toc-condições-habitacionais-da-família">Condições habitacionais da família</a>
+<ul>
+<li><a href="#características-do-domicílio" id="toc-características-do-domicílio">Características do Domicílio</a></li>
+<li><a href="#incluir-habitação" id="toc-incluir-habitação">Incluir habitação</a></li>
+<li><a href="#atualizar-habitação" id="toc-atualizar-habitação">Atualizar habitação</a></li>
+<li><a href="#observações-das-condições-habitacionais-da-família" id="toc-observações-das-condições-habitacionais-da-família">Observações das condições habitacionais da família</a></li>
+</ul></li>
+<li><a href="#condições-educacionais-da-família" id="toc-condições-educacionais-da-família">Condições educacionais da família</a>
+<ul>
+<li><a href="#condições-educacionais" id="toc-condições-educacionais">Condições educacionais</a></li>
+<li><a href="#identificação-de-vulnerabilidade-educacional" id="toc-identificação-de-vulnerabilidade-educacional">Identificação de vulnerabilidade educacional</a></li>
+<li><a href="#observações-das-condições-educacionais-da-família" id="toc-observações-das-condições-educacionais-da-família">Observações das condições educacionais da família</a></li>
+</ul></li>
+<li><a href="#condições-de-saúde-da-família" id="toc-condições-de-saúde-da-família">Condições de saúde da família</a>
+<ul>
+<li><a href="#marcações-de-saúde" id="toc-marcações-de-saúde">Marcações de saúde</a></li>
+<li><a href="#incluir-marcações-de-saúde" id="toc-incluir-marcações-de-saúde">Incluir marcações de saúde</a></li>
+<li><a href="#visualizar-marcações-de-saúde" id="toc-visualizar-marcações-de-saúde">Visualizar marcações de saúde</a></li>
+<li><a href="#editar-marcações-de-saúde" id="toc-editar-marcações-de-saúde">Editar marcações de saúde</a></li>
+<li><a href="#excluir-marcação-de-saúde" id="toc-excluir-marcação-de-saúde">Excluir marcação de saúde</a></li>
+<li><a href="#observações-das-condições-de-saúde-da-família" id="toc-observações-das-condições-de-saúde-da-família">Observações das condições de saúde da família</a></li>
+</ul></li>
+<li><a href="#condições-de-trabalho-e-rendimento-da-família" id="toc-condições-de-trabalho-e-rendimento-da-família">Condições de trabalho e rendimento da família</a>
+<ul>
+<li><a href="#condições-de-trabalho-da-família" id="toc-condições-de-trabalho-da-família">Condições de trabalho da família</a></li>
+<li><a href="#valores-recebidos-por-programas-sociais" id="toc-valores-recebidos-por-programas-sociais">Valores recebidos por Programas Sociais</a></li>
+<li><a href="#observações-das-condições-de-trabalho-e-rendimento-da-família" id="toc-observações-das-condições-de-trabalho-e-rendimento-da-família">Observações das condições de trabalho e rendimento da família</a></li>
+</ul></li>
+<li><a href="#registro-de-atendimentos-socioassistenciais" id="toc-registro-de-atendimentos-socioassistenciais">Registro de atendimentos socioassistenciais</a></li>
+<li><a href="#atendimentos-socioassistenciais" id="toc-atendimentos-socioassistenciais">Atendimentos socioassistenciais</a></li>
+<li><a href="#incluir-atendimento" id="toc-incluir-atendimento">Incluir atendimento</a></li>
+<li><a href="#visualizar-atendimento" id="toc-visualizar-atendimento">Visualizar atendimento</a></li>
+<li><a href="#editar-atendimento" id="toc-editar-atendimento">Editar atendimento</a></li>
+<li><a href="#excluir-atendimento" id="toc-excluir-atendimento">Excluir atendimento</a></li>
+<li><a href="#acesso-a-benefícios-eventuais" id="toc-acesso-a-benefícios-eventuais">Acesso a benefícios eventuais</a>
+<ul>
+<li><a href="#benefícios-eventuais-concedidos" id="toc-benefícios-eventuais-concedidos">Benefícios eventuais concedidos</a></li>
+<li><a href="#incluir-benefício-eventual" id="toc-incluir-benefício-eventual">Incluir benefício eventual</a></li>
+<li><a href="#visualizar-registro-do-benefício-eventual" id="toc-visualizar-registro-do-benefício-eventual">Visualizar registro do benefício eventual</a></li>
+<li><a href="#editar-benefício-eventual" id="toc-editar-benefício-eventual">Editar benefício eventual</a></li>
+<li><a href="#excluir-benefício-eventual" id="toc-excluir-benefício-eventual">Excluir benefício eventual</a></li>
+<li><a href="#observações-do-acesso-a-benefícios-eventuais" id="toc-observações-do-acesso-a-benefícios-eventuais">Observações do acesso a benefícios eventuais</a></li>
+</ul></li>
+<li><a href="#convivência-familiar-e-comunitária" id="toc-convivência-familiar-e-comunitária">Convivência familiar e comunitária</a>
+<ul>
+<li><a href="#observações-da-convivência-familiar-e-comunitária" id="toc-observações-da-convivência-familiar-e-comunitária">Observações da convivência familiar e comunitária</a></li>
+</ul></li>
+<li><a href="#situações-de-vulnerabilidades-e-desproteções-sociais-da-família" id="toc-situações-de-vulnerabilidades-e-desproteções-sociais-da-família">Situações de vulnerabilidades e desproteções sociais da família</a>
+<ul>
+<li><a href="#indicadores-automáticos" id="toc-indicadores-automáticos">Indicadores automáticos</a></li>
+<li><a href="#situações-de-vulnerabilidade-e-desproteção-social-da-família" id="toc-situações-de-vulnerabilidade-e-desproteção-social-da-família">Situações de vulnerabilidade e desproteção social da família</a></li>
+<li><a href="#incluir-vulnerabilidade" id="toc-incluir-vulnerabilidade">Incluir vulnerabilidade</a></li>
+<li><a href="#visualizar-registro-1" id="toc-visualizar-registro-1">Visualizar registro</a></li>
+<li><a href="#editar-registro-de-vulnerabilidade" id="toc-editar-registro-de-vulnerabilidade">Editar registro de vulnerabilidade</a></li>
+<li><a href="#excluir-registro-1" id="toc-excluir-registro-1">Excluir registro</a></li>
+<li><a href="#observações-das-situações-de-vulnerabilidades-e-desproteções-sociais-da-família" id="toc-observações-das-situações-de-vulnerabilidades-e-desproteções-sociais-da-família">Observações das situações de vulnerabilidades e desproteções sociais da família</a></li>
+</ul></li>
+<li><a href="#situações-de-violência-e-violação-de-direitos" id="toc-situações-de-violência-e-violação-de-direitos">Situações de violência e violação de direitos</a>
+<ul>
+<li><a href="#observações-das-situações-de-violência-e-violação-de-direitos" id="toc-observações-das-situações-de-violência-e-violação-de-direitos">Observações das situações de violência e violação de direitos</a></li>
+</ul></li>
+<li><a href="#planejamento-e-evolução-do-acompanhamento-familiar" id="toc-planejamento-e-evolução-do-acompanhamento-familiar">Planejamento e evolução do acompanhamento familiar</a>
+<ul>
+<li><a href="#inserção-e-desligamento-da-família-no-acompanhamento-familiar" id="toc-inserção-e-desligamento-da-família-no-acompanhamento-familiar">Inserção e desligamento da família no acompanhamento familiar</a></li>
+<li><a href="#incluir-acompanhamento" id="toc-incluir-acompanhamento">Incluir acompanhamento</a></li>
+<li><a href="#visualizar-acompanhamento" id="toc-visualizar-acompanhamento">Visualizar acompanhamento</a></li>
+<li><a href="#editar-acompanhamento" id="toc-editar-acompanhamento">Editar acompanhamento</a></li>
+<li><a href="#excluir-acompanhamento" id="toc-excluir-acompanhamento">Excluir acompanhamento</a></li>
+<li><a href="#observações-do-planejamento-e-evolução-do-acompanhamento-familiar" id="toc-observações-do-planejamento-e-evolução-do-acompanhamento-familiar">Observações do planejamento e evolução do acompanhamento familiar</a></li>
+</ul></li>
+<li><a href="#participação-em-serviços-programas-e-projetos" id="toc-participação-em-serviços-programas-e-projetos">Participação em serviços, programas e projetos</a>
+<ul>
+<li><a href="#observações-da-participação-em-serviços-programas-e-projetos" id="toc-observações-da-participação-em-serviços-programas-e-projetos">Observações da participação em serviços, programas e projetos</a></li>
+</ul></li>
+<li><a href="#histórico-de-cumprimento-de-medidas-socioeducativas" id="toc-histórico-de-cumprimento-de-medidas-socioeducativas">Histórico de cumprimento de medidas socioeducativas</a>
+<ul>
+<li><a href="#medidas-socioeducativas-para-adolescentes-cumpridas-eou-em-acompanhamento" id="toc-medidas-socioeducativas-para-adolescentes-cumpridas-eou-em-acompanhamento">Medidas Socioeducativas para adolescentes (cumpridas e/ou em acompanhamento)</a></li>
+<li><a href="#incluir-medida-socioeducativa" id="toc-incluir-medida-socioeducativa">Incluir medida socioeducativa</a></li>
+<li><a href="#visualizar-medida-socioeducativa" id="toc-visualizar-medida-socioeducativa">Visualizar medida socioeducativa</a></li>
+<li><a href="#editar-medida-socioeducativa" id="toc-editar-medida-socioeducativa">Editar medida socioeducativa</a></li>
+<li><a href="#excluir-medida-socioeducativa" id="toc-excluir-medida-socioeducativa">Excluir medida socioeducativa</a></li>
+<li><a href="#observações-das-medidas-socioeducativas" id="toc-observações-das-medidas-socioeducativas">Observações das medidas socioeducativas</a></li>
+</ul></li>
+<li><a href="#histórico-de-acolhimento-institucional" id="toc-histórico-de-acolhimento-institucional">Histórico de acolhimento institucional</a>
+<ul>
+<li><a href="#observações-do-histórico-de-acolhimento-institucional" id="toc-observações-do-histórico-de-acolhimento-institucional">Observações do histórico de acolhimento institucional</a></li>
+</ul></li>
+<li><a href="#formulário-de-controle-de-encaminhamentos" id="toc-formulário-de-controle-de-encaminhamentos">Formulário de controle de encaminhamentos</a>
+<ul>
+<li><a href="#registro-de-encaminhamento" id="toc-registro-de-encaminhamento">Registro de encaminhamento</a></li>
+<li><a href="#incluir-encaminhamento" id="toc-incluir-encaminhamento">Incluir encaminhamento</a></li>
+<li><a href="#visualizar-encaminhamento" id="toc-visualizar-encaminhamento">Visualizar encaminhamento</a></li>
+<li><a href="#editar-encaminhamento" id="toc-editar-encaminhamento">Editar encaminhamento</a></li>
+<li><a href="#excluir-encaminhamento" id="toc-excluir-encaminhamento">Excluir encaminhamento</a></li>
+</ul></li>
+<li><a href="#relatório-de-participação-em-atendimentos-coletivos" id="toc-relatório-de-participação-em-atendimentos-coletivos">Relatório de participação em atendimentos coletivos</a>
+<ul>
+<li><a href="#atendimentos-da-pessoa" id="toc-atendimentos-da-pessoa">Atendimentos da pessoa</a></li>
+<li><a href="#visualizar-atendimento-1" id="toc-visualizar-atendimento-1">Visualizar atendimento</a></li>
+</ul></li>
+<li><a href="#relatório-simplificado-dos-atendimentos" id="toc-relatório-simplificado-dos-atendimentos">Relatório simplificado dos atendimentos</a>
+<ul>
+<li><a href="#atendimentos-da-pessoa-1" id="toc-atendimentos-da-pessoa-1">Atendimentos da pessoa</a></li>
+</ul></li>
+<li><a href="#prontuário-atendimento-coletivo" id="toc-prontuário-atendimento-coletivo">Prontuário: Atendimento Coletivo</a></li>
+<li><a href="#atendimento-coletivo-1" id="toc-atendimento-coletivo-1">Atendimento coletivo</a></li>
+<li><a href="#selecionar-unidade" id="toc-selecionar-unidade">Selecionar unidade</a></li>
+<li><a href="#atendimento-coletivo-2" id="toc-atendimento-coletivo-2">Atendimento coletivo</a></li>
+<li><a href="#lista-de-atendimentos-coletivos" id="toc-lista-de-atendimentos-coletivos">Lista de atendimentos coletivos</a></li>
+<li><a href="#incluir-atendimento-coletivo" id="toc-incluir-atendimento-coletivo">Incluir atendimento coletivo</a></li>
+<li><a href="#atendimento-coletivo-3" id="toc-atendimento-coletivo-3">Atendimento coletivo</a></li>
+<li><a href="#atendimento-coletivo-4" id="toc-atendimento-coletivo-4">Atendimento coletivo</a></li>
+<li><a href="#visualizar-atendimento-coletivo" id="toc-visualizar-atendimento-coletivo">Visualizar atendimento coletivo</a></li>
+<li><a href="#atendimento-coletivo-5" id="toc-atendimento-coletivo-5">Atendimento coletivo</a></li>
+<li><a href="#editar-atendimento-coletivo" id="toc-editar-atendimento-coletivo">Editar atendimento coletivo</a></li>
+<li><a href="#excluir-atendimento-coletivo" id="toc-excluir-atendimento-coletivo">Excluir atendimento coletivo</a></li>
+<li><a href="#duplicar-atendimento-coletivo" id="toc-duplicar-atendimento-coletivo">Duplicar atendimento coletivo</a></li>
+<li><a href="#atendimento-coletivo-6" id="toc-atendimento-coletivo-6">Atendimento coletivo</a></li>
+<li><a href="#prontuário-migrar-prontuário" id="toc-prontuário-migrar-prontuário">Prontuário: Migrar Prontuário</a></li>
+<li><a href="#migrar-prontuário-2" id="toc-migrar-prontuário-2">Migrar Prontuário</a></li>
+<li><a href="#migrar-prontuário-3" id="toc-migrar-prontuário-3">Migrar Prontuário</a></li>
+<li><a href="#aprovação-de-pedido-de-migração" id="toc-aprovação-de-pedido-de-migração">Aprovação de pedido de migração</a></li>
+<li><a href="#visualizar-solicitação-de-migração" id="toc-visualizar-solicitação-de-migração">Visualizar solicitação de migração</a></li>
+<li><a href="#migrar-prontuário-4" id="toc-migrar-prontuário-4">Migrar Prontuário</a></li>
+<li><a href="#informações-do-prontuário-2" id="toc-informações-do-prontuário-2">Informações do prontuário</a></li>
+<li><a href="#identificação-da-pessoa-de-referência-e-endereço-da-família-2" id="toc-identificação-da-pessoa-de-referência-e-endereço-da-família-2">Identificação da pessoa de referência e endereço da família</a></li>
+<li><a href="#migrar-prontuário-5" id="toc-migrar-prontuário-5">Migrar Prontuário</a></li>
+<li><a href="#aprovar-migração" id="toc-aprovar-migração">Aprovar migração</a></li>
+<li><a href="#informações-do-prontuário-3" id="toc-informações-do-prontuário-3">Informações do Prontuário</a></li>
+<li><a href="#identificação-da-pessoa-de-referência-e-endereço-da-família-3" id="toc-identificação-da-pessoa-de-referência-e-endereço-da-família-3">Identificação da pessoa de referência e endereço da família</a></li>
+<li><a href="#migrar-prontuário-6" id="toc-migrar-prontuário-6">Migrar Prontuário</a></li>
+<li><a href="#aprovar-todos" id="toc-aprovar-todos">Aprovar todos</a></li>
+<li><a href="#prontuário-painel-estatístico" id="toc-prontuário-painel-estatístico">Prontuário: Painel Estatístico</a></li>
+<li><a href="#painel-estatístico-1" id="toc-painel-estatístico-1">Painel Estatístico</a></li>
+<li><a href="#selecionar-a-abrangência-da-pesquisa" id="toc-selecionar-a-abrangência-da-pesquisa">Selecionar a abrangência da pesquisa</a></li>
+<li><a href="#ações-disponíveis" id="toc-ações-disponíveis">Ações disponíveis</a></li>
+<li><a href="#painel-estatístico-2" id="toc-painel-estatístico-2">Painel Estatístico</a></li>
+<li><a href="#sexo" id="toc-sexo">Sexo</a></li>
+<li><a href="#raçacor" id="toc-raçacor">Raça/cor</a></li>
+<li><a href="#painel-estatístico-3" id="toc-painel-estatístico-3">Painel Estatístico</a></li>
+<li><a href="#faixa-etária" id="toc-faixa-etária">Faixa etária</a></li>
+<li><a href="#gpte" id="toc-gpte">GPTE</a></li>
+<li><a href="#recebe-bf" id="toc-recebe-bf">Recebe BF</a></li>
+<li><a href="#painel-estatístico-4" id="toc-painel-estatístico-4">Painel Estatístico</a></li>
+<li><a href="#baixar-informações-do-painel" id="toc-baixar-informações-do-painel">Baixar informações do painel</a></li>
+</ul>
+</nav>
+<div class="title">
+<p>Manual do Prontuário Eletrônico</p>
+</div>
+<p>Dezembro de 2025</p>
+<figure>
+<img src="img/logos.png" alt="logos" />
+<figcaption aria-hidden="true">logos</figcaption>
+</figure>
+<hr />
+<h1 id="sumário">Sumário</h1>
+<p><strong>Apresentação</strong> … 3</p>
+<p><strong>Conceitos gerais</strong> … 5</p>
+<ul>
+<li><p>Profissionais do SUAS responsáveis pelo registro de atendimento … 6</p></li>
+<li><p>A quem se destina o atendimento … 6</p></li>
+<li><p>Principais conceitos vinculados à operação do sistema … 6</p></li>
+<li><p>Estrutura do sistema … 8</p></li>
+</ul>
+<p><strong>Acesso ao Prontuário Eletrônico do SUAS</strong> … 9</p>
+<ul>
+<li><p>CadSUAS e as permissões do prontuário SUAS … 10</p></li>
+<li><p>Login no sistema … 13</p></li>
+<li><p>Termo de uso … 15</p></li>
+</ul>
+<p><strong>Prontuário: Atendimento individual e familiar</strong> … 16</p>
+<ul>
+<li><p>Realizar atendimento … 17</p></li>
+<li><p>Aspectos globais do módulo Prontuário … 19</p></li>
+<li><p>Informações do Prontuário … 22</p></li>
+<li><p>Migrar Prontuário … 23</p></li>
+<li><p>Excluir Prontuário … 26</p></li>
+<li><p>Identificação da pessoa de referência e endereço da família … 27</p></li>
+<li><p>Informações da família … 30</p></li>
+<li><p>Composição familiar … 31</p></li>
+<li><p>Forma de ingresso na unidade e motivo do primeiro atendimento … 32</p></li>
+<li><p>Composição familiar … 40</p></li>
+<li><p>Condições habitacionais da família … 42</p></li>
+<li><p>Condições educacionais da família … 49</p></li>
+<li><p>Condições de saúde da família … 51</p></li>
+<li><p>Condições de trabalho e rendimento da família … 56</p></li>
+</ul>
+<p><strong>Registro de atendimentos socioassistenciais</strong> … 59</p>
+<ul>
+<li><p>Acesso a benefícios eventuais … 66</p></li>
+<li><p>Convivência familiar e comunitária … 72</p></li>
+<li><p>Situações de vulnerabilidades e desproteções sociais da família … 73</p></li>
+<li><p>Situações de violência e violação de direitos … 83</p></li>
+<li><p>Planejamento e evolução do acompanhamento familiar … 84</p></li>
+<li><p>Participação em serviços, programas e projetos … 92</p></li>
+<li><p>Histórico de cumprimento de medidas socioeducativas … 93</p></li>
+<li><p>Histórico de acolhimento institucional … 101</p></li>
+<li><p>Formulário de controle de encaminhamentos … 102</p></li>
+<li><p>Relatório de participação em atendimentos coletivos … 113</p></li>
+<li><p>Relatório simplificado dos atendimentos … 116</p></li>
+</ul>
+<p><strong>Prontuário: Atendimento Coletivo</strong> … 117</p>
+<p><strong>Prontuário: Migrar Prontuário</strong> … 129</p>
+<p><strong>Prontuário: Painel Estatístico</strong> … 140</p>
+<hr />
+<section id="apresentação" class="title">
+<h1>Apresentação</h1>
+</section>
+<hr />
+<p>Este manual possui o objetivo de auxiliar os profissionais (técnicos e gestores) do Sistema Único de Assistência Social (SUAS), com atuação no Centro de Referência de Assistência Social (CRAS), na utilização do Prontuário Eletrônico, como ferramenta de trabalho cotidiano.</p>
+<p>O Prontuário Eletrônico busca organizar e qualificar o conjunto de informações necessárias ao registro, diagnóstico, planejamento e acompanhamento do trabalho social realizado com pessoas e famílias, como direito de cidadania, conforme os princípios e diretrizes da Política Nacional de Assistência Social (PNAS, 2004).</p>
+<p>Por meio do Sistema Prontuário Eletrônico é possível o registro dos atendimentos e acompanhamentos a pessoas e famílias no SUAS, por meio da busca pelo nome, ano ou data de nascimento, Cadastro de Pessoa Física (CPF), Número de Identificação Social (NIS), Benefício de Prestação Continuada (BPC), dentre outras formas de busca.</p>
+<p>A ferramenta permite o registro dos motivos apresentados por pessoas e famílias que demandam as unidades, bem como o registro qualificado dos atendimentos e acompanhamentos realizados. Os dados armazenados no Prontuário Eletrônico permitem identificar o perfil dos (as) usuários (as), os tipos de demandas, os tipos de atendimentos, dentre outros dados, e mapear a cobertura da rede de serviços socioassistenciais.</p>
+<p>As informações registradas são processadas em indicadores que possibilitam analisar a relação de articulação dos CRAS com a rede socioassistencial do SUAS e com as políticas públicas existentes no território de abrangência. Ademais, subsidiam o planejamento e a execução de ações relativas ao trabalho social com pessoas e famílias, no âmbito do Serviço de Proteção e Atendimento Integral à Família (PAIF).</p>
+<p>O Prontuário Eletrônico possui uma interface com outros sistemas nacionais como o Cadastro de Pessoa Física (CPF), Cadastro Único (CadÚnico), Benefício de Prestação Continuada (BPC), Programa Bolsa Família (PBF) e com sistemas internos do Ministério. Assim, é uma ferramenta que oferece ao técnico de nível superior das equipes de referência dos CRAS, um conjunto de informações relevantes para a análise da situação de vulnerabilidade social do (a) usuário (a).</p>
+<p>Ademais, o sistema Prontuário Eletrônico possibilita o mapeamento da trajetória da família no SUAS, ou seja, o fluxo de referência e a contrarreferência dessas unidades, uma vez que os registros inseridos, em qualquer território ou em qualquer outro município, permanecem no Sistema.</p>
+<p>As informações inseridas no Prontuário Eletrônico são sigilosas e podem ser acessadas, exclusivamente, pelos profissionais do SUAS, apenas para as finalidades pertinentes. Portanto, todos os profissionais devem estar cientes de suas responsabilidades no acesso e uso das informações. Técnicos e gestores que possuem senha de acesso aos sistemas da Rede SUAS declaram concordar com as obrigações derivadas e ficam sujeitos a sanções administrativas e penais, caso desrespeitem os preceitos éticos no uso das informações.</p>
+<p>Com isto, o acesso ao sistema Prontuário Eletrônico deve ser restrito aos profissionais do SUAS, em especial, aos técnicos de nível superior das equipes de referência, de acordo com os perfis de acesso.</p>
+<hr />
+<section id="conceitos-gerais" class="title">
+<h1>Conceitos gerais</h1>
+</section>
+<hr />
+<h2 id="profissionais-do-suas-responsáveis-pelo-registro-de-atendimento">Profissionais do SUAS responsáveis pelo registro de atendimento</h2>
+<p><strong>Técnico:</strong> profissional do SUAS, com escolaridade mínima de nível superior, com formação em serviço social, psicologia e/ou outra profissão que compõe o SUAS (dependendo do número de famílias referenciadas ao CRAS e porte do município, conforme a NOB-RH/SUAS).</p>
+<p><strong>Gestor:</strong> pessoa com escolaridade mínima de nível superior, concursado, com experiência em gestão pública; domínio da legislação referente à política nacional de assistência social e direitos sociais; conhecimento dos serviços, programas, projetos e/ou benefícios socioassistenciais; experiência de coordenação de equipes, com habilidade de comunicação, de estabelecer relações e negociar conflitos; com boa capacidade de gestão, em especial para lidar com informações, planejar, monitorar e acompanhar os serviços socioassistenciais, bem como de gerenciar a rede socioassistencial local.</p>
+<p>Com isto, o acesso ao sistema Prontuário Eletrônico deve ser restrito aos profissionais do SUAS, em especial, aos técnicos de nível superior das equipes de referência, de acordo com os perfis de acesso.</p>
+<h2 id="a-quem-se-destina-o-atendimento">A quem se destina o atendimento</h2>
+<p><strong>Pessoas e famílias:</strong> potenciais usuários (as) do SUAS, de acordo com os princípios e diretrizes da Política Nacional de Assistência Social (PNAS, 2004).</p>
+<h2 id="principais-conceitos-vinculados-à-operação-do-sistema">Principais conceitos vinculados à operação do sistema</h2>
+<p>Nesse tópico você conhecerá conceitos importantes que auxiliarão na operação do Sistema Prontuário Eletrônico SUAS e na gestão dos dados nele inseridos e armazenados.</p>
+<ul>
+<li><strong>Atendimento:</strong> no âmbito do SUAS, uma ação imediata de prestação ou oferta de atenção, ou seja, a participação das famílias, um, ou mais de seus membros, nas ações de acolhida, ações particularizadas, oficinas, ações comunitárias e/ou encaminhamentos. Assim, o atendimento pode se encerrar na resolução de uma demanda específica dos indivíduos ou famílias, com ou sem retorno, ou pode dar início a um processo de acompanhamento familiar.</li>
+<li><strong>Acompanhamento familiar:</strong> no âmbito do SUAS, é o conjunto de atividades desenvolvidas por meio de atendimentos sistemáticos e planejados, com objetivos estabelecidos, que possibilitem às famílias/indivíduos o acesso a um espaço onde possam refletir sobre sua realidade, construir novos projetos de vida e transformar suas relações, sejam elas familiares ou comunitárias. Trata-se, portanto, de um processo de caráter continuado e planejado, por período determinado, no qual, a partir da compreensão das vulnerabilidades, demandas e potencialidades apresentadas pela família, são definidas estratégias de ação e objetivos a serem alcançados. O acompanhamento familiar pode materializar-se a partir do atendimento sistemático e planejado de um ou mais membros do grupo familiar.</li>
+</ul>
+<hr />
+<ul>
+<li><strong>Família:</strong> na Política Nacional de Assistência Social (PNAS), a família não é constituída apenas pelos laços consanguíneos, mas também por laços afetivos e de solidariedade. De acordo com a PNAS (2004, p. 40), a matricialidade sociofamiliar deve ser a base do trabalho social com famílias. Trata-se da superação da focalização, ancorada no pressuposto de que para a família prevenir, proteger, promover e incluir seus membros é necessário, em primeiro lugar, garantir condições de sustentabilidade para tal.</li>
+<li><strong>Domicílio:</strong> local de moradia da família.</li>
+<li><strong>Referência Familiar:</strong> pessoa de referência, responsável pelas informações socioeconômicas e culturais sobre a família e suas necessidades e demandas socioassistenciais.</li>
+<li><strong>Membro da composição familiar:</strong> pessoa que tem o domicílio como local habitual de residência e nele reside na data do atendimento.</li>
+<li><strong>Técnico:</strong> profissional com escolaridade mínima de nível superior, com formação em serviço social, psicologia e/ou outra profissão que compõe o SUAS (dependendo do número de famílias referenciadas ao CRAS e porte do município, conforme a NOB-RH); com experiência de atuação e/ou gestão em programas, projetos, serviços e/ou benefícios socioassistenciais; conhecimento da legislação referente à Política Nacional de Assistência Social; domínio sobre os direitos sociais; experiência de trabalho em grupos e atividades coletivas; experiência em trabalho interdisciplinar; conhecimento da realidade do território e boa capacidade relacional e de escuta das famílias. Pessoa responsável pela coleta de dados, por meio de entrevista com a Referência Familiar em uma Unidade CRAS.</li>
+<li><strong>Gestor:</strong> profissional com escolaridade mínima de nível superior, concursado, com experiência em gestão pública; domínio da legislação referente à política nacional de assistência social e direitos sociais; conhecimento dos serviços, programas, projetos e/ou benefícios socioassistenciais; experiência de coordenação de equipes, com habilidade de comunicação, de estabelecer relações e negociar conflitos; com boa capacidade de gestão, em especial para lidar com informações, planejar, monitorar e acompanhar os serviços socioassistenciais, bem como de gerenciar a rede socioassistencial local.</li>
+<li><strong>Território:</strong> refere-se à centralidade do território como fator determinante para a compreensão das situações de vulnerabilidade e riscos sociais, bem como para seu enfrentamento. A adoção da perspectiva da territorialização se materializa a partir da descentralização da Política Nacional de Assistência Social e consequente oferta dos serviços socioassistenciais em locais próximos aos seus usuários. O território constitui um espaço humano, habitado, pois é nos espaços coletivos que se expressam a solidariedade, a extensão das relações familiares para além da consanguinidade, o fortalecimento da cumplicidade de vizinhança e o desenvolvimento do sentimento de pertença e identidade.</li>
+<li><strong>NIS:</strong> número de Identificação Social, código pessoal e único, de 11 dígitos, que é atribuído a todos os brasileiros, em algum momento de sua vida, podendo ser habilitado para recebimento de programas diversos como o Bolsa Família.</li>
+</ul>
+<hr />
+<h2 id="estrutura-do-sistema">Estrutura do sistema</h2>
+<h3 id="prontuário-eletrônico-da-família">Prontuário Eletrônico da Família</h3>
+<p>O Prontuário Eletrônico é o espaço onde a unidade registra, de forma simples e sintética, todos os atendimentos realizados com a família que procura o serviço. Ele organiza e centraliza as principais informações do acompanhamento, facilitando o trabalho da equipe, garantindo continuidade entre atendimentos e promovendo maior qualidade na oferta dos serviços. Por meio do prontuário, é possível visualizar rapidamente o histórico da família, registrar novas ações e apoiar decisões de forma segura e integrada. Além disso, todos os blocos do prontuário possuem blocos de observação onde o profissional pode escrever as anotações que considerar pertinente trazendo flexibilidade no sistema para o trabalho social realizado no CRAS.</p>
+<h3 id="atendimento-coletivo">Atendimento Coletivo</h3>
+<p>Possibilita a Unidade de Atendimento, incluir a família em grupos de atividades coletivas oferecidos pela unidade, como oficinas, encontros, rodas de conversa ou ações socioeducativas de forma otimizada. No lugar de precisar registrar as atividades individualmente no prontuário de cada participante, o módulo de atendimento coletivo permite realizar um registro único, listando apenas o CPF dos participantes. Esse registro é inserido automaticamente no prontuário de cada participante.</p>
+<h2 id="migrar-prontuário">Migrar Prontuário</h2>
+<p>Possibilita que a equipe gerencie as migrações de prontuários quando as famílias mudam o seu CRAS de referência. Nesse módulo é possível tanto registrar o pedido de transferência do prontuário eletrônico de uma família para outra unidade de atendimento quanto receber prontuários enviados por outras unidades. Dessa forma, a família sempre estará vinculada ao serviço mais adequado ao seu território ou necessidade, mantendo a continuidade do acompanhamento.</p>
+<h3 id="painel-estatístico">Painel Estatístico</h3>
+<p>O Painel Estatístico apresenta uma visão clara, organizada e agregada dos atendimentos realizados pelas unidades, reunindo indicadores que ajudam a acompanhar o volume, o perfil e a evolução das ações ofertadas. Por meio dos parâmetros de refinamento, o usuário pode filtrar as informações conforme sua necessidade — como período, tipo de atendimento, unidade, público atendido, entre outros.</p>
+<hr />
+<section id="acesso-ao-prontuário-eletrônico-do-suas" class="title">
+<h1>Acesso ao Prontuário Eletrônico do SUAS</h1>
+</section>
+<hr />
+<div class="qr">
+<p><a href="qr-codes/qr-code1.png">QR Code image</a> <a href="https://www.mylink.com">Clique aqui</a> ou escaneie o QR Code para acessar o vídeo explicativo.</p>
+</div>
+<hr />
+<h2 id="cadsuas-e-as-permissões-do-prontuário-suas">CadSUAS e as permissões do prontuário SUAS</h2>
+<h3 id="prontuário-eletrônico-do-suas">Prontuário Eletrônico do SUAS</h3>
+<p>O Prontuário Eletrônico do SUAS é a versão digital do prontuário utilizado no atendimento socioassistencial. Ele registra os atendimentos de forma organizada e sintética, centralizando informações para apoiar o trabalho das equipes e a gestão das unidades.</p>
+<p>Mantém a estrutura do formulário físico, com recursos adicionais que garantem mais segurança, agilidade e continuidade no acompanhamento das famílias.</p>
+<h3 id="cadsuas">CadSUAS</h3>
+<p>É o sistema que centraliza e gerencia as informações da rede socioassistencial em todo o país. Suas principais funções são:</p>
+<ul>
+<li>Cadastro e gestão de informações sobre prefeituras, órgãos gestores, fundos, conselhos, unidades da rede (CRAS, CREAS, acolhimento) e trabalhadores do SUAS.</li>
+<li>Integração de dados com outros sistemas da Rede SUAS, garantindo informações atualizadas e sem duplicidades.</li>
+<li>Apoio à gestão e ao planejamento, oferecendo uma base de dados unificada para monitoramento e tomada de decisão.</li>
+<li>Fortalecimento do controle social, permitindo o acompanhamento e a fiscalização das ações da assistência social.</li>
+</ul>
+<p>O CadSUAS é essencial para organizar e padronizar as informações do SUAS em todo o país. O acesso é realizado pelo portal do MDS.</p>
+<h3 id="perfis-de-acesso">Perfis de Acesso</h3>
+<h3 id="administrador-federal">Administrador Federal</h3>
+<p>Responsável pela gestão nacional do Prontuário Eletrônico do SUAS. Suas atribuições são:</p>
+<ul>
+<li>Gerenciar acessos e perfis na Rede SUAS.</li>
+<li>Coordenar e integrar o sistema em todo o país.</li>
+<li>Definir normas e diretrizes nacionais de uso.</li>
+<li>Apoiar monitoramento e planejamento com dados agregados.</li>
+</ul>
+<h3 id="gestor-municipal">Gestor Municipal</h3>
+<p>Responsável pela administração dos acessos e permissões no Prontuário SUAS no âmbito municipal. Suas atribuições são:</p>
+<ul>
+<li>Acompanhar o uso do sistema, garantindo consistência e qualidade dos registros.</li>
+<li>Utilizar dados consolidados para gestão estratégica (sem acesso a prontuários individuais).</li>
+</ul>
+<h3 id="técnico-da-gestão-municipal">Técnico da Gestão Municipal</h3>
+<p>Atua no acompanhamento do Prontuário SUAS em nível municipal, assegurando a qualidade das informações. Suas atribuições são:</p>
+<ul>
+<li>Apoiar o planejamento municipal com dados agregados.</li>
+<li>Oferecer suporte e capacitação ao município.</li>
+<li>Definir normas e rotinas de uso do sistema.</li>
+</ul>
+<p>Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como “TÉCNICO(A) DE NÍVEL SUPERIOR” ou “COORDENADOR(A)/DIRIGENTE” possuem acesso a esse perfil.</p>
+<h3 id="gestor-estadual">Gestor Estadual</h3>
+<p>Responsável pela gestão macro das informações do Prontuário SUAS no estado, apoiando e orientando os municípios. Suas atribuições são:</p>
+<ul>
+<li>Monitorar e avaliar ações municipais com base em dados consolidados.</li>
+<li>Planejar ações estratégicas a partir das informações do sistema.</li>
+<li>Prestar apoio técnico aos municípios.</li>
+<li>Garantir a qualidade e segurança dos dados em nível estadual (sem acesso a prontuários individuais).</li>
+</ul>
+<h3 id="técnico-da-gestão-estadual">Técnico da Gestão Estadual</h3>
+<p>Atua no acompanhamento do Prontuário SUAS em nível estadual, assegurando a qualidade das informações. Suas atribuições são:</p>
+<ul>
+<li>Monitorar dados registrados pelos municípios.</li>
+<li>Apoiar o planejamento estadual com dados agregados.</li>
+<li>Oferecer suporte e capacitação aos municípios.</li>
+<li>Definir normas e rotinas de uso do sistema.</li>
+</ul>
+<p>Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como “TÉCNICO(A) DE NÍVEL SUPERIOR” ou “COORDENADOR(A)/DIRIGENTE” possuem acesso a esse perfil.</p>
+<h3 id="conselheiro">Conselheiro</h3>
+<p>Atua na gestão e no controle social, sem acesso a dados individualizados. Suas atribuições são:</p>
+<ul>
+<li>Fiscalizar políticas públicas por meio de relatórios e dados agregados.</li>
+</ul>
+<h3 id="apoio-administrativo-cras">Apoio Administrativo – CRAS</h3>
+<p>Auxilia na organização dos prontuários e no suporte às equipes do CRAS. Suas atribuições são:</p>
+<ul>
+<li>Inserir informações básicas nos sistemas do SUAS.</li>
+<li>Apoiar processos relacionados ao CadÚnico.</li>
+<li>Emitir documentos e relatórios.</li>
+<li>Apoiar os fluxos internos de atendimento.</li>
+</ul>
+<h3 id="coordenador-cras">Coordenador – CRAS</h3>
+<p>Responsável pela gestão operacional do sistema e pela supervisão dos atendimentos. Suas atribuições são:</p>
+<ul>
+<li>Supervisionar registros e atendimentos realizados pela equipe.</li>
+<li>Garantir sigilo e segurança das informações.</li>
+<li>Planejar e avaliar ações com base em dados do sistema.</li>
+<li>Articular comunicação interna e com a rede socioassistencial.</li>
+</ul>
+<h3 id="psicólogo-cras">Psicólogo – CRAS</h3>
+<p>Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:</p>
+<ul>
+<li>Realizar acolhimento e atendimentos especializados.</li>
+<li>Fortalecer vínculos familiares e comunitários.</li>
+<li>Orientar e encaminhar para serviços e benefícios da rede.</li>
+<li>Atuar em equipe multiprofissional.</li>
+<li>Realizar intervenções individuais, grupais e comunitárias.</li>
+<li>Emitir documentos técnicos quando necessário.</li>
+</ul>
+<h3 id="assistente-social-cras">Assistente Social – CRAS</h3>
+<p>Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:</p>
+<ul>
+<li>Realizar acolhimento e atendimentos especializados.</li>
+<li>Fortalecer vínculos familiares e comunitários.</li>
+<li>Orientar e encaminhar para serviços e benefícios da rede.</li>
+<li>Atuar em equipe multiprofissional.</li>
+<li>Realizar intervenções individuais, grupais e comunitárias.</li>
+<li>Emitir documentos técnicos quando necessário.</li>
+</ul>
+<h3 id="educador-social-cras">Educador Social – CRAS</h3>
+<p>Registra as ações socioeducativas e o acompanhamento de usuários, garantindo organização e continuidade do atendimento. Suas atribuições são:</p>
+<ul>
+<li>Produzir relatórios e pareceres.</li>
+<li>Registrar oficinas, grupos e atividades socioeducativas.</li>
+<li>Documentar atendimentos, orientações e encaminhamentos.</li>
+<li>Contribuir com o plano de acompanhamento familiar, registrando metas e evolução.</li>
+<li>Identificar e registrar riscos e vulnerabilidades.</li>
+<li>Manter registros claros e alinhados às normas do SUAS.</li>
+<li>Registrar articulações com a rede de serviços.</li>
+</ul>
+<h3 id="técnico-de-nível-superior-cras">Técnico de Nível Superior – CRAS</h3>
+<p>Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:</p>
+<ul>
+<li>Realizar acolhimento e atendimentos especializados.</li>
+<li>Fortalecer vínculos familiares e comunitários.</li>
+<li>Orientar e encaminhar para serviços e benefícios da rede.</li>
+<li>Atuar em equipe multiprofissional.</li>
+<li>Realizar intervenções individuais, grupais e comunitárias.</li>
+<li>Emitir documentos técnicos quando necessário.</li>
+</ul>
+<h3 id="técnico-de-nível-médio-cras">Técnico de Nível Médio – CRAS</h3>
+<p>Registra as ações socioeducativas e o acompanhamento de usuários, garantindo organização e continuidade do atendimento. Suas atribuições são:</p>
+<ul>
+<li>Produzir relatórios e pareceres.</li>
+<li>Registrar oficinas, grupos e atividades socioeducativas.</li>
+<li>Documentar atendimentos, orientações e encaminhamentos.</li>
+<li>Contribuir com o plano de acompanhamento familiar, registrando metas e evolução.</li>
+<li>Identificar e registrar riscos e vulnerabilidades.</li>
+<li>Manter registros claros e alinhados às normas do SUAS.</li>
+<li>Registrar articulações com a rede de serviços.</li>
+</ul>
+<hr />
+<h2 id="login-no-sistema">Login no sistema</h2>
+<p>O <em>login</em> do sistema é realizado por meio das contas ouro ou prata do sistema gov.br. A conta é gratuita e permite a identificação do usuário para acessar serviços digitais do governo federal.</p>
+<figure>
+<img src="img/login-no-sistema-1.png" alt="Login gov.br" />
+<figcaption aria-hidden="true">Login gov.br</figcaption>
+</figure>
+<ol type="1">
+<li>Na tela do <em>login</em> gov.br, informe o número do CPF (número pessoal e único de 11 dígitos), senha e acione a opção <kbd>2</kbd> <strong>Continuar</strong>.</li>
+</ol>
+<p>O sistema apresenta a tela Autorização de uso de dados pessoais:</p>
+<figure>
+<img src="img/login-no-sistema-2.png" alt="Autorização de uso de dados pessoais" />
+<figcaption aria-hidden="true">Autorização de uso de dados pessoais</figcaption>
+</figure>
+<p>Ao <kbd>3</kbd> <strong>autorizar</strong> o uso dos dados pessoais, o sistema apresenta a janela para seleção da unidade de atendimento e o perfil que você deseja conectar. Ao informar os dados, acione a opção <kbd>4</kbd> <strong>Confirmar</strong>:</p>
+<figure>
+<img src="img/login-no-sistema-3.png" alt="Selecionar o Perfil" />
+<figcaption aria-hidden="true">Selecionar o Perfil</figcaption>
+</figure>
+<hr />
+<h3 id="login-no-sistema-continuação">Login no sistema (Continuação)</h3>
+<p>Ao confirmar, o sistema do prontuário eletrônico apresenta a tela inicial conforme permissões atribuídas ao usuário e perfil no CadSUAS.</p>
+<figure>
+<img src="img/login-no-sistema-4.png" alt="Tela inicial e Menu do Avatar" />
+<figcaption aria-hidden="true">Tela inicial e Menu do Avatar</figcaption>
+</figure>
+<p>Uma vez realizada a autenticação no sistema, você pode verificar <kbd>1</kbd> <strong>no canto superior da tela inicial</strong>, o CPF, o nome e o <em>avatar</em> do usuário logado.</p>
+<p>Ao acionar o <kbd>2</kbd> <strong>ícone do avatar</strong>, é possível verificar a <kbd>3</kbd> <strong>unidade de atendimento</strong> e o <kbd>4</kbd> <strong>perfil</strong>. Nesta funcionalidade, também é possível <kbd>5</kbd> <strong>trocar de perfil</strong> (caso o usuário possua mais de um perfil) ou <kbd>6</kbd> <strong>sair do sistema</strong> (<em>logout</em>).</p>
+<p>Do lado esquerdo da tela, você pode visualizar o <kbd>7</kbd> <strong>menu principal</strong> (SUAS) e o(s) <kbd>8</kbd> <strong>submenu(s)</strong>.</p>
+<hr />
+<h2 id="termo-de-uso">Termo de uso</h2>
+<p>No primeiro acesso ao sistema, é obrigatório o preenchimento e aceite do <strong>Termo de Uso</strong>.</p>
+<figure>
+<img src="img/termo-de-uso-1.png" alt="Tela do Termo de Uso" />
+<figcaption aria-hidden="true">Tela do Termo de Uso</figcaption>
+</figure>
+<p>Esse procedimento tem como objetivo garantir o uso responsável, seguro e ético das informações registradas e acessadas no sistema.</p>
+<p>Ao ler e aceitar o Termo de Uso, o usuário se compromete a:</p>
+<ul>
+<li>Manter a confidencialidade dos dados acessados, preservando o sigilo das informações pessoais e institucionais;</li>
+<li>Registrar informações com precisão e veracidade, assegurando a qualidade e a integridade dos dados inseridos;</li>
+<li>Acessar o sistema por meios seguros, evitando o uso de dispositivos ou redes não confiáveis;</li>
+<li>Contribuir para a manutenção e atualização dos dados, informando eventuais inconsistências ou falhas identificadas;</li>
+<li>Comunicar divergências ou irregularidades aos órgãos competentes, de forma ética e responsável.</li>
+</ul>
+<blockquote>
+<p>O aceite do Termo de Uso é condição indispensável para liberar o acesso às funcionalidades do sistema.</p>
+</blockquote>
+<hr />
+<section id="prontuário-atendimento-individual-e-familiar" class="title">
+<h1>Prontuário: Atendimento individual e familiar</h1>
+</section>
+<hr />
+<p>Clique aqui ou escaneie o QR Code para acessar o vídeo explicativo.</p>
+<hr />
+<h2 id="realizar-atendimento">Realizar atendimento</h2>
+<p>Para <strong>visualizar ou realizar</strong> o atendimento de uma pessoa e/ou família, acione o menu <kbd>1</kbd> <strong>Prontuário</strong>. Caso o perfil possua mais de uma unidade cadastrada, o sistema apresentará a funcionalidade <kbd>2</kbd> <strong>Selecionar unidade</strong>, listando todas as unidades atribuídas ao usuário conforme perfil (CadSUAS).</p>
+<figure>
+<img src="img/realizar-atendimento-1.png" alt="Selecionar Unidade" />
+<figcaption aria-hidden="true">Selecionar Unidade</figcaption>
+</figure>
+<p>O refinamento da lista de resultados de unidades pode ser feito informando os parâmetros e acionando a opção <kbd>3</kbd> <strong>Pesquisar</strong>.</p>
+<p>Para selecionar a unidade responsável pelo atendimento da pessoa, acione o <kbd>4</kbd> <strong>registro na lista</strong>. O sistema apresenta a funcionalidade para busca do cadastro único da pessoa atendida. Se o perfil possuir apenas uma unidade de atendimento, esse passo não será necessário e o usuário acessará diretamente a funcionalidade de busca do cadastro único da pessoa atendida.</p>
+<h3 id="consulta-simples">Consulta simples:</h3>
+<figure>
+<img src="img/realizar-atendimento-2.png" alt="Consulta simples" />
+<figcaption aria-hidden="true">Consulta simples</figcaption>
+</figure>
+<p>Para consultar o cadastro único da pessoa atendida na consulta simples, informe o <strong>CPF</strong> e acione a opção <kbd>5</kbd> <strong>Pesquisar</strong>.</p>
+<hr />
+<h3 id="consulta-avançada">Consulta avançada:</h3>
+<figure>
+<img src="img/realizar-atendimento-3.png" alt="Consulta avançada" />
+<figcaption aria-hidden="true">Consulta avançada</figcaption>
+</figure>
+<p>Para consultar o cadastro único da pessoa atendida na consulta avançada, informe o <strong>nome</strong>, <strong>data de nascimento</strong> e <strong>nome da mãe</strong> e acione a opção <kbd>6</kbd> <strong>Pesquisar</strong>.</p>
+<figure>
+<img src="img/realizar-atendimento-4.png" alt="Lista de resultados" />
+<figcaption aria-hidden="true">Lista de resultados</figcaption>
+</figure>
+<hr />
+<h2 id="aspectos-globais-do-módulo-prontuário">Aspectos globais do módulo Prontuário</h2>
+<h3 id="registro-de-observações">Registro de observações</h3>
+<p>É possível registrar observações textuais em todos os blocos do Prontuário SUAS.</p>
+<figure>
+<img src="img/aspectos-globais-do-modulo-prontuario-1.png" alt="Lista de observações" />
+<figcaption aria-hidden="true">Lista de observações</figcaption>
+</figure>
+<p>Para adicionar uma observação, acione a opção <kbd>1</kbd> <strong>Incluir observação</strong>, então o sistema vai apresentar a janela para cadastro.</p>
+<figure>
+<img src="img/aspectos-globais-do-modulo-prontuario-2.png" alt="Incluir observação" />
+<figcaption aria-hidden="true">Incluir observação</figcaption>
+</figure>
+<p>A janela <kbd>1</kbd> <strong>Incluir observação</strong>, contém os seguintes dados:</p>
+<ul>
+<li><strong>Data da ação</strong> – campo para informar a data em que o atendimento foi realizado;</li>
+<li><strong>Observação</strong> – campo para registrar informações adicionais;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> – opção que, ao ser acionada, salva o registro e atualiza a lista.</li>
+</ul>
+<p>Preencha os dados solicitados e acione a opção <kbd>5</kbd> <strong>Incluir</strong>, em seguida o sistema fecha a janela, atualiza a lista de observações e apresenta a mensagem <em>“Observação incluída com sucesso”</em>.</p>
+<p>Para <strong>visualizar o registro de observação</strong>, acione a opção <kbd>2</kbd> <strong>Visualizar observação</strong>, então o sistema vai apresentar a janela com as informações.</p>
+<hr />
+<h3 id="visualizar-e-alterar-observação">Visualizar e Alterar observação</h3>
+<figure>
+<img src="img/aspectos-globais-do-modulo-prontuario-3.png" alt="Visualizar e Alterar observação" />
+<figcaption aria-hidden="true">Visualizar e Alterar observação</figcaption>
+</figure>
+<p>A janela <kbd>2</kbd> <strong>Visualizar observação</strong>, contém os seguintes dados:</p>
+<ul>
+<li><strong>Data da ação</strong> – campo que informa a data em que o atendimento foi realizado;</li>
+<li><strong>Observação</strong> – campo que apresenta informações adicionais;</li>
+<li><strong>Fechar</strong> – opção que, ao ser acionada, fecha a janela.</li>
+</ul>
+<p>Para <strong>editar a observação</strong>, acione a opção <kbd>3</kbd> <strong>Alterar observação</strong>, então o sistema vai apresentar a janela com os campos habilitados. Informe os ajustes e acione a opção <kbd>6</kbd> <strong>Alterar</strong>, em seguida o sistema fecha a janela, atualiza a lista de atendimentos e apresenta a mensagem <em>“Observação alterada com sucesso”</em>.</p>
+<figure>
+<img src="img/aspectos-globais-do-modulo-prontuario-4.png" alt="Alterar observação" />
+<figcaption aria-hidden="true">Alterar observação</figcaption>
+</figure>
+<p>Para <strong>excluir o registro de observação da lista</strong>, acione a opção <kbd>4</kbd> <strong>Excluir observação</strong>, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem <em>“Observação excluída com sucesso”</em>.</p>
+<blockquote>
+<p><strong>Observação:</strong> as funcionalidades de registro, visualização e exclusão de observações estão disponíveis apenas para perfis da equipe técnica de nível superior e o coordenador do CRAS. As observações do bloco “Planejamento e evolução do acompanhamento familiar” estão disponíveis apenas para a equipe técnica de nível superior.</p>
+</blockquote>
+<hr />
+<h3 id="regras-e-limites">Regras e Limites</h3>
+<h3 id="limite-de-caracteres">Limite de caracteres</h3>
+<p>Os <strong>campos de observação</strong> possuem um limite de até 3.000 caracteres. Caso a observação registrada necessite ser registrada em mais caracteres que o limite indicado, recomenda-se fracionar a observação em dois ou mais registros.</p>
+<p>Outros <strong>campos abertos</strong>, por sua vez, possuem um limite de 2.000 caracteres. Nesses casos, recomenda-se evitar registros duplicados. Ou seja, caso sejam necessários mais de 2.000 caracteres para o registro da informação, sugere-se a abreviação dos termos e/ou resumo do conteúdo.</p>
+<h3 id="janela-temporal-para-inserções-e-alterações">Janela temporal para inserções e alterações</h3>
+<p>Os registros submetidos ao Prontuário possuem uma janela temporal de <strong>30 dias</strong> para inserções e alterações.</p>
+<p>Desta forma, só podem ser adicionados novos registros com a data de ação de até 30 dias anteriores. Após esse período, o sistema não permitirá a adição de informações. Além disso, edições de informações serão permitidas apenas até 30 dias após a submissão do registro. Após esse período, o sistema não apresentará a opção de editar.</p>
+<h3 id="expansão-e-retração-de-todos-os-blocos-de-atendimento">Expansão e retração de todos os blocos de atendimento</h3>
+<p>Na página de blocos de atendimento, clique em <kbd>1</kbd> <strong>Expandir todos</strong> para expandir todos os blocos simultaneamente. Para retraí-los, clique em <strong>Recolher todos</strong>.</p>
+<figure>
+<img src="img/aspectos-globais-do-modulo-prontuario-5.png" alt="Expandir e retrair" />
+<figcaption aria-hidden="true">Expandir e retrair</figcaption>
+</figure>
+<h3 id="registro-de-pessoa-e-família">Registro de pessoa e família</h3>
+<p>Os benefícios ofertados pela assistência social têm como objetivo garantir proteção, promover o bem-estar e fortalecer os vínculos familiares e comunitários. Eles podem ser destinados à família como um todo ou a um de seus membros em particular, conforme a situação identificada no atendimento.</p>
+<ul>
+<li><strong>Benefícios voltados à família:</strong> são aqueles que consideram as necessidades do núcleo familiar de forma integrada, buscando melhorar suas condições de vida de maneira coletiva. Exemplos incluem benefícios que apoiam a renda familiar, a moradia ou o acesso a serviços essenciais, fortalecendo a estrutura e a autonomia da família como um todo.</li>
+<li><strong>Benefícios voltados a um membro específico:</strong> destinam-se a atender situações particulares de um integrante da família, quando há uma vulnerabilidade individual que requer atenção diferenciada — como uma pessoa idosa, com deficiência, gestante, criança ou adolescente em situação de risco.</li>
+</ul>
+<hr />
+<h2 id="informações-do-prontuário">Informações do Prontuário</h2>
+<p>No agrupamento <kbd>1</kbd> <strong>Informações do Prontuário</strong>, você pode verificar as informações referentes a abertura do Prontuário.</p>
+<figure>
+<img src="img/informacoes-do-prontuario-1.png" alt="Informações do Prontuário" />
+<figcaption aria-hidden="true">Informações do Prontuário</figcaption>
+</figure>
+<p>Conforme representado na tela ao lado, o agrupamento é composto pelos campos:</p>
+<ul>
+<li><strong>Opções</strong> – opção que ao ser acionada possibilita a migração do prontuário e exclusão do prontuário;</li>
+<li><strong>N.º do identificador</strong> – campo que informa o número de identificação do prontuário de atendimento da pessoa;</li>
+<li><strong>Data de abertura</strong> – campo que informa a data em que o prontuário de atendimento da pessoa foi criado;</li>
+<li><strong>Unidade</strong> – campo que informa o nome da unidade CRAS responsável pelo cadastro do prontuário de atendimento da pessoa;</li>
+<li><strong>Município/ UF</strong> – campo que informa o município e estado onde está localizada a unidade CRAS responsável pelo cadastro do prontuário de atendimento da pessoa.</li>
+</ul>
+<p>Caso exista solicitação de migração para o prontuário eletrônico da pessoa/ família, será apresentada a mensagem: <em>“Existe solicitação de migração em andamento para a unidade &lt;&lt;cód. e nome da unidade de destino&gt;&gt;”</em>.</p>
+<hr />
+<h2 id="migrar-prontuário-1">Migrar Prontuário</h2>
+<p>Para migrar o prontuário eletrônico para outra unidade de atendimento, acione o ícone <kbd>2</kbd> <strong>opções</strong> e em seguida <kbd>3</kbd> <strong>Migrar prontuário</strong>, então o sistema vai apresentar a janela:</p>
+<figure>
+<img src="img/migrar-prontuario-1.png" alt="Menu Opções" />
+<figcaption aria-hidden="true">Menu Opções</figcaption>
+</figure>
+<figure>
+<img src="img/migrar-prontuario-2.png" alt="Janela Migrar Prontuário" />
+<figcaption aria-hidden="true">Janela Migrar Prontuário</figcaption>
+</figure>
+<p>Conforme representado na janela representada na página anterior, o agrupamento é composto pelos campos:</p>
+<ul>
+<li><strong>Texto informativo</strong> – Ao confirmar a operação, será criada uma solicitação de migração do prontuário da pessoa e demais membros da família para a unidade de destino.</li>
+</ul>
+<h3 id="informações-do-prontuário-1">Informações do Prontuário</h3>
+<ul>
+<li><strong>N.º do prontuário</strong> – campo que informa o número do prontuário da pessoa;</li>
+<li><strong>Data de abertura</strong> – campo que informa a data da abertura do prontuário da pessoa;</li>
+<li><strong>Unidade atual</strong> – campo que informa o nome da unidade de atendimento atual;</li>
+<li><strong>Município</strong> – campo que informa o município e estado da unidade de atendimento atual;</li>
+</ul>
+<hr />
+<h2 id="identificação-da-pessoa-de-referência-e-endereço-da-família">Identificação da pessoa de referência e endereço da família</h2>
+<figure>
+<img src="img/migrar-prontuario-3.png" alt="Identificação da pessoa" />
+<figcaption aria-hidden="true">Identificação da pessoa</figcaption>
+</figure>
+<ul>
+<li><strong>Nome</strong> – campo que informa o nome da pessoa;</li>
+<li><strong>CPF</strong> – campo que informa o número do CPF da pessoa;</li>
+<li><strong>Grau de parentesco</strong> – campo que informa o grau de parentesco da pessoa em relação ao responsável familiar;</li>
+<li><strong>Situação cadastral</strong> – campo que informa o código da família;</li>
+<li><strong>Código familiar</strong> – campo que informa o código da família;</li>
+<li><strong>Data de nascimento</strong> – campo que informa a data de nascimento da pessoa;</li>
+<li><strong>Nome da mãe</strong> – campo que informa o nome da mãe da pessoa;</li>
+<li><strong>NIS</strong> – campo que informa o número de identificação social – NIS da pessoa;</li>
+<li><strong>RG</strong> – campo que informa o número do registro geral - RG (também conhecido como carteira de identidade) da pessoa;</li>
+<li><strong>Data de emissão do RG</strong> – campo que informa a data de emissão do registro geral;</li>
+<li><strong>Órgão</strong> – campo que informa o órgão expedidor do registro geral;</li>
+<li><strong>UF</strong> – campo que informa o estado do órgão expedidor;</li>
+<li><strong>Endereço</strong> – campo que informa o endereço da residência da pessoa/ família;</li>
+<li><strong>Bairro</strong> – campo que informa o bairro da residência da pessoa/ família;</li>
+<li><strong>Município/UF</strong> – campo que informa o município/ UF da residência da pessoa/ família;</li>
+<li><strong>CEP</strong> – campo que informa o número do CEP da residência da pessoa/ família;</li>
+</ul>
+<hr />
+<h3 id="campos-de-preenchimento">Campos de preenchimento</h3>
+<figure>
+<img src="img/migrar-prontuario-4.png" alt="Campos de preenchimento" />
+<figcaption aria-hidden="true">Campos de preenchimento</figcaption>
+</figure>
+<ul>
+<li><strong>Migrar para</strong> – campo que informa a migração para outra unidade;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pela solicitação;</li>
+<li><strong>UF</strong> – campo para informar a uf da unidade de destino;</li>
+<li><strong>Município</strong> – campo para informar o município conforme uf da unidade de destino;</li>
+<li><strong>Motivo</strong> – campo para informar o motivo da solicitação de migração do prontuário da pessoa/ família. O sistema listará as unidades conforme UF/ município informado anteriormente;</li>
+<li><strong>Cancelar</strong> – opção que ao ser acionada, cancela a ação e fecha a janela;</li>
+<li><strong>Confirmar</strong> – opção que, ao ser acionada, salva a solicitação de migração do prontuário eletrônico.</li>
+</ul>
+<hr />
+<h2 id="excluir-prontuário">Excluir Prontuário</h2>
+<p>Para excluir o prontuário eletrônico da pessoa/ família, acione o ícone <kbd>2</kbd> <strong>opções</strong> e em seguida <kbd>4</kbd> <strong>Excluir prontuário</strong>, então o sistema vai apresentar a janela.</p>
+<figure>
+<img src="img/excluir-prontuario-1.png" alt="Menu Opções" />
+<figcaption aria-hidden="true">Menu Opções</figcaption>
+</figure>
+<figure>
+<img src="img/excluir-prontuario-2.png" alt="Janela Excluir Prontuário" />
+<figcaption aria-hidden="true">Janela Excluir Prontuário</figcaption>
+</figure>
+<p>Conforme representado na janela acima, o agrupamento é composto pelos campos:</p>
+<ul>
+<li><strong>Motivo</strong> – campo para informar o motivo da exclusão do prontuário eletrônico da pessoa/ família. As alternativas são:
+<ul>
+<li>Prontuário duplicado</li>
+<li>Retificação no registro por parte da equipe técnica;</li>
+<li>Informações comprovadamente inverídicas;</li>
+<li>Falecimento de toda a família;</li>
+<li>Solicitação formal.</li>
+</ul></li>
+<li><strong>Cancelar</strong> – opção que ao ser acionada, cancela a ação e fecha a janela;</li>
+<li><strong>Confirmar</strong> – opção que ao ser acionada, realiza a exclusão do prontuário eletrônico da pessoa/ família.</li>
+</ul>
+<hr />
+<h2 id="identificação-da-pessoa-de-referência-e-endereço-da-família-1">Identificação da pessoa de referência e endereço da família</h2>
+<p>No agrupamento <kbd>5</kbd> <strong>Identificação da pessoa de referência e endereço da família</strong>, você pode verificar informações pessoais, endereço e composição da família de acordo com o Cadastro Único, à qual o prontuário pertence.</p>
+<figure>
+<img src="img/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-1.png" alt="Agrupamento Identificação" />
+<figcaption aria-hidden="true">Agrupamento Identificação</figcaption>
+</figure>
+<p>Conforme tela representada ao lado, o agrupamento é composto pelos campos:</p>
+<ul>
+<li><strong>Nome</strong> – campo que informa o nome da pessoa ao qual pertence o prontuário;</li>
+<li><strong>Grau de Parentesco</strong> – campo que informa o grau de parentesco (Pessoa Responsável pela Unidade Familiar – RF, Cônjuge ou companheiro(a), Filho(a), Enteado(a), Neto(a) ou bisneto(a), Pai ou mãe, Sogro(a), Irmão ou irmã, Genro ou nora, Outro parente e Não parente) da pessoa em relação a Referência Familiar – RF;</li>
+<li><strong>Situação Cadastral</strong> – Campo que informa a situação (Em Cadastramento, Sem Registro Civil, Cadastrado, Excluído, Aguardando NIS e Validando NIS) do cadastro da pessoa no Cadastro Único;</li>
+<li><strong>Data de Nascimento</strong> – Campo que informa a data de nascimento da pessoa;</li>
+<li><strong>Nome da Mãe</strong> – Campo que informa o nome da mãe da pessoa;</li>
+</ul>
+<hr />
+<h3 id="dados-pessoais">Dados Pessoais</h3>
+<figure>
+<img src="img/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-2.png" alt="Dados Pessoais" />
+<figcaption aria-hidden="true">Dados Pessoais</figcaption>
+</figure>
+<p>Conforme tela ao lado, a funcionalidade <strong>Dados Pessoais</strong> é composta pelos campos:</p>
+<ul>
+<li><strong>CPF</strong> – campo que informa o número do cadastro de pessoa física – CPF da pessoa;
+<ul>
+<li>Para copiar o número do CPF, acione o ícone <kbd>6</kbd> <strong>Copiar</strong>.</li>
+</ul></li>
+<li><strong>NIS</strong> – campo que informa o número de identificação social - NIS da pessoa;</li>
+<li><strong>RG</strong> – campo que informa o número do registro geral - RG (também conhecido como carteira de identidade) da pessoa;</li>
+<li><strong>Data de Emissão do RG</strong> – campo que informa a data de emissão do registro geral;</li>
+<li><strong>Órgão</strong> – campo que informa o órgão expedidor do registro geral;</li>
+<li><strong>UF</strong> – campo que informa o estado do órgão expedidor.</li>
+</ul>
+<hr />
+<h3 id="dados-do-endereço">Dados do Endereço</h3>
+<figure>
+<img src="img/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-3.png" alt="Dados do Endereço" />
+<figcaption aria-hidden="true">Dados do Endereço</figcaption>
+</figure>
+<p>Conforme tela ao lado, a funcionalidade <strong>Dados do Endereço</strong> é composta pelos campos:</p>
+<ul>
+<li><strong>Endereço</strong> – campo que informa o endereço da residência da pessoa/ família;</li>
+<li><strong>Bairro</strong> – campo que informa o bairro da residência da pessoa/ família;</li>
+<li><strong>CEP</strong> – campo que informa o CEP da residência da pessoa/ família;</li>
+<li><strong>Município/ UF</strong> – campo que informa o município/ UF da residência da pessoa/ família;</li>
+<li><strong>Ponto de Referência</strong> – campo que informa o ponto de referência da residência da pessoa/ família;</li>
+<li><strong>Localização do Domicílio</strong> – Campo que informa o local (urbana ou rural) onde está situada a residência da pessoa/ família;</li>
+<li><strong>Abrigo</strong> – Campo que informa se o domicílio é um abrigo;</li>
+<li><strong>Tipo</strong> – Campo que informa o tipo de domicílio;</li>
+</ul>
+<blockquote>
+<p><strong>Observação:</strong> As informações acima são apenas para consulta, não sendo possível alterá-las por meio do Prontuário Eletrônico.</p>
+</blockquote>
+<hr />
+<h2 id="informações-da-família">Informações da família</h2>
+<p>No agrupamento <kbd>7</kbd> <strong>Informações da Família</strong>, você pode verificar os dados cadastrais da família à qual a pessoa pertence, de acordo com o <strong>Cadastro Único</strong>.</p>
+<figure>
+<img src="img/informacoes-da-familia-1.png" alt="Informações da Família" />
+<figcaption aria-hidden="true">Informações da Família</figcaption>
+</figure>
+<p>Conforme tela ao lado, o agrupamento é composto pelos campos:</p>
+<ul>
+<li><strong>Código Familiar</strong> – Campo que informa o código do cadastro da família no Cadastro Único;</li>
+<li><strong>Data de Atualização</strong> – Campo que informa a data da última atualização da Cadastro Único;</li>
+<li><strong>Renda Per Capita</strong> – Campo que informa o valor da renda média (per capita) da família;</li>
+<li><strong>Estado Cadastral</strong> – Campo que informa o estado (Em cadastramento, Sem Registro Civil, Cadastrado e Excluído) do cadastro da família no Cadastro Único;</li>
+<li><strong>Recebe Bolsa Família</strong> – Campo que informa se a família é beneficiária do Programa Bolsa Família;</li>
+</ul>
+<blockquote>
+<p><strong>Observação:</strong> As informações acima são apenas para consulta, não sendo possível alterá-las por meio do Prontuário Eletrônico.</p>
+</blockquote>
+<hr />
+<h2 id="composição-familiar">Composição familiar</h2>
+<p>No agrupamento <kbd>8</kbd> <strong>Composição Familiar</strong>, você pode verificar os dados cadastrais dos membros que compõem o núcleo familiar da pessoa, de acordo com o <strong>Cadastro Único</strong>.</p>
+<figure>
+<img src="img/composicao-familiar-1.png" alt="Composição Familiar" />
+<figcaption aria-hidden="true">Composição Familiar</figcaption>
+</figure>
+<p>Conforme imagem ao lado, o agrupamento é composto pelos campos:</p>
+<ul>
+<li><strong>Nome</strong> – campo que informa o nome do membro da composição familiar;</li>
+<li><strong>Situação cadastral</strong> – Campo que informa a situação (Em Cadastramento, Sem Registro Civil, Cadastrado, Excluído, Aguardando NIS e Validando NIS) do cadastro do membro da composição familiar no Cadastro Único;</li>
+<li><strong>CPF</strong> – campo que informa o número do cadastro de pessoa física - CPF do membro da composição familiar;</li>
+<li><strong>NIS</strong> – campo que informa o número de identificação social - NIS do membro da composição familiar;</li>
+<li><strong>Sexo</strong> – campo que informa o sexo do membro da composição familiar;</li>
+<li><strong>Cor/ raça</strong> – campo que informa o sexo do membro da composição familiar;</li>
+<li><strong>Data de nascimento</strong> – campo que informa a data de nascimento do membro da composição familiar.</li>
+<li><strong>Ocorrências e pendências</strong> – opção que ao ser acionada, expande apresentado ocorrências e pendencias para o cadastro do membro da composição familiar. Não havendo ocorrências e pendencias, será apresentada a mensagem: <em>“Nenhuma ocorrência ou pendência encontrada.”</em></li>
+</ul>
+<hr />
+<h2 id="forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento">Forma de ingresso na unidade e motivo do primeiro atendimento</h2>
+<p>Ao acionar o bloco <kbd>1</kbd> <strong>Forma de ingresso na unidade e motivo do primeiro atendimento</strong>, para expandir as informações, você pode consultar e cadastrar a forma de acesso da pessoa na unidade CRAS, com o objetivo de subsidiar o trabalho social a ser realizado.</p>
+<figure>
+<img src="img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png" alt="Bloco Forma de Ingresso" />
+<figcaption aria-hidden="true">Bloco Forma de Ingresso</figcaption>
+</figure>
+<p>A <strong>lista de registro de atendimentos</strong> é composta por:</p>
+<ul>
+<li><strong>Data da ação</strong> – a coluna informa a data em que a pessoa buscou atendimento na unidade;</li>
+<li><strong>Forma de ingresso</strong> – a coluna informa como a pessoa acessou a unidade para seu primeiro atendimento;</li>
+<li><strong>Unidade</strong> – a coluna informa o nome da unidade onde o atendimento foi realizado.</li>
+<li><strong>Ações</strong> – coluna que exibe ícones para realizar ações, como por exemplo: Visualizar registro.</li>
+</ul>
+<h3 id="adicionar-registro">Adicionar registro</h3>
+<p>Para <strong>adicionar novo registro</strong>, acione a opção <kbd>2</kbd> <strong>Incluir forma de ingresso</strong>, então o sistema vai apresentar a janela para cadastro.</p>
+<figure>
+<img src="img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-2.png" alt="Janela Adicionar Registro" />
+<figcaption aria-hidden="true">Janela Adicionar Registro</figcaption>
+</figure>
+<p>Preencha os dados solicitados e acione a opção <kbd>7</kbd> <strong>Incluir</strong>, em seguida o sistema fecha a janela, atualiza a lista de atendimentos e apresenta a mensagem <em>“Registro de atendimento incluído com sucesso”</em>.</p>
+<p>A janela <kbd>2</kbd> <strong>Incluir forma de ingresso</strong>, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa(s)</strong> – campo que informa o(s) nome(s) da(s) pessoa(s) atendida(s);</li>
+<li><strong>Data do atendimento</strong> – campo que informa a data em que o atendimento foi realizado;</li>
+<li><strong>Número do prontuário físico</strong> – informa o número do prontuário físico da pessoa/família;</li>
+<li><strong>De que forma a família acessou a unidade para o primeiro atendimento</strong> – informa como a pessoa/família acessou a unidade para o primeiro atendimento;</li>
+<li><strong>Razões que motivaram o primeiro atendimento</strong> – campo que apresenta as informações adicionais ao atendimento;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> – opção que, ao ser acionada, salva o registro e atualiza a lista.</li>
+</ul>
+<hr />
+<h3 id="visualizar-registro">Visualizar registro</h3>
+<p>Para <strong>visualizar o registro do atendimento</strong>, acione a opção <kbd>3</kbd> <strong>Visualizar forma de ingresso</strong>, então o sistema vai apresentar a janela com as informações.</p>
+<figure>
+<img src="img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-4.png" alt="Visualizar registro" />
+<figcaption aria-hidden="true">Visualizar registro</figcaption>
+</figure>
+<p>A janela <kbd>3</kbd> <strong>Visualizar forma de ingresso</strong>, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa(s)</strong> – campo que informa o(s) nome(s) da(s) pessoa(s) atendida(s);</li>
+<li><strong>Data do atendimento</strong> – campo que informa a data em que o atendimento foi realizado;</li>
+<li><strong>Número do prontuário físico</strong> – informa o número do prontuário físico da pessoa/família;</li>
+<li><strong>De que forma a família acessou a Unidade para primeiro atendimento?</strong> – informa como a pessoa/família acessou a Unidade para primeiro atendimento;</li>
+<li><strong>Razões que motivaram o primeiro atendimento</strong> – campo que apresenta as informações adicionais ao atendimento;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Alterar</strong> – opção que, ao ser acionada, salva a alteração realizada para o atendimento.</li>
+</ul>
+<hr />
+<h3 id="editar-registro">Editar registro</h3>
+<p>Para <strong>editar o registro de atendimento</strong>, acione a opção <kbd>4</kbd> <strong>Alterar forma de ingresso</strong>, então o sistema vai apresentar a janela com os campos habilitados.</p>
+<figure>
+<img src="img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-6.png" alt="Editar registro" />
+<figcaption aria-hidden="true">Editar registro</figcaption>
+</figure>
+<p>Informe os ajustes e acione a opção <kbd>7</kbd> <strong>Alterar</strong>, em seguida o sistema fecha a janela, atualiza a lista de atendimentos e apresenta a mensagem <em>“Forma de ingresso na unidade alterada com sucesso”</em>.</p>
+<p>A janela <kbd>4</kbd> <strong>Alterar forma de ingresso</strong>, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa(s)</strong> – campo que informa o(s) nome(s) da(s) pessoa(s) atendida(s);</li>
+<li><strong>Data do atendimento</strong> – campo que informa a data em que o atendimento foi realizado;</li>
+<li><strong>Número do prontuário físico</strong> – informa o número do prontuário físico da pessoa/família;</li>
+<li><strong>De que forma a família acessou a Unidade para o primeiro atendimento?</strong>
+<ul>
+<li>Por demanda espontânea</li>
+<li>Em decorrência de Busca Ativa realizada pela equipe da unidade</li>
+<li>Em decorrência de encaminhamento realizado por outros serviços/unidades da Proteção Social Básica</li>
+<li>Em decorrência de encaminhamento realizado por outros serviços/unidades da Proteção Social Especial</li>
+<li>Em decorrência de encaminhamento realizado pela área da saúde</li>
+<li>Em decorrência de encaminhamento realizado pela área da educação</li>
+<li>Em decorrência de encaminhamento realizado por outras políticas setoriais</li>
+<li>Em decorrência de encaminhamento realizado pelo Conselho Tutelar</li>
+<li>Em decorrência de encaminhamento realizado pelo Poder Judiciário</li>
+<li>Em decorrência de encaminhamento realizado pelo Sistema de Garantia de Direitos (Defensoria Pública, Ministério Público, Delegacias)</li>
+<li>Outros encaminhamentos</li>
+</ul></li>
+<li><strong>Razões que motivaram o primeiro atendimento</strong> – campo que apresenta as informações adicionais ao atendimento;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Alterar</strong> – opção que, ao ser acionada, salva a alteração realizada para o atendimento.</li>
+</ul>
+<h3 id="excluir-registro">Excluir registro</h3>
+<p>Para <strong>excluir o registro da lista</strong>, acione a opção <kbd>5</kbd> <strong>Excluir forma de ingresso</strong>, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem <em>“Forma de ingresso excluída com sucesso”</em>.</p>
+<hr />
+<h2 id="composição-familiar-detalhamento">Composição familiar (Detalhamento)</h2>
+<p>Ao acionar o bloco <kbd>1</kbd> <strong>Composição familiar</strong>, ao expandir as informações, você pode consultar o perfil etário do grupo familiar, especificidades sociais, étnicas e culturais.</p>
+<figure>
+<img src="img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-10.png" alt="Composição Familiar Detalhado" />
+<figcaption aria-hidden="true">Composição Familiar Detalhado</figcaption>
+</figure>
+<h3 id="perfil-etário-do-grupo-familiar">Perfil etário do grupo familiar</h3>
+<p>O agrupamento de campos do <kbd>2</kbd> <strong>do perfil etário do grupo familiar</strong> é composto por:</p>
+<ul>
+<li><strong>Perfil etário do grupo familiar</strong> – campo que informa a quantidade de pessoas por faixa etária e o total de pessoas que compõem a família;</li>
+</ul>
+<h3 id="especificidades-sociais-étnicas-ou-culturais-da-família">Especificidades sociais, étnicas ou culturais da família</h3>
+<p>O agrupamento de campos das <kbd>3</kbd> <strong>especificidades sociais, étnicas ou culturais da família</strong> é composto por:</p>
+<ul>
+<li><strong>Família indígena</strong> – campo que informa se a família é indígena;</li>
+<li><strong>Povo indígena</strong> – campo que informa o nome do povo indígena ao qual a família pertence;</li>
+<li><strong>Terra ou reserva indígena</strong> – campo que informa se a família reside em terra ou reserva indígena;</li>
+<li><strong>Família quilombola</strong> – campo que informa se a família é quilombola;</li>
+<li><strong>Comunidade quilombola</strong> – campo que informa o nome da comunidade quilombola ao qual a família pertence;</li>
+<li><strong>Grupos tradicionais e específicos</strong> – campo que informa o(s) família faz parte de grupos tradicionais e específicos e qual(is) grupo(s);</li>
+<li><strong>Família em situação de rua</strong> – campo que informa se a família está em situação de rua;</li>
+</ul>
+<h3 id="observações-da-composição-familiar">Observações da composição familiar</h3>
+<p>Para mais informações sobre <kbd>4</kbd> <strong>registro de observações</strong>, consulte a página 19 deste manual.</p>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>5</kbd> <strong>ícone</strong>.</p>
+<hr />
+<h2 id="condições-habitacionais-da-família">Condições habitacionais da família</h2>
+<p>No bloco <kbd>1</kbd> <strong>Condições habitacionais da família</strong>, ao acionar para expandir as informações, você pode consultar as características do domicílio, adicionar condições habitacionais da família e observações complementares.</p>
+<h3 id="características-do-domicílio">Características do Domicílio</h3>
+<p>O agrupamento de campos <kbd>2</kbd> <strong>características do domicílio</strong>, é composto por:</p>
+<figure>
+<img src="img/condicoes-habitacionais-da-familia-1.png" alt="Características do Domicílio" />
+<figcaption aria-hidden="true">Características do Domicílio</figcaption>
+</figure>
+<ul>
+<li><strong>Espécie de domicílio</strong> – campo que informa a espécie de habitação;</li>
+<li><strong>Total de cômodos</strong> – campo que informa o total de cômodos da habitação;</li>
+<li><strong>Comodo como dormitório</strong> – campo que informa a quantidade de dormitórios da habitação;</li>
+<li><strong>Material das paredes externas</strong> – campo que informa o material das paredes externas da habitação;</li>
+<li><strong>Tipo de iluminação</strong> – campo que informa o tipo de iluminação da habitação;</li>
+<li><strong>Forma de abastecimento de água</strong> – campo que informa a forma de abastecimento de água da habitação;</li>
+<li><strong>Água canalizada</strong> – campo que informa se a habitação possui água canalizada;</li>
+<li><strong>Escoamento sanitário</strong> – campo que informa se a habitação possui escoamento sanitário;</li>
+<li><strong>Coleta de lixo</strong> – campo que informa se a habitação possui coleta de lixo.</li>
+</ul>
+<hr />
+<p>O agrupamento de campos <kbd>3</kbd> <strong>condições habitacionais da família</strong> é composto por:</p>
+<figure>
+<img src="img/condicoes-habitacionais-da-familia-2.png" alt="Outras Condições" />
+<figcaption aria-hidden="true">Outras Condições</figcaption>
+</figure>
+<ul>
+<li><strong>Número médio de pessoas por dormitório</strong> – campo que informa a média de pessoas da composição família por dormitório;</li>
+<li><strong>Possui acessibilidade para pessoas com dificuldade de locomoção</strong> – campo que informa se a habitação está localizada em área de locomoção;</li>
+<li><strong>Localizado em área de risco de desabamento ou alagamento</strong> – campo que informa se a habitação está localizada em área de risco de desabamento ou alagamento;</li>
+<li><strong>Localizado em área de difícil acesso geográfico</strong> – campo que informa se a habitação está localizada em área de difícil acesso geográfico;</li>
+<li><strong>Localizado em área com forte presença de conflito/violência</strong> – campo que informa se a habitação está localizada em área com forte presença de conflito/violência.</li>
+</ul>
+<hr />
+<h3 id="incluir-habitação">Incluir habitação</h3>
+<p>Para <strong>adicionar informações de habitação</strong>, acione a opção <kbd>4</kbd> <strong>Incluir habitação</strong>, então o sistema vai apresentar a janela para cadastro. Preencha os dados solicitados e acione a opção <kbd>8</kbd> <strong>Incluir</strong>, em seguida o sistema fecha a janela, apresenta as Condições habitacionais da família e a mensagem <em>“Condições habitacionais incluída com sucesso”</em>.</p>
+<figure>
+<img src="img/condicoes-habitacionais-da-familia-4.png" alt="Janela Incluir Habitação" />
+<figcaption aria-hidden="true">Janela Incluir Habitação</figcaption>
+</figure>
+<p>A janela <kbd>4</kbd> <strong>Incluir informações de habitação</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Data do atendimento</strong> – campo para informar a data em que o atendimento foi realizado;</li>
+<li><strong>Quanto é o número de pessoas do domicílio dividido pelo número de dormitórios?</strong> – campo para informar a quantidade de pessoas por dormitório;</li>
+<li><strong>O domicílio possui acessibilidade para pessoas com dificuldade de locomoção?</strong> – campo para informar se o domicílio possui acessibilidade para pessoas com dificuldade de locomoção;</li>
+<li><strong>O domicílio está localizado em área de risco de desabamento ou alagamento?</strong> – campo para informar se o domicílio está localizado em área de risco de desabamento ou alagamento;</li>
+<li><strong>O domicílio está localizado em área de difícil acesso geográfico?</strong> – campo para informar se o domicílio está localizado em área de difícil acesso geográfico;</li>
+<li><strong>O domicílio está localizado em área com forte presença de conflito/violência?</strong> – campo para informar se o domicílio está localizado em área com forte presença de conflito/violência;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> – opção que, ao ser acionada, salva o atendimento.</li>
+</ul>
+<hr />
+<h3 id="atualizar-habitação">Atualizar habitação</h3>
+<p>Para <strong>editar as informações de habitação</strong>, acione a opção <kbd>5</kbd> <strong>Atualizar habitação</strong>, então o sistema vai apresentar a janela com os campos habilitados. Informe os ajustes e acione a opção <kbd>8</kbd> <strong>Incluir</strong>, em seguida o sistema fecha a janela, atualiza as Condições habitacionais da família e apresenta a mensagem <em>“Condições habitacionais atualizadas com sucesso”</em>.</p>
+<figure>
+<img src="img/condicoes-habitacionais-da-familia-7.png" alt="Janela Atualizar Habitação" />
+<figcaption aria-hidden="true">Janela Atualizar Habitação</figcaption>
+</figure>
+<p>A janela <kbd>5</kbd> <strong>Atualizar informações de habitação</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Data do atendimento</strong> – campo para informar a data em que o atendimento foi realizado;</li>
+<li><strong>Quanto é o número de pessoas do domicílio dividido pelo número de dormitórios?</strong> – campo para informar a quantidade de pessoas por dormitório;</li>
+<li><strong>O domicílio possui acessibilidade para pessoas com dificuldade de locomoção?</strong> – campo para informar se o domicílio possui acessibilidade para pessoas com dificuldade de locomoção;</li>
+<li><strong>O domicílio está localizado em área de risco de desabamento ou alagamento?</strong> – campo para informar se o domicílio está localizado em área de risco de desabamento ou alagamento;</li>
+<li><strong>O domicílio está localizado em área de difícil acesso geográfico?</strong> – campo para informar se o domicílio está localizado em área de difícil acesso geográfico;</li>
+<li><strong>O domicílio está localizado em área com forte presença de conflito/violência?</strong> – campo para informar se o domicílio está localizado em área com forte presença de conflito/violência;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> – opção que, ao ser acionada, salva o atendimento.</li>
+</ul>
+<hr />
+<h3 id="observações-das-condições-habitacionais-da-família">Observações das condições habitacionais da família</h3>
+<p>Para mais informações sobre <kbd>6</kbd> <strong>registro de observações</strong>, consulte a página 19 deste manual.</p>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>7</kbd> <strong>ícone</strong>.</p>
+<figure>
+<img src="img/condicoes-habitacionais-da-familia-9.png" alt="Observações e Expandir" />
+<figcaption aria-hidden="true">Observações e Expandir</figcaption>
+</figure>
+<hr />
+<h2 id="condições-educacionais-da-família">Condições educacionais da família</h2>
+<p>No bloco <kbd>1</kbd> <strong>Condições educacionais da família</strong>, ao acionar para expandir as informações, você pode consultar, por membro da composição familiar, a condição educacional, vulnerabilidade e observações complementares.</p>
+<h3 id="condições-educacionais">Condições educacionais</h3>
+<p>A <kbd>2</kbd> <strong>lista das condições educacionais</strong> é composta por:</p>
+<figure>
+<img src="img/condicoes-educacionais-da-familia-1.png" alt="Tabela de Condições Educacionais" />
+<figcaption aria-hidden="true">Tabela de Condições Educacionais</figcaption>
+</figure>
+<ul>
+<li><strong>Pessoa</strong> – a coluna informa o nome do membro da composição familiar;</li>
+<li><strong>Idade</strong> – a coluna informa a idade do membro da composição familiar;</li>
+<li><strong>Sabe ler e escrever</strong> – a coluna informa se membro da composição familiar sabe ler e escrever;</li>
+<li><strong>Frequenta escola</strong> – a coluna informa se membro da composição familiar está frequentando a escola ou creche.</li>
+</ul>
+<h3 id="identificação-de-vulnerabilidade-educacional">Identificação de vulnerabilidade educacional</h3>
+<p>O <kbd>3</kbd> <strong>agrupamento de campos da identificação de vulnerabilidade educacional</strong> é composto por:</p>
+<figure>
+<img src="img/condicoes-educacionais-da-familia-2.png" alt="Resumo de Vulnerabilidade Educacional" />
+<figcaption aria-hidden="true">Resumo de Vulnerabilidade Educacional</figcaption>
+</figure>
+<ul>
+<li><strong>Faixa etária da quantidade de pessoas da família que não estão frequentando escola ou creche</strong> – campo que informa a quantidade de pessoas por faixa etária, que não estão frequentando escola ou creche;</li>
+<li><strong>Faixa etária da quantidade de pessoas da família que sabem ler/ escrever</strong> – campo que informa a quantidade de pessoas por faixa etária, que sabem ler/ escrever.</li>
+</ul>
+<hr />
+<h3 id="observações-das-condições-educacionais-da-família">Observações das condições educacionais da família</h3>
+<p>Para mais informações sobre <kbd>4</kbd> <strong>registro de observações</strong>, consulte a página 19 deste manual.</p>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>5</kbd> <strong>ícone</strong>.</p>
+<hr />
+<h2 id="condições-de-saúde-da-família">Condições de saúde da família</h2>
+<p>Ao acionar o bloco <kbd>1</kbd> <strong>Condições de saúde da família</strong>, para expandir as informações, você pode consultar, por membro da composição familiar, as marcações de saúde e observações complementares.</p>
+<figure>
+<img src="img/condicoes-de-saude-da-familia-1.png" alt="Bloco Condições de Saúde" />
+<figcaption aria-hidden="true">Bloco Condições de Saúde</figcaption>
+</figure>
+<h3 id="marcações-de-saúde">Marcações de saúde</h3>
+<p>A <kbd>2</kbd> <strong>lista das marcações de saúde da família</strong> é composta por:</p>
+<ul>
+<li><strong>Data do atendimento</strong> – a coluna informa a data em que a marcação foi incluída;</li>
+<li><strong>Nome</strong> – a coluna informa o nome do membro da composição familiar ao qual a marcação de saúde pertence;</li>
+<li><strong>Tipo de marcação de saúde</strong> – a coluna informa o tipo da marcação de saúde. Os tipos são:
+<ul>
+<li>Doença grave</li>
+<li>Remédios controlados para transtornos mentais</li>
+<li>Uso abusivo de álcool</li>
+<li>Uso abusivo de drogas</li>
+</ul></li>
+<li><strong>Nome do técnico</strong> – a coluna informa o nome do técnico responsável pelo atendimento.</li>
+<li><strong>Ações</strong> – coluna que exibe ícones para realizar ações, como por exemplo: Visualizar registro.</li>
+</ul>
+<hr />
+<h3 id="incluir-marcações-de-saúde">Incluir marcações de saúde</h3>
+<p>Para <strong>adicionar marcação de saúde para a família</strong>, acione a opção <kbd>3</kbd> <strong>Incluir marcações de saúde</strong>, então o sistema vai apresentar a janela para cadastro.</p>
+<figure>
+<img src="img/condicoes-de-saude-da-familia-2.png" alt="Janela Incluir Marcação" />
+<figcaption aria-hidden="true">Janela Incluir Marcação</figcaption>
+</figure>
+<p>Preencha os dados solicitados e acione a opção <kbd>9</kbd> <strong>Incluir</strong>, em seguida o sistema fecha a janela, atualiza a lista de marcações e apresenta a mensagem <em>“Condição de saúde incluída com sucesso”</em>.</p>
+<p>A janela <kbd>3</kbd> <strong>Incluir marcação de saúde</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Data da ação</strong> – campo para informar a data em que o atendimento foi realizado;</li>
+<li><strong>Pessoa</strong> – campo para informar o nome da pessoa atendida;</li>
+<li><strong>Tipo de marcação de saúde</strong> – campo para informar o tipo da marcação de saúde;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> – opção que, ao ser acionada, salva o atendimento.</li>
+</ul>
+<hr />
+<h3 id="visualizar-marcações-de-saúde">Visualizar marcações de saúde</h3>
+<p>Para <strong>visualizar o registro marcação de saúde</strong>, acione a opção <kbd>4</kbd> <strong>Visualizar marcação</strong>, então o sistema vai apresentar a janela com as informações.</p>
+<figure>
+<img src="img/condicoes-de-saude-da-familia-3.png" alt="Janela Visualizar Marcação" />
+<figcaption aria-hidden="true">Janela Visualizar Marcação</figcaption>
+</figure>
+<p>A janela <kbd>4</kbd> <strong>Visualizar marcação de saúde</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Data da ação</strong> – campo que informa a data em que o atendimento foi realizado;</li>
+<li><strong>Pessoa</strong> – campo que informa o nome da pessoa atendida;</li>
+<li><strong>Tipo de marcação de saúde</strong> – campo que apresenta o tipo da marcação de saúde;</li>
+<li><strong>Fechar</strong> – opção que, ao ser acionada, fecha a janela.</li>
+</ul>
+<hr />
+<h3 id="editar-marcações-de-saúde">Editar marcações de saúde</h3>
+<p>Para <strong>editar o registro marcação de saúde</strong>, acione a opção <kbd>4</kbd> <strong>Alterar marcação</strong>, então o sistema vai apresentar a janela com os campos habilitados.</p>
+<figure>
+<img src="img/condicoes-de-saude-da-familia-4.png" alt="Janela Editar Marcação" />
+<figcaption aria-hidden="true">Janela Editar Marcação</figcaption>
+</figure>
+<p>Informe os ajustes e acione a opção <kbd>9</kbd> <strong>Atualizar</strong>, em seguida o sistema fecha a janela, atualiza a lista de marcações e apresenta a mensagem <em>“Condição de saúde alterada com sucesso”</em>.</p>
+<p>A janela <kbd>5</kbd> <strong>Alterar marcação de saúde</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Data da ação</strong> – campo para informar a data em que o atendimento foi realizado;</li>
+<li><strong>Pessoa</strong> – campo para informar o nome da pessoa atendida;</li>
+<li><strong>Tipo de marcação de saúde</strong> – campo para informar o tipo da marcação de saúde;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Atualizar</strong> – opção que, ao ser acionada, salva a alteração realizada para o atendimento.</li>
+</ul>
+<hr />
+<h3 id="excluir-marcação-de-saúde">Excluir marcação de saúde</h3>
+<p>Para <strong>excluir marcação de saúde</strong>, acione a opção <kbd>6</kbd> <strong>Excluir marcação</strong>, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem <em>“Marcação excluída com sucesso.”</em>.</p>
+<h3 id="observações-das-condições-de-saúde-da-família">Observações das condições de saúde da família</h3>
+<p>Para mais informações sobre o <kbd>7</kbd> <strong>registro de observações</strong>, consulte a página 19 deste manual.</p>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>8</kbd> <strong>ícone</strong>.</p>
+<hr />
+<h2 id="condições-de-trabalho-e-rendimento-da-família">Condições de trabalho e rendimento da família</h2>
+<p>Ao acionar o bloco <kbd>1</kbd> <strong>Condições de trabalho e rendimento da família</strong>, para expandir as informações, você pode consultar, por membro da composição familiar, a condição de trabalho, valores recebidos por programa e observações complementares.</p>
+<h3 id="condições-de-trabalho-da-família">Condições de trabalho da família</h3>
+<p>A lista das <kbd>2</kbd> <strong>condições de trabalho da família</strong> é composta por:</p>
+<figure>
+<img src="img/condicoes-de-trabalho-e-rendimento-da-familia-1.png" alt="Tabela de Condições de Trabalho" />
+<figcaption aria-hidden="true">Tabela de Condições de Trabalho</figcaption>
+</figure>
+<ul>
+<li><strong>Pessoa</strong> – a coluna informa o nome do membro da composição familiar;</li>
+<li><strong>Idade</strong> – a coluna informa a idade do membro da composição familiar;</li>
+<li><strong>N.º da CTPS</strong> – a coluna informa o número da carteira de trabalho e previdência social do membro da composição familiar.</li>
+</ul>
+<hr />
+<h3 id="valores-recebidos-por-programas-sociais">Valores recebidos por Programas Sociais</h3>
+<p>O <kbd>3</kbd> <strong>agrupamento de campos dos valores recebidos por Programas Sociais</strong> é composto por:</p>
+<figure>
+<img src="img/condicoes-de-trabalho-e-rendimento-da-familia-2.png" alt="Valores recebidos por Programas Sociais" />
+<figcaption aria-hidden="true">Valores recebidos por Programas Sociais</figcaption>
+</figure>
+<ul>
+<li><strong>Recebe Bolsa Família</strong> – campo que informa se a família recebe o Bolsa Família;</li>
+<li><strong>Nome</strong> – campo que informa o nome do membro da composição familiar;</li>
+<li><strong>Parentesco</strong> – campo que informa o parentesco do membro da composição familiar em relação ao Responsável pela Unidade Familiar - RF;</li>
+<li><strong>Aposentadoria pensão ou BPC/ LOAS</strong> – campo que informa se o membro da composição familiar recebe aposentadoria, pensão ou BPC/ LOAS;</li>
+<li><strong>Ajuda/ doação regular de não morador</strong> – campo que informa se o membro da composição familiar recebe ajuda/ doação regular de pessoa não moradora da residência;</li>
+<li><strong>Seguro-desemprego</strong> – campo que informa se o membro da composição familiar está recebendo seguro-desemprego;</li>
+<li><strong>Pensão alimentícia</strong> – campo que informa o recebimento e valor da pensão alimentícia pelo membro da composição familiar;</li>
+</ul>
+<hr />
+<h3 id="observações-das-condições-de-trabalho-e-rendimento-da-família">Observações das condições de trabalho e rendimento da família</h3>
+<p>Para mais informações sobre o <kbd>4</kbd> <strong>registro de observações</strong>, consulte a página 19 deste manual.</p>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>5</kbd> <strong>ícone</strong>.</p>
+<figure>
+<img src="img/condicoes-de-trabalho-e-rendimento-da-familia-3.png" alt="Observações e Expandir" />
+<figcaption aria-hidden="true">Observações e Expandir</figcaption>
+</figure>
+<hr />
+<section id="registro-de-atendimentos-socioassistenciais" class="title">
+<h1>Registro de atendimentos socioassistenciais</h1>
+</section>
+<hr />
+<p>Ao acionar o bloco <kbd>1</kbd> <strong>Registro de atendimentos socioassistenciais</strong>, para expandir as informações, você pode consultar ou cadastrar o registro de atendimento, de acordo com a demanda da família ou membro da composição familiar.</p>
+<figure>
+<img src="img/registro-de-atendimentos-socioassistenciais-1.png" alt="Bloco Atendimentos" />
+<figcaption aria-hidden="true">Bloco Atendimentos</figcaption>
+</figure>
+<h3 id="atendimentos-socioassistenciais">Atendimentos socioassistenciais</h3>
+<p>A lista de <kbd>2</kbd> <strong>Registro de atendimentos socioassistenciais</strong> é composta por:</p>
+<ul>
+<li><strong>Data do atendimento</strong> – a coluna informa a data em que a Referência Familiar ou membro da composição família foi atendido na Unidade;</li>
+<li><strong>Nome</strong> – a coluna informa o nome do membro da composição familiar atendido;</li>
+<li><strong>Nome do técnico</strong> – a coluna informa o nome do técnico responsável pelo registro do atendimento no Prontuário Eletrônico;</li>
+<li><strong>Tipo de atendimento</strong> – a coluna informa o tipo de atendimento requerido pela pessoa atendida. Pode haver um ou mais atendimentos. Os tipos são:
+<ul>
+<li>Acolhida particularizada</li>
+<li>Atendimento socioassistencial individualizado</li>
+<li>Busca ativa</li>
+<li>Visita domiciliar PAIF</li>
+<li>Atendimento Serviço Proteção Social Básica no Domicílio – Pessoa idosa.</li>
+<li>Atendimento Serviço Proteção Social Básica no Domicílio - Pessoa com Deficiência.</li>
+<li>Atendimento Serviço Proteção Social Básica no Domicílio – Gestantes e Primeira Infância.</li>
+<li>Atendimento Serviço de Convivência e Fortalecimento de Vínculos.</li>
+<li>Outros</li>
+</ul></li>
+<li><strong>Ações</strong> – coluna que exibe ícones para realizar ações, como por exemplo: Visualizar registro.</li>
+</ul>
+<hr />
+<h3 id="incluir-atendimento">Incluir atendimento</h3>
+<p>Para <strong>adicionar novo atendimento</strong>, acione a opção <kbd>3</kbd> <strong>Incluir atendimento</strong>, então o sistema vai apresentar a janela para cadastro.</p>
+<figure>
+<img src="img/registro-de-atendimentos-socioassistenciais-2.png" alt="Janela Incluir Atendimento" />
+<figcaption aria-hidden="true">Janela Incluir Atendimento</figcaption>
+</figure>
+<p>Preencha os dados solicitados e acione a opção <kbd>8</kbd> <strong>Incluir</strong>, em seguida o sistema fecha a janela, atualiza a lista de atendimentos e apresenta a mensagem <em>“Registro de atendimento incluído com sucesso”</em>.</p>
+<p>A janela <kbd>3</kbd> <strong>Incluir atendimento</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa(s)</strong> – campo para informar o(s) nome(s) da(s) pessoa(s) atendida(s);</li>
+<li><strong>Data do atendimento</strong> – campo para informar a data em que o atendimento foi realizado;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pelo registro do atendimento no Prontuário Eletrônico;</li>
+<li><strong>Tipo</strong> – campo para informar o tipo do atendimento socioassistencial prestado;</li>
+<li><strong>Descrição/ resumo do atendimento</strong> – campo para registrar informações adicionais ao atendimento;</li>
+<li><strong>Cancelar</strong> – opção que ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> – opção que, ao ser acionada, salva o atendimento.</li>
+</ul>
+<hr />
+<h3 id="visualizar-atendimento">Visualizar atendimento</h3>
+<p>Para <strong>visualizar o registro do atendimento</strong>, acione a opção <kbd>4</kbd> <strong>Visualizar atendimento</strong>, então o sistema vai apresentar a janela com as informações completas do atendimento:</p>
+<figure>
+<img src="img/registro-de-atendimentos-socioassistenciais-4.png" alt="Janela Visualizar Atendimento" />
+<figcaption aria-hidden="true">Janela Visualizar Atendimento</figcaption>
+</figure>
+<p>A janela <kbd>4</kbd> <strong>Visualizar atendimento</strong>, representada acima, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa(s)</strong> – campo que informa o(s) nome(s) da(s) pessoa(s) atendida(s);</li>
+<li><strong>Data do atendimento</strong> – campo que informa a data em que o atendimento foi realizado;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pelo registro do atendimento no Prontuário Eletrônico;</li>
+<li><strong>Tipo</strong> – campo que informa o tipo do atendimento socioassistencial realizado;</li>
+<li><strong>Descrição/ resumo do atendimento</strong> – campo que apresenta informações adicionais ao atendimento;</li>
+<li><strong>Cancelar</strong> – opção que ao ser acionada fecha a janela.</li>
+</ul>
+<hr />
+<h3 id="editar-atendimento">Editar atendimento</h3>
+<p>Para <strong>editar o registro de atendimento</strong>, acione a opção <kbd>5</kbd> <strong>Alterar atendimento</strong>, então o sistema vai apresentar a janela com os campos habilitados.</p>
+<figure>
+<img src="img/registro-de-atendimentos-socioassistenciais-6.png" alt="Janela Editar Atendimento" />
+<figcaption aria-hidden="true">Janela Editar Atendimento</figcaption>
+</figure>
+<p>Informe os ajustes e acione a opção <kbd>8</kbd> <strong>Alterar</strong>, em seguida o sistema fecha a janela, atualiza a lista de atendimentos e apresenta a mensagem <em>“Registro de atendimento alterado com sucesso”</em>.</p>
+<p>A janela <kbd>5</kbd> <strong>Alterar atendimento</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa(s)</strong> – campo para informar o(s) nome(s) da(s) pessoa(s) atendida(s);</li>
+<li><strong>Data do atendimento</strong> – campo que informa a data em que o atendimento foi realizado;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pelo registro do atendimento no Prontuário Eletrônico;</li>
+<li><strong>Tipo</strong> – campo que informa o tipo do atendimento socioassistencial realizado;</li>
+<li><strong>Descrição/ resumo do atendimento</strong> – campo que apresenta informações adicionais ao atendimento;</li>
+<li><strong>Cancelar</strong> – opção que ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> – opção que, ao ser acionada, salva a alteração realizada para o atendimento.</li>
+</ul>
+<h3 id="excluir-atendimento">Excluir atendimento</h3>
+<p>Para <strong>excluir o atendimento da lista</strong>, acione a opção <kbd>6</kbd> <strong>Excluir atendimento</strong>, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem <em>“Registro de atendimento excluído com sucesso”</em>.</p>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>7</kbd> <strong>ícone</strong>.</p>
+<hr />
+<h2 id="acesso-a-benefícios-eventuais">Acesso a benefícios eventuais</h2>
+<figure>
+<img src="img/acesso-a-beneficios-eventuais-1.png" alt="Página 1" />
+<figcaption aria-hidden="true">Página 1</figcaption>
+</figure>
+<p>Ao acionar o bloco <kbd>1</kbd> <strong>Acesso a benefícios eventuais</strong>, para expandir as informações, você pode consultar, por membro da composição familiar, os benefícios oferecidos e observações complementares.</p>
+<h3 id="benefícios-eventuais-concedidos">Benefícios eventuais concedidos</h3>
+<p>A <kbd>2</kbd> <strong>lista dos benefícios eventuais concedidos</strong> à família é composta por:</p>
+<ul>
+<li><strong>Pessoa</strong> – a coluna informa o nome do membro da composição familiar, solicitante do benefício;</li>
+<li><strong>Benefício</strong> – a coluna informa o benefício solicitado pelo membro da composição familiar;</li>
+<li><strong>Descrição</strong> - a coluna informa o descritivo do benefício solicitado.</li>
+<li><strong>Ações</strong> – coluna que exibe ícones para realizar ações, como por exemplo: Visualizar registro.</li>
+</ul>
+<hr />
+<h3 id="incluir-benefício-eventual">Incluir benefício eventual</h3>
+<figure>
+<img src="img/acesso-a-beneficios-eventuais-2.png" alt="Página 2" />
+<figcaption aria-hidden="true">Página 2</figcaption>
+</figure>
+<p>Para <strong>adicionar benefício eventual</strong>, acione a opção <kbd>3</kbd> <strong>Incluir benefício eventual</strong>, então o sistema vai apresentar a janela para cadastro.</p>
+<p>Preencha os dados solicitados e acione a opção <kbd>9</kbd> <strong>Incluir</strong>, em seguida o sistema fecha a janela, atualiza a lista de benefícios e apresenta a mensagem <em>“Benefício eventual incluído com sucesso”</em>.</p>
+<hr />
+<figure>
+<img src="img/acesso-a-beneficios-eventuais-3.png" alt="Página 3" />
+<figcaption aria-hidden="true">Página 3</figcaption>
+</figure>
+<p>A janela <kbd>3</kbd> <strong>Incluir benefício eventual</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa(s)</strong> – campo para informar o(s) nome(s) da(s) pessoa(s) atendida(s);</li>
+<li><strong>Benefício</strong> – campo para informar o(s) benefício(s) concedido(s). As alternativas são:
+<ul>
+<li>Situação de morte</li>
+<li>Situação de nascimento</li>
+<li>Situação de calamidade</li>
+<li>Situação de vulnerabilidade temporária</li>
+</ul></li>
+<li><strong>Descrição</strong> – campo para registrar informações adicionais;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> - opção que ao ser acionada salva o atendimento.</li>
+</ul>
+<h3 id="visualizar-registro-do-benefício-eventual">Visualizar registro do benefício eventual</h3>
+<p>Para <strong>visualizar o registro do benefício</strong>, acione a opção <kbd>4</kbd> <strong>Visualizar benefício</strong>, então o sistema vai apresentar a janela com as informações.</p>
+<hr />
+<figure>
+<img src="img/acesso-a-beneficios-eventuais-4.png" alt="Página 4" />
+<figcaption aria-hidden="true">Página 4</figcaption>
+</figure>
+<p>A janela <kbd>4</kbd> <strong>Visualizar benefício eventual</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa(s)</strong> – campo que informa o(s) nome(s) da(s) pessoa(s) atendida(s);</li>
+<li><strong>Benefícios eventuais</strong> – campo que informa o(s) benefício(s) eventual(is) concedido(s);</li>
+<li><strong>Descrição</strong> – campo que apresenta a descrição do(s) benefício(s) concedido(s);</li>
+<li><strong>Fechar</strong> – opção que, ao ser acionada, fecha a janela.</li>
+</ul>
+<hr />
+<h3 id="editar-benefício-eventual">Editar benefício eventual</h3>
+<figure>
+<img src="img/acesso-a-beneficios-eventuais-5.png" alt="Página 5" />
+<figcaption aria-hidden="true">Página 5</figcaption>
+</figure>
+<p>Para <strong>editar o registro de benefício eventual</strong>, acione a opção <kbd>5</kbd> <strong>Alterar benefício</strong>, então o sistema vai apresentar a janela com os campos habilitados.</p>
+<p>Informe os ajustes e acione a opção <kbd>9</kbd> <strong>Atualizar</strong>, em seguida o sistema fecha a janela, atualiza a lista de benefícios e apresenta a mensagem <em>“Benefício eventual alterado com sucesso”</em>.</p>
+<hr />
+<figure>
+<img src="img/acesso-a-beneficios-eventuais-6.png" alt="Página 6" />
+<figcaption aria-hidden="true">Página 6</figcaption>
+</figure>
+<p>A janela <kbd>5</kbd> <strong>Alterar benefício eventual</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa(s)</strong> – campo para informar o(s) nome(s) da(s) pessoa(s) atendida(s);</li>
+<li><strong>Benefícios eventuais</strong> – campo para informar o(s) benefício(s) concedido(s);</li>
+<li><strong>Descrição</strong> – campo para registrar informações adicionais;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Atualizar</strong> – opção que, ao ser acionada, salva a alteração realizada e atualiza a lista.</li>
+</ul>
+<h3 id="excluir-benefício-eventual">Excluir benefício eventual</h3>
+<p>Para <strong>excluir o benefício da lista</strong>, acione a opção <kbd>6</kbd> <strong>Excluir benefício</strong>, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem <em>“Benefício eventual excluído com sucesso”</em>.</p>
+<h3 id="observações-do-acesso-a-benefícios-eventuais">Observações do acesso a benefícios eventuais</h3>
+<p>Para mais informações sobre o <kbd>7</kbd> <strong>registro de observações</strong>, consulte a página 19 deste manual.</p>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>8</kbd> <strong>ícone</strong>.</p>
+<hr />
+<h2 id="convivência-familiar-e-comunitária">Convivência familiar e comunitária</h2>
+<p>No bloco <kbd>1</kbd> <strong>Convivência Familiar e Comunitária</strong>, ao expandir as informações, você pode consultar as observações registradas sobre a convivência familiar e comunitária.</p>
+<figure>
+<img src="img/convivencia-familiar-e-comunitaria-1.png" alt="Bloco Convivência" />
+<figcaption aria-hidden="true">Bloco Convivência</figcaption>
+</figure>
+<h3 id="observações-da-convivência-familiar-e-comunitária">Observações da convivência familiar e comunitária</h3>
+<p>Para mais informações sobre o <kbd>2</kbd> <strong>registro de observações</strong>, consulte a página 19 deste manual.</p>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>3</kbd> <strong>ícone</strong>.</p>
+<hr />
+<h2 id="situações-de-vulnerabilidades-e-desproteções-sociais-da-família">Situações de vulnerabilidades e desproteções sociais da família</h2>
+<p>No bloco <kbd>1</kbd> <strong>Situações de vulnerabilidades e desproteções sociais da família</strong>, ao expandir as informações, você pode <strong>consultar os indicadores</strong> de vulnerabilidade social identificados para a família.</p>
+<figure>
+<img src="img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png" alt="Bloco Vulnerabilidades" />
+<figcaption aria-hidden="true">Bloco Vulnerabilidades</figcaption>
+</figure>
+<p>Os indicadores podem ser gerados automaticamente pelo sistema, com base em informações já registradas ou adicionados manualmente pelo técnico, conforme a escuta e análise técnica realizadas durante o atendimento.</p>
+<h3 id="indicadores-automáticos">Indicadores automáticos</h3>
+<p>Os <kbd>2</kbd> <strong>indicadores automáticos</strong> mostram, de forma rápida, algumas condições que podem representar situações de vulnerabilidade social:</p>
+<ul>
+<li><strong>Família com pessoas com deficiência</strong> – informa se existe membro da composição familiar com deficiência. As alternativas são:
+<ul>
+<li>Sim</li>
+<li>Não</li>
+</ul></li>
+<li><strong>Família com pessoa idosa</strong> – informa se existe membro da composição familiar com idade igual ou maior que 60 anos. As alternativas são:
+<ul>
+<li>Sim</li>
+<li>Não</li>
+</ul></li>
+</ul>
+<figure>
+<img src="img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-2.png" alt="Indicadores Automáticos" />
+<figcaption aria-hidden="true">Indicadores Automáticos</figcaption>
+</figure>
+<hr />
+<h3 id="situações-de-vulnerabilidade-e-desproteção-social-da-família">Situações de vulnerabilidade e desproteção social da família</h3>
+<p>A lista <kbd>3</kbd> <strong>Situações de vulnerabilidade e desproteção social da família</strong> apresenta os registros inseridos manualmente pelo técnico responsável, com base na escuta e na análise da realidade familiar. Cada registro contém as seguintes informações:</p>
+<ul>
+<li><strong>Data da anotação</strong> – mostra a data em que a vulnerabilidade foi registrada ou atualizada.</li>
+<li><strong>Vulnerabilidade</strong> – indica o tipo de vulnerabilidade identificada para a família.</li>
+<li><strong>Nome do técnico</strong> – exibe o nome do profissional responsável pelo atendimento e pelo registro das informações.</li>
+<li><strong>Continua na vulnerabilidade</strong> – informa se a família permanece na situação de vulnerabilidade identificada.</li>
+</ul>
+<figure>
+<img src="img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-3.png" alt="Tabela de Vulnerabilidades" />
+<figcaption aria-hidden="true">Tabela de Vulnerabilidades</figcaption>
+</figure>
+<hr />
+<h3 id="incluir-vulnerabilidade">Incluir vulnerabilidade</h3>
+<p>Para <strong>adicionar uma nova vulnerabilidade</strong>, acione a opção <kbd>4</kbd> <strong>Incluir vulnerabilidade</strong>, então o sistema vai apresentar a janela para cadastro. Preencha os dados solicitados e acione a opção <kbd>11</kbd> <strong>Incluir</strong>, em seguida o sistema salva o registro, fecha a janela, atualiza a lista e apresenta a mensagem <em>“Situação de vulnerabilidade incluída com sucesso”</em>.</p>
+<figure>
+<img src="img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-5.png" alt="Janela Incluir Vulnerabilidade" />
+<figcaption aria-hidden="true">Janela Incluir Vulnerabilidade</figcaption>
+</figure>
+<p>A janela <kbd>4</kbd> <strong>Situações de vulnerabilidades e desproteções sociais da família</strong>, apresenta os seguintes campos e opções:</p>
+<ul>
+<li><strong>Data da anotação</strong> – indica a data em que o atendimento foi realizado.</li>
+<li><strong>Situação</strong> – indica a vulnerabilidade e desproteção social verificada. Valores possíveis:
+<ul>
+<li>Situação de insegurança alimentar;</li>
+<li>Situação de vulnerabilidades ou desproteções relacionais;</li>
+<li>Família com gestante ou criança na primeira infância.</li>
+</ul></li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> – opção que, ao ser acionada, salva o registro e atualiza a lista de observações.</li>
+</ul>
+<hr />
+<h3 id="visualizar-registro-1">Visualizar registro</h3>
+<p>Para <strong>visualizar o registro de vulnerabilidade</strong>, acione a opção <kbd>5</kbd> <strong>Visualizar vulnerabilidade</strong>, então o sistema vai apresentar a janela com as informações:</p>
+<figure>
+<img src="img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-7.png" alt="Janela Visualizar Vulnerabilidade" />
+<figcaption aria-hidden="true">Janela Visualizar Vulnerabilidade</figcaption>
+</figure>
+<p>A janela <kbd>5</kbd> <strong>Situações de vulnerabilidades e desproteções sociais da família</strong>, representada acima, apresenta os seguintes campos e opções:</p>
+<ul>
+<li><strong>Data da anotação</strong> – indica a data em que o atendimento foi realizado.</li>
+<li><strong>Situação</strong> – indica a vulnerabilidade e desproteção social verificada.</li>
+<li><strong>Data da atualização</strong> – indica a data em que o registro de vulnerabilidade foi editado.</li>
+<li><strong>Continua em vulnerabilidade</strong> – indica se a família permanece em situação de vulnerabilidade e desproteção social.</li>
+<li><strong>Fechar</strong> – opção que, ao ser acionada, fecha a janela.</li>
+</ul>
+<hr />
+<h3 id="editar-registro-de-vulnerabilidade">Editar registro de vulnerabilidade</h3>
+<p>Para <strong>editar o registro de atualização da lista na janela</strong>, acione a opção <kbd>6</kbd> <strong>Alterar</strong>, então o sistema vai apresentar a janela com as informações registradas anteriormente, permitindo a adição dos dados necessários.</p>
+<figure>
+<img src="img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-9.png" alt="Janela Editar Vulnerabilidade" />
+<figcaption aria-hidden="true">Janela Editar Vulnerabilidade</figcaption>
+</figure>
+<p>Informe os ajustes e acione a opção <kbd>13</kbd> <strong>Alterar</strong>, em seguida o sistema salva a alteração do registro, atualiza a lista e apresenta a mensagem <em>“Atualização incluída com sucesso”</em>.</p>
+<p>A janela <kbd>6</kbd> <strong>Situações de vulnerabilidades e desproteções sociais da família</strong>, apresenta os seguintes campos e opções:</p>
+<ul>
+<li><strong>Data da anotação</strong> – indica a data em que o atendimento foi realizado.</li>
+<li><strong>Situação</strong> – indica a vulnerabilidade e desproteção social verificada, sem possibilidade de edição.</li>
+<li><strong>Data da atualização</strong> – campo para inclusão da data em que o registro foi atualizado.</li>
+<li><strong>Continua em vulnerabilidade</strong> – campo para indicar se a família permanece em situação de vulnerabilidade e desproteção social.</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Atualizar</strong> – opção que, ao ser acionada, salva a alteração realizada e atualiza a lista.</li>
+</ul>
+<hr />
+<h3 id="excluir-registro-1">Excluir registro</h3>
+<p>Para <strong>excluir o registro</strong> de vulnerabilidade da lista, acione a opção <kbd>8</kbd> <strong>Excluir vulnerabilidade</strong>, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem <em>“Atualização excluída com sucesso”</em>.</p>
+<h3 id="observações-das-situações-de-vulnerabilidades-e-desproteções-sociais-da-família">Observações das situações de vulnerabilidades e desproteções sociais da família</h3>
+<p>Para mais informações sobre o <kbd>9</kbd> <strong>registro de observações</strong>, consulte a página 19 deste manual.</p>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>10</kbd> <strong>ícone</strong>.</p>
+<figure>
+<img src="img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-15.png" alt="Observações e Expandir" />
+<figcaption aria-hidden="true">Observações e Expandir</figcaption>
+</figure>
+<hr />
+<h2 id="situações-de-violência-e-violação-de-direitos">Situações de violência e violação de direitos</h2>
+<p>No bloco <kbd>1</kbd> <strong>Situação de violência e violação de direitos</strong>, ao acionar para expandir as informações, você pode consultar observações de situação de violência e violação de direitos ocorridas com a família ou membro da composição familiar.</p>
+<figure>
+<img src="img/situacoes-de-violencia-e-violacao-de-direitos-1.png" alt="Situações de violência e violação de direitos" />
+<figcaption aria-hidden="true">Situações de violência e violação de direitos</figcaption>
+</figure>
+<h3 id="observações-das-situações-de-violência-e-violação-de-direitos">Observações das situações de violência e violação de direitos</h3>
+<p>Para mais informações sobre o <kbd>2</kbd> <strong>registro de observações</strong>, consulte a página 19 deste manual.</p>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>3</kbd> <strong>ícone</strong>.</p>
+<hr />
+<h2 id="planejamento-e-evolução-do-acompanhamento-familiar">Planejamento e evolução do acompanhamento familiar</h2>
+<figure>
+<img src="img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png" alt="Bloco Planejamento" />
+<figcaption aria-hidden="true">Bloco Planejamento</figcaption>
+</figure>
+<p>No bloco <kbd>1</kbd> <strong>Planejamento e evolução do acompanhamento familiar</strong>, ao expandir as informações, você pode consultar os registros de acompanhamento da família.</p>
+<h3 id="inserção-e-desligamento-da-família-no-acompanhamento-familiar">Inserção e desligamento da família no acompanhamento familiar</h3>
+<p>A lista <kbd>2</kbd> <strong>Inserção e desligamento da família no acompanhamento familiar</strong>, apresenta as seguintes informações:</p>
+<ul>
+<li><strong>Data do ingresso</strong> – indica a data em que a composição familiar foi incluída no acompanhamento.</li>
+<li><strong>Nome</strong> – indica o nome dos membros da composição familiar que estão em acompanhamento.</li>
+<li><strong>Data do desligamento</strong> – indica a data em que a família foi desvinculada do acompanhamento.</li>
+<li><strong>Razão do desligamento</strong> – indica o motivo pelo qual a família foi desvinculada do acompanhamento.</li>
+</ul>
+<hr />
+<h3 id="incluir-acompanhamento">Incluir acompanhamento</h3>
+<p>Para <strong>adicionar a família ao acompanhamento</strong>, acione a opção <kbd>3</kbd> <strong>Incluir acompanhamento</strong>. Então, o sistema vai apresentar a janela para cadastro. Preencha os dados solicitados e acione a opção <kbd>9</kbd> <strong>Incluir</strong>. Em seguida, o sistema salva o registro, fecha a janela, atualiza a lista e apresenta a mensagem <em>“Acompanhamento familiar incluído com sucesso”</em>.</p>
+<figure>
+<img src="img/planejamento-e-evolucao-do-acompanhamento-familiar-3.png" alt="Janela Incluir Acompanhamento" />
+<figcaption aria-hidden="true">Janela Incluir Acompanhamento</figcaption>
+</figure>
+<hr />
+<p>A janela <kbd>3</kbd> <strong>Incluir acompanhamento familiar</strong>, apresenta os seguintes campos e opções:</p>
+<ul>
+<li><strong>Data do ingresso</strong> – indica a data em que a composição familiar foi incluída no acompanhamento.</li>
+<li><strong>Planejamento inicial</strong> – registra como o técnico pretende organizar e acompanhar as ações planejadas para o atendimento da família, definindo os passos e estratégias que orientarão o acompanhamento.</li>
+<li><strong>Data do desligamento</strong> – indica a data em que a família foi desvinculada do acompanhamento.</li>
+<li><strong>Razão do desligamento</strong> – indica o motivo pelo qual a família foi desvinculada do acompanhamento.<br />
+Valores possíveis:
+<ul>
+<li>Avaliação técnica;</li>
+<li>Evasão ou recusa da família;</li>
+<li>Mudança de Município;</li>
+<li>Outros.</li>
+</ul></li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> – opção que, ao ser acionada, salva o registro e atualiza a lista.</li>
+</ul>
+<hr />
+<h3 id="visualizar-acompanhamento">Visualizar acompanhamento</h3>
+<p>Para <strong>visualizar</strong> o registro de acompanhamento da família, acione a opção <kbd>4</kbd> <strong>Visualizar acompanhamento</strong>, então o sistema vai apresentar a janela com as informações:</p>
+<figure>
+<img src="img/planejamento-e-evolucao-do-acompanhamento-familiar-6.png" alt="Janela Visualizar Acompanhamento" />
+<figcaption aria-hidden="true">Janela Visualizar Acompanhamento</figcaption>
+</figure>
+<p>A janela <kbd>4</kbd> <strong>Visualizar acompanhamento familiar</strong>, apresenta os seguintes campos:</p>
+<ul>
+<li><strong>Data do ingresso</strong> – indica a data em que a composição familiar foi incluída no acompanhamento.</li>
+<li><strong>Planejamento inicial</strong> – registra como o técnico pretende organizar e acompanhar as ações planejadas para o atendimento da família, definindo os passos e estratégias que orientarão o acompanhamento.</li>
+<li><strong>Data do desligamento</strong> – indica a data em que a família foi desvinculada do acompanhamento.</li>
+<li><strong>Razão do desligamento</strong> – indica o motivo pelo qual a família foi desvinculada do acompanhamento.</li>
+<li><strong>Fechar</strong> – opção que, ao ser acionada, fecha a janela.</li>
+</ul>
+<h3 id="editar-acompanhamento">Editar acompanhamento</h3>
+<p>Para <strong>editar</strong> o registro de acompanhamento da lista, acione a opção <kbd>5</kbd> <strong>Alterar acompanhamento</strong>, então o sistema vai apresentar a janela com as informações registradas anteriormente, permitindo a edição dos dados necessários.</p>
+<p>Informe os ajustes e acione a opção <kbd>9</kbd> <strong>Alterar</strong>, em seguida o sistema salva a alteração do registro, fecha a janela, atualiza a lista e apresenta a mensagem <em>“Acompanhamento familiar alterado com sucesso”</em>.</p>
+<hr />
+<figure>
+<img src="img/planejamento-e-evolucao-do-acompanhamento-familiar-9.png" alt="Janela Editar Acompanhamento" />
+<figcaption aria-hidden="true">Janela Editar Acompanhamento</figcaption>
+</figure>
+<p>A janela <kbd>5</kbd> <strong>Alterar acompanhamento familiar</strong>, apresenta os seguintes campos e opções:</p>
+<ul>
+<li><strong>Data do ingresso</strong> – indica a data em que a composição familiar foi incluída no acompanhamento.</li>
+<li><strong>Planejamento inicial</strong> – registra como o técnico pretende organizar e acompanhar as ações planejadas para o atendimento da família.</li>
+<li><strong>Data do desligamento</strong> – indica a data em que a família foi desvinculada do acompanhamento.</li>
+<li><strong>Razão do desligamento</strong> – indica o motivo pelo qual a família foi desvinculada do acompanhamento.
+<ul>
+<li>Valores possíveis:
+<ul>
+<li>Avaliação técnica;</li>
+<li>Evasão ou recusa da família;</li>
+<li>Mudança de Município;</li>
+<li>Outros.</li>
+</ul></li>
+</ul></li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Atualizar</strong> – opção que, ao ser acionada, salva a alteração realizada e atualiza a lista.</li>
+</ul>
+<h3 id="excluir-acompanhamento">Excluir acompanhamento</h3>
+<p>Para <strong>excluir o registro</strong> de acompanhamento familiar da lista, acione a opção <kbd>6</kbd> <strong>Excluir acompanhamento</strong>. O sistema solicitará a confirmação da ação e, caso confirmada, o sistema exclui o registro, atualiza a lista e apresenta a mensagem <em>“Acompanhamento familiar excluído com sucesso”</em>.</p>
+<hr />
+<h3 id="observações-do-planejamento-e-evolução-do-acompanhamento-familiar">Observações do planejamento e evolução do acompanhamento familiar</h3>
+<p>Para mais informações sobre o <kbd>7</kbd> <strong>registro de observações</strong>, consulte a página 19 deste manual.</p>
+<blockquote>
+<p><strong>Observação:</strong> As <kbd>7</kbd> <strong>Observações Planejamento e evolução do acompanhamento familiar</strong> estão disponíveis apenas para a equipe técnica de nível superior.</p>
+</blockquote>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>8</kbd> <strong>ícone</strong>.</p>
+<hr />
+<h2 id="participação-em-serviços-programas-e-projetos">Participação em serviços, programas e projetos</h2>
+<figure>
+<img src="img/participacao-em-servicos-programas-e-projetos-1.png" alt="Participação em serviços" />
+<figcaption aria-hidden="true">Participação em serviços</figcaption>
+</figure>
+<p>Ao acionar o bloco <kbd>1</kbd> <strong>Participação em serviços, programas e projetos</strong>, para expandir as informações, você pode consultar observações de participação dos membros da família em serviços, programas e projetos.</p>
+<h3 id="observações-da-participação-em-serviços-programas-e-projetos">Observações da participação em serviços, programas e projetos</h3>
+<p>Para mais informações sobre o <kbd>2</kbd> <strong>registro de observações</strong>, consulte a página 19 deste manual.</p>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>3</kbd> <strong>ícone</strong>.</p>
+<hr />
+<h2 id="histórico-de-cumprimento-de-medidas-socioeducativas">Histórico de cumprimento de medidas socioeducativas</h2>
+<figure>
+<img src="img/historico-de-cumprimento-de-medidas-socioeducativas-1.png" alt="Histórico de cumprimento de medidas socioeducativas" />
+<figcaption aria-hidden="true">Histórico de cumprimento de medidas socioeducativas</figcaption>
+</figure>
+<p>Ao acionar o bloco <kbd>1</kbd> <strong>Histórico de cumprimento de medidas socioeducativas</strong>, para expandir as informações, você pode consultar as medidas socioeducativas para adolescentes (cumpridas e/ou em acompanhamento).</p>
+<h3 id="medidas-socioeducativas-para-adolescentes-cumpridas-eou-em-acompanhamento">Medidas Socioeducativas para adolescentes (cumpridas e/ou em acompanhamento)</h3>
+<p>A <kbd>2</kbd> <strong>lista de medidas socioeducativas para adolescentes (cumpridas e/ou em acompanhamento)</strong> é composta por:</p>
+<ul>
+<li><strong>Data do atendimento</strong> – coluna que informa a data do atendimento em que foi relatada a medida socioeducativa para o adolescente;</li>
+<li><strong>Nome</strong> – coluna que informa o nome do adolescente (membro da composição familiar) que está cumprindo e/ ou em acompanhamento de medida socioeducativa;</li>
+<li><strong>Tipo de medida</strong> – coluna que informa o tipo de medida socioeducativa a ser cumprida;</li>
+<li><strong>Nome do técnico</strong> – coluna que informa o nome do técnico responsável pelo registro do encaminhamento no Prontuário Eletrônico;</li>
+<li><strong>Unidade</strong> – coluna que informa o nome da unidade em que o atendimento foi realizado;</li>
+<li><strong>Ações</strong> – coluna que exibe ícones para realizar ações, como por exemplo: Visualizar registro.</li>
+</ul>
+<h3 id="incluir-medida-socioeducativa">Incluir medida socioeducativa</h3>
+<figure>
+<img src="img/historico-de-cumprimento-de-medidas-socioeducativas-2.png" alt="Incluir medida socioeducativa" />
+<figcaption aria-hidden="true">Incluir medida socioeducativa</figcaption>
+</figure>
+<p>Para adicionar medidas socioeducativas para adolescentes, acione a opção <kbd>3</kbd> <strong>Incluir medida</strong>, então o sistema vai apresentar a janela para cadastro.</p>
+<p>Preencha os dados solicitados e acione a opção <kbd>9</kbd> <strong>Incluir</strong>, em seguida o sistema fecha a janela, atualiza a lista de observações e apresenta a mensagem “<em>Medida socioeducativa incluída com sucesso</em>”.</p>
+<figure>
+<img src="img/historico-de-cumprimento-de-medidas-socioeducativas-3.png" alt="Janela Incluir medida socioeducativa" />
+<figcaption aria-hidden="true">Janela Incluir medida socioeducativa</figcaption>
+</figure>
+<p>A janela <kbd>3</kbd> <strong>Incluir medida socioeducativa</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa</strong> – campo para informar a pessoa (adolescente) atendida;</li>
+<li><strong>Número do processo</strong> – campo para informar o número do processo da medida socioeducativa;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pelo registro do atendimento;</li>
+<li><strong>Data de início</strong> – campo para informar a data de início do cumprimento da medida socioeducativa;</li>
+<li><strong>Data de fim</strong> – campo para informar a data fim do cumprimento da medida socioeducativa;</li>
+<li><strong>Tipo de medida</strong> – campo para informar o tipo de medida socioeducativa a ser cumprida;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> – opção que, ao ser acionada, salva o atendimento.</li>
+</ul>
+<h3 id="visualizar-medida-socioeducativa">Visualizar medida socioeducativa</h3>
+<figure>
+<img src="img/historico-de-cumprimento-de-medidas-socioeducativas-4.png" alt="Visualizar medida socioeducativa" />
+<figcaption aria-hidden="true">Visualizar medida socioeducativa</figcaption>
+</figure>
+<p>Para <strong>visualizar o registro da medida socioeducativa</strong>, acione a opção <kbd>4</kbd> <strong>Visualizar medida</strong>, então o sistema vai apresentar a janela com as informações.</p>
+<figure>
+<img src="img/historico-de-cumprimento-de-medidas-socioeducativas-5.png" alt="Janela Visualizar medida socioeducativa" />
+<figcaption aria-hidden="true">Janela Visualizar medida socioeducativa</figcaption>
+</figure>
+<ul>
+<li><strong>Fechar</strong> – opção que, ao ser acionada, fecha a janela.</li>
+</ul>
+<h3 id="editar-medida-socioeducativa">Editar medida socioeducativa</h3>
+<figure>
+<img src="img/historico-de-cumprimento-de-medidas-socioeducativas-6.png" alt="Editar medida socioeducativa" />
+<figcaption aria-hidden="true">Editar medida socioeducativa</figcaption>
+</figure>
+<p>Para <strong>editar o registro da medida socioeducativa</strong>, acione a opção <kbd>5</kbd> <strong>Alterar medida</strong>, então o sistema vai apresentar a janela com os campos habilitados.</p>
+<p>Informe os ajustes e acione a opção <kbd>9</kbd> <strong>Alterar</strong>, em seguida o sistema fecha a janela, atualiza a lista e apresenta a mensagem “<em>Medida socioeducativa alterada com sucesso</em>”.</p>
+<figure>
+<img src="img/historico-de-cumprimento-de-medidas-socioeducativas-7.png" alt="Janela Editar medida socioeducativa" />
+<figcaption aria-hidden="true">Janela Editar medida socioeducativa</figcaption>
+</figure>
+<p>A janela <kbd>5</kbd> <strong>Alterar medida socioeducativa</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa</strong> – campo para informar a pessoa (adolescente) atendida;</li>
+<li><strong>Número do processo</strong> – campo para informar o número do processo da medida socioeducativa;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pelo registro do atendimento;</li>
+<li><strong>Data de início</strong> – campo para informar a data de início do cumprimento da medida socioeducativa;</li>
+<li><strong>Data de fim</strong> – campo para informar a data fim do cumprimento da medida socioeducativa;</li>
+<li><strong>Tipo de medida</strong> – campo para informar o tipo de medida socioeducativa a ser cumprida;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Alterar</strong> – opção que, ao ser acionada, salva a alteração realizada para o atendimento.</li>
+</ul>
+<h3 id="excluir-medida-socioeducativa">Excluir medida socioeducativa</h3>
+<p>Para <strong>excluir o registro de medida socioeducativa</strong>, acione a opção <kbd>6</kbd> <strong>Excluir medida</strong>, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem “<em>Medida socioeducativa excluída com sucesso</em>”.</p>
+<h3 id="observações-das-medidas-socioeducativas">Observações das medidas socioeducativas</h3>
+<figure>
+<img src="img/historico-de-cumprimento-de-medidas-socioeducativas-8.png" alt="Observações das medidas socioeducativas" />
+<figcaption aria-hidden="true">Observações das medidas socioeducativas</figcaption>
+</figure>
+<p>Para mais informações sobre o <kbd>7</kbd> <strong>registro de observações</strong>, consulte a página 19 deste manual.</p>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>8</kbd> <strong>ícone</strong>.</p>
+<hr />
+<h2 id="histórico-de-acolhimento-institucional">Histórico de acolhimento institucional</h2>
+<figure>
+<img src="img/historico-de-acolhimento-institucional-1.png" alt="Histórico de acolhimento institucional" />
+<figcaption aria-hidden="true">Histórico de acolhimento institucional</figcaption>
+</figure>
+<p>Ao acionar o bloco <kbd>1</kbd> <strong>Histórico de acolhimento institucional</strong>, para expandir as informações, você pode consultar observações do histórico de acolhimento institucional registrado para a família ou membro da composição.</p>
+<h3 id="observações-do-histórico-de-acolhimento-institucional">Observações do histórico de acolhimento institucional</h3>
+<p>Para mais informações sobre o <kbd>2</kbd> <strong>registro de observações</strong>, consulte a página 19 deste manual.</p>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>3</kbd> <strong>ícone</strong>.</p>
+<hr />
+<h2 id="formulário-de-controle-de-encaminhamentos">Formulário de controle de encaminhamentos</h2>
+<p>Ao acionar o bloco <kbd>1</kbd> <strong>Formulário de controle de encaminhamento</strong>, para expandir as informações, você pode consultar os encaminhamentos registrados para os membros da composição familiar.</p>
+<figure>
+<img src="img/formulario-de-controle-de-encaminhamentos-1.png" alt="Formulário de controle de encaminhamentos" />
+<figcaption aria-hidden="true">Formulário de controle de encaminhamentos</figcaption>
+</figure>
+<h3 id="registro-de-encaminhamento">Registro de encaminhamento</h3>
+<p>A <kbd>2</kbd> <strong>lista de registro de encaminhamentos</strong> é composta por:</p>
+<ul>
+<li><strong>Data do encaminhamento</strong> – campo que informa a data do encaminhamento;</li>
+<li><strong>Código da área</strong> – campo que informa o código da área de encaminhamento;</li>
+<li><strong>Nome</strong> – campo que informa o membro da composição familiar que foi encaminhado;</li>
+<li><strong>Nome do técnico</strong> – campo que informa o nome do técnico responsável pelo registro do encaminhamento no Prontuário Eletrônico;</li>
+<li><strong>Ações</strong> – coluna que exibe ícones para realizar ações, como por exemplo: Visualizar registro.</li>
+</ul>
+<hr />
+<h3 id="incluir-encaminhamento">Incluir encaminhamento</h3>
+<p>Para adicionar um encaminhamento, acione a opção <kbd>3</kbd> <strong>Incluir encaminhamento</strong>, então o sistema vai apresentar a janela para cadastro.</p>
+<figure>
+<img src="img/formulario-de-controle-de-encaminhamentos-3.png" alt="Incluir encaminhamento" />
+<figcaption aria-hidden="true">Incluir encaminhamento</figcaption>
+</figure>
+<hr />
+<p>Preencha os dados solicitados e acione a opção <kbd>9</kbd> <strong>Incluir</strong>, em seguida o sistema fecha a janela, atualiza a lista de encaminhamentos e apresenta a mensagem “<em>Encaminhamento incluído com sucesso</em>”.</p>
+<p>A janela <kbd>3</kbd> <strong>Incluir encaminhamento</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa(s)</strong> – campo para informar o(s) nome(s) da(s) pessoa(s) atendida(s);</li>
+<li><strong>Data do encaminhamento</strong> – campo para informar a data em que o atendimento foi realizado;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pelo registro do atendimento;</li>
+<li><strong>Área para a qual está sendo realizado o encaminhamento</strong> – campo para informar a área para a qual a(s) pessoa(s) está(ão) sendo encaminhada(s). As alternativas são:
+<ul>
+<li>5 - Para Serviços de Convivência e Fortalecimento de Vínculos voltados a crianças e adolescentes</li>
+<li>6 - Para Serviços de Convivência e Fortalecimento de Vínculos voltados para idosos</li>
+<li>7 - Para atualização cadastral no CadÚnico (inclusive quando realizada nesta própria Unidade)</li>
+<li>8 - Para inclusão no CadÚnico (inclusive quando realizada nesta própria Unidade)</li>
+<li>9 - Para o INSS, visando acesso ao BPC</li>
+</ul></li>
+</ul>
+<hr />
+<ul>
+<li>10 - Para o INSS, visando acesso a outros direitos, que não o BPC</li>
+<li>11 - Para acesso a Benefícios Eventuais</li>
+<li>12 - Para acesso a Documentação Civil (Certidão de Nascimento, RG, Carteira de Trabalho, etc)</li>
+<li>13 - Encaminhamento do CRAS para o CREAS (marcação exclusiva para o CRAS)</li>
+<li>14 - Encaminhamento do CREAS para o CRAS (marcação exclusiva para o CRAS)</li>
+<li>15 - Encaminhamento para outras unidades/serviços de Proteção Social Especial</li>
+<li>30 - Para Serviços de Saúde Bucal (por exemplo: Brasil Sorridente)</li>
+<li>31 - Para Serviços de Saúde Mental</li>
+<li>32 - Para Serviços de Saúde voltados ao acesso de órteses e próteses para pessoas com deficiência</li>
+<li>33 - Para Unidades de Saúde da Família</li>
+<li>34 - Para outros serviços ou unidades do Sistema Único de Saúde</li>
+<li>40 - Para Educação – Creche e Pré-escola (ensino infantil)</li>
+<li>41 - Para Educação – Rede regular de ensino (ensino fundamental e ensino médio)</li>
+</ul>
+<hr />
+<ul>
+<li>42 - Para Educação de Jovens Adultos (por exemplo: Brasil Alfabetizado)</li>
+<li>50 - Para Serviços, Programas ou Projetos voltados à capacitação profissional</li>
+<li>51 - Para Serviços, Programas ou Projetos voltados à geração de trabalho e renda</li>
+<li>52 - Para Serviços, Programas ou Projetos voltados à intermediação de mão-de-obra</li>
+<li>53 - Para acesso a microcrédito</li>
+<li>54 - Para o Programa BPC-Trabalho</li>
+<li>55 - Para o Programa ACESSUAS Trabalho</li>
+<li>60 - Para programa da área de habitação</li>
+<li>61 - Para acesso à Tarifa Social de Energia Elétrica</li>
+<li>70 - Para Conselho Tutelar</li>
+<li>71 - Para Poder Judiciário</li>
+<li>72 - Para Ministério Público</li>
+<li>73 - Para Defensoria Pública</li>
+<li>74 - Para Delegacias (especializadas ou não)</li>
+<li>85 - Outros encaminhamentos (código livre, a ser utilizado conforme interesse específico de cada município)</li>
+<li>86 - Outros encaminhamentos (código livre, a ser utilizado conforme interesse específico de cada município)</li>
+</ul>
+<hr />
+<ul>
+<li>87 - Outros encaminhamentos (código livre, a ser utilizado conforme interesse específico de cada município)</li>
+<li>88 - Outros encaminhamentos (código livre, a ser utilizado conforme interesse específico de cada município)</li>
+<li>89 - Outros encaminhamentos (código livre, a ser utilizado conforme interesse específico de cada município)</li>
+<li><strong>Órgão/Unidade para para qual está sendo feito o encaminhamento</strong> – campo para informar o órgão para o qual a(s) pessoa(s) está(ão) sendo encaminhada(s);</li>
+<li><strong>Unidade para a qual está sendo feito o encaminhamento</strong> – campo para informar a unidade para a qual está sendo feito o encaminhamento;</li>
+<li><strong>Outros</strong> – campo para informar o órgão para o qual está sendo feito o encaminhamento;</li>
+<li><strong>Objetivo/ motivo</strong> – campo para informar o objetivo/ motivo do encaminhamento;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> – opção que, ao ser acionada, salva a alteração realizada para o atendimento.</li>
+</ul>
+<hr />
+<h3 id="visualizar-encaminhamento">Visualizar encaminhamento</h3>
+<p>Para visualizar o encaminhamento, acione a opção <kbd>4</kbd> <strong>Visualizar encaminhamento</strong>, então o sistema vai apresentar a janela com as informações.</p>
+<figure>
+<img src="img/formulario-de-controle-de-encaminhamentos-9.png" alt="Visualizar encaminhamento" />
+<figcaption aria-hidden="true">Visualizar encaminhamento</figcaption>
+</figure>
+<hr />
+<p>A janela <kbd>4</kbd> <strong>Visualizar encaminhamento</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa(s)</strong> – campo para informar o(s) nome(s) da(s) pessoa(s) atendida(s);</li>
+<li><strong>Data do encaminhamento</strong> – campo para informar a data em que o atendimento foi realizado;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pelo registro do atendimento;</li>
+<li><strong>Área para a qual está sendo realizado o encaminhamento</strong> – campo para informar a área para a qual a(s) pessoa(s) está(ão) sendo encaminhada(s);</li>
+<li><strong>Órgão/Unidade para para qual está sendo feito o encaminhamento</strong> – campo para informar o órgão para o qual a(s) pessoa(s) está(ão) sendo encaminhada(s);</li>
+<li><strong>Unidade para a qual está sendo feito o encaminhamento</strong> – campo para informar a unidade para a qual está sendo feito o encaminhamento;</li>
+<li><strong>Outros</strong> – campo para informar o órgão para o qual está sendo feito o encaminhamento;</li>
+<li><strong>Objetivo/ motivo</strong> – campo para informar o objetivo/ motivo do encaminhamento;</li>
+<li><strong>Fechar</strong> – opção que, ao ser acionada, fecha a janela.</li>
+</ul>
+<hr />
+<h3 id="editar-encaminhamento">Editar encaminhamento</h3>
+<p>Para editar o encaminhamento, acione a opção <kbd>5</kbd> <strong>Alterar encaminhamento</strong>, então o sistema vai apresentar a janela com os campos habilitados.</p>
+<figure>
+<img src="img/formulario-de-controle-de-encaminhamentos-12.png" alt="Editar encaminhamento" />
+<figcaption aria-hidden="true">Editar encaminhamento</figcaption>
+</figure>
+<hr />
+<p>Informe os ajustes e acione a opção <kbd>9</kbd> <strong>Alterar</strong>, em seguida o sistema fecha a janela, atualiza a lista e apresenta a mensagem “<em>Encaminhamento alterado com sucesso</em>”.</p>
+<p>A janela <kbd>5</kbd> <strong>Alterar encaminhamento</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>Pessoa</strong> – campo para informar o(s) nome(s) da(s) pessoa(s) atendida(s);</li>
+<li><strong>Data do encaminhamento</strong> – campo para informar a data em que o atendimento foi realizado;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pelo registro do atendimento;</li>
+<li><strong>Área para a qual está sendo realizado o encaminhamento</strong> – campo para informar a área para a qual a(s) pessoa(s) está(ão) sendo encaminhada(s);</li>
+<li><strong>Órgão/ Unidade para para qual está sendo feito o encaminhamento</strong> – campo para informar o órgão para o qual a(s) pessoa(s) está(ão) sendo encaminhada(s);</li>
+<li><strong>Unidade para a qual está sendo feito o encaminhamento</strong> – campo para informar a unidade para a qual está sendo feito o encaminhamento;</li>
+<li><strong>Outros</strong> – campo para informar o órgão para o qual está sendo feito o encaminhamento;</li>
+<li><strong>Objetivo/ motivo</strong> – campo para informar o objetivo/ motivo do encaminhamento;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+</ul>
+<hr />
+<ul>
+<li><strong>Alterar</strong> – opção que, ao ser acionada, salva a alteração realizada para o atendimento.</li>
+</ul>
+<h3 id="excluir-encaminhamento">Excluir encaminhamento</h3>
+<p>Para excluir o registro de encaminhamento, acione a opção <kbd>6</kbd> <strong>Excluir encaminhamento</strong>, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem “<em>Encaminhamento excluído com sucesso</em>”.</p>
+<p>Para gerar o PDF do encaminhamento, acione a opção <kbd>7</kbd> <strong>Gerar PDF</strong>, o sistema apresenta a mensagem “<em>PDF gerado com sucesso</em>” e disponibiliza o arquivo do encaminhamento em outra aba do navegador.</p>
+<figure>
+<img src="img/formulario-de-controle-de-encaminhamentos-16.png" alt="PDF do encaminhamento" />
+<figcaption aria-hidden="true">PDF do encaminhamento</figcaption>
+</figure>
+<p>Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>8</kbd> <strong>ícone</strong>.</p>
+<hr />
+<h2 id="relatório-de-participação-em-atendimentos-coletivos">Relatório de participação em atendimentos coletivos</h2>
+<p>Ao acionar o bloco <kbd>1</kbd> <strong>Relatório de participação em atendimentos coletivos</strong>, para expandir as informações, você pode consultar os encaminhamentos registrados para os membros da composição familiar.</p>
+<figure>
+<img src="img/relatorio-de-participacao-em-atendimentos-coletivos-1.png" alt="Relatório de participação em atendimentos coletivos" />
+<figcaption aria-hidden="true">Relatório de participação em atendimentos coletivos</figcaption>
+</figure>
+<h3 id="atendimentos-da-pessoa">Atendimentos da pessoa</h3>
+<p>A <kbd>2</kbd> <strong>lista atendimentos da pessoa</strong> é composta por:</p>
+<ul>
+<li><strong>Data do atendimento</strong> – campo que informa a data do atendimento da pessoa;</li>
+<li><strong>Tipo de atendimento</strong> – campo que informa o tipo de atendimento ofertado à pessoa;</li>
+<li><strong>Unidade</strong> – campo que informa a unidade em que foi realizado o atendimento;</li>
+<li><strong>Município/UF</strong> – campo que informa o município em que se localiza a Unidade;</li>
+<li><strong>Ações</strong> – coluna que exibe ícone para realizar a ação Visualizar.</li>
+</ul>
+<h3 id="visualizar-atendimento-1">Visualizar atendimento</h3>
+<p>Para <strong>visualizar o atendimento coletivo</strong>, acione a opção <kbd>3</kbd> <strong>Visualizar atendimento coletivo</strong>, então o sistema vai apresentar a janela com as informações.</p>
+<hr />
+<figure>
+<img src="img/relatorio-de-participacao-em-atendimentos-coletivos-3.png" alt="Visualizar atendimento coletivo" />
+<figcaption aria-hidden="true">Visualizar atendimento coletivo</figcaption>
+</figure>
+<p>A janela <kbd>3</kbd> <strong>Visualizar atendimento</strong> contém os seguintes dados:</p>
+<ul>
+<li><strong>Número do atendimento</strong> – campo que informa o número do atendimento coletivo;</li>
+<li><strong>Data do atendimento</strong> – campo para informar a data em que o atendimento foi realizado;</li>
+<li><strong>Tipo do atendimento coletivo</strong> – campo que informa o tipo de atendimento coletivo ofertado para a pessoa ou a família;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pelo registro do atendimento;</li>
+<li><strong>Descrição</strong> – campo que informa a descrição do atendimento coletivo;</li>
+</ul>
+<hr />
+<ul>
+<li><strong>Unidade</strong> – campo que informa o nome da unidade de atendimento;</li>
+<li><strong>Fechar</strong> – opção que, ao ser acionada, fecha a janela.</li>
+</ul>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>4</kbd> <strong>ícone</strong>.</p>
+<hr />
+<h2 id="relatório-simplificado-dos-atendimentos">Relatório simplificado dos atendimentos</h2>
+<p>Ao acionar o bloco <kbd>1</kbd> <strong>Relatório simplificado dos atendimentos</strong>, para expandir as informações, você pode consultar os atendimentos coletivos ao qual a família participou.</p>
+<figure>
+<img src="img/relatorio-simplificado-dos-atendimentos-1.png" alt="Relatório simplificado dos atendimentos" />
+<figcaption aria-hidden="true">Relatório simplificado dos atendimentos</figcaption>
+</figure>
+<h3 id="atendimentos-da-pessoa-1">Atendimentos da pessoa</h3>
+<p>A <kbd>2</kbd> <strong>lista atendimentos da pessoa</strong> é composta por:</p>
+<ul>
+<li><strong>Data do atendimento</strong> – coluna que informa a data do atendimento individual ou coletivo em que o membro da composição familiar ou a família participou;</li>
+<li><strong>Tipo de atendimento</strong> – coluna que informa o tipo de atendimento recebido pelo membro da composição familiar ou pela família;</li>
+<li><strong>Descrição</strong> – campo que descreve o tipo de atendimento recebido;</li>
+<li><strong>Unidade</strong> – coluna que informa o nome da unidade em que o atendimento foi realizado;</li>
+<li><strong>Nome do técnico</strong> – campo que informa o nome do técnico responsável pelo atendimento;</li>
+<li><strong>Município/ UF</strong> – coluna que informa o município e o estado onde a unidade de atendimento está localizada;</li>
+</ul>
+<p>Para <strong>retrair ou reexibir</strong> as informações contidas no bloco, acione o <kbd>3</kbd> <strong>ícone</strong>.</p>
+<hr />
+<section id="prontuário-atendimento-coletivo" class="title">
+<h1>Prontuário: Atendimento Coletivo</h1>
+</section>
+<hr />
+<figure>
+<img src="img/prontuario-atendimento-coletivo-1.png" alt="Prontuário: Atendimento Coletivo" />
+<figcaption aria-hidden="true">Prontuário: Atendimento Coletivo</figcaption>
+</figure>
+<hr />
+<h3 id="atendimento-coletivo-1">Atendimento coletivo</h3>
+<p>Para visualizar ou realizar o atendimento coletivo de uma pessoa ou família, acione o menu <kbd>1</kbd> <strong>Atendimento Coletivo</strong>.</p>
+<figure>
+<img src="img/prontuario-atendimento-coletivo-2.png" alt="Atendimento coletivo" />
+<figcaption aria-hidden="true">Atendimento coletivo</figcaption>
+</figure>
+<h3 id="selecionar-unidade">Selecionar unidade</h3>
+<p>O sistema apresentará a funcionalidade <kbd>2</kbd> <strong>Selecionar unidade</strong>, listando todas as unidades atribuídas ao usuário conforme perfil (CadSUAS).</p>
+<p>A <kbd>3</kbd> <strong>lista de atendimento coletivo</strong> é composta por:</p>
+<ul>
+<li><strong>Código da Unidade</strong> – coluna que apresenta o código da unidade de atendimento;</li>
+<li><strong>Nome da Unidade</strong> – coluna que informa o nome da unidade de atendimento;</li>
+<li><strong>Município/UF</strong> – coluna que informa o município e o estado de localização da unidade de atendimento;</li>
+<li><strong>Endereço</strong> – coluna que informa o endereço da unidade de atendimento;</li>
+<li><strong>Telefone</strong> – coluna que informa o telefone da unidade de atendimento.</li>
+</ul>
+<p>O refinamento da lista de resultado de unidades pode ser feito informando os parâmetros e acionando a opção <kbd>4</kbd> <strong>Pesquisar</strong>.</p>
+<p>Para visualizar ou adicionar atendimento coletivo, acione o <kbd>5</kbd> <strong>registro na lista</strong>.</p>
+<hr />
+<h3 id="atendimento-coletivo-2">Atendimento coletivo</h3>
+<h3 id="lista-de-atendimentos-coletivos">Lista de atendimentos coletivos</h3>
+<p>O sistema apresentará a funcionalidade <strong>Atendimento Coletivo</strong> com a <kbd>6</kbd> <strong>lista de atendimentos coletivos</strong> realizados pela unidade.</p>
+<figure>
+<img src="img/prontuario-atendimento-coletivo-3.png" alt="Lista de atendimentos coletivos" />
+<figcaption aria-hidden="true">Lista de atendimentos coletivos</figcaption>
+</figure>
+<p>A lista de atendimento coletivo é composta por:</p>
+<ul>
+<li><strong>N.º do atendimento</strong> – campo que informa o número do atendimento coletivo;</li>
+<li><strong>Data do Atendimento</strong> – campo que informa a data em que o atendimento coletivo foi adicionado ou atualizado;</li>
+<li><strong>Tipo de atendimento</strong> – campo que informa o tipo de atendimento coletivo ofertado para a pessoa ou a família;</li>
+<li><strong>Descrição</strong> – campo que informa a descrição do atendimento coletivo;</li>
+<li><strong>Ações</strong> – coluna que exibe ícones para realizar ações, como por exemplo: Visualizar registro.</li>
+</ul>
+<h3 id="incluir-atendimento-coletivo">Incluir atendimento coletivo</h3>
+<p>Para <strong>adicionar um atendimento coletivo</strong>, acione a opção <kbd>7</kbd> <strong>Incluir atendimento</strong>, então o sistema vai apresentar a janela para cadastro.</p>
+<p>Preencha os dados solicitados e acione a opção <kbd>12</kbd> <strong>Incluir</strong>, em seguida o sistema fecha a janela, atualiza a lista de atendimento coletivo da unidade e apresenta a mensagem “<em>Atendimento coletivo incluído com sucesso</em>”.</p>
+<hr />
+<h3 id="atendimento-coletivo-3">Atendimento coletivo</h3>
+<figure>
+<img src="img/prontuario-atendimento-coletivo-4.png" alt="Incluir atendimento coletivo" />
+<figcaption aria-hidden="true">Incluir atendimento coletivo</figcaption>
+</figure>
+<p>A janela <kbd>7</kbd> <strong>Incluir atendimento coletivo</strong> contém os seguintes dados:</p>
+<ul>
+<li><strong>CPF</strong> – campo para informar o CPF da pessoa atendida;</li>
+<li><strong>Buscar pessoa</strong> – opção que ao ser acionada busca a pessoa na base de dados do cadastro único;</li>
+<li><strong>Nome</strong> – campo que informa o nome da pessoa atendida;</li>
+</ul>
+<hr />
+<ul>
+<li><strong>Adicionar pessoa</strong> – opção que ao ser acionada adiciona a pessoa na lista de pessoas atendidas;</li>
+<li><strong>Excluir</strong> – opção que ao ser acionada exclui a pessoa da lista de pessoas atendidas;</li>
+<li><strong>Data do atendimento</strong> – campo para informar a data em que o atendimento foi realizado;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pelo registro do atendimento;</li>
+<li><strong>Tipo de atendimento coletivo</strong> – campo para informar o tipo de atendimento coletivo a ser ofertado. As alternativas são:
+<ul>
+<li>Oficinas;</li>
+<li>Acolhida coletiva;</li>
+<li>Ações comunitárias;</li>
+<li>Rodas de conversa;</li>
+<li>Arranjos participativos.</li>
+</ul></li>
+<li><strong>Domínio</strong> – oficinas do PAIF; Acolhida em Grupo; Ações Comunitárias (eventos, campanhas temáticas e rodas de conversa);</li>
+<li><strong>Descrição</strong> – campo para informar a descrição do atendimento;</li>
+<li><strong>Unidade</strong> – campo que informa o nome da unidade de atendimento;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> – opção que, ao ser acionada, salva o atendimento.</li>
+</ul>
+<hr />
+<h3 id="atendimento-coletivo-4">Atendimento coletivo</h3>
+<h3 id="visualizar-atendimento-coletivo">Visualizar atendimento coletivo</h3>
+<p>Para <strong>visualizar o atendimento coletivo</strong>, acione a opção <kbd>8</kbd> <strong>Visualizar atendimento coletivo</strong> na coluna ação, então o sistema vai apresentar a janela com as informações.</p>
+<figure>
+<img src="img/prontuario-atendimento-coletivo-7.png" alt="Visualizar atendimento coletivo" />
+<figcaption aria-hidden="true">Visualizar atendimento coletivo</figcaption>
+</figure>
+<hr />
+<p>A janela <kbd>8</kbd> <strong>Visualizar atendimento coletivo</strong>, representada na página anterior, contém os seguintes dados:</p>
+<ul>
+<li><strong>CPF</strong> – coluna que informa o CPF da(s) pessoa(s) atendida(s);</li>
+<li><strong>Nome</strong> – coluna que informa o nome da(s) pessoa(s) atendida(s);</li>
+<li><strong>Data do atendimento</strong> – campo que informa a data em que o atendimento foi realizado;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pelo registro do atendimento;</li>
+<li><strong>Tipo de atendimento coletivo</strong> – campo que informa o tipo de atendimento coletivo ofertado;</li>
+<li><strong>Descrição</strong> – campo que informa a descrição do atendimento;</li>
+<li><strong>Unidade</strong> – campo que informa o nome da unidade de atendimento;</li>
+<li><strong>Fechar</strong> – opção que, ao ser acionada, fecha a janela.</li>
+</ul>
+<hr />
+<h3 id="atendimento-coletivo-5">Atendimento coletivo</h3>
+<h3 id="editar-atendimento-coletivo">Editar atendimento coletivo</h3>
+<p>Para <strong>editar o registro de atendimento coletivo</strong>, acione a opção <kbd>9</kbd> <strong>Alterar atendimento coletivo</strong> na coluna ação, então o sistema vai apresentar a janela com os campos habilitados.</p>
+<figure>
+<img src="img/prontuario-atendimento-coletivo-10.png" alt="Editar atendimento coletivo" />
+<figcaption aria-hidden="true">Editar atendimento coletivo</figcaption>
+</figure>
+<hr />
+<p>Informe os ajustes e acione a opção <kbd>13</kbd> <strong>Alterar</strong>, em seguida o sistema fecha a janela, atualiza a lista e apresenta a mensagem “<em>Atendimento coletivo alterado com sucesso</em>”.</p>
+<p>A janela <kbd>9</kbd> <strong>Alterar atendimento coletivo</strong>, representada na página anterior, possui os seguintes campos:</p>
+<ul>
+<li><strong>CPF</strong> - campo para informar o CPF da pessoa atendida;</li>
+<li><strong>Buscar pessoa</strong> – opção que ao ser acionada busca a pessoa na base de dados do cadastro único;</li>
+<li><strong>Nome</strong> – campo que informa o nome da pessoa atendida;</li>
+<li><strong>Adicionar pessoa</strong> – opção que ao ser acionada adiciona a pessoa na lista de pessoas atendidas;</li>
+<li><strong>Excluir</strong> - opção que ao ser acionada exclui a pessoa da lista de pessoas atendidas;</li>
+<li><strong>Data do atendimento</strong> – campo para informar a data em que o atendimento foi realizado;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pelo registro do atendimento;</li>
+<li><strong>Tipo de atendimento coletivo</strong> – campo para informar o tipo de atendimento coletivo a ser ofertado. As alternativas são:
+<ul>
+<li>Oficinas;</li>
+<li>Acolhida coletiva;</li>
+<li>Ações comunitárias;</li>
+<li>Rodas de conversa;</li>
+<li>Arranjos participativos.</li>
+</ul></li>
+</ul>
+<hr />
+<ul>
+<li><strong>Descrição</strong> – campo para informar a descrição do atendimento;</li>
+<li><strong>Unidade</strong> – campo que informa o nome da unidade de atendimento;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Alterar</strong> – opção que, ao ser acionada, salva a alteração realizada para o atendimento.</li>
+</ul>
+<h3 id="excluir-atendimento-coletivo">Excluir atendimento coletivo</h3>
+<p>Para <strong>excluir o registro de atendimento coletivo</strong>, acione a opção <kbd>10</kbd> <strong>Excluir atendimento coletivo</strong>, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem “<em>Atendimento coletivo excluído com sucesso</em>”.</p>
+<h3 id="duplicar-atendimento-coletivo">Duplicar atendimento coletivo</h3>
+<p>Para <strong>duplicar o registro de atendimento coletivo</strong>, acione a opção <kbd>11</kbd> <strong>Clonar atendimento coletivo</strong> na coluna ação, então o sistema vai apresentar a janela com os campos habilitados.</p>
+<p>Informe os ajustes e acione a opção <kbd>12</kbd> <strong>Incluir</strong>, em seguida o sistema fecha a janela, atualiza a lista e apresenta a mensagem “<em>Atendimento coletivo alterado com sucesso</em>”.</p>
+<hr />
+<h3 id="atendimento-coletivo-6">Atendimento coletivo</h3>
+<figure>
+<img src="img/prontuario-atendimento-coletivo-14.png" alt="Duplicar atendimento coletivo" />
+<figcaption aria-hidden="true">Duplicar atendimento coletivo</figcaption>
+</figure>
+<p>A janela <kbd>11</kbd> <strong>Incluir atendimento coletivo</strong> possui os seguintes campos:</p>
+<ul>
+<li><strong>CPF</strong> – campo para informar o CPF da pessoa atendida;</li>
+<li><strong>Buscar pessoa</strong> – opção que ao ser acionada busca a pessoa na base de dados do cadastro único;</li>
+</ul>
+<hr />
+<ul>
+<li><strong>Nome</strong> – campo que informa o nome da pessoa atendida;</li>
+<li><strong>Adicionar pessoa</strong> – opção que ao ser acionada adiciona a pessoa na lista de pessoas atendidas;</li>
+<li><strong>Excluir</strong> - opção que ao ser acionada exclui a pessoa da lista de pessoas atendidas;</li>
+<li><strong>Data do atendimento</strong> – campo para informar a data em que o atendimento foi realizado;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pelo registro do atendimento;</li>
+<li><strong>Tipo de atendimento coletivo</strong> – campo para informar o tipo de atendimento coletivo a ser ofertado. As alternativas são:
+<ul>
+<li>Oficinas;</li>
+<li>Acolhida coletiva;</li>
+<li>Ações comunitárias;</li>
+<li>Rodas de conversa;</li>
+<li>Arranjos participativos.</li>
+</ul></li>
+<li><strong>Descrição</strong> – campo para informar a descrição do atendimento;</li>
+<li><strong>Unidade</strong> – campo que informa o nome da unidade de atendimento;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela.</li>
+<li><strong>Incluir</strong> - opção que, ao ser acionada, salva a alteração realizada para o atendimento.</li>
+</ul>
+<hr />
+<section id="prontuário-migrar-prontuário" class="title">
+<h1>Prontuário: Migrar Prontuário</h1>
+</section>
+<hr />
+<h3 id="migrar-prontuário-2">Migrar Prontuário</h3>
+<figure>
+<img src="img/prontuario-migrar-prontuario-1.png" alt="Prontuário: Migrar Prontuário" />
+<figcaption aria-hidden="true">Prontuário: Migrar Prontuário</figcaption>
+</figure>
+<p>Para visualizar a situação da solicitação de migração de prontuário feito para a Unidade ou realizar a análise de solicitações feitas por outras Unidades, acione o menu <kbd>1</kbd> <strong>Migrar Prontuário</strong>. O sistema apresentará a funcionalidade <kbd>2</kbd> <strong>Selecionar unidade</strong>, listando todas as unidades atribuídas ao usuário conforme perfil (CadSUAS).</p>
+<figure>
+<img src="img/prontuario-migrar-prontuario-2.png" alt="Migrar Prontuário" />
+<figcaption aria-hidden="true">Migrar Prontuário</figcaption>
+</figure>
+<p>A <kbd>3</kbd> <strong>lista de unidades de atendimento</strong> é composta por:</p>
+<ul>
+<li><strong>Código da Unidade</strong> – coluna que apresenta o código da unidade de atendimento;</li>
+<li><strong>Nome da Unidade</strong> – coluna que informa o nome da unidade de atendimento;</li>
+<li><strong>Município/ UF</strong> – coluna que informa o município e UF de localização da unidade de atendimento;</li>
+<li><strong>Endereço</strong> – coluna que informa o endereço da unidade de atendimento;</li>
+<li><strong>Telefone</strong> – coluna que informa o telefone da unidade de atendimento.</li>
+</ul>
+<p>O refinamento da lista de resultado de unidades pode ser feito informando os parâmetros e acionando a opção <kbd>4</kbd> <strong>Pesquisar</strong>.</p>
+<p>Para visualizar solicitações realizadas ou analisar solicitações recebidas, <kbd>5</kbd> <strong>acione o registro na lista</strong>.</p>
+<hr />
+<h3 id="migrar-prontuário-3">Migrar Prontuário</h3>
+<h3 id="aprovação-de-pedido-de-migração">Aprovação de pedido de migração</h3>
+<p>O sistema apresentará a funcionalidade <kbd>6</kbd> <strong>Aprovação de pedido de migração</strong> com a lista de prontuários aguardando análise.</p>
+<figure>
+<img src="img/prontuario-migrar-prontuario-3.png" alt="Aprovação de pedido de migração" />
+<figcaption aria-hidden="true">Aprovação de pedido de migração</figcaption>
+</figure>
+<p>A <kbd>7</kbd> <strong>lista de solicitação de migração de prontuário eletrônico</strong> é composta por:</p>
+<ul>
+<li><strong>N.º do prontuário</strong> – coluna que informa o número do prontuário eletrônico da pessoa;</li>
+<li><strong>Nome</strong> – coluna que informa o nome da pessoa vinculada ao prontuário eletrônico;</li>
+<li><strong>Data da solicitação</strong> – coluna que informa a data da solicitação da migração do prontuário eletrônico;</li>
+<li><strong>Unidade de origem</strong> – coluna que informa o código da unidade de origem do prontuário eletrônico;</li>
+<li><strong>Município/ UF</strong> – coluna que informa o município e uf da unidade de origem do prontuário eletrônico;</li>
+<li><strong>Situação</strong> – coluna que informa a situação da solicitação da migração do prontuário eletrônico;</li>
+<li><strong>Ações</strong> – coluna que apresenta as opções:
+<ul>
+<li>Visualizar;</li>
+<li>Aprovar migração.</li>
+</ul></li>
+</ul>
+<h3 id="visualizar-solicitação-de-migração">Visualizar solicitação de migração</h3>
+<p>Para visualizar solicitação de migração, acione a opção <kbd>8</kbd> <strong>Visualizar</strong> na coluna ações, então o sistema vai apresentar a janela com as informações.</p>
+<hr />
+<h3 id="migrar-prontuário-4">Migrar Prontuário</h3>
+<figure>
+<img src="img/prontuario-migrar-prontuario-4.png" alt="Visualizar solicitação de migração" />
+<figcaption aria-hidden="true">Visualizar solicitação de migração</figcaption>
+</figure>
+<p>A janela <kbd>8</kbd> <strong>Visualizar solicitação de migração</strong> de prontuário eletrônico é composta por:</p>
+<h3 id="informações-do-prontuário-2">Informações do prontuário</h3>
+<ul>
+<li><strong>N.º do prontuário</strong> – campo que informa o número do prontuário da pessoa;</li>
+</ul>
+<hr />
+<ul>
+<li><strong>Data de abertura</strong> – campo que informa a data da abertura do prontuário da pessoa;</li>
+<li><strong>Unidade atual</strong> – campo que informa o nome da unidade de atendimento atual;</li>
+<li><strong>Município</strong> – campo que informa o município e estado da unidade de atendimento atual;</li>
+</ul>
+<h3 id="identificação-da-pessoa-de-referência-e-endereço-da-família-2">Identificação da pessoa de referência e endereço da família</h3>
+<ul>
+<li><strong>Nome</strong> – campo que informa o nome da pessoa;</li>
+<li><strong>CPF</strong> – campo que informa o número do CPF da pessoa;</li>
+<li><strong>Grau de parentesco</strong> – campo que informa o grau de parentesco da pessoa em relação ao responsável familiar;</li>
+<li><strong>Situação cadastral</strong> – campo que informa o código da família;</li>
+<li><strong>Código familiar</strong> – campo que informa o código da família;</li>
+<li><strong>Data de nascimento</strong> – campo que informa a data de nascimento da pessoa;</li>
+<li><strong>Nome da mãe</strong> – campo que informa o nome da mãe da pessoa;</li>
+<li><strong>NIS</strong> – campo que informa o número de identificação social – NIS da pessoa;</li>
+<li><strong>RG</strong> – campo que informa o número do registro geral - RG (também conhecido como carteira de identidade) da pessoa;</li>
+<li><strong>Data de emissão do RG</strong> – campo que informa a data de emissão do registro geral;</li>
+<li><strong>Órgão</strong> – campo que informa o órgão expedidor do registro geral;</li>
+<li><strong>UF</strong> – campo que informa o estado do órgão expedidor;</li>
+</ul>
+<hr />
+<ul>
+<li><strong>Endereço</strong> – campo que informa o endereço da residência da pessoa/ família;</li>
+<li><strong>Bairro</strong> – campo que informa o bairro da residência da pessoa/ família;</li>
+<li><strong>Município/UF</strong> – campo que informa o município/ UF da residência da pessoa/ família;</li>
+<li><strong>CEP</strong> – campo que informa o número do CEP da residência da pessoa/ família;</li>
+<li><strong>Motivo</strong> – campo para informar o motivo da solicitação de migração do prontuário da pessoa/ família;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o nome do técnico responsável pela migração;</li>
+<li><strong>Situação</strong> – campo que informa a situação da solicitação de migração do prontuário;</li>
+<li><strong>Prosseguir para aprovação</strong> – opção que ao ser acionada, apresenta a janela <kbd>9</kbd> <strong>Aprovar migração</strong>;</li>
+<li><strong>Fechar</strong> – opção que, ao ser acionada, fecha a janela.</li>
+</ul>
+<hr />
+<h3 id="migrar-prontuário-5">Migrar Prontuário</h3>
+<h3 id="aprovar-migração">Aprovar migração</h3>
+<p>Para aprovar a migração, acione a opção <kbd>9</kbd> <strong>Prosseguir para aprovação</strong> na janela <kbd>8</kbd> <strong>Visualizar solicitação de migração</strong> ou na coluna ações.</p>
+<figure>
+<img src="img/prontuario-migrar-prontuario-7.png" alt="Aprovar migração" />
+<figcaption aria-hidden="true">Aprovar migração</figcaption>
+</figure>
+<hr />
+<p>A janela <kbd>9</kbd> <strong>Aprovar migração</strong>, representada na página anterior, de prontuário eletrônico é composta por:</p>
+<ul>
+<li><strong>Texto informativo</strong> - “<em>Ao confirmar a operação, o prontuário da pessoa e demais membros da família serão migrados para uma unidade de destino.</em>”</li>
+</ul>
+<h3 id="informações-do-prontuário-3">Informações do Prontuário</h3>
+<ul>
+<li><strong>N.º do prontuário</strong> – campo que informa o número do prontuário da pessoa;</li>
+<li><strong>Data de abertura</strong> – campo que informa a data da abertura do prontuário da pessoa;</li>
+<li><strong>Unidade atual</strong> – campo que informa o nome da unidade de atendimento atual;</li>
+<li><strong>Município</strong> – campo que informa o município e estado da unidade de atendimento atual;</li>
+</ul>
+<h3 id="identificação-da-pessoa-de-referência-e-endereço-da-família-3">Identificação da pessoa de referência e endereço da família</h3>
+<ul>
+<li><strong>Nome</strong> – campo que informa o nome da pessoa;</li>
+<li><strong>CPF</strong> – campo que informa o número do CPF da pessoa;</li>
+<li><strong>Grau de parentesco</strong> – campo que informa o grau de parentesco da pessoa em relação ao responsável familiar;</li>
+<li><strong>Situação cadastral</strong> – campo que informa o código da família;</li>
+<li><strong>Código familiar</strong> – campo que informa o código da família;</li>
+<li><strong>Data de nascimento</strong> – campo que informa a data de nascimento da pessoa;</li>
+<li><strong>Nome da mãe</strong> – campo que informa o nome da mãe da pessoa;</li>
+<li><strong>NIS</strong> – campo que informa o número de identificação social – NIS da pessoa;</li>
+</ul>
+<hr />
+<ul>
+<li><strong>RG</strong> – campo que informa o número do registro geral - RG (também conhecido como carteira de identidade) da pessoa;</li>
+<li><strong>Data de emissão do RG</strong> – campo que informa a data de emissão do registro geral;</li>
+<li><strong>Órgão</strong> – campo que informa o órgão expedidor do registro geral;</li>
+<li><strong>UF</strong> – campo que informa o estado do órgão expedidor;</li>
+<li><strong>Endereço</strong> – campo que informa o endereço da residência da pessoa/ família;</li>
+<li><strong>Bairro</strong> – campo que informa o bairro da residência da pessoa/ família;</li>
+<li><strong>Município/UF</strong> – campo que informa o município/ UF da residência da pessoa/ família;</li>
+<li><strong>CEP</strong> – campo que informa o número do CEP da residência da pessoa/ família;</li>
+<li><strong>Motivo</strong> – campo para informar o motivo da solicitação de migração do prontuário da pessoa/ família;</li>
+<li><strong>Nome do técnico responsável</strong> – campo que informa o município/ UF da residência da pessoa/ família;</li>
+<li><strong>Aprovar (Sim/ Não)</strong> – campo para informar o resultado da avaliação da solicitação de migração do prontuário;</li>
+<li><strong>Observação</strong> – campo para informar observações referentes a aprovação ou rejeição da solicitação de migração do prontuário.</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela;</li>
+<li><strong>Confirmar</strong> – opção que, ao ser acionada, salva o resultado da análise da solicitação de migração do prontuário.</li>
+</ul>
+<hr />
+<h3 id="migrar-prontuário-6">Migrar Prontuário</h3>
+<h3 id="aprovar-todos">Aprovar todos</h3>
+<p>Para aprovar todas as solicitações de migração pendentes, acione a opção <kbd>10</kbd> <strong>Aprovar todos</strong>. O sistema apresentará a janela.</p>
+<figure>
+<img src="img/prontuario-migrar-prontuario-10.png" alt="Aprovar todos" />
+<figcaption aria-hidden="true">Aprovar todos</figcaption>
+</figure>
+<hr />
+<p>A janela <kbd>10</kbd> <strong>Aprovar migração</strong> de prontuário eletrônico é composta por:</p>
+<ul>
+<li><strong>Texto informativo</strong> - “<em>Ao confirmar a operação, o prontuário da pessoa e demais membros da família serão migrados para a unidade de destino.</em>”</li>
+<li><strong>Confirma a aprovação de todas as (quantidade de pessoas) encontradas?</strong> – campo que confirma a aprovação dos registros em situação pendente;</li>
+<li><strong>Observação</strong> – campo aberto para adição de observação;</li>
+<li><strong>Cancelar</strong> – opção que, ao ser acionada, cancela a ação e fecha a janela;</li>
+<li><strong>Confirmar</strong> – opção que, ao ser acionada, salva a solicitação de aprovação selecionada.</li>
+</ul>
+<hr />
+<section id="prontuário-painel-estatístico" class="title">
+<h1>Prontuário: Painel Estatístico</h1>
+</section>
+<hr />
+<figure>
+<img src="img/prontuario-painel-estatistico-1.png" alt="Prontuário: Painel Estatístico" />
+<figcaption aria-hidden="true">Prontuário: Painel Estatístico</figcaption>
+</figure>
+<hr />
+<h3 id="painel-estatístico-1">Painel Estatístico</h3>
+<p>Para acessar o Painel Estatístico, vá até o menu SUAS e selecione o submenu <kbd>1</kbd> <strong>Painel Estatístico</strong>.</p>
+<p>Nessa tela, o sistema exibirá os filtros de pesquisa que permitem definir os parâmetros da consulta e gerar os painéis de atendimento.</p>
+<h3 id="selecionar-a-abrangência-da-pesquisa">Selecionar a abrangência da pesquisa</h3>
+<p>Preencha os campos conforme as informações que deseja visualizar:</p>
+<ul>
+<li><strong>Data de início</strong> – campo para informar a data de início do período que deseja consultar; (campo obrigatório)</li>
+<li><strong>Data de fim</strong> – campo para informar a data final do período da consulta; (campo obrigatório)</li>
+<li><strong>UF</strong> – campo para informar a unidade da federação referente aos dados que deseja visualizar;</li>
+<li><strong>Município</strong> – campo para informar o município das Unidades que serão consultadas, conforme uf escolhida no campo anterior;</li>
+<li><strong>Unidade</strong> – campo para informar uma ou mais unidades para compor o painel;</li>
+<li><strong>Atendimento</strong> – campo para informar o tipo de atendimento a ser consultado. As alternativas são:
+<ul>
+<li>Todos;</li>
+<li>Atendimentos Particularizados;</li>
+<li>Atendimento Coletivo;</li>
+<li>Benefícios Eventuais;</li>
+<li>Encaminhamentos;</li>
+</ul></li>
+</ul>
+<hr />
+<ul>
+<li>Comprimento Histórico de Medidas Socioeducativas;</li>
+<li>Acompanhamento Familiar.</li>
+<li><strong>Tipo</strong> – coluna para informar o tipo específico de atendimento, conforme escolhido no campo anterior.</li>
+</ul>
+<h3 id="ações-disponíveis">Ações disponíveis</h3>
+<ul>
+<li><strong>Limpar</strong> – opção que ao ser acionada, limpa as informações preenchidas e permanece na mesma tela;</li>
+<li><strong>Pesquisar</strong> – opção que ao ser acionada, realiza a busca dos atendimentos realizados no período, de acordo com os parâmetros informados, e exibe o Painel Estatístico correspondente.</li>
+</ul>
+<p>Quanto mais específicos forem os filtros aplicados, mais precisos serão os resultados apresentados nos painéis. Uma vez indicados os filtros, acione a opção <kbd>2</kbd> <strong>Pesquisar</strong>, e o sistema apresentará o Painel estatístico referente à pesquisa indicada.</p>
+<hr />
+<h3 id="painel-estatístico-2">Painel Estatístico</h3>
+<p>O <kbd>3</kbd> <strong>Total de atendimentos</strong> é o indicador que apresenta a quantidade de atendimentos realizados nas unidades selecionadas durante o período informado.</p>
+<h3 id="sexo">Sexo</h3>
+<p>O agrupamento <kbd>4</kbd> <strong>Sexo</strong> traz dados referentes ao sexo dos cidadãos atendidos. Apresenta a quantidade de pessoas atendidas, classificadas por sexo (masculino e feminino), nas unidades selecionadas durante o período informado.</p>
+<p>Esse dado permite visualizar de forma clara o perfil de atendimento por gênero, facilitando o acompanhamento e a análise das ações realizadas. O gráfico apresenta as seguintes categorias:</p>
+<ul>
+<li>Homem;</li>
+<li>Mulher.</li>
+</ul>
+<h3 id="raçacor">Raça/cor</h3>
+<p>O agrupamento <kbd>7</kbd> <strong>Raça/ Cor</strong> traz dados referentes à raça e cor dos cidadãos atendidos. Esse indicador exibe a quantidade de pessoas atendidas, classificadas por raça/cor nas unidades selecionadas dentro do período informado. O gráfico apresenta as seguintes categorias:</p>
+<ul>
+<li>Branca;</li>
+<li>Preta;</li>
+<li>Amarela;</li>
+<li>Parda;</li>
+<li>Indígena.</li>
+</ul>
+<p>Esse indicador auxilia na análise do perfil étnico-racial do público atendido, contribuindo para o planejamento e a implementação de políticas mais inclusivas e equitativas.</p>
+<hr />
+<h3 id="painel-estatístico-3">Painel Estatístico</h3>
+<h3 id="faixa-etária">Faixa etária</h3>
+<p>O agrupamento <kbd>6</kbd> <strong>Faixa Etária</strong> traz dados referentes à faixa etária das pessoas atendidas. Esse indicador mostra a <strong>quantidade de atendimentos</strong>, organizados por <strong>faixa etária</strong>. O gráfico apresenta as seguintes categorias:</p>
+<ul>
+<li>0 a 6 anos</li>
+<li>7 a 12 anos</li>
+<li>13 a 15 anos</li>
+<li>16 a 17 anos</li>
+<li>18 a 59 anos</li>
+<li>60 anos ou mais</li>
+</ul>
+<p>Essas informações permitem compreender o perfil etário do público atendido, auxiliando no planejamento e na execução de ações voltadas a cada faixa de idade.</p>
+<h3 id="gpte">GPTE</h3>
+<p>O agrupamento <kbd>7</kbd> <strong>GPTE</strong> traz dados referentes ao Grupo Populacional Tradicional e Específicos das pessoas atendidas. Esse indicador mostra a <strong>quantidade de pessoas atendidas</strong>, classificadas por grupo populacional nas <strong>unidades selecionadas</strong> durante o <strong>período informado</strong>. O gráfico apresenta as seguintes categorias:</p>
+<ul>
+<li>Família Atingida por Empreendimentos de Infraestrutura;</li>
+<li>Desalojados ou desabrigados;</li>
+<li>Família de Catadores de Material Reciclável;</li>
+<li>Família Quilombola;</li>
+<li>Família Indígena;</li>
+</ul>
+<hr />
+<ul>
+<li>Família em Situação de Rua;</li>
+<li>Família de pescadores artesanais;</li>
+<li>Família Cigana;</li>
+<li>Família Acampada;</li>
+<li>Família pertencente à comunidade de terreiro;</li>
+<li>Família Ribeirinha;</li>
+<li>Família Assentada da Reforma Agrária;</li>
+<li>Família de Preso do Sistema Carcerário;</li>
+<li>Família beneficiária do Crédito Fundiário;</li>
+<li>Família de Agricultores Familiares.</li>
+</ul>
+<p>Esse dado contribui para o <strong>monitoramento da inclusão e da diversidade social</strong>, fortalecendo a atenção a públicos prioritários nas políticas públicas.</p>
+<h3 id="recebe-bf">Recebe BF</h3>
+<p>O agrupamento <kbd>8</kbd> <strong>Recebe PBF</strong> traz dados referentes às pessoas atendidas que fazem parte do Programa Bolsa Família. Esse indicador apresenta as <strong>pessoas atendidas que são beneficiárias do Programa Bolsa Família</strong>.</p>
+<p>Mostra a <strong>quantidade de atendimentos realizados</strong> com participantes do programa, considerando as <strong>unidades selecionadas</strong> e o <strong>período informado</strong>.</p>
+<ul>
+<li>Está no PBF;</li>
+<li>Não está no PBF.</li>
+</ul>
+<hr />
+<h3 id="painel-estatístico-4">Painel Estatístico</h3>
+<p>O agrupamento <kbd>9</kbd> <strong>Recebe BPC</strong> traz dados referentes às pessoas atendidas que recebem o auxílio BPC. Esse indicador mostra as <strong>pessoas atendidas que recebem o Benefício de Prestação Continuada (BPC)</strong>.</p>
+<p>O indicador demonstra a <strong>quantidade de beneficiários atendidos</strong>, conforme as <strong>unidades selecionadas</strong> e o <strong>período informado</strong>.</p>
+<ul>
+<li>Recebe o BPC;</li>
+<li>Não recebe o BPC.</li>
+</ul>
+<h3 id="baixar-informações-do-painel">Baixar informações do painel</h3>
+<p>Ao selecionar a opção <kbd>10</kbd> <strong>Baixe as informações do painel</strong>, o sistema realiza o <strong>download de um arquivo</strong> (formato CSV) com os dados detalhados <strong>apresentados nos indicadores</strong>.</p>
+<p>Utilize a exportação para análises mais aprofundadas ou para integrar os dados com relatórios e planilhas externas.</p>
+<hr />
+</body>
+</html>
