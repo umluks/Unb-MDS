@@ -1,13 +1,15 @@
 # Prontuário: Atendimento Coletivo
 
-O módulo de Atendimento Coletivo possibilita registrar a participação de indivíduos e famílias em oficinas, reuniões, palestras e atividades comunitárias de forma otimizada.
+O módulo **Atendimento Coletivo** permite realizar a gestão dos atendimentos coletivos prestados pela unidade às pessoas e famílias acompanhadas no SUAS (como Oficinas do PAIF, Acolhida Coletiva/em Grupo, Ações Comunitárias, Rodas de Conversa e Arranjos Participativos).
 
-## Tópicos desta seção
+![Atendimento Coletivo](../img/prontuario-atendimento-coletivo-1.png)
 
-* [Selecionar unidade](selecionar-unidade.md)
-* [Lista de atendimentos coletivos](lista-de-atendimentos-coletivos.md)
-* [Incluir atendimento coletivo](incluir-atendimento-coletivo.md)
-* [Visualizar atendimento coletivo](visualizar-atendimento-coletivo.md)
-* [Editar atendimento coletivo](editar-atendimento-coletivo.md)
-* [Excluir atendimento coletivo](excluir-atendimento-coletivo.md)
-* [Duplicar atendimento coletivo](duplicar-atendimento-coletivo.md)
+## Funcionalidades do Módulo
+
+- **[Selecionar unidade](selecionar-unidade.md)**: Seleção da unidade responsável pelo atendimento coletivo.
+- **[Lista de atendimentos coletivos](lista-de-atendimentos-coletivos.md)**: Visualização da relação de atendimentos coletivos registrados.
+- **[Incluir atendimento coletivo](incluir-atendimento-coletivo.md)**: Cadastro de novo atendimento coletivo e inclusão das pessoas atendidas.
+- **[Visualizar atendimento coletivo](visualizar-atendimento-coletivo.md)**: Consulta detalhada das informações do atendimento coletivo e lista de participantes.
+- **[Editar atendimento coletivo](editar-atendimento-coletivo.md)**: Alteração e atualização dos dados do atendimento coletivo.
+- **[Excluir atendimento coletivo](excluir-atendimento-coletivo.md)**: Remoção de registro de atendimento coletivo.
+- **[Duplicar atendimento coletivo](duplicar-atendimento-coletivo.md)**: Clonagem de registro para agilizar novos cadastros semelhantes.

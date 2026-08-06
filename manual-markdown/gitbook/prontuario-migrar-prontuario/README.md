@@ -1,9 +1,11 @@
 # Prontuário: Migrar Prontuário
 
-Este módulo gerencia as solicitações e aprovações de transferência de prontuários eletrônicos entre diferentes unidades do CRAS.
+O módulo **Migrar Prontuário** permite realizar a gestão e aprovação das solicitações de migração de prontuários eletrônicos de pessoas e famílias entre unidades de atendimento.
 
-## Tópicos desta seção
+![Migrar Prontuário](../img/prontuario-migrar-prontuario-1.png)
 
-* [Informações do Prontuário](informacoes-do-prontuario.md)
-* [Identificação da pessoa de referência e endereço](identificacao-da-pessoa-de-referencia-e-endereco.md)
-* [Campos de preenchimento](campos-de-preenchimento.md)
+## Funcionalidades do Módulo
+
+- **[Informações do Prontuário](informacoes-do-prontuario.md)**: Consulta das unidades de atendimento e dados do prontuário para análise.
+- **[Identificação da pessoa de referência e endereço da família](identificacao-da-pessoa-de-referencia-e-endereco.md)**: Detalhamento dos dados da pessoa de referência, composição familiar e endereço.
+- **[Campos de preenchimento](campos-de-preenchimento.md)**: Procedimentos para aprovação individual ou coletiva (Aprovar todos) e inclusão de pareceres sobre a migração.
