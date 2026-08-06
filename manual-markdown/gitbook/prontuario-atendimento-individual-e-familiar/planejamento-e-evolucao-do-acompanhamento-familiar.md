@@ -84,3 +84,15 @@ Para mais informações sobre o <kbd>7</kbd> **registro de observações**, cons
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8</kbd> **ícone**.
 
 ***
+
+
+![Planejamento do Acompanhamento](../img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png)
+
+
+![Evolução Familiar](../img/planejamento-e-evolucao-do-acompanhamento-familiar-2.png)
+
+
+![Plano de Acompanhamento Familiar (PAF)](../img/planejamento-e-evolucao-do-acompanhamento-familiar-3.png)
+
+
+![Avaliação de Resultados](../img/planejamento-e-evolucao-do-acompanhamento-familiar-4.png)

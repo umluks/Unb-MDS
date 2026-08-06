@@ -75,3 +75,15 @@ A janela <kbd>4</kbd> **Alterar forma de ingresso**, contém os seguintes dados:
 Para **excluir o registro da lista**, acione a opção <kbd>5</kbd> **Excluir forma de ingresso**, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem _"Forma de ingresso excluída com sucesso"_.
 
 ***
+
+
+![Forma de Ingresso](../img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png)
+
+
+![Motivo do Primeiro Atendimento](../img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-2.png)
+
+
+![Detalhes do Ingresso](../img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-3.png)
+
+
+![Observações do Ingresso](../img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-4.png)

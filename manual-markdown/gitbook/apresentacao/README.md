@@ -9,3 +9,9 @@ Esta seção apresenta o manual de utilização do Prontuário Eletrônico do SU
 * [A quem se destina o atendimento](a-quem-se-destina.md)
 * [Principais conceitos](principais-conceitos.md)
 * [Estrutura do sistema](estrutura-do-sistema.md)
+
+
+![Logotipos Oficiais SUAS e MDS](../img/logos.png)
+
+
+![QR Code de Acesso ao Sistema](../img/qrcode-apresentacao.png)

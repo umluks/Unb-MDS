@@ -34,3 +34,9 @@ A janela <kbd>3</kbd> **Visualizar atendimento** contém os seguintes dados:
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>4</kbd> **ícone**.
 
 ***
+
+
+![Relatório de Atendimentos Coletivos](../img/relatorio-de-participacao-em-atendimentos-coletivos-1.png)
+
+
+![Visualizar Detalhes do Atendimento Coletivo](../img/relatorio-de-participacao-em-atendimentos-coletivos-2.png)

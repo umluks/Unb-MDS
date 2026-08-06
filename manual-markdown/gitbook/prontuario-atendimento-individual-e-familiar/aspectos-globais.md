@@ -1,63 +1,64 @@
-# Aspectos globais do módulo Prontuário
+# Aspectos globais
 
-## Registro de observações
+O Prontuário Eletrônico organiza as informações da família e de seus membros em blocos temáticos acessíveis após a seleção do usuário.
 
-É possível registrar observações textuais em todos os blocos do Prontuário SUAS.
+![Aspectos globais do Prontuário - Visão Geral](../img/aspectos-globais-do-modulo-prontuario-1.png)
 
-Para adicionar uma observação, acione a opção <kbd>1</kbd> **Incluir observação**, então o sistema vai apresentar a janela para cadastro.
+## Cabeçalho do Prontuário
 
-A janela <kbd>1</kbd> **Incluir observação**, contém os seguintes dados:
+No topo do prontuário eletrônico são exibidos os dados principais de identificação da pessoa e da família:
+- Nome da pessoa de referência;
+- CPF e NIS;
+- Endereço residencial e município;
+- Número do prontuário e situação do acompanhamento familiar.
 
-* **Data da ação** – campo para informar a data em que o atendimento foi realizado;
-* **Observação** – campo para registrar informações adicionais;
-* **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela.
-* **Incluir** – opção que, ao ser acionada, salva o registro e atualiza a lista.
+![Cabeçalho e navegação entre blocos](../img/aspectos-globais-do-modulo-prontuario-2.png)
 
-Preencha os dados solicitados e acione a opção <kbd>5</kbd> **Incluir**, em seguida o sistema fecha a janela, atualiza a lista de observações e apresenta a mensagem _"Observação incluída com sucesso"_.
+---
 
-Para **visualizar o registro de observação**, acione a opção <kbd>2</kbd> **Visualizar observação**, então o sistema vai apresentar a janela com as informações.
+## Estrutura de Blocos Temáticos
 
-***
+O prontuário é dividido nos seguintes blocos de registro e consulta:
 
-## Visualizar e Alterar observação
+1. **Informações do Prontuário**;
+2. **Identificação da Pessoa de Referência e Endereço da Família**;
+3. **Informações da Família**;
+4. **Composição Familiar**;
+5. **Forma de Ingresso na Unidade e Motivo do Primeiro Atendimento**;
+6. **Condições Habitacionais da Família**;
+7. **Condições Educacionais da Família**;
+8. **Condições de Saúde da Família**;
+9. **Condições de Trabalho e Rendimento da Família**;
+10. **Registro de Atendimentos Socioassistenciais**;
+11. **Acesso a Benefícios Eventuais**;
+12. **Convivência Familiar e Comunitária**;
+13. **Situações de Vulnerabilidades e Desproteções Sociais da Família**;
+14. **Situações de Violência e Violação de Direitos**;
+15. **Planejamento e Evolução do Acompanhamento Familiar**;
+16. **Participação em Serviços, Programas e Projetos**;
+17. **Histórico de Cumprimento de Medidas Socioeducativas**;
+18. **Histórico de Acolhimento Institucional**;
+19. **Formulário de Controle de Encaminhamentos**;
+20. **Relatório de Participação em Atendimentos Coletivos**;
+21. **Relatório Simplificado dos Atendimentos**.
 
-A janela <kbd>2</kbd> **Visualizar observação**, contém os seguintes dados:
+![Expansão e retração de blocos](../img/aspectos-globais-do-modulo-prontuario-3.png)
 
-* **Data da ação** – campo que informa a data em que o atendimento foi realizado;
-* **Observação** – campo que apresenta informações adicionais;
-* **Fechar** – opção que, ao ser acionada, fecha a janela.
+---
 
-Para **editar a observação**, acione a opção <kbd>3</kbd> **Alterar observação**, então o sistema vai apresentar a janela com os campos habilitados. Informe os ajustes e acione a opção <kbd>6</kbd> **Alterar**, em seguida o sistema fecha a janela, atualiza a lista de atendimentos e apresenta a mensagem _"Observação alterada com sucesso"_.
+## Expandir e Retrair Blocos
 
-Para **excluir o registro de observação da lista**, acione a opção <kbd>4</kbd> **Excluir observação**, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem _"Observação excluída com sucesso"_.
+Para facilitar a navegação, cada bloco possui controles individuais e globais:
 
-> **Observação:** as funcionalidades de registro, visualização e exclusão de observações estão disponíveis apenas para perfis da equipe técnica de nível superior e o coordenador do CRAS. As observações do bloco "Planejamento e evolução do acompanhamento familiar" estão disponíveis apenas para a equipe técnica de nível superior.
+- **Acionar um bloco específico**: clique sobre o título do bloco para expandir ou recolher suas informações;
+- **Expandir todos / Retrair todos**: botões no topo da tela para abrir ou fechar a totalidade dos blocos simultaneamente.
 
-***
+![Ações de inclusão e históricos nos blocos](../img/aspectos-globais-do-modulo-prontuario-4.png)
 
-## Regras e Limites
+---
 
-## Limite de caracteres
+## Modos de Leitura e Edição
 
-Os **campos de observação** possuem um limite de até 3.000 caracteres. Caso a observação registrada necessite ser registrada em mais caracteres que o limite indicado, recomenda-se fracionar a observação em dois ou mais registros.
+Os campos do prontuário podem apresentar dados oriundos do Cadastro Único (somente leitura) e campos de preenchimento exclusivo do SUAS (editáveis por técnicos autorizados).
 
-Outros **campos abertos**, por sua vez, possuem um limite de 2.000 caracteres. Nesses casos, recomenda-se evitar registros duplicados. Ou seja, caso sejam necessários mais de 2.000 caracteres para o registro da informação, sugere-se a abreviação dos termos e/ou resumo do conteúdo.
-
-## Janela temporal para inserções e alterações
-
-Os registros submetidos ao Prontuário possuem uma janela temporal de **30 dias** para inserções e alterações.
-
-Desta forma, só podem ser adicionados novos registros com a data de ação de até 30 dias anteriores. Após esse período, o sistema não permitirá a adição de informações. Além disso, edições de informações serão permitidas apenas até 30 dias após a submissão do registro. Após esse período, o sistema não apresentará a opção de editar.
-
-## Expansão e retração de todos os blocos de atendimento
-
-Na página de blocos de atendimento, clique em <kbd>1</kbd> **Expandir todos** para expandir todos os blocos simultaneamente. Para retraí-los, clique em **Recolher todos**.
-
-## Registro de pessoa e família
-
-Os benefícios ofertados pela assistência social têm como objetivo garantir proteção, promover o bem-estar e fortalecer os vínculos familiares e comunitários. Eles podem ser destinados à família como um todo ou a um de seus membros em particular, conforme a situação identificada no atendimento.
-
-* **Benefícios voltados à família:** são aqueles que consideram as necessidades do núcleo familiar de forma integrada, buscando melhorar suas condições de vida de maneira coletiva. Exemplos incluem benefícios que apoiam a renda familiar, a moradia ou o acesso a serviços essenciais, fortalecendo a estrutura e a autonomia da família como um todo.
-* **Benefícios voltados a um membro específico:** destinam-se a atender situações particulares de um integrante da família, quando há uma vulnerabilidade individual que requer atenção diferenciada — como uma pessoa idosa, com deficiência, gestante, criança ou adolescente em situação de risco.
-
-***
+![Salvar alterações e mensagens de confirmação](../img/aspectos-globais-do-modulo-prontuario-5.png)

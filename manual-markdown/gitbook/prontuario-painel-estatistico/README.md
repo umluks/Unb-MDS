@@ -119,3 +119,9 @@ O agrupamento ➒ **Recebe BPC** demonstra as pessoas atendidas que recebem o Be
 Ao selecionar a opção **Baixe as informações do painel**, o sistema realiza o download de um arquivo no formato **CSV** com a totalidade dos dados detalhados apresentados nos indicadores.
 
 Utilize a exportação para análises mais aprofundadas ou para integrar os dados com relatórios e planilhas externas.
+
+
+![Detalhamento de Benefícios Sociais](../img/prontuario-painel-estatistico-5.png)
+
+
+![Exportação para CSV](../img/prontuario-painel-estatistico-6.png)

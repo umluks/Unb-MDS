@@ -16,3 +16,6 @@ A <kbd>2</kbd> **lista atendimentos da pessoa** é composta por:
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>3</kbd> **ícone**.
 
 ***
+
+
+![Relatório Simplificado dos Atendimentos](../img/relatorio-simplificado-dos-atendimentos-1.png)

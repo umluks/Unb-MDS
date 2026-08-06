@@ -33,3 +33,6 @@ Para mais informações sobre o <kbd>4</kbd> **registro de observações**, cons
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5</kbd> **ícone**.
 
 ***
+
+
+![Condições de Trabalho e Rendimento](../img/condicoes-de-trabalho-e-rendimento-da-familia-1.png)

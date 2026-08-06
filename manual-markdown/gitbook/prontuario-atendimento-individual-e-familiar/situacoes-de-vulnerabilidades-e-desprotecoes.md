@@ -86,3 +86,21 @@ Para mais informações sobre o <kbd>9</kbd> **registro de observações**, cons
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>10</kbd> **ícone**.
 
 ***
+
+
+![Situações de Vulnerabilidade](../img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+
+
+![Incluir Vulnerabilidade](../img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-2.png)
+
+
+![Visualizar Vulnerabilidade](../img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-3.png)
+
+
+![Alterar Vulnerabilidade](../img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-4.png)
+
+
+![Observações de Vulnerabilidades](../img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-5.png)
+
+
+![Historico de Vulnerabilidades](../img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-6.png)

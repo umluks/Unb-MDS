@@ -13,3 +13,6 @@ Conforme representado na tela ao lado, o agrupamento é composto pelos campos:
 Caso exista solicitação de migração para o prontuário eletrônico da pessoa/ família, será apresentada a mensagem: _"Existe solicitação de migração em andamento para a unidade <\<cód. e nome da unidade de destino>>"_.
 
 ***
+
+
+![Informações do Prontuário](../img/informacoes-do-prontuario-1.png)

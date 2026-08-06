@@ -27,3 +27,6 @@ Para mais informações sobre <kbd>4</kbd> **registro de observações**, consul
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5</kbd> **ícone**.
 
 ***
+
+
+![Condições Educacionais](../img/condicoes-educacionais-da-familia-1.png)

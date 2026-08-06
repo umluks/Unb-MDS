@@ -14,3 +14,9 @@ Conforme representado na janela acima, o agrupamento é composto pelos campos:
 * **Confirmar** – opção que ao ser acionada, realiza a exclusão do prontuário eletrônico da pessoa/ família.
 
 ***
+
+
+![Excluir Prontuário](../img/excluir-prontuario-1.png)
+
+
+![Confirmação de Exclusão](../img/excluir-prontuario-2.png)

@@ -136,3 +136,51 @@ Para gerar o PDF do encaminhamento, acione a opção <kbd>7</kbd> **Gerar PDF**,
 Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>8</kbd> **ícone**.
 
 ***
+
+
+![Controle de Encaminhamentos](../img/formulario-de-controle-de-encaminhamentos-1.png)
+
+
+![Incluir Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-2.png)
+
+
+![Áreas de Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-3.png)
+
+
+![Encaminhamentos para Assistência Social](../img/formulario-de-controle-de-encaminhamentos-4.png)
+
+
+![Encaminhamentos para Saúde](../img/formulario-de-controle-de-encaminhamentos-5.png)
+
+
+![Encaminhamentos para Educação](../img/formulario-de-controle-de-encaminhamentos-6.png)
+
+
+![Encaminhamentos para Trabalho e Renda](../img/formulario-de-controle-de-encaminhamentos-7.png)
+
+
+![Outros Encaminhamentos](../img/formulario-de-controle-de-encaminhamentos-8.png)
+
+
+![Órgão e Unidade de Destino](../img/formulario-de-controle-de-encaminhamentos-9.png)
+
+
+![Visualizar Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-10.png)
+
+
+![Alterar Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-11.png)
+
+
+![Salvar Alteração de Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-12.png)
+
+
+![Excluir Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-13.png)
+
+
+![Gerar PDF do Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-14.png)
+
+
+![Modelo de Guia de Encaminhamento PDF](../img/formulario-de-controle-de-encaminhamentos-15.png)
+
+
+![Confirmação de PDF Gerado](../img/formulario-de-controle-de-encaminhamentos-16.png)

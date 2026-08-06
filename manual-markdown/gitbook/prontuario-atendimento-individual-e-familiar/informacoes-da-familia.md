@@ -13,3 +13,6 @@ Conforme tela ao lado, o agrupamento é composto pelos campos:
 > **Observação:** As informações acima são apenas para consulta, não sendo possível alterá-las por meio do Prontuário Eletrônico.
 
 ***
+
+
+![Informações da Família](../img/informacoes-da-familia-1.png)

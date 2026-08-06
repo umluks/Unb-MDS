@@ -81,3 +81,15 @@ Para **excluir o atendimento da lista**, acione a opção <kbd>6</kbd> **Excluir
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7</kbd> **ícone**.
 
 ***
+
+
+![Registro de Atendimentos](../img/registro-de-atendimentos-socioassistenciais-1.png)
+
+
+![Incluir Atendimento](../img/registro-de-atendimentos-socioassistenciais-2.png)
+
+
+![Visualizar Atendimento](../img/registro-de-atendimentos-socioassistenciais-3.png)
+
+
+![Alterar Atendimento](../img/registro-de-atendimentos-socioassistenciais-4.png)

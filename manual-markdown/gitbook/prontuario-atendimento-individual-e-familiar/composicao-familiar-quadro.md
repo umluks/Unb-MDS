@@ -14,3 +14,6 @@ Conforme imagem ao lado, o agrupamento é composto pelos campos:
 * **Ocorrências e pendências** – opção que ao ser acionada, expande apresentado ocorrências e pendencias para o cadastro do membro da composição familiar. Não havendo ocorrências e pendencias, será apresentada a mensagem: _"Nenhuma ocorrência ou pendência encontrada."_
 
 ***
+
+
+![Composição Familiar](../img/composicao-familiar-1.png)

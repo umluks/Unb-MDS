@@ -49,3 +49,15 @@ Conforme representado na janela representada na página anterior, o agrupamento 
 * **Confirmar** – opção que, ao ser acionada, salva a solicitação de migração do prontuário eletrônico.
 
 ***
+
+
+![Solicitar Migração - Etapa 1](../img/migrar-prontuario-1.png)
+
+
+![Solicitar Migração - Etapa 2](../img/migrar-prontuario-2.png)
+
+
+![Solicitar Migração - Etapa 3](../img/migrar-prontuario-3.png)
+
+
+![Confirmação da Migração](../img/migrar-prontuario-4.png)

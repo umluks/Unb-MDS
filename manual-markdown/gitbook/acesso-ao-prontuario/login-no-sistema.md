@@ -1,25 +1,43 @@
 # Login no sistema
 
-O _login_ do sistema é realizado por meio das contas ouro ou prata do sistema gov.br. A conta é gratuita e permite a identificação do usuário para acessar serviços digitais do governo federal.
+O login do sistema é realizado por meio das contas ouro ou prata do sistema **gov.br**. A conta é gratuita e permite a identificação do usuário para acessar serviços digitais do governo federal.
 
-![](../img/login-no-sistema-1.png)
+![Login gov.br](../img/login-no-sistema-1.png)
 
-1. Na tela do _login_ gov.br, informe o número do CPF (número pessoal e único de 11 dígitos), senha e acione a opção <kbd>2</kbd> **Continuar**.
-
-O sistema apresenta a tela Autorização de uso de dados pessoais:
-
-Ao <kbd>3</kbd> **autorizar** o uso dos dados pessoais, o sistema apresenta a janela para seleção da unidade de atendimento e o perfil que você deseja conectar. Ao informar os dados, acione a opção <kbd>4</kbd> **Confirmar**:
+1. Na tela do login gov.br, informe o número do CPF (número pessoal e único de 11 dígitos), senha e acione a opção ➋ **Continuar**.
 
 ---
 
-## Login no sistema (Continuação)
+## Autorização de uso de dados e Seleção de Unidade/Perfil
 
-Ao confirmar, o sistema do prontuário eletrônico apresenta a tela inicial conforme permissões atribuídas ao usuário e perfil no CadSUAS.
+O sistema apresenta a tela **Autorização de uso de dados pessoais**:
 
-Uma vez realizada a autenticação no sistema, você pode verificar <kbd>1</kbd> **no canto superior da tela inicial**, o CPF, o nome e o _avatar_ do usuário logado.
+![Autorização de uso de dados pessoais e seleção de unidade](../img/login-no-sistema-2.png)
 
-Ao acionar o <kbd>2</kbd> **ícone do avatar**, é possível verificar a <kbd>3</kbd> **unidade de atendimento** e o <kbd>4</kbd> **perfil**. Nesta funcionalidade, também é possível <kbd>5</kbd> **trocar de perfil** (caso o usuário possua mais de um perfil) ou <kbd>6</kbd> **sair do sistema** (_logout_).
-
-Do lado esquerdo da tela, você pode visualizar o <kbd>7</kbd> **menu principal** (SUAS) e o(s) <kbd>8</kbd> **submenu(s)**.
+Ao ➌ **autorizar** o uso dos dados pessoais, o sistema apresenta a janela para seleção da unidade de atendimento e o perfil que você deseja conectar. Ao informar os dados, acione a opção ➍ **Confirmar**.
 
 ---
+
+## Tela inicial e identificação do usuário logado
+
+Ao confirmar, o sistema do prontuário eletrônico apresenta a tela inicial conforme permissões atribuídas ao usuário e perfil no CADSUAS.
+
+![Tela Inicial](../img/login-no-sistema-3.png)
+
+Uma vez realizada a autenticação no sistema, você pode verificar ➊ no canto superior da tela inicial, o CPF, o nome e o avatar do usuário logado.
+
+---
+
+## Menu do Usuário (Avatar, Perfis e Logout)
+
+![Menu do Avatar](../img/login-no-sistema-4.png)
+
+Ao acionar o ➋ **ícone do avatar**, é possível verificar a ➌ **unidade de atendimento** e ➍ **perfil**. Nesta funcionalidade, também é possível ➎ **trocar de perfil** (caso o usuário possua mais de um perfil) ou ➏ **sair do sistema (logout)**.
+
+---
+
+## Menu Principal e Submenus
+
+![Menu Principal e Submenus](../img/login-no-sistema-5.png)
+
+Do lado esquerdo da tela, você pode visualizar o ➐ **menu principal (SUAS)** e o(s) ➑ **submenu(s)**.

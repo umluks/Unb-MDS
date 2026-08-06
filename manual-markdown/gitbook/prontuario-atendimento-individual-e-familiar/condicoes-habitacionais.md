@@ -69,3 +69,15 @@ Para mais informações sobre <kbd>6</kbd> **registro de observações**, consul
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7</kbd> **ícone**.
 
 ***
+
+
+![Condições Habitacionais - Visão Geral](../img/condicoes-habitacionais-da-familia-1.png)
+
+
+![Características do Domicílio](../img/condicoes-habitacionais-da-familia-2.png)
+
+
+![Infraestrutura Urbana](../img/condicoes-habitacionais-da-familia-3.png)
+
+
+![Acessibilidade e Risco](../img/condicoes-habitacionais-da-familia-4.png)
