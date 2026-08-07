@@ -1,6 +1,4 @@
-# migrar-prontuario
-
-### Migrar Prontuário
+# Migrar Prontuário
 
 Para migrar o prontuário eletrônico para outra unidade de atendimento, acione o ícone <kbd>2</kbd> **opções** e em seguida <kbd>3</kbd> **Migrar prontuário**, então o sistema vai apresentar a janela:
 

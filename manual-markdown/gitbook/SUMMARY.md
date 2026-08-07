@@ -1,6 +1,6 @@
 # Summary
 
-* [Prontuário Eletrônico do SUAS](../../)
+* [Prontuário Eletrônico do SUAS](README.md)
 * [Apresentação](apresentacao/)
   * [Conceitos gerais](apresentacao/conceitos-gerais.md)
     * [Profissionais do SUAS responsáveis pelo registro de atendimento](apresentacao/profissionais-do-suas.md)
