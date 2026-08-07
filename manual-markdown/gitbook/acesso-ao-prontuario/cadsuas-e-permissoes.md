@@ -1,4 +1,4 @@
-## CadSUAS e as permissões do prontuário SUAS
+# CadSUAS e as permissões do prontuário SUAS
 
 ### Prontuário Eletrônico do SUAS
 

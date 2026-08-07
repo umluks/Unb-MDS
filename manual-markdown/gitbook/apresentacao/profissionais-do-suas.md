@@ -1,4 +1,4 @@
-## Profissionais do SUAS responsáveis pelo registro de atendimento
+# Profissionais do SUAS responsáveis pelo registro de atendimento
 
 **Técnico:** profissional do SUAS, com escolaridade mínima de nível superior, com formação em serviço social, psicologia e/ou outra profissão que compõe o SUAS (dependendo do número de famílias referenciadas ao CRAS e porte do município, conforme a NOB-RH/SUAS).
 

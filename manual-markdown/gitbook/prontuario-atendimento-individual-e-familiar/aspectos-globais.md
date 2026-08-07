@@ -1,4 +1,4 @@
-# Aspectos globais
+# Aspectos globais do módulo Prontuário
 
 O Prontuário Eletrônico organiza as informações da família e de seus membros em blocos temáticos acessíveis após a seleção do usuário.
 

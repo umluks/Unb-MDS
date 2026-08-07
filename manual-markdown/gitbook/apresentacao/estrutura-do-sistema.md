@@ -1,4 +1,4 @@
-## Estrutura do sistema
+# Estrutura do sistema
 
 ### Prontuário Eletrônico da Família
 

@@ -1,4 +1,4 @@
-## Principais conceitos vinculados à operação do sistema
+# Principais conceitos vinculados à operação do sistema
 
 Nesse tópico você conhecerá conceitos importantes que auxiliarão na operação do Sistema Prontuário Eletrônico SUAS e na gestão dos dados nele inseridos e armazenados.
 
