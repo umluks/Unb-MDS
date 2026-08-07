@@ -76,14 +76,10 @@ Para **excluir o registro da lista**, acione a opção <kbd>5</kbd> **Excluir fo
 
 ***
 
+![Forma de Ingresso](../../../.gitbook/assets/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png)
 
-![Forma de Ingresso](../img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png)
+![Motivo do Primeiro Atendimento](../../../.gitbook/assets/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-2.png)
 
+![Detalhes do Ingresso](../../../.gitbook/assets/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-3.png)
 
-![Motivo do Primeiro Atendimento](../img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-2.png)
-
-
-![Detalhes do Ingresso](../img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-3.png)
-
-
-![Observações do Ingresso](../img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-4.png)
+![Observações do Ingresso](../../../.gitbook/assets/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-4.png)

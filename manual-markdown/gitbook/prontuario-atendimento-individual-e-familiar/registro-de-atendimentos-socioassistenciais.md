@@ -82,14 +82,10 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7
 
 ***
 
+![Registro de Atendimentos](../../../.gitbook/assets/registro-de-atendimentos-socioassistenciais-1.png)
 
-![Registro de Atendimentos](../img/registro-de-atendimentos-socioassistenciais-1.png)
+![Incluir Atendimento](../../../.gitbook/assets/registro-de-atendimentos-socioassistenciais-2.png)
 
+![Visualizar Atendimento](../../../.gitbook/assets/registro-de-atendimentos-socioassistenciais-3.png)
 
-![Incluir Atendimento](../img/registro-de-atendimentos-socioassistenciais-2.png)
-
-
-![Visualizar Atendimento](../img/registro-de-atendimentos-socioassistenciais-3.png)
-
-
-![Alterar Atendimento](../img/registro-de-atendimentos-socioassistenciais-4.png)
+![Alterar Atendimento](../../../.gitbook/assets/registro-de-atendimentos-socioassistenciais-4.png)

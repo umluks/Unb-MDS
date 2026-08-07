@@ -70,14 +70,10 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7
 
 ***
 
+![Condições Habitacionais - Visão Geral](../../../.gitbook/assets/condicoes-habitacionais-da-familia-1.png)
 
-![Condições Habitacionais - Visão Geral](../img/condicoes-habitacionais-da-familia-1.png)
+![Características do Domicílio](../../../.gitbook/assets/condicoes-habitacionais-da-familia-2.png)
 
+![Infraestrutura Urbana](../../../.gitbook/assets/condicoes-habitacionais-da-familia-3.png)
 
-![Características do Domicílio](../img/condicoes-habitacionais-da-familia-2.png)
-
-
-![Infraestrutura Urbana](../img/condicoes-habitacionais-da-familia-3.png)
-
-
-![Acessibilidade e Risco](../img/condicoes-habitacionais-da-familia-4.png)
+![Acessibilidade e Risco](../../../.gitbook/assets/condicoes-habitacionais-da-familia-4.png)

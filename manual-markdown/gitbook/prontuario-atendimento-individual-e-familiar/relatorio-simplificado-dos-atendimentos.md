@@ -17,5 +17,4 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>3
 
 ***
 
-
-![Relatório Simplificado dos Atendimentos](../img/relatorio-simplificado-dos-atendimentos-1.png)
+![Relatório Simplificado dos Atendimentos](../../../.gitbook/assets/relatorio-simplificado-dos-atendimentos-1.png)

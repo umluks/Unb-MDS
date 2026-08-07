@@ -14,5 +14,4 @@ Conforme tela ao lado, o agrupamento é composto pelos campos:
 
 ***
 
-
-![Informações da Família](../img/informacoes-da-familia-1.png)
+![Informações da Família](../../../.gitbook/assets/informacoes-da-familia-1.png)

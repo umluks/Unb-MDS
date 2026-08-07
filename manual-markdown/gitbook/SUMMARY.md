@@ -1,20 +1,17 @@
 # Summary
 
-* [Prontuário Eletrônico do SUAS](README.md)
-
-* [Apresentação](apresentacao/README.md)
+* [Prontuário Eletrônico do SUAS](../../)
+* [Apresentação](apresentacao/)
   * [Conceitos gerais](apresentacao/conceitos-gerais.md)
     * [Profissionais do SUAS responsáveis pelo registro de atendimento](apresentacao/profissionais-do-suas.md)
     * [A quem se destina o atendimento](apresentacao/a-quem-se-destina.md)
     * [Principais conceitos vinculados à operação do sistema](apresentacao/principais-conceitos.md)
     * [Estrutura do sistema](apresentacao/estrutura-do-sistema.md)
-
-* [Acesso ao Prontuário Eletrônico do SUAS](acesso-ao-prontuario/README.md)
+* [Acesso ao Prontuário Eletrônico do SUAS](acesso-ao-prontuario/)
   * [CadSUAS e as permissões do prontuário SUAS](acesso-ao-prontuario/cadsuas-e-permissoes.md)
   * [Login no sistema](acesso-ao-prontuario/login-no-sistema.md)
   * [Termo de uso](acesso-ao-prontuario/termo-de-uso.md)
-
-* [Prontuário: Atendimento individual e familiar](prontuario-atendimento-individual-e-familiar/README.md)
+* [Prontuário: Atendimento individual e familiar](prontuario-atendimento-individual-e-familiar/)
   * [Realizar atendimento](prontuario-atendimento-individual-e-familiar/realizar-atendimento.md)
   * [Aspectos globais do módulo Prontuário](prontuario-atendimento-individual-e-familiar/aspectos-globais.md)
   * [Informações do Prontuário](prontuario-atendimento-individual-e-familiar/informacoes-do-prontuario.md)
@@ -41,9 +38,6 @@
   * [Formulário de controle de encaminhamentos](prontuario-atendimento-individual-e-familiar/formulario-de-controle-de-encaminhamentos.md)
   * [Relatório de participação em atendimentos coletivos](prontuario-atendimento-individual-e-familiar/relatorio-de-participacao-em-atendimentos-coletivos.md)
   * [Relatório simplificado dos atendimentos](prontuario-atendimento-individual-e-familiar/relatorio-simplificado-dos-atendimentos.md)
-
-* [Prontuário: Atendimento Coletivo](prontuario-atendimento-coletivo/README.md)
-
-* [Prontuário: Migrar Prontuário](prontuario-migrar-prontuario/README.md)
-
-* [Prontuário: Painel Estatístico](prontuario-painel-estatistico/README.md)
+* [Prontuário: Atendimento Coletivo](prontuario-atendimento-coletivo/)
+* [Prontuário: Migrar Prontuário](prontuario-migrar-prontuario/)
+* [Prontuário: Painel Estatístico](prontuario-painel-estatistico/)

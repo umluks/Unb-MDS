@@ -75,14 +75,10 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8
 
 ***
 
+![Condições de Saúde - Geral](../../../.gitbook/assets/condicoes-de-saude-da-familia-1.png)
 
-![Condições de Saúde - Geral](../img/condicoes-de-saude-da-familia-1.png)
+![Pessoas com Deficiência](../../../.gitbook/assets/condicoes-de-saude-da-familia-2.png)
 
+![Gestantes e Lactantes](../../../.gitbook/assets/condicoes-de-saude-da-familia-3.png)
 
-![Pessoas com Deficiência](../img/condicoes-de-saude-da-familia-2.png)
-
-
-![Gestantes e Lactantes](../img/condicoes-de-saude-da-familia-3.png)
-
-
-![Uso de Medicamentos e Cuidados](../img/condicoes-de-saude-da-familia-4.png)
+![Uso de Medicamentos e Cuidados](../../../.gitbook/assets/condicoes-de-saude-da-familia-4.png)

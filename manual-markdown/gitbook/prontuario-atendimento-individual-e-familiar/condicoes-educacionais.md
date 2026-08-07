@@ -28,5 +28,4 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5
 
 ***
 
-
-![Condições Educacionais](../img/condicoes-educacionais-da-familia-1.png)
+![Condições Educacionais](../../../.gitbook/assets/condicoes-educacionais-da-familia-1.png)

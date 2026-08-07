@@ -14,5 +14,4 @@ Caso exista solicitação de migração para o prontuário eletrônico da pessoa
 
 ***
 
-
-![Informações do Prontuário](../img/informacoes-do-prontuario-1.png)
+![Informações do Prontuário](../../../.gitbook/assets/informacoes-do-prontuario-1.png)

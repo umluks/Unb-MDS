@@ -76,14 +76,10 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8
 
 ***
 
+![Acesso a Benefícios Eventuais](../../../.gitbook/assets/acesso-a-beneficios-eventuais-1.png)
 
-![Acesso a Benefícios Eventuais](../img/acesso-a-beneficios-eventuais-1.png)
+![Concessão de Benefícios](../../../.gitbook/assets/acesso-a-beneficios-eventuais-2.png)
 
+![Tipos de Benefícios Eventuais](../../../.gitbook/assets/acesso-a-beneficios-eventuais-3.png)
 
-![Concessão de Benefícios](../img/acesso-a-beneficios-eventuais-2.png)
-
-
-![Tipos de Benefícios Eventuais](../img/acesso-a-beneficios-eventuais-3.png)
-
-
-![Histórico de Concessões](../img/acesso-a-beneficios-eventuais-4.png)
+![Histórico de Concessões](../../../.gitbook/assets/acesso-a-beneficios-eventuais-4.png)

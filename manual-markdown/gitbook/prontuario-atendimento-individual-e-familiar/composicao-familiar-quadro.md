@@ -15,5 +15,4 @@ Conforme imagem ao lado, o agrupamento é composto pelos campos:
 
 ***
 
-
-![Composição Familiar](../img/composicao-familiar-1.png)
+![Composição Familiar](../../../.gitbook/assets/composicao-familiar-1.png)

@@ -35,8 +35,6 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>4
 
 ***
 
+![Relatório de Atendimentos Coletivos](../../../.gitbook/assets/relatorio-de-participacao-em-atendimentos-coletivos-1.png)
 
-![Relatório de Atendimentos Coletivos](../img/relatorio-de-participacao-em-atendimentos-coletivos-1.png)
-
-
-![Visualizar Detalhes do Atendimento Coletivo](../img/relatorio-de-participacao-em-atendimentos-coletivos-2.png)
+![Visualizar Detalhes do Atendimento Coletivo](../../../.gitbook/assets/relatorio-de-participacao-em-atendimentos-coletivos-2.png)

@@ -137,50 +137,34 @@ Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>8</kb
 
 ***
 
+![Controle de Encaminhamentos](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-1.png)
 
-![Controle de Encaminhamentos](../img/formulario-de-controle-de-encaminhamentos-1.png)
+![Incluir Encaminhamento](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-2.png)
 
+![Áreas de Encaminhamento](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-3.png)
 
-![Incluir Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-2.png)
+![Encaminhamentos para Assistência Social](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-4.png)
 
+![Encaminhamentos para Saúde](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-5.png)
 
-![Áreas de Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-3.png)
+![Encaminhamentos para Educação](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-6.png)
 
+![Encaminhamentos para Trabalho e Renda](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-7.png)
 
-![Encaminhamentos para Assistência Social](../img/formulario-de-controle-de-encaminhamentos-4.png)
+![Outros Encaminhamentos](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-8.png)
 
+![Órgão e Unidade de Destino](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-9.png)
 
-![Encaminhamentos para Saúde](../img/formulario-de-controle-de-encaminhamentos-5.png)
+![Visualizar Encaminhamento](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-10.png)
 
+![Alterar Encaminhamento](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-11.png)
 
-![Encaminhamentos para Educação](../img/formulario-de-controle-de-encaminhamentos-6.png)
+![Salvar Alteração de Encaminhamento](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-12.png)
 
+![Excluir Encaminhamento](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-13.png)
 
-![Encaminhamentos para Trabalho e Renda](../img/formulario-de-controle-de-encaminhamentos-7.png)
+![Gerar PDF do Encaminhamento](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-14.png)
 
+![Modelo de Guia de Encaminhamento PDF](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-15.png)
 
-![Outros Encaminhamentos](../img/formulario-de-controle-de-encaminhamentos-8.png)
-
-
-![Órgão e Unidade de Destino](../img/formulario-de-controle-de-encaminhamentos-9.png)
-
-
-![Visualizar Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-10.png)
-
-
-![Alterar Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-11.png)
-
-
-![Salvar Alteração de Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-12.png)
-
-
-![Excluir Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-13.png)
-
-
-![Gerar PDF do Encaminhamento](../img/formulario-de-controle-de-encaminhamentos-14.png)
-
-
-![Modelo de Guia de Encaminhamento PDF](../img/formulario-de-controle-de-encaminhamentos-15.png)
-
-
-![Confirmação de PDF Gerado](../img/formulario-de-controle-de-encaminhamentos-16.png)
+![Confirmação de PDF Gerado](../../../.gitbook/assets/formulario-de-controle-de-encaminhamentos-16.png)

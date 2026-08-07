@@ -65,14 +65,10 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8
 
 ***
 
+![Medidas Socioeducativas](../../../.gitbook/assets/historico-de-cumprimento-de-medidas-socioeducativas-1.png)
 
-![Medidas Socioeducativas](../img/historico-de-cumprimento-de-medidas-socioeducativas-1.png)
+![Incluir Medida Socioeducativa](../../../.gitbook/assets/historico-de-cumprimento-de-medidas-socioeducativas-2.png)
 
+![Visualizar Medida Socioeducativa](../../../.gitbook/assets/historico-de-cumprimento-de-medidas-socioeducativas-3.png)
 
-![Incluir Medida Socioeducativa](../img/historico-de-cumprimento-de-medidas-socioeducativas-2.png)
-
-
-![Visualizar Medida Socioeducativa](../img/historico-de-cumprimento-de-medidas-socioeducativas-3.png)
-
-
-![Alterar Medida Socioeducativa](../img/historico-de-cumprimento-de-medidas-socioeducativas-4.png)
+![Alterar Medida Socioeducativa](../../../.gitbook/assets/historico-de-cumprimento-de-medidas-socioeducativas-4.png)

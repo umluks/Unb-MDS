@@ -87,20 +87,14 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>1
 
 ***
 
+![Situações de Vulnerabilidade](../../../.gitbook/assets/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
 
-![Situações de Vulnerabilidade](../img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Incluir Vulnerabilidade](../../../.gitbook/assets/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-2.png)
 
+![Visualizar Vulnerabilidade](../../../.gitbook/assets/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-3.png)
 
-![Incluir Vulnerabilidade](../img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-2.png)
+![Alterar Vulnerabilidade](../../../.gitbook/assets/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-4.png)
 
+![Observações de Vulnerabilidades](../../../.gitbook/assets/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-5.png)
 
-![Visualizar Vulnerabilidade](../img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-3.png)
-
-
-![Alterar Vulnerabilidade](../img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-4.png)
-
-
-![Observações de Vulnerabilidades](../img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-5.png)
-
-
-![Historico de Vulnerabilidades](../img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-6.png)
+![Historico de Vulnerabilidades](../../../.gitbook/assets/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-6.png)

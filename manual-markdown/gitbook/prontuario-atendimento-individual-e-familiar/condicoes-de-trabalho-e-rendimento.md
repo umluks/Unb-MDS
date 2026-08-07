@@ -34,5 +34,4 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5
 
 ***
 
-
-![Condições de Trabalho e Rendimento](../img/condicoes-de-trabalho-e-rendimento-da-familia-1.png)
+![Condições de Trabalho e Rendimento](../../../.gitbook/assets/condicoes-de-trabalho-e-rendimento-da-familia-1.png)

@@ -2,19 +2,20 @@
 
 O Prontuário Eletrônico organiza as informações da família e de seus membros em blocos temáticos acessíveis após a seleção do usuário.
 
-![Aspectos globais do Prontuário - Visão Geral](../img/aspectos-globais-do-modulo-prontuario-1.png)
+![Aspectos globais do Prontuário - Visão Geral](../../../.gitbook/assets/aspectos-globais-do-modulo-prontuario-1.png)
 
 ## Cabeçalho do Prontuário
 
 No topo do prontuário eletrônico são exibidos os dados principais de identificação da pessoa e da família:
-- Nome da pessoa de referência;
-- CPF e NIS;
-- Endereço residencial e município;
-- Número do prontuário e situação do acompanhamento familiar.
 
-![Cabeçalho e navegação entre blocos](../img/aspectos-globais-do-modulo-prontuario-2.png)
+* Nome da pessoa de referência;
+* CPF e NIS;
+* Endereço residencial e município;
+* Número do prontuário e situação do acompanhamento familiar.
 
----
+![Cabeçalho e navegação entre blocos](../../../.gitbook/assets/aspectos-globais-do-modulo-prontuario-2.png)
+
+***
 
 ## Estrutura de Blocos Temáticos
 
@@ -42,23 +43,23 @@ O prontuário é dividido nos seguintes blocos de registro e consulta:
 20. **Relatório de Participação em Atendimentos Coletivos**;
 21. **Relatório Simplificado dos Atendimentos**.
 
-![Expansão e retração de blocos](../img/aspectos-globais-do-modulo-prontuario-3.png)
+![Expansão e retração de blocos](../../../.gitbook/assets/aspectos-globais-do-modulo-prontuario-3.png)
 
----
+***
 
 ## Expandir e Retrair Blocos
 
 Para facilitar a navegação, cada bloco possui controles individuais e globais:
 
-- **Acionar um bloco específico**: clique sobre o título do bloco para expandir ou recolher suas informações;
-- **Expandir todos / Retrair todos**: botões no topo da tela para abrir ou fechar a totalidade dos blocos simultaneamente.
+* **Acionar um bloco específico**: clique sobre o título do bloco para expandir ou recolher suas informações;
+* **Expandir todos / Retrair todos**: botões no topo da tela para abrir ou fechar a totalidade dos blocos simultaneamente.
 
-![Ações de inclusão e históricos nos blocos](../img/aspectos-globais-do-modulo-prontuario-4.png)
+![Ações de inclusão e históricos nos blocos](../../../.gitbook/assets/aspectos-globais-do-modulo-prontuario-4.png)
 
----
+***
 
 ## Modos de Leitura e Edição
 
 Os campos do prontuário podem apresentar dados oriundos do Cadastro Único (somente leitura) e campos de preenchimento exclusivo do SUAS (editáveis por técnicos autorizados).
 
-![Salvar alterações e mensagens de confirmação](../img/aspectos-globais-do-modulo-prontuario-5.png)
+![Salvar alterações e mensagens de confirmação](../../../.gitbook/assets/aspectos-globais-do-modulo-prontuario-5.png)
