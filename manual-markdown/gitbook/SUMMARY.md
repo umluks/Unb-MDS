@@ -3,11 +3,11 @@
 * [Prontuário Eletrônico do SUAS](README.md)
 
 * [Apresentação](apresentacao/README.md)
-* [Conceitos gerais](apresentacao/conceitos-gerais.md)
-  * [Profissionais do SUAS responsáveis pelo registro de atendimento](apresentacao/profissionais-do-suas.md)
-  * [A quem se destina o atendimento](apresentacao/a-quem-se-destina.md)
-  * [Principais conceitos vinculados à operação do sistema](apresentacao/principais-conceitos.md)
-  * [Estrutura do sistema](apresentacao/estrutura-do-sistema.md)
+  * [Conceitos gerais](apresentacao/conceitos-gerais.md)
+    * [Profissionais do SUAS responsáveis pelo registro de atendimento](apresentacao/profissionais-do-suas.md)
+    * [A quem se destina o atendimento](apresentacao/a-quem-se-destina.md)
+    * [Principais conceitos vinculados à operação do sistema](apresentacao/principais-conceitos.md)
+    * [Estrutura do sistema](apresentacao/estrutura-do-sistema.md)
 
 * [Acesso ao Prontuário Eletrônico do SUAS](acesso-ao-prontuario/README.md)
   * [CadSUAS e as permissões do prontuário SUAS](acesso-ao-prontuario/cadsuas-e-permissoes.md)
