@@ -15,6 +15,6 @@ Conforme representado na janela acima, o agrupamento é composto pelos campos:
 
 ***
 
-![Excluir Prontuário](../../../.gitbook/assets/excluir-prontuario-1.png)
+![Excluir Prontuário](../../../.gitbook/assets/migrar-prontuario-1.png)
 
 ![Confirmação de Exclusão](../../../.gitbook/assets/excluir-prontuario-2.png)

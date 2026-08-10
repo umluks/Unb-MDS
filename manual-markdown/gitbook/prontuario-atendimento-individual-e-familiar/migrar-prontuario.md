@@ -1,4 +1,4 @@
-# Migrar Prontuário
+# migrar-prontuario
 
 Para migrar o prontuário eletrônico para outra unidade de atendimento, acione o ícone <kbd>2</kbd> **opções** e em seguida <kbd>3</kbd> **Migrar prontuário**, então o sistema vai apresentar a janela:
 
@@ -52,6 +52,6 @@ Conforme representado na janela representada na página anterior, o agrupamento 
 
 ![Solicitar Migração - Etapa 2](../../../.gitbook/assets/migrar-prontuario-2.png)
 
-![Solicitar Migração - Etapa 3](../../../.gitbook/assets/migrar-prontuario-3.png)
+![Solicitar Migração - Etapa 3](../../../.gitbook/assets/migrar-prontuario-1.png)
 
-![Confirmação da Migração](../../../.gitbook/assets/migrar-prontuario-4.png)
+![Confirmação da Migração](../../../.gitbook/assets/migrar-prontuario-1.png)

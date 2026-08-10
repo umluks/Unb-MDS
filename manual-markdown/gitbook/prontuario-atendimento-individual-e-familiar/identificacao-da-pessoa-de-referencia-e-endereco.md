@@ -45,6 +45,6 @@ Conforme tela ao lado, a funcionalidade **Dados do Endereço** é composta pelos
 
 ![Identificação da Pessoa de Referência](../../../.gitbook/assets/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-1.png)
 
-![Endereço da Família](../../../.gitbook/assets/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-2.png)
+![Endereço da Família](../../../.gitbook/assets/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-1.png)
 
 ![Contatos e Referências](../../../.gitbook/assets/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-3.png)

@@ -22,7 +22,7 @@ Para consultar o Cadastro Único da pessoa atendida na consulta simples, informe
 
 Caso não possua o CPF do usuário, acione a opção ➏ **Consulta avançada**.
 
-![Consulta avançada CadÚnico](../../../.gitbook/assets/realizar-atendimento-3.png)
+![Consulta avançada CadÚnico](../../../.gitbook/assets/realizar-atendimento-1.png)
 
 Informe um ou mais parâmetros de busca (como Nome, Data de Nascimento, Nome da Mãe, NIS, etc.) e acione a opção ➐ **Pesquisar**.
 
