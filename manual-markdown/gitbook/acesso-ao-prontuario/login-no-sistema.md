@@ -32,12 +32,8 @@ Uma vez realizada a autenticação no sistema, você pode verificar no canto sup
 
 ![Menu do Avatar](../../../.gitbook/assets/login-no-sistema-4.png)
 
-Ao acionar o **ícone do avatar**, é possível verificar a <kbd>3</kbd> **unidade de atendimento** e <kbd>4</kbd> **perfil**. Nesta funcionalidade, também é possível <kbd>5</kbd> **trocar de perfil** (caso o usuário possua mais de um perfil) ou <kbd>6</kbd> **sair do sistema (logout)**.
-
----
-
-## Menu Principal e Submenus
+Do lado esquerdo da tela, você pode visualizar o <kbd>7</kbd> **menu principal (SUAS)** e o(s) <kbd>8</kbd> **submenu(s)**.
 
 ![Menu Principal e Submenus](../../../.gitbook/assets/login-no-sistema-5.png)
 
-Do lado esquerdo da tela, você pode visualizar o <kbd>7</kbd> **menu principal (SUAS)** e o(s) <kbd>8</kbd> **submenu(s)**.
+Ao acionar o **ícone do avatar**, é possível verificar a <kbd>3</kbd> **unidade de atendimento** e <kbd>4</kbd> **perfil**. Nesta funcionalidade, também é possível <kbd>5</kbd> **trocar de perfil** (caso o usuário possua mais de um perfil) ou <kbd>6</kbd> **sair do sistema (logout)**.
