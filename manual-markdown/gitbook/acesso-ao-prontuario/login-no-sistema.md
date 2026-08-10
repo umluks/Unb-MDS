@@ -14,7 +14,7 @@ O sistema apresenta a tela **Autorização de uso de dados pessoais**:
 
 ![Autorização de uso de dados pessoais e seleção de unidade](../../../.gitbook/assets/login-no-sistema-2.png)
 
-Ao ➌ **autorizar** o uso dos dados pessoais, o sistema apresenta a janela para seleção da unidade de atendimento e o perfil que você deseja conectar. Ao informar os dados, acione a opção ➍ **Confirmar**.
+Ao <kbd>3</kbd> **autorizar** o uso dos dados pessoais, o sistema apresenta a janela para seleção da unidade de atendimento e o perfil que você deseja conectar. Ao informar os dados, acione a opção <kbd>4</kbd> **Confirmar**.
 
 ![Tela Inicial](../../../.gitbook/assets/login-no-sistema-3.png)
 
@@ -24,7 +24,7 @@ Ao ➌ **autorizar** o uso dos dados pessoais, o sistema apresenta a janela para
 
 Ao confirmar, o sistema do prontuário eletrônico apresenta a tela inicial conforme permissões atribuídas ao usuário e perfil no CADSUAS.
 
-Uma vez realizada a autenticação no sistema, você pode verificar ➊ no canto superior da tela inicial, o CPF, o nome e o avatar do usuário logado.
+Uma vez realizada a autenticação no sistema, você pode verificar no canto superior da tela inicial, o CPF, o nome e o avatar do usuário logado.
 
 ---
 
@@ -32,7 +32,7 @@ Uma vez realizada a autenticação no sistema, você pode verificar ➊ no canto
 
 ![Menu do Avatar](../../../.gitbook/assets/login-no-sistema-4.png)
 
-Ao acionar o ➋ **ícone do avatar**, é possível verificar a ➌ **unidade de atendimento** e ➍ **perfil**. Nesta funcionalidade, também é possível ➎ **trocar de perfil** (caso o usuário possua mais de um perfil) ou ➏ **sair do sistema (logout)**.
+Ao acionar o **ícone do avatar**, é possível verificar a <kbd>3</kbd> **unidade de atendimento** e <kbd>4</kbd> **perfil**. Nesta funcionalidade, também é possível <kbd>5</kbd> **trocar de perfil** (caso o usuário possua mais de um perfil) ou <kbd>6</kbd> **sair do sistema (logout)**.
 
 ---
 
@@ -40,4 +40,4 @@ Ao acionar o ➋ **ícone do avatar**, é possível verificar a ➌ **unidade de
 
 ![Menu Principal e Submenus](../../../.gitbook/assets/login-no-sistema-5.png)
 
-Do lado esquerdo da tela, você pode visualizar o ➐ **menu principal (SUAS)** e o(s) ➑ **submenu(s)**.
+Do lado esquerdo da tela, você pode visualizar o <kbd>7</kbd> **menu principal (SUAS)** e o(s) <kbd>8</kbd> **submenu(s)**.
