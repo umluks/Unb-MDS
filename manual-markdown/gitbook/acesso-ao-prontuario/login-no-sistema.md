@@ -2,7 +2,7 @@
 
 O login do sistema é realizado por meio das contas ouro ou prata do sistema **gov.br**. A conta é gratuita e permite a identificação do usuário para acessar serviços digitais do governo federal.
 
-![Tela de Login do Sistema](./assets/login-no-sistema.png)
+![Tela de Login do Sistema](./assets/login-no-sistema-1.png)
 
 1. Na tela do login gov.br, informe o número do CPF <kbd>1</kbd> (número pessoal e único de 11 dígitos), senha e acione a opção <kbd>2</kbd> **Continuar**.
 
