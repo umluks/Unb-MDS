@@ -1,8 +1,8 @@
 # Identificação da pessoa de referência e endereço da família
 
-![Identificação da Pessoa de Referência](img/informacoes-de-identificacao-da-pessoa-1.png)
-
 No agrupamento <kbd>5</kbd> **Identificação da pessoa de referência e endereço da família**, você pode verificar informações pessoais, endereço e composição da família de acordo com o Cadastro Único, à qual o prontuário pertence.
+
+![Identificação da Pessoa de Referência](img/informacoes-de-identificacao-da-pessoa-1.png)
 
 Conforme tela, o agrupamento é composto pelos campos:
 
@@ -16,9 +16,9 @@ Conforme tela, o agrupamento é composto pelos campos:
 
 ## Dados Pessoais
 
-![Identificação da Pessoa de Referência](img/informacoes-de-identificacao-da-pessoa-2.png)
-
 Conforme tela ao lado, a funcionalidade **Dados Pessoais** é composta pelos campos:
+
+![Identificação da Pessoa de Referência](img/informacoes-de-identificacao-da-pessoa-2.png)
 
 - **CPF** – campo que informa o número do cadastro de pessoa física – CPF da pessoa;
   - Para copiar o número do CPF, acione o ícone <kbd>6</kbd> **Copiar**.
@@ -32,9 +32,9 @@ Conforme tela ao lado, a funcionalidade **Dados Pessoais** é composta pelos cam
 
 ## Dados do Endereço
 
-![Endereço da Família](img/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-1.png)
-
 Conforme tela ao lado, a funcionalidade **Dados do Endereço** é composta pelos campos:
+
+![Endereço da Família](img/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-1.png)
 
 - **Endereço** – campo que informa o endereço da residência da pessoa/ família;
 - **Bairro** – campo que informa o bairro da residência da pessoa/ família;
