@@ -46,9 +46,3 @@ Conforme tela ao lado, a funcionalidade **Dados do Endereço** é composta pelos
 - **Tipo** – Campo que informa o tipo de domicílio;
 
 > **Observação:** As informações acima são apenas para consulta, não sendo possível alterá-las por meio do Prontuário Eletrônico.
-
----
-
-![Endereço da Família](../../../.gitbook/assets/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-1.png)
-
-![Contatos e Referências](../../../.gitbook/assets/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-3.png)
