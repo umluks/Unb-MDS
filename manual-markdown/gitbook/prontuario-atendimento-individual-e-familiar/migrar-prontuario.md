@@ -1,6 +1,10 @@
 # migrar-prontuario
 
+![Solicitar Migração - Etapa 1](img/migrar-prontuario-1.png)
+
 Para migrar o prontuário eletrônico para outra unidade de atendimento, acione o ícone <kbd>2</kbd> **opções** e em seguida <kbd>3</kbd> **Migrar prontuário**, então o sistema vai apresentar a janela:
+
+![Solicitar Migração - Etapa 2](img/migrar-prontuario-2.png)
 
 Conforme representado na janela representada na página anterior, o agrupamento é composto pelos campos:
 
@@ -47,11 +51,3 @@ Conforme representado na janela representada na página anterior, o agrupamento 
 - **Confirmar** – opção que, ao ser acionada, salva a solicitação de migração do prontuário eletrônico.
 
 ---
-
-![Solicitar Migração - Etapa 1](img/migrar-prontuario-1.png)
-
-![Solicitar Migração - Etapa 2](img/migrar-prontuario-2.png)
-
-![Solicitar Migração - Etapa 3](img/migrar-prontuario-1.png)
-
-![Confirmação da Migração](img/migrar-prontuario-1.png)
