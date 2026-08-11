@@ -76,7 +76,7 @@ A janela <kbd>4</kbd> **Alterar forma de ingresso**, contém os seguintes dados:
 - **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela.
 - **Alterar** – opção que, ao ser acionada, salva a alteração realizada para o atendimento.
 
-![Observações do Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-4.png)
+![Alterar forma de ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-4.png)
 
 ## Excluir registro
 
