@@ -48,10 +48,10 @@ Conforme representado na janela representada na página anterior, o agrupamento 
 
 ---
 
-![Solicitar Migração - Etapa 1](../../../.gitbook/assets/migrar-prontuario-1.png)
+![Solicitar Migração - Etapa 1](img/migrar-prontuario-1.png)
 
-![Solicitar Migração - Etapa 2](../../../.gitbook/assets/migrar-prontuario-2.png)
+![Solicitar Migração - Etapa 2](img/migrar-prontuario-2.png)
 
-![Solicitar Migração - Etapa 3](../../../.gitbook/assets/migrar-prontuario-1.png)
+![Solicitar Migração - Etapa 3](img/migrar-prontuario-1.png)
 
-![Confirmação da Migração](../../../.gitbook/assets/migrar-prontuario-1.png)
+![Confirmação da Migração](img/migrar-prontuario-1.png)
