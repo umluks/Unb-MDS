@@ -2,23 +2,23 @@
 
 O login do sistema é realizado por meio das contas ouro ou prata do sistema **gov.br**. A conta é gratuita e permite a identificação do usuário para acessar serviços digitais do governo federal.
 
-![Tela de Login do Sistema](./assets/login-no-sistema-1.png)
+![Tela de Login do Sistema](../../../.gitbook/assets/login-no-sistema-1.png)
 
 1. Na tela do login gov.br, informe o número do CPF <kbd>1</kbd> (número pessoal e único de 11 dígitos), senha e acione a opção <kbd>2</kbd> **Continuar**.
 
----
+***
 
 ## Autorização de uso de dados e Seleção de Unidade/Perfil
 
 O sistema apresenta a tela **Autorização de uso de dados pessoais**:
 
-![Autorização de uso de dados pessoais e seleção de unidade](./assets/login-no-sistema-2.png)
+![Autorização de uso de dados pessoais e seleção de unidade](<../../../.gitbook/assets/login-no-sistema-2 (2).png>)
 
 Ao <kbd>3</kbd> **autorizar** o uso dos dados pessoais, o sistema apresenta a janela para seleção da unidade de atendimento e o perfil que você deseja conectar. Ao informar os dados, acione a opção <kbd>4</kbd> **Confirmar**.
 
-![Tela Inicial](./assets/login-no-sistema-3.png)
+![Tela Inicial](<../../../.gitbook/assets/login-no-sistema-3 (1).png>)
 
----
+***
 
 ## Tela inicial e identificação do usuário logado
 
@@ -26,14 +26,14 @@ Ao confirmar, o sistema do prontuário eletrônico apresenta a tela inicial conf
 
 Uma vez realizada a autenticação no sistema, você pode verificar no canto superior da tela inicial, o CPF, o nome e o avatar do usuário logado.
 
----
+***
 
 ## Menu do Usuário (Avatar, Perfis e Logout)
 
 Ao acionar o **ícone do avatar**, é possível verificar a <kbd>3</kbd> **unidade de atendimento** e <kbd>4</kbd> **perfil**. Nesta funcionalidade, também é possível <kbd>5</kbd> **trocar de perfil** (caso o usuário possua mais de um perfil) ou <kbd>6</kbd> **sair do sistema (logout)**.
 
-![Menu Principal e Submenus](./assets/login-no-sistema-5.png)
+![Menu Principal e Submenus](<../../../.gitbook/assets/login-no-sistema-5 (1).png>)
 
 Do lado esquerdo da tela, você pode visualizar o <kbd>7</kbd> **menu principal (SUAS)** e o(s) <kbd>8</kbd> **submenu(s)**.
 
-![Menu do Avatar](./assets/login-no-sistema-4.png)
+![Menu do Avatar](<../../../.gitbook/assets/login-no-sistema-4 (1).png>)
