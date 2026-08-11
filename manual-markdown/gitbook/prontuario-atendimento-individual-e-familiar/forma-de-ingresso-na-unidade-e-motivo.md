@@ -45,6 +45,8 @@ A janela <kbd>3</kbd> **Visualizar forma de ingresso**, contém os seguintes dad
 - **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela.
 - **Alterar** – opção que, ao ser acionada, salva a alteração realizada para o atendimento.
 
+![Detalhes do Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-3.png)
+
 ---
 
 ## Editar registro
@@ -74,14 +76,10 @@ A janela <kbd>4</kbd> **Alterar forma de ingresso**, contém os seguintes dados:
 - **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela.
 - **Alterar** – opção que, ao ser acionada, salva a alteração realizada para o atendimento.
 
+![Observações do Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-4.png)
+
 ## Excluir registro
 
 Para **excluir o registro da lista**, acione a opção <kbd>5</kbd> **Excluir forma de ingresso**, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem _"Forma de ingresso excluída com sucesso"_.
 
 ---
-
-![Motivo do Primeiro Atendimento](../../../.gitbook/assets/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-2.png)
-
-![Detalhes do Ingresso](../../../.gitbook/assets/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-3.png)
-
-![Observações do Ingresso](../../../.gitbook/assets/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-4.png)
