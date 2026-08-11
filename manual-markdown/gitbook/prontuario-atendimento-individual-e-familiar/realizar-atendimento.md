@@ -22,7 +22,7 @@ Para consultar o Cadastro Único da pessoa atendida na consulta simples, informe
 
 Caso não possua o CPF do usuário, acione a opção ➏ **Consulta avançada**.
 
-![Consulta avançada CadÚnico](img/realizar-atendimento-1.png)
+![Consulta avançada CadÚnico](img/realizar-atendimento-4.png)
 
 Informe um ou mais parâmetros de busca (como Nome, Data de Nascimento, Nome da Mãe, NIS, etc.) e acione a opção ➐ **Pesquisar**.
 
@@ -32,6 +32,6 @@ Informe um ou mais parâmetros de busca (como Nome, Data de Nascimento, Nome da 
 
 O sistema exibirá a lista com os registros encontrados conforme os parâmetros informados.
 
-![Resultado da busca](img/realizar-atendimento-4.png)
+![Resultado da busca](img/realizar-atendimento-1.png)
 
 Para selecionar a pessoa e abrir o prontuário eletrônico para atendimento, acione a opção ➑ **Visualizar Prontuário**.
