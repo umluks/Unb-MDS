@@ -2,9 +2,9 @@
 
 No agrupamento <kbd>5</kbd> **Identificação da pessoa de referência e endereço da família**, você pode verificar informações pessoais, endereço e composição da família de acordo com o Cadastro Único, à qual o prontuário pertence.
 
-![Identificação da Pessoa de Referência](img/informacoes-de-identificacao-da-pessoa-1.png)
-
 Conforme tela, o agrupamento é composto pelos campos:
+
+![Identificação da Pessoa de Referência](img/informacoes-de-identificacao-da-pessoa-1.png)
 
 - **Nome** – campo que informa o nome da pessoa ao qual pertence o prontuário;
 - **Grau de Parentesco** – campo que informa o grau de parentesco (Pessoa Responsável pela Unidade Familiar – RF, Cônjuge ou companheiro(a), Filho(a), Enteado(a), Neto(a) ou bisneto(a), Pai ou mãe, Sogro(a), Irmão ou irmã, Genro ou nora, Outro parente e Não parente) da pessoa em relação a Referência Familiar – RF;
@@ -16,7 +16,7 @@ Conforme tela, o agrupamento é composto pelos campos:
 
 ## Dados Pessoais
 
-Conforme tela ao lado, a funcionalidade **Dados Pessoais** é composta pelos campos:
+Conforme tela abaixo, a funcionalidade **Dados Pessoais** é composta pelos campos:
 
 ![Identificação da Pessoa de Referência](img/informacoes-de-identificacao-da-pessoa-2.png)
 
@@ -32,7 +32,7 @@ Conforme tela ao lado, a funcionalidade **Dados Pessoais** é composta pelos cam
 
 ## Dados do Endereço
 
-Conforme tela ao lado, a funcionalidade **Dados do Endereço** é composta pelos campos:
+Conforme tela abaixo, a funcionalidade **Dados do Endereço** é composta pelos campos:
 
 ![Endereço da Família](img/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-1.png)
 
