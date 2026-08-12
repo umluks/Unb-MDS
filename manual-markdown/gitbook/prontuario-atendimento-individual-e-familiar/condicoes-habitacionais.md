@@ -1,8 +1,8 @@
 # Condições habitacionais da família
 
-No bloco <kbd>1</kbd> **Condições habitacionais da família**, ao acionar para expandir as informações, você pode consultar as características do domicílio, adicionar condições habitacionais da família e observações complementares.
-
 ![Condições Habitacionais - Visão Geral](img/condicoes-habitacionais-da-família-1.png)
+
+No bloco <kbd>1</kbd> **Condições habitacionais da família**, ao acionar para expandir as informações, você pode consultar as características do domicílio, adicionar condições habitacionais da família e observações complementares.
 
 ## Características do Domicílio
 
@@ -20,6 +20,8 @@ O agrupamento de campos <kbd>2</kbd> **características do domicílio**, é comp
 
 ---
 
+![Características do Domicílio](img/condicoes-habitacionais-da-família-2.png)
+
 O agrupamento de campos <kbd>3</kbd> **condições habitacionais da família** é composto por:
 
 - **Número médio de pessoas por dormitório** – campo que informa a média de pessoas da composição família por dormitório;
@@ -28,15 +30,13 @@ O agrupamento de campos <kbd>3</kbd> **condições habitacionais da família** �
 - **Localizado em área de difícil acesso geográfico** – campo que informa se a habitação está localizada em área de difícil acesso geográfico;
 - **Localizado em área com forte presença de conflito/violência** – campo que informa se a habitação está localizada em área com forte presença de conflito/violência.
 
-![Características do Domicílio](img/condicoes-habitacionais-da-família-2.png)
-
 ---
 
 ## Incluir habitação
 
-Para **adicionar informações de habitação**, acione a opção <kbd>4</kbd> **Incluir habitação**, então o sistema vai apresentar a janela para cadastro. Preencha os dados solicitados e acione a opção <kbd>8</kbd> **Incluir**, em seguida o sistema fecha a janela, apresenta as Condições habitacionais da família e a mensagem _"Condições habitacionais incluída com sucesso"_.
-
 ![Condições Habitacionais - Inclusão](img/condicoes-habitacionais-da-família-3.png)
+
+Para **adicionar informações de habitação**, acione a opção <kbd>4</kbd> **Incluir habitação**, então o sistema vai apresentar a janela para cadastro. Preencha os dados solicitados e acione a opção <kbd>8</kbd> **Incluir**, em seguida o sistema fecha a janela, apresenta as Condições habitacionais da família e a mensagem _"Condições habitacionais incluída com sucesso"_.
 
 A janela <kbd>4</kbd> **Incluir informações de habitação**, representada na página anterior, contém os seguintes dados:
 
@@ -55,9 +55,9 @@ A janela <kbd>4</kbd> **Incluir informações de habitação**, representada na 
 
 ## Atualizar habitação
 
-Para **editar as informações de habitação**, acione a opção <kbd>5</kbd> **Atualizar habitação**, então o sistema vai apresentar a janela com os campos habilitados. Informe os ajustes e acione a opção <kbd>8</kbd> **Incluir**, em seguida o sistema fecha a janela, atualiza as Condições habitacionais da família e apresenta a mensagem _"Condições habitacionais atualizadas com sucesso"_.
-
 ![Atualizar habitação](img/condicoes-habitacionais-da-família-2.png)
+
+Para **editar as informações de habitação**, acione a opção <kbd>5</kbd> **Atualizar habitação**, então o sistema vai apresentar a janela com os campos habilitados. Informe os ajustes e acione a opção <kbd>8</kbd> **Incluir**, em seguida o sistema fecha a janela, atualiza as Condições habitacionais da família e apresenta a mensagem _"Condições habitacionais atualizadas com sucesso"_.
 
 A janela <kbd>5</kbd> **Atualizar informações de habitação**, representada na página anterior, contém os seguintes dados:
 
@@ -76,9 +76,9 @@ A janela <kbd>5</kbd> **Atualizar informações de habitação**, representada n
 
 ## Observações das condições habitacionais da família
 
-Para mais informações sobre <kbd>6</kbd> **registro de observações**, consulte a página 19 deste manual.
-
 ![Observações das condições habitacionais da família](img/condicoes-habitacionais-da-família-4.png)
+
+Para mais informações sobre <kbd>6</kbd> **registro de observações**, consulte a página 19 deste manual.
 
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7</kbd> **ícone**.
 
