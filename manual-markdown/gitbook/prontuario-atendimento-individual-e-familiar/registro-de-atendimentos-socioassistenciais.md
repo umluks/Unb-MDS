@@ -43,7 +43,7 @@ A janela <kbd>3</kbd> **Incluir atendimento**, representada na página anterior,
 - **Cancelar** – opção que ao ser acionada, cancela a ação e fecha a janela.
 - **Incluir** – opção que, ao ser acionada, salva o atendimento.
 
-![Incluir atendimento](img/registro-de-atendimentos-socioassistenciais-modal-1.png)
+![Incluir atendimento](img/registro-de-atendimentos-socioassistenciais--modal-1.png)
 
 ---
 
