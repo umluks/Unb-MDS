@@ -1,4 +1,6 @@
-# Excluir Prontuário (Excluir Pagina?)
+# Excluir Prontuário
+
+- ## Excluir Prontuário!
 
 Para excluir o prontuário eletrônico da pessoa/ família, acione o ícone <kbd>2</kbd> **opções** e em seguida <kbd>4</kbd> **Excluir prontuário**, então o sistema vai apresentar a janela.
 
