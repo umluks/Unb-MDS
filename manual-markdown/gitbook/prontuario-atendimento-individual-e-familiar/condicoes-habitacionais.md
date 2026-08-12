@@ -2,6 +2,8 @@
 
 No bloco <kbd>1</kbd> **Condições habitacionais da família**, ao acionar para expandir as informações, você pode consultar as características do domicílio, adicionar condições habitacionais da família e observações complementares.
 
+![Condições Habitacionais - Visão Geral](img/condicoes-habitacionais-da-família-1.png)
+
 ## Características do Domicílio
 
 O agrupamento de campos <kbd>2</kbd> **características do domicílio**, é composto por:
@@ -15,8 +17,6 @@ O agrupamento de campos <kbd>2</kbd> **características do domicílio**, é comp
 - **Água canalizada** – campo que informa se a habitação possui água canalizada;
 - **Escoamento sanitário** – campo que informa se a habitação possui escoamento sanitário;
 - **Coleta de lixo** – campo que informa se a habitação possui coleta de lixo.
-
-![Condições Habitacionais - Visão Geral](img/condicoes-habitacionais-da-família-1.png)
 
 ---
 
