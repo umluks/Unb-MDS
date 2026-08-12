@@ -57,7 +57,7 @@ A janela <kbd>4</kbd> **Incluir informações de habitação**, representada na 
 
 Para **editar as informações de habitação**, acione a opção <kbd>5</kbd> **Atualizar habitação**, então o sistema vai apresentar a janela com os campos habilitados. Informe os ajustes e acione a opção <kbd>8</kbd> **Incluir**, em seguida o sistema fecha a janela, atualiza as Condições habitacionais da família e apresenta a mensagem _"Condições habitacionais atualizadas com sucesso"_.
 
-![Atualizar habitação](img/condicoes-habitacionais-da-família-4.png)
+![Atualizar habitação](img/condicoes-habitacionais-da-família-2.png)
 
 A janela <kbd>5</kbd> **Atualizar informações de habitação**, representada na página anterior, contém os seguintes dados:
 
@@ -77,6 +77,8 @@ A janela <kbd>5</kbd> **Atualizar informações de habitação**, representada n
 ## Observações das condições habitacionais da família
 
 Para mais informações sobre <kbd>6</kbd> **registro de observações**, consulte a página 19 deste manual.
+
+![Observações das condições habitacionais da família](img/condicoes-habitacionais-da-família-4.png)
 
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7</kbd> **ícone**.
 
