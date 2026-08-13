@@ -1,6 +1,6 @@
 # Situações de violência e violação de direitos
 
-No bloco ➊ **Situação de violência e violação de direitos**, ao acionar para expandir as informações, você pode consultar observações de situação de violência e violação de direitos ocorridas com a família ou membro da composição familiar.
+No bloco <kbd>1</kbd> **Situação de violência e violação de direitos**, ao acionar para expandir as informações, você pode consultar observações de situação de violência e violação de direitos ocorridas com a família ou membro da composição familiar.
 
 ![Situações de violência e violação de direitos](img/situacoes-de-violencia-e-violacao-de-direitos-1.png)
 
