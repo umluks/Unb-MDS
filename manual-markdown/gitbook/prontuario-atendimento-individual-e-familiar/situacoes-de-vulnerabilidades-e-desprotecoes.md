@@ -70,9 +70,9 @@ Para **editar o registro de atualização da lista na janela**, acione a opção
 
 Informe os ajustes e acione a opção <kbd>13</kbd> **Alterar**, em seguida o sistema salva a alteração do registro, atualiza a lista e apresenta a mensagem _"Atualização incluída com sucesso"_.
 
-![Editar Vulnerabilidade](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-modal-3.png)
+![Editar Vulnerabilidade](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-modal-4.png)
 
-A janela <kbd>6</kbd> **Situações de vulnerabilidades e desproteções sociais da família**, apresenta os seguintes campos e opções:
+A janela <kbd>7</kbd> **Situações de vulnerabilidades e desproteções sociais da família**, apresenta os seguintes campos e opções:
 
 - **Data da anotação** – indica a data em que o atendimento foi realizado.
 - **Situação** – indica a vulnerabilidade e desproteção social verificada, sem possibilidade de edição.
