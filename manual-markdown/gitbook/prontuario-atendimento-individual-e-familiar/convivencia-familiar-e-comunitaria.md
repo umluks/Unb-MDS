@@ -1,10 +1,10 @@
 # Convivência familiar e comunitária
 
-No bloco ➊ **Convivência Familiar e Comunitária**, ao expandir as informações, você pode consultar as observações registradas sobre a convivência familiar e comunitária.
+No bloco <kbd>1</kbd> **Convivência Familiar e Comunitária**, ao expandir as informações, você pode consultar as observações registradas sobre a convivência familiar e comunitária.
 
 ![Convivência familiar e comunitária](img/convivenvia-familiar-e-comunitaria-1.png)
 
-A ➋ **lista de observações da convivência familiar e comunitária** apresenta as seguintes informações:
+A <kbd>2</kbd> **lista de observações da convivência familiar e comunitária** apresenta as seguintes informações:
 
 - **Data da ação**: indica a data em que a observação foi registrada ou atualizada;
 - **Nome do técnico**: identifica o técnico responsável pelo atendimento e pelo registro da informação;
@@ -14,9 +14,9 @@ A ➋ **lista de observações da convivência familiar e comunitária** apresen
 
 ## Incluir observação
 
-Para adicionar uma nova observação, acione a opção ➌ **Incluir observação**, então o sistema vai apresentar a janela para cadastro. Preencha os dados solicitados e acione a opção ➑ **Incluir**, em seguida o sistema fecha a janela, atualiza a lista de atendimento coletivo e apresenta a mensagem _"Observação incluída com sucesso."_.
+Para adicionar uma nova observação, acione a opção <kbd>3</kbd> **Incluir observação**, então o sistema vai apresentar a janela para cadastro. Preencha os dados solicitados e acione a opção <kbd>8</kbd> **Incluir**, em seguida o sistema fecha a janela, atualiza a lista de atendimento coletivo e apresenta a mensagem _"Observação incluída com sucesso."_.
 
-A janela ➌ **Incluir observação da convivência familiar e comunitária** apresenta os seguintes campos e opções:
+A janela <kbd>3</kbd> **Incluir observação da convivência familiar e comunitária** apresenta os seguintes campos e opções:
 
 - **Data da ação**: indica a data em que o atendimento foi realizado;
 - **Observação**: indica a observação para a convivência familiar e comunitária;
@@ -27,9 +27,9 @@ A janela ➌ **Incluir observação da convivência familiar e comunitária** ap
 
 ## Visualizar observação
 
-Para visualizar o registro de observação, acione a opção ➍ **Visualizar observação**, então o sistema vai apresentar a janela com as informações.
+Para visualizar o registro de observação, acione a opção <kbd>4</kbd> **Visualizar observação**, então o sistema vai apresentar a janela com as informações.
 
-A janela ➍ **Visualizar observação da convivência familiar e comunitária** apresenta os seguintes campos e opções:
+A janela <kbd>4</kbd> **Visualizar observação da convivência familiar e comunitária** apresenta os seguintes campos e opções:
 
 - **Data da ação**: indica a data em que a observação foi registrada ou atualizada;
 - **Observação**: exibe o texto referente à convivência familiar e comunitária;
@@ -39,11 +39,11 @@ A janela ➍ **Visualizar observação da convivência familiar e comunitária**
 
 ## Alterar observação
 
-Para editar o registro de observação da convivência familiar e comunitária, acione a opção ➎ **Alterar observação**, então o sistema vai apresentar a janela com as informações registradas anteriormente, permitindo a edição dos dados necessários.
+Para editar o registro de observação da convivência familiar e comunitária, acione a opção <kbd>5</kbd> **Alterar observação**, então o sistema vai apresentar a janela com as informações registradas anteriormente, permitindo a edição dos dados necessários.
 
-Informe os ajustes e acione a opção ➑ **Alterar**, em seguida o sistema fecha a janela, atualiza a lista e apresenta a mensagem _"Observação alterada com sucesso"_.
+Informe os ajustes e acione a opção <kbd>8</kbd> **Alterar**, em seguida o sistema fecha a janela, atualiza a lista e apresenta a mensagem _"Observação alterada com sucesso"_.
 
-A janela ➎ **Alterar observação da convivência familiar e comunitária** apresenta os seguintes campos e opções:
+A janela <kbd>5</kbd> **Alterar observação da convivência familiar e comunitária** apresenta os seguintes campos e opções:
 
 - **Data da ação**: indica a data em que a observação foi registrada ou atualizada;
 - **Observação**: exibe o texto referente à convivência familiar e comunitária, permitindo a edição das informações;
@@ -54,6 +54,6 @@ A janela ➎ **Alterar observação da convivência familiar e comunitária** ap
 
 ## Excluir observação
 
-Para excluir o registro de observação da lista, acione a opção ➏ **Excluir observação**, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem _"Observação excluída com sucesso."_.
+Para excluir o registro de observação da lista, acione a opção <kbd>6</kbd> **Excluir observação**, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem _"Observação excluída com sucesso."_.
 
-Para ➐ **retrair ou reexibir** as informações contidas no bloco, acione o ícone.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7</kbd> **ícone**.
