@@ -6,19 +6,19 @@ Ao acionar o bloco <kbd>1</kbd> **Condições de saúde da família**, para expa
 
 A <kbd>2</kbd> **lista das marcações de saúde da família** é composta por:
 
-- **Data do atendimento** – a coluna informa a data em que a marcação foi incluída;
-- **Nome** – a coluna informa o nome do membro da composição familiar ao qual a marcação de saúde pertence;
-- **Tipo de marcação de saúde** – a coluna informa o tipo da marcação de saúde. Os tipos são:
-  - Doença grave
-  - Remédios controlados para transtornos mentais
-  - Uso abusivo de álcool
-  - Uso abusivo de drogas
-- **Nome do técnico** – a coluna informa o nome do técnico responsável pelo atendimento.
-- **Ações** – coluna que exibe ícones para realizar ações, como por exemplo: Visualizar registro.
+* **Data do atendimento** – a coluna informa a data em que a marcação foi incluída;
+* **Nome** – a coluna informa o nome do membro da composição familiar ao qual a marcação de saúde pertence;
+* **Tipo de marcação de saúde** – a coluna informa o tipo da marcação de saúde. Os tipos são:
+  * Doença grave
+  * Remédios controlados para transtornos mentais
+  * Uso abusivo de álcool
+  * Uso abusivo de drogas
+* **Nome do técnico** – a coluna informa o nome do técnico responsável pelo atendimento.
+* **Ações** – coluna que exibe ícones para realizar ações, como por exemplo: Visualizar registro.
 
-![Condições de Saúde - Geral](img/condicoes-de-saude-da-familia-1.png)
+![Condições de Saúde - Geral](<../../../.gitbook/assets/condicoes-de-saude-da-familia-1 (1).png>)
 
----
+***
 
 ## Incluir marcações de saúde
 
@@ -28,15 +28,15 @@ Preencha os dados solicitados e acione a opção <kbd>9</kbd> **Incluir**, em se
 
 A janela <kbd>3</kbd> **Incluir marcação de saúde**, representada na página anterior, contém os seguintes dados:
 
-- **Data da ação** – campo para informar a data em que o atendimento foi realizado;
-- **Pessoa** – campo para informar o nome da pessoa atendida;
-- **Tipo de marcação de saúde** – campo para informar o tipo da marcação de saúde;
-- **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela.
-- **Incluir** – opção que, ao ser acionada, salva o atendimento.
+* **Data da ação** – campo para informar a data em que o atendimento foi realizado;
+* **Pessoa** – campo para informar o nome da pessoa atendida;
+* **Tipo de marcação de saúde** – campo para informar o tipo da marcação de saúde;
+* **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela.
+* **Incluir** – opção que, ao ser acionada, salva o atendimento.
 
-![Incluir marcações de saúde](img/condicoes-de-saude-da-familia-modal-1.png)
+![Incluir marcações de saúde](../../../.gitbook/assets/condicoes-de-saude-da-familia-modal-1.png)
 
----
+***
 
 ## Visualizar marcações de saúde
 
@@ -44,14 +44,14 @@ Para **visualizar o registro marcação de saúde**, acione a opção <kbd>4</kb
 
 A janela <kbd>4</kbd> **Visualizar marcação de saúde**, representada na página anterior, contém os seguintes dados:
 
-- **Data da ação** – campo que informa a data em que o atendimento foi realizado;
-- **Pessoa** – campo que informa o nome da pessoa atendida;
-- **Tipo de marcação de saúde** – campo que apresenta o tipo da marcação de saúde;
-- **Fechar** – opção que, ao ser acionada, fecha a janela.
+* **Data da ação** – campo que informa a data em que o atendimento foi realizado;
+* **Pessoa** – campo que informa o nome da pessoa atendida;
+* **Tipo de marcação de saúde** – campo que apresenta o tipo da marcação de saúde;
+* **Fechar** – opção que, ao ser acionada, fecha a janela.
 
-![Visualizar marcações de saúde](img/condicoes-de-saude-da-familia-modal-2.png)
+![Visualizar marcações de saúde](../../../.gitbook/assets/condicoes-de-saude-da-familia-modal-2.png)
 
----
+***
 
 ## Editar marcações de saúde
 
@@ -61,15 +61,15 @@ Informe os ajustes e acione a opção <kbd>9</kbd> **Atualizar**, em seguida o s
 
 A janela <kbd>5</kbd> **Alterar marcação de saúde**, representada na página anterior, contém os seguintes dados:
 
-- **Data da ação** – campo para informar a data em que o atendimento foi realizado;
-- **Pessoa** – campo para informar o nome da pessoa atendida;
-- **Tipo de marcação de saúde** – campo para informar o tipo da marcação de saúde;
-- **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela.
-- **Atualizar** – opção que, ao ser acionada, salva a alteração realizada para o atendimento.
+* **Data da ação** – campo para informar a data em que o atendimento foi realizado;
+* **Pessoa** – campo para informar o nome da pessoa atendida;
+* **Tipo de marcação de saúde** – campo para informar o tipo da marcação de saúde;
+* **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela.
+* **Atualizar** – opção que, ao ser acionada, salva a alteração realizada para o atendimento.
 
-![Alterar marcações de saúde](img/condicoes-de-saude-da-familia-modal-3.png)
+![Alterar marcações de saúde](../../../.gitbook/assets/condicoes-de-saude-da-familia-modal-3.png)
 
----
+***
 
 ## Excluir marcação de saúde
 

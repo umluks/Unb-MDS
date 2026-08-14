@@ -2,15 +2,15 @@
 
 No bloco <kbd>1</kbd> **Convivência Familiar e Comunitária**, ao expandir as informações, você pode consultar as observações registradas sobre a convivência familiar e comunitária.
 
-![Convivência familiar e comunitária](img/convivenvia-familiar-e-comunitaria-1.png)
+![Convivência familiar e comunitária](../../../.gitbook/assets/convivenvia-familiar-e-comunitaria-1.png)
 
 A <kbd>2</kbd> **lista de observações da convivência familiar e comunitária** apresenta as seguintes informações:
 
-- **Data da ação**: indica a data em que a observação foi registrada ou atualizada;
-- **Nome do técnico**: identifica o técnico responsável pelo atendimento e pelo registro da informação;
-- **Função**: apresenta a função do técnico que realizou o registro.
+* **Data da ação**: indica a data em que a observação foi registrada ou atualizada;
+* **Nome do técnico**: identifica o técnico responsável pelo atendimento e pelo registro da informação;
+* **Função**: apresenta a função do técnico que realizou o registro.
 
----
+***
 
 ## Incluir observação
 
@@ -18,12 +18,12 @@ Para adicionar uma nova observação, acione a opção <kbd>3</kbd> **Incluir ob
 
 A janela <kbd>3</kbd> **Incluir observação da convivência familiar e comunitária** apresenta os seguintes campos e opções:
 
-- **Data da ação**: indica a data em que o atendimento foi realizado;
-- **Observação**: indica a observação para a convivência familiar e comunitária;
-- **Cancelar**: opção que ao ser acionada cancela a ação e fecha a janela;
-- **Incluir**: opção que, ao ser acionada, salva o registro e atualiza a lista de observações.
+* **Data da ação**: indica a data em que o atendimento foi realizado;
+* **Observação**: indica a observação para a convivência familiar e comunitária;
+* **Cancelar**: opção que ao ser acionada cancela a ação e fecha a janela;
+* **Incluir**: opção que, ao ser acionada, salva o registro e atualiza a lista de observações.
 
----
+***
 
 ## Visualizar observação
 
@@ -31,11 +31,11 @@ Para visualizar o registro de observação, acione a opção <kbd>4</kbd> **Visu
 
 A janela <kbd>4</kbd> **Visualizar observação da convivência familiar e comunitária** apresenta os seguintes campos e opções:
 
-- **Data da ação**: indica a data em que a observação foi registrada ou atualizada;
-- **Observação**: exibe o texto referente à convivência familiar e comunitária;
-- **Fechar**: opção que ao ser acionada fecha a janela.
+* **Data da ação**: indica a data em que a observação foi registrada ou atualizada;
+* **Observação**: exibe o texto referente à convivência familiar e comunitária;
+* **Fechar**: opção que ao ser acionada fecha a janela.
 
----
+***
 
 ## Alterar observação
 
@@ -45,12 +45,12 @@ Informe os ajustes e acione a opção <kbd>8</kbd> **Alterar**, em seguida o sis
 
 A janela <kbd>5</kbd> **Alterar observação da convivência familiar e comunitária** apresenta os seguintes campos e opções:
 
-- **Data da ação**: indica a data em que a observação foi registrada ou atualizada;
-- **Observação**: exibe o texto referente à convivência familiar e comunitária, permitindo a edição das informações;
-- **Cancelar**: opção que ao ser acionada cancela a ação e fecha a janela;
-- **Alterar**: opção que, ao ser acionada, salva a alteração realizada.
+* **Data da ação**: indica a data em que a observação foi registrada ou atualizada;
+* **Observação**: exibe o texto referente à convivência familiar e comunitária, permitindo a edição das informações;
+* **Cancelar**: opção que ao ser acionada cancela a ação e fecha a janela;
+* **Alterar**: opção que, ao ser acionada, salva a alteração realizada.
 
----
+***
 
 ## Excluir observação
 

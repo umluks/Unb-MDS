@@ -1,6 +1,6 @@
 # Registro de atendimentos socioassistenciais
 
----
+***
 
 Ao acionar o bloco <kbd>1</kbd> **Registro de atendimentos socioassistenciais**, para expandir as informações, você pode consultar ou cadastrar o registro de atendimento, de acordo com a demanda da família ou membro da composição familiar.
 
@@ -8,24 +8,24 @@ Ao acionar o bloco <kbd>1</kbd> **Registro de atendimentos socioassistenciais**,
 
 A lista de <kbd>2</kbd> **Registro de atendimentos socioassistenciais** é composta por:
 
-- **Data do atendimento** – a coluna informa a data em que a Referência Familiar ou membro da composição família foi atendido na Unidade;
-- **Nome** – a coluna informa o nome do membro da composição familiar atendido;
-- **Nome do técnico** – a coluna informa o nome do técnico responsável pelo registro do atendimento no Prontuário Eletrônico;
-- **Tipo de atendimento** – a coluna informa o tipo de atendimento requerido pela pessoa atendida. Pode haver um ou mais atendimentos. Os tipos são:
-  - Acolhida particularizada
-  - Atendimento socioassistencial individualizado
-  - Busca ativa
-  - Visita domiciliar PAIF
-  - Atendimento Serviço Proteção Social Básica no Domicílio – Pessoa idosa.
-  - Atendimento Serviço Proteção Social Básica no Domicílio - Pessoa com Deficiência.
-  - Atendimento Serviço Proteção Social Básica no Domicílio – Gestantes e Primeira Infância.
-  - Atendimento Serviço de Convivência e Fortalecimento de Vínculos.
-  - Outros
-- **Ações** – coluna que exibe ícones para realizar ações, como por exemplo: Visualizar registro.
+* **Data do atendimento** – a coluna informa a data em que a Referência Familiar ou membro da composição família foi atendido na Unidade;
+* **Nome** – a coluna informa o nome do membro da composição familiar atendido;
+* **Nome do técnico** – a coluna informa o nome do técnico responsável pelo registro do atendimento no Prontuário Eletrônico;
+* **Tipo de atendimento** – a coluna informa o tipo de atendimento requerido pela pessoa atendida. Pode haver um ou mais atendimentos. Os tipos são:
+  * Acolhida particularizada
+  * Atendimento socioassistencial individualizado
+  * Busca ativa
+  * Visita domiciliar PAIF
+  * Atendimento Serviço Proteção Social Básica no Domicílio – Pessoa idosa.
+  * Atendimento Serviço Proteção Social Básica no Domicílio - Pessoa com Deficiência.
+  * Atendimento Serviço Proteção Social Básica no Domicílio – Gestantes e Primeira Infância.
+  * Atendimento Serviço de Convivência e Fortalecimento de Vínculos.
+  * Outros
+* **Ações** – coluna que exibe ícones para realizar ações, como por exemplo: Visualizar registro.
 
-![Atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png)
+![Atendimentos socioassistenciais](<../../../.gitbook/assets/registro-de-atendimentos-socioassistenciais-1 (1).png>)
 
----
+***
 
 ### Incluir atendimento
 
@@ -35,17 +35,17 @@ Preencha os dados solicitados e acione a opção <kbd>8</kbd> **Incluir**, em se
 
 A janela <kbd>3</kbd> **Incluir atendimento**, representada na página anterior, contém os seguintes dados:
 
-- **Pessoa(s)** – campo para informar o(s) nome(s) da(s) pessoa(s) atendida(s);
-- **Data do atendimento** – campo para informar a data em que o atendimento foi realizado;
-- **Nome do técnico responsável** – campo que informa o nome do técnico responsável pelo registro do atendimento no Prontuário Eletrônico;
-- **Tipo** – campo para informar o tipo do atendimento socioassistencial prestado;
-- **Descrição/ resumo do atendimento** – campo para registrar informações adicionais ao atendimento;
-- **Cancelar** – opção que ao ser acionada, cancela a ação e fecha a janela.
-- **Incluir** – opção que, ao ser acionada, salva o atendimento.
+* **Pessoa(s)** – campo para informar o(s) nome(s) da(s) pessoa(s) atendida(s);
+* **Data do atendimento** – campo para informar a data em que o atendimento foi realizado;
+* **Nome do técnico responsável** – campo que informa o nome do técnico responsável pelo registro do atendimento no Prontuário Eletrônico;
+* **Tipo** – campo para informar o tipo do atendimento socioassistencial prestado;
+* **Descrição/ resumo do atendimento** – campo para registrar informações adicionais ao atendimento;
+* **Cancelar** – opção que ao ser acionada, cancela a ação e fecha a janela.
+* **Incluir** – opção que, ao ser acionada, salva o atendimento.
 
-![Incluir atendimento](img/registro-de-atendimentos-socioassistenciais--modal-1.png)
+![Incluir atendimento](../../../.gitbook/assets/registro-de-atendimentos-socioassistenciais--modal-1.png)
 
----
+***
 
 ### Visualizar atendimento
 
@@ -53,16 +53,16 @@ Para **visualizar o registro do atendimento**, acione a opção <kbd>4</kbd> **V
 
 A janela <kbd>4</kbd> **Visualizar atendimento**, representada acima, contém os seguintes dados:
 
-- **Pessoa(s)** – campo que informa o(s) nome(s) da(s) pessoa(s) atendida(s);
-- **Data do atendimento** – campo que informa a data em que o atendimento foi realizado;
-- **Nome do técnico responsável** – campo que informa o nome do técnico responsável pelo registro do atendimento no Prontuário Eletrônico;
-- **Tipo** – campo que informa o tipo do atendimento socioassistencial realizado;
-- **Descrição/ resumo do atendimento** – campo que apresenta informações adicionais ao atendimento;
-- **Cancelar** – opção que ao ser acionada fecha a janela.
+* **Pessoa(s)** – campo que informa o(s) nome(s) da(s) pessoa(s) atendida(s);
+* **Data do atendimento** – campo que informa a data em que o atendimento foi realizado;
+* **Nome do técnico responsável** – campo que informa o nome do técnico responsável pelo registro do atendimento no Prontuário Eletrônico;
+* **Tipo** – campo que informa o tipo do atendimento socioassistencial realizado;
+* **Descrição/ resumo do atendimento** – campo que apresenta informações adicionais ao atendimento;
+* **Cancelar** – opção que ao ser acionada fecha a janela.
 
-![Visualizar atendimento](img/registro-de-atendimentos-socioassistenciais-modal-2.png)
+![Visualizar atendimento](../../../.gitbook/assets/registro-de-atendimentos-socioassistenciais-modal-2.png)
 
----
+***
 
 ### Editar atendimento
 
@@ -72,17 +72,17 @@ Informe os ajustes e acione a opção <kbd>8</kbd> **Alterar**, em seguida o sis
 
 A janela <kbd>5</kbd> **Alterar atendimento**, representada na página anterior, contém os seguintes dados:
 
-- **Pessoa(s)** – campo para informar o(s) nome(s) da(s) pessoa(s) atendida(s);
-- **Data do atendimento** – campo que informa a data em que o atendimento foi realizado;
-- **Nome do técnico responsável** – campo que informa o nome do técnico responsável pelo registro do atendimento no Prontuário Eletrônico;
-- **Tipo** – campo que informa o tipo do atendimento socioassistencial realizado;
-- **Descrição/ resumo do atendimento** – campo que apresenta informações adicionais ao atendimento;
-- **Cancelar** – opção que ao ser acionada, cancela a ação e fecha a janela.
-- **Incluir** – opção que, ao ser acionada, salva a alteração realizada para o atendimento.
+* **Pessoa(s)** – campo para informar o(s) nome(s) da(s) pessoa(s) atendida(s);
+* **Data do atendimento** – campo que informa a data em que o atendimento foi realizado;
+* **Nome do técnico responsável** – campo que informa o nome do técnico responsável pelo registro do atendimento no Prontuário Eletrônico;
+* **Tipo** – campo que informa o tipo do atendimento socioassistencial realizado;
+* **Descrição/ resumo do atendimento** – campo que apresenta informações adicionais ao atendimento;
+* **Cancelar** – opção que ao ser acionada, cancela a ação e fecha a janela.
+* **Incluir** – opção que, ao ser acionada, salva a alteração realizada para o atendimento.
 
-![Editar atendimento](img/registro-de-atendimentos-socioassistenciais-modal-3.png)
+![Editar atendimento](../../../.gitbook/assets/registro-de-atendimentos-socioassistenciais-modal-3.png)
 
----
+***
 
 ### Excluir atendimento
 
@@ -90,4 +90,4 @@ Para **excluir o atendimento da lista**, acione a opção <kbd>6</kbd> **Excluir
 
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7</kbd> **ícone**.
 
----
+***

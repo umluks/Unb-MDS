@@ -2,18 +2,18 @@
 
 Ao acionar o bloco <kbd>1</kbd> **Histórico de cumprimento de medidas socioeducativas**, para expandir as informações, você pode consultar as medidas socioeducativas para adolescentes (cumpridas e/ou em acompanhamento).
 
-![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png)
+![Histórico de cumprimento de medidas socioeducativas](<../../../.gitbook/assets/historico-de-cumprimento-de-medidas-socioeducativas-1 (1).png>)
 
 ## Medidas Socioeducativas para adolescentes (cumpridas e/ou em acompanhamento)
 
 A <kbd>2</kbd> **lista de medidas socioeducativas para adolescentes (cumpridas e/ou em acompanhamento)** é composta por:
 
-- **Data do atendimento** – coluna que informa a data do atendimento em que foi relatada a medida socioeducativa para o adolescente;
-- **Nome** – coluna que informa o nome do adolescente (membro da composição familiar) que está cumprindo e/ ou em acompanhamento de medida socioeducativa;
-- **Tipo de medida** – coluna que informa o tipo de medida socioeducativa a ser cumprida;
-- **Nome do técnico** – coluna que informa o nome do técnico responsável pelo registro do encaminhamento no Prontuário Eletrônico;
-- **Unidade** – coluna que informa o nome da unidade em que o atendimento foi realizado;
-- **Ações** – coluna que exibe ícones para realizar ações, como por exemplo: Visualizar registro.
+* **Data do atendimento** – coluna que informa a data do atendimento em que foi relatada a medida socioeducativa para o adolescente;
+* **Nome** – coluna que informa o nome do adolescente (membro da composição familiar) que está cumprindo e/ ou em acompanhamento de medida socioeducativa;
+* **Tipo de medida** – coluna que informa o tipo de medida socioeducativa a ser cumprida;
+* **Nome do técnico** – coluna que informa o nome do técnico responsável pelo registro do encaminhamento no Prontuário Eletrônico;
+* **Unidade** – coluna que informa o nome da unidade em que o atendimento foi realizado;
+* **Ações** – coluna que exibe ícones para realizar ações, como por exemplo: Visualizar registro.
 
 ## Incluir medida socioeducativa
 
@@ -21,26 +21,26 @@ Para adicionar medidas socioeducativas para adolescentes, acione a opção <kbd>
 
 Preencha os dados solicitados e acione a opção <kbd>9</kbd> **Incluir**, em seguida o sistema fecha a janela, atualiza a lista de observações e apresenta a mensagem “_Medida socioeducativa incluída com sucesso_”.
 
-![Incluir medida socioeducativa](img/historico-de-cumprimento-de-medidas-socioeducativas-modal-1.png)
+![Incluir medida socioeducativa](../../../.gitbook/assets/historico-de-cumprimento-de-medidas-socioeducativas-modal-1.png)
 
 A janela <kbd>3</kbd> **Incluir medida socioeducativa**, representada na página anterior, contém os seguintes dados:
 
-- **Pessoa** – campo para informar a pessoa (adolescente) atendida;
-- **Número do processo** – campo para informar o número do processo da medida socioeducativa;
-- **Nome do técnico responsável** – campo que informa o nome do técnico responsável pelo registro do atendimento;
-- **Data de início** – campo para informar a data de início do cumprimento da medida socioeducativa;
-- **Data de fim** – campo para informar a data fim do cumprimento da medida socioeducativa;
-- **Tipo de medida** – campo para informar o tipo de medida socioeducativa a ser cumprida;
-- **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela.
-- **Incluir** – opção que, ao ser acionada, salva o atendimento.
+* **Pessoa** – campo para informar a pessoa (adolescente) atendida;
+* **Número do processo** – campo para informar o número do processo da medida socioeducativa;
+* **Nome do técnico responsável** – campo que informa o nome do técnico responsável pelo registro do atendimento;
+* **Data de início** – campo para informar a data de início do cumprimento da medida socioeducativa;
+* **Data de fim** – campo para informar a data fim do cumprimento da medida socioeducativa;
+* **Tipo de medida** – campo para informar o tipo de medida socioeducativa a ser cumprida;
+* **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela.
+* **Incluir** – opção que, ao ser acionada, salva o atendimento.
 
 ## Visualizar medida socioeducativa
 
 Para **visualizar o registro da medida socioeducativa**, acione a opção <kbd>4</kbd> **Visualizar medida**, então o sistema vai apresentar a janela com as informações.
 
-![Visualizar medida socioeducativa](img/historico-de-cumprimento-de-medidas-socioeducativas-modal-2.png)
+![Visualizar medida socioeducativa](../../../.gitbook/assets/historico-de-cumprimento-de-medidas-socioeducativas-modal-2.png)
 
-- **Fechar** – opção que, ao ser acionada, fecha a janela.
+* **Fechar** – opção que, ao ser acionada, fecha a janela.
 
 ## Editar medida socioeducativa
 
@@ -50,14 +50,14 @@ Informe os ajustes e acione a opção <kbd>9</kbd> **Alterar**, em seguida o sis
 
 A janela <kbd>5</kbd> **Alterar medida socioeducativa**, representada na página anterior, contém os seguintes dados:
 
-- **Pessoa** – campo para informar a pessoa (adolescente) atendida;
-- **Número do processo** – campo para informar o número do processo da medida socioeducativa;
-- **Nome do técnico responsável** – campo que informa o nome do técnico responsável pelo registro do atendimento;
-- **Data de início** – campo para informar a data de início do cumprimento da medida socioeducativa;
-- **Data de fim** – campo para informar a data fim do cumprimento da medida socioeducativa;
-- **Tipo de medida** – campo para informar o tipo de medida socioeducativa a ser cumprida;
-- **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela.
-- **Alterar** – opção que, ao ser acionada, salva a alteração realizada para o atendimento.
+* **Pessoa** – campo para informar a pessoa (adolescente) atendida;
+* **Número do processo** – campo para informar o número do processo da medida socioeducativa;
+* **Nome do técnico responsável** – campo que informa o nome do técnico responsável pelo registro do atendimento;
+* **Data de início** – campo para informar a data de início do cumprimento da medida socioeducativa;
+* **Data de fim** – campo para informar a data fim do cumprimento da medida socioeducativa;
+* **Tipo de medida** – campo para informar o tipo de medida socioeducativa a ser cumprida;
+* **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela.
+* **Alterar** – opção que, ao ser acionada, salva a alteração realizada para o atendimento.
 
 ## Excluir medida socioeducativa
 

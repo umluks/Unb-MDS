@@ -2,9 +2,9 @@
 
 Ao acionar o bloco <kbd>1</kbd> **Participação em serviços, programas e projetos**, para expandir as informações, você pode consultar observações de participação dos membros da família em serviços, programas e projetos.
 
-![Participação em serviços, programas e projetos](img/participacao-em-servicos-programas-e-projetos-1.png)
+![Participação em serviços, programas e projetos](<../../../.gitbook/assets/participacao-em-servicos-programas-e-projetos-1 (1).png>)
 
----
+***
 
 ## Observações da participação em serviços, programas e projetos
 
