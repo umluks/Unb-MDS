@@ -18,7 +18,7 @@ A <kbd>2</kbd> **lista atendimentos da pessoa** é composta por:
 
 Para **visualizar o atendimento coletivo**, acione a opção <kbd>3</kbd> **Visualizar atendimento coletivo**, então o sistema vai apresentar a janela com as informações.
 
-![Visualizar Detalhes do Atendimento Coletivo](img/relatorio-de-participacao-em-atendimentos-coletivos-modelo-2.png)
+![Visualizar Detalhes do Atendimento Coletivo](img/relatorio-de-participacao-em-atendimentos-coletivos-modal-2.png)
 
 ---
 
