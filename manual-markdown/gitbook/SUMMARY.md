@@ -39,5 +39,5 @@
   * [Relatório de participação em atendimentos coletivos](prontuario-atendimento-individual-e-familiar/relatorio-de-participacao-em-atendimentos-coletivos.md)
   * [Relatório simplificado dos atendimentos](prontuario-atendimento-individual-e-familiar/relatorio-simplificado-dos-atendimentos.md)
 * [Prontuário: Atendimento Coletivo](prontuario-atendimento-coletivo/)
-* [Prontuário: Migrar Prontuário](prontuario-migrar-prontuario/prontuario-migrar-prontuario.md)
-* [Prontuário: Painel Estatístico](prontuario-painel-estatistico/prontuario-painel-estatistico.md)
+* [Prontuário: Migrar Prontuário](prontuario-migrar-prontuario/)
+* [Prontuário: Painel Estatístico](prontuario-painel-estatistico/)

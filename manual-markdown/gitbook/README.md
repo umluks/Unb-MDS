@@ -12,5 +12,5 @@ O Prontuário Eletrônico busca organizar e qualificar o conjunto de informaçõ
 * **[Acesso ao Prontuário Eletrônico do SUAS](acesso-ao-prontuario/README.md)**
 * **[Prontuário: Atendimento individual e familiar](prontuario-atendimento-individual-e-familiar/README.md)**
 * **[Prontuário: Atendimento Coletivo](prontuario-atendimento-coletivo/README.md)**
-* **[Prontuário: Migrar Prontuário](prontuario-migrar-prontuario/prontuario-migrar-prontuario.md)**
-* **[Prontuário: Painel Estatístico](prontuario-painel-estatistico/prontuario-painel-estatistico.md)**
+* **[Prontuário: Migrar Prontuário](prontuario-migrar-prontuario/README.md)**
+* **[Prontuário: Painel Estatístico](prontuario-painel-estatistico/README.md)**
