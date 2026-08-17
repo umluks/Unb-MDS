@@ -39,6 +39,6 @@
   * [Formulário de controle de encaminhamentos](manual-markdown/gitbook/prontuario-atendimento-individual-e-familiar/formulario-de-controle-de-encaminhamentos.md)
   * [Relatório de participação em atendimentos coletivos](manual-markdown/gitbook/prontuario-atendimento-individual-e-familiar/relatorio-de-participacao-em-atendimentos-coletivos.md)
   * [Relatório simplificado dos atendimentos](manual-markdown/gitbook/prontuario-atendimento-individual-e-familiar/relatorio-simplificado-dos-atendimentos.md)
-* [Prontuário: Atendimento Coletivo](manual-markdown/gitbook/prontuario-atendimento-coletivo/README.md)
+* [Prontuário: Atendimento Coletivo](prontuario-atendimento-coletivo.md)
 * [Prontuário: Migrar Prontuário](manual-markdown/gitbook/prontuario-migrar-prontuario/README.md)
 * [Prontuário: Painel Estatístico](manual-markdown/gitbook/prontuario-painel-estatistico/README.md)
