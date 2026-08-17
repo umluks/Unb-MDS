@@ -8,6 +8,6 @@ Ao acionar o bloco <kbd>1</kbd> **Participação em serviços, programas e proje
 
 ## Observações da participação em serviços, programas e projetos
 
-Para mais informações sobre o <kbd>7</kbd> **registro de observações**, consulte [aspectos-globais.md](aspectos-globais.md).
+Para mais detalhes sobre o <kbd>7</kbd> **registro de observações**, consulte a seção [Aspectos Globais](aspectos-globais.md).
 
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8</kbd> **ícone**.

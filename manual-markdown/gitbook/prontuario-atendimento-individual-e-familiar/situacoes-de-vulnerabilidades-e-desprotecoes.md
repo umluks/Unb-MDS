@@ -89,6 +89,6 @@ Para **excluir o registro** de vulnerabilidade da lista, acione a opção <kbd>8
 
 ## Observações das situações de vulnerabilidades e desproteções sociais da família
 
-Para mais informações sobre o <kbd>9</kbd> **registro de observações**, consulte [aspectos-globais.md](aspectos-globais.md).
+Para mais detalhes sobre o <kbd>9</kbd> **registro de observações**, consulte a seção [Aspectos Globais](aspectos-globais.md).
 
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>10</kbd> **ícone**.

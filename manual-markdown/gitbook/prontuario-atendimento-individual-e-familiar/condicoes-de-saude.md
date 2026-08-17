@@ -77,6 +77,6 @@ Para **excluir marcação de saúde**, acione a opção <kbd>6</kbd> **Excluir m
 
 ## Observações das condições de saúde da família
 
-Para mais informações sobre o <kbd>7</kbd> **registro de observações**, consulte [aspectos-globais.md](aspectos-globais.md).
+Para mais detalhes sobre o <kbd>7</kbd> **registro de observações**, consulte a seção [Aspectos Globais](aspectos-globais.md).
 
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8</kbd> **ícone**.

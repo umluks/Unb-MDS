@@ -83,7 +83,7 @@ Para **excluir o registro** de acompanhamento familiar da lista, acione a opçã
 
 ## Observações do planejamento e evolução do acompanhamento familiar
 
-Para mais informações sobre o <kbd>7</kbd> **registro de observações**, consulte [aspectos-globais.md](aspectos-globais.md).
+Para mais detalhes sobre o <kbd>7</kbd> **registro de observações**, consulte a seção [Aspectos Globais](aspectos-globais.md).
 
 > **Observação:** As <kbd>7</kbd> **Observações Planejamento e evolução do acompanhamento familiar** estão disponíveis apenas para a equipe técnica de nível superior.
 

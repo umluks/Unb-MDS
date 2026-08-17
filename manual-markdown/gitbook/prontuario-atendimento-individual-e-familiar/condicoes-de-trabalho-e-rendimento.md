@@ -32,7 +32,7 @@ O <kbd>3</kbd> **agrupamento de campos dos valores recebidos por Programas Socia
 
 ## Observações das condições de trabalho e rendimento da família
 
-Para mais informações sobre o <kbd>4</kbd> **registro de observações**, consulte [aspectos-globais.md](aspectos-globais.md).
+Para mais detalhes sobre o <kbd>4</kbd> **registro de observações**, consulte a seção [Aspectos Globais](aspectos-globais.md).
 
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5</kbd> **ícone**.
 

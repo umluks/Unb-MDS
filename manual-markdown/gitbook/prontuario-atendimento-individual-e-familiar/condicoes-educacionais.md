@@ -26,7 +26,7 @@ O <kbd>3</kbd> **agrupamento de campos da identificação de vulnerabilidade edu
 
 ## Observações das condições educacionais da família
 
-Para mais informações sobre <kbd>4</kbd> **registro de observações**, consulte [aspectos-globais.md](aspectos-globais.md).
+Para mais detalhes sobre <kbd>4</kbd> **registro de observações**, consulte a seção [Aspectos Globais](aspectos-globais.md).
 
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5</kbd> **ícone**.
 
