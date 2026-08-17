@@ -80,7 +80,7 @@ Para **excluir o benefício da lista**, acione a opção <kbd>6</kbd> **Excluir 
 
 ## Observações do acesso a benefícios eventuais
 
-Para mais informações sobre o <kbd>7</kbd> **registro de observações**, consulte a página 19 deste manual.
+Para mais informações sobre o <kbd>7</kbd> **registro de observações**, consulte [aspectos-globais.md](aspectos-globais.md).
 
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8</kbd> **ícone**.
 

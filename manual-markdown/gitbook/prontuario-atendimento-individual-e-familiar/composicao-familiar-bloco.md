@@ -24,7 +24,7 @@ O agrupamento de campos das <kbd>3</kbd> **especificidades sociais, étnicas ou 
 
 ## Observações da composição familiar
 
-Para mais informações sobre <kbd>4</kbd> **registro de observações**, consulte a página 19 deste manual.
+Para mais informações sobre <kbd>4</kbd> **registro de observações**, consulte [aspectos-globais.md](aspectos-globais.md).
 
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5</kbd> **ícone**.
 

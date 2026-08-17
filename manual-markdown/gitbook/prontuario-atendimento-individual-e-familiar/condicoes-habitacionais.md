@@ -76,7 +76,7 @@ A janela <kbd>5</kbd> **Atualizar informações de habitação**, representada n
 
 ## Observações das condições habitacionais da família
 
-Para mais informações sobre <kbd>6</kbd> **registro de observações**, consulte a página 19 deste manual.
+Para mais informações sobre <kbd>6</kbd> **registro de observações**, consulte [aspectos-globais.md](aspectos-globais.md).
 
 ![Observações das condições habitacionais da família](../../../.gitbook/assets/condicoes-habitacionais-da-família-4.png)
 

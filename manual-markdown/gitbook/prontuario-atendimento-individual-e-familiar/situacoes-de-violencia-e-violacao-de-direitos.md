@@ -6,6 +6,6 @@ No bloco <kbd>1</kbd> **Situação de violência e violação de direitos**, ao 
 
 ## Observações das situações de violência e violação de direitos
 
-Para mais informações sobre o <kbd>4</kbd> **registro de observações**, consulte a página 19 deste manual.
+Para mais informações sobre o <kbd>4</kbd> **registro de observações**, consulte [aspectos-globais.md](aspectos-globais.md).
 
 Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>3</kbd> **ícone**.
