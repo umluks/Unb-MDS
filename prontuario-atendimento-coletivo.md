@@ -1,2 +1,0 @@
-# Prontuário: Atendimento Coletivo
-
