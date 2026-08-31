@@ -96,7 +96,7 @@ Janeiro de 2026
 
 - [Condições de trabalho e rendimento da família](#condições-de-trabalho-e-rendimento-da-família) [59]{.n}
 
-\*\*[Registro de atendimentos socioassistenciais](#registro-de-atendimentos-socioassistenciais) [62]{.n}
+- [Registro de atendimentos socioassistenciais](#registro-de-atendimentos-socioassistenciais) [62]{.n}
 
 - [Acesso a benefícios eventuais](#acesso-a-benefícios-eventuais) [71]{.n}
 
@@ -703,6 +703,105 @@ Os benefícios ofertados pela assistência social têm como objetivo garantir pr
 
 - **Benefícios voltados à família:** são aqueles que consideram as necessidades do núcleo familiar de forma integrada, buscando melhorar suas condições de vida de maneira coletiva. Exemplos incluem benefícios que apoiam a renda familiar, a moradia ou o acesso a serviços essenciais, fortalecendo a estrutura e a autonomia da família como um todo.
 - **Benefícios voltados a um membro específico:** destinam-se a atender situações particulares de um integrante da família, quando há uma vulnerabilidade individual que requer atenção diferenciada — como uma pessoa idosa, com deficiência, gestante, criança ou adolescente em situação de risco.
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-prontuario-individual.md >}}
+
+## Aspectos globais do módulo Prontuário
+
+### Registro de marcadores
+
+![Registro de marcadores](img/aspectos-globais-do-modulo-prontuario-8.png){.w-90}
+
+O **Registro de marcadores** permite identificar e sinalizar situações ou particularidades relacionadas aos membros da família no Prontuário.
+
+Caso não haja nenhum registro inserido, o sistema exibirá a mensagem _"Nenhum marcador cadastrado"_.
+
+### Incluir marcador
+
+Para adicionar um marcador, acione a opção <kbd>1</kbd> **Incluir marcadores**, e o sistema apresentará a janela para cadastro.
+
+A janela **Incluir marcador** contém os seguintes campos:
+
+- **Pessoa(s)** – selecione os membros da família aos quais o marcador será atribuído (com a opção **Selecionar Todas**);
+- **Data de início** – informe a data de início da vigência do marcador;
+- **Nome do técnico** – campo que identifica o técnico responsável pelo registro;
+- **Marcador(es)** – selecione o(s) marcador(es) desejado(s) na lista (com a opção **Selecionar Todos**);
+- **Cancelar** – cancela a ação e fecha a janela sem salvar;
+- **Incluir** – acione a opção <kbd>6</kbd> **Incluir** para salvar o registro e atualizar a lista.
+
+![Incluir marcador](img/aspectos-globais-do-modulo-prontuario-7.png){.w-70}
+
+Após a inclusão, os marcadores cadastrados são exibidos em lista com as seguintes informações: **Marcador**, **Data do registro**, **Membro familiar** e as opções na coluna **Ação**:
+
+- <kbd>2</kbd> **Visualizar marcador** – abre a janela com os detalhes do registro;
+- <kbd>3</kbd> **Alterar marcador** – permite editar a data de início do marcador;
+- <kbd>4</kbd> **Registrar data de término** – permite definir a data de encerramento da vigência do marcador;
+- <kbd>5</kbd> **Excluir marcador** – remove o registro do marcador mediante confirmação.
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-prontuario-individual.md >}}
+
+### Visualizar detalhe do marcador
+
+![Visualizar detalhe do marcador](img/aspectos-globais-do-modulo-prontuario-9.png){.w-70}
+
+Ao acionar a opção <kbd>2</kbd> **Visualizar marcador** (ícone de olho), o sistema apresenta a janela **Detalhe do marcador**, contendo as informações:
+
+- **Pessoa:** nome do membro familiar vinculado;
+- **Marcador:** denominação do marcador atribuído;
+- **Data de início:** data inicial de vigência do marcador;
+- **Data de término:** data de encerramento do marcador (se houver);
+- **Data do registro:** data em que o marcador foi cadastrado no sistema;
+- **Nome do técnico:** profissional que realizou a inclusão;
+- **Data da atualização:** data da última alteração realizada;
+- **Técnico da atualização:** profissional responsável pela última modificação;
+- **Fechar:** fecha a janela de consulta.
+
+### Alterar marcador
+
+![Alterar marcador](img/aspectos-globais-do-modulo-prontuario-10.png){.w-70}
+
+Para editar, acione a opção <kbd>3</kbd> **Alterar marcador** (ícone de lápis) na tabela. O sistema abrirá a janela **Alterar marcador**:
+
+- **Membro familiar** e **Marcador(es)** – campos apenas para leitura;
+- **Data de início** – campo habilitado para ajuste da data;
+- **Nome do técnico** – identificação do profissional logado;
+- **Cancelar** – fecha a janela sem salvar alterações;
+- **Alterar** – acione a opção <kbd>6</kbd> **Alterar** para gravar os novos dados e atualizar a listagem.
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-prontuario-individual.md >}}
+
+### Registrar data de término
+
+![Registrar data de término](img/aspectos-globais-do-modulo-prontuario-11.png){.w-70}
+
+Para definir o encerramento da vigência do marcador, acione a opção <kbd>4</kbd> **Registrar data de término** (ícone `+`) na tabela. O sistema apresentará a janela **Registrar data de término** com os seguintes campos:
+
+- **Data de término** – campo para informar a data de conclusão/encerramento do marcador;
+- **Nome do técnico** – identifica o profissional responsável pelo registro;
+- **Cancelar** – cancela a ação e fecha a janela sem salvar;
+- **Confirmar** – acione a opção <kbd>6</kbd> **Confirmar** para salvar a data de término e atualizar a listagem.
+
+### Excluir marcador
+
+Para excluir, acione a opção <kbd>5</kbd> **Excluir marcador** (ícone de lixeira). O sistema solicitará a confirmação da exclusão antes de remover o registro.
 
 </div>
 
