@@ -1,3 +1,0 @@
-project:
-  post-render:
-    - bash generate-pdf.sh
