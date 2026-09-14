@@ -2,8 +2,6 @@
 
 <div class="left">
 
-Manual de uso: Prontuário Eletrônico
-
 </div>
 
 <div class="right">

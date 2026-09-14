@@ -481,6 +481,9 @@ img {
 /* Single column full-width page */
 .page-1col, .page-full {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   column-span: all;
   background-color: var(--white);
   height: var(--a4-small);
@@ -548,7 +551,7 @@ td, th {
 }
 
 .tabela-matriz .th-perfil {
-  background-color: #58595b;
+  background-color: #396348;
   color: #ffffff;
   height: 175px;
   vertical-align: bottom;

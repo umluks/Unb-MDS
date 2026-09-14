@@ -10,8 +10,6 @@ Manual de uso: Funcionalidades
 
 <div class="right-left">
 
-Funcionalidades
-
 </div>
 
 <div class="right-right">

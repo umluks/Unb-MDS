@@ -3,5 +3,7 @@
   --headless \
   --disable-gpu \
   --no-pdf-header-footer \
+  --log-level=3 \
   --print-to-pdf=completo.pdf \
-  completo.html
+  completo.html 2>/dev/null
+

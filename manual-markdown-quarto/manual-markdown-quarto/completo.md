@@ -3999,22 +3999,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 
 <table class="tabela-matriz">
   <thead>
-    <tr class="row-letters">
-      <th class="col-letter">A</th>
-      <th class="col-letter">B</th>
-      <th class="col-letter">C</th>
-      <th class="col-letter">D</th>
-      <th class="col-letter">E</th>
-      <th class="col-letter">F</th>
-      <th class="col-letter">G</th>
-      <th class="col-letter">H</th>
-      <th class="col-letter">I</th>
-      <th class="col-letter">J</th>
-      <th class="col-letter">K</th>
-      <th class="col-letter">L</th>
-      <th class="col-letter">M</th>
-      <th class="col-letter">N</th>
-    </tr>
     <tr>
       <th class="th-func">FUNCIONALIDADES</th>
       <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
@@ -4158,22 +4142,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 
 <table class="tabela-matriz">
   <thead>
-    <tr class="row-letters">
-      <th class="col-letter">A</th>
-      <th class="col-letter">B</th>
-      <th class="col-letter">C</th>
-      <th class="col-letter">D</th>
-      <th class="col-letter">E</th>
-      <th class="col-letter">F</th>
-      <th class="col-letter">G</th>
-      <th class="col-letter">H</th>
-      <th class="col-letter">I</th>
-      <th class="col-letter">J</th>
-      <th class="col-letter">K</th>
-      <th class="col-letter">L</th>
-      <th class="col-letter">M</th>
-      <th class="col-letter">N</th>
-    </tr>
     <tr>
       <th class="th-func">FUNCIONALIDADES</th>
       <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
@@ -4317,22 +4285,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 
 <table class="tabela-matriz">
   <thead>
-    <tr class="row-letters">
-      <th class="col-letter">A</th>
-      <th class="col-letter">B</th>
-      <th class="col-letter">C</th>
-      <th class="col-letter">D</th>
-      <th class="col-letter">E</th>
-      <th class="col-letter">F</th>
-      <th class="col-letter">G</th>
-      <th class="col-letter">H</th>
-      <th class="col-letter">I</th>
-      <th class="col-letter">J</th>
-      <th class="col-letter">K</th>
-      <th class="col-letter">L</th>
-      <th class="col-letter">M</th>
-      <th class="col-letter">N</th>
-    </tr>
     <tr>
       <th class="th-func">FUNCIONALIDADES</th>
       <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
@@ -4476,22 +4428,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 
 <table class="tabela-matriz">
   <thead>
-    <tr class="row-letters">
-      <th class="col-letter">A</th>
-      <th class="col-letter">B</th>
-      <th class="col-letter">C</th>
-      <th class="col-letter">D</th>
-      <th class="col-letter">E</th>
-      <th class="col-letter">F</th>
-      <th class="col-letter">G</th>
-      <th class="col-letter">H</th>
-      <th class="col-letter">I</th>
-      <th class="col-letter">J</th>
-      <th class="col-letter">K</th>
-      <th class="col-letter">L</th>
-      <th class="col-letter">M</th>
-      <th class="col-letter">N</th>
-    </tr>
     <tr>
       <th class="th-func">FUNCIONALIDADES</th>
       <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
@@ -4635,22 +4571,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 
 <table class="tabela-matriz">
   <thead>
-    <tr class="row-letters">
-      <th class="col-letter">A</th>
-      <th class="col-letter">B</th>
-      <th class="col-letter">C</th>
-      <th class="col-letter">D</th>
-      <th class="col-letter">E</th>
-      <th class="col-letter">F</th>
-      <th class="col-letter">G</th>
-      <th class="col-letter">H</th>
-      <th class="col-letter">I</th>
-      <th class="col-letter">J</th>
-      <th class="col-letter">K</th>
-      <th class="col-letter">L</th>
-      <th class="col-letter">M</th>
-      <th class="col-letter">N</th>
-    </tr>
     <tr>
       <th class="th-func">FUNCIONALIDADES</th>
       <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
@@ -4778,22 +4698,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 
 <table class="tabela-matriz">
   <thead>
-    <tr class="row-letters">
-      <th class="col-letter">A</th>
-      <th class="col-letter">B</th>
-      <th class="col-letter">C</th>
-      <th class="col-letter">D</th>
-      <th class="col-letter">E</th>
-      <th class="col-letter">F</th>
-      <th class="col-letter">G</th>
-      <th class="col-letter">H</th>
-      <th class="col-letter">I</th>
-      <th class="col-letter">J</th>
-      <th class="col-letter">K</th>
-      <th class="col-letter">L</th>
-      <th class="col-letter">M</th>
-      <th class="col-letter">N</th>
-    </tr>
     <tr>
       <th class="th-func">FUNCIONALIDADES</th>
       <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
@@ -4889,22 +4793,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 
 <table class="tabela-matriz">
   <thead>
-    <tr class="row-letters">
-      <th class="col-letter">A</th>
-      <th class="col-letter">B</th>
-      <th class="col-letter">C</th>
-      <th class="col-letter">D</th>
-      <th class="col-letter">E</th>
-      <th class="col-letter">F</th>
-      <th class="col-letter">G</th>
-      <th class="col-letter">H</th>
-      <th class="col-letter">I</th>
-      <th class="col-letter">J</th>
-      <th class="col-letter">K</th>
-      <th class="col-letter">L</th>
-      <th class="col-letter">M</th>
-      <th class="col-letter">N</th>
-    </tr>
     <tr>
       <th class="th-func">FUNCIONALIDADES</th>
       <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
@@ -5000,22 +4888,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 
 <table class="tabela-matriz">
   <thead>
-    <tr class="row-letters">
-      <th class="col-letter">A</th>
-      <th class="col-letter">B</th>
-      <th class="col-letter">C</th>
-      <th class="col-letter">D</th>
-      <th class="col-letter">E</th>
-      <th class="col-letter">F</th>
-      <th class="col-letter">G</th>
-      <th class="col-letter">H</th>
-      <th class="col-letter">I</th>
-      <th class="col-letter">J</th>
-      <th class="col-letter">K</th>
-      <th class="col-letter">L</th>
-      <th class="col-letter">M</th>
-      <th class="col-letter">N</th>
-    </tr>
     <tr>
       <th class="th-func">FUNCIONALIDADES</th>
       <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
@@ -5111,22 +4983,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 
 <table class="tabela-matriz">
   <thead>
-    <tr class="row-letters">
-      <th class="col-letter">A</th>
-      <th class="col-letter">B</th>
-      <th class="col-letter">C</th>
-      <th class="col-letter">D</th>
-      <th class="col-letter">E</th>
-      <th class="col-letter">F</th>
-      <th class="col-letter">G</th>
-      <th class="col-letter">H</th>
-      <th class="col-letter">I</th>
-      <th class="col-letter">J</th>
-      <th class="col-letter">K</th>
-      <th class="col-letter">L</th>
-      <th class="col-letter">M</th>
-      <th class="col-letter">N</th>
-    </tr>
     <tr>
       <th class="th-func">FUNCIONALIDADES</th>
       <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
@@ -5143,6 +4999,7 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
       <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
       <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
     </tr>
+
   </thead>
   <tbody>
     <tr>
@@ -5238,22 +5095,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 
 <table class="tabela-matriz">
   <thead>
-    <tr class="row-letters">
-      <th class="col-letter">A</th>
-      <th class="col-letter">B</th>
-      <th class="col-letter">C</th>
-      <th class="col-letter">D</th>
-      <th class="col-letter">E</th>
-      <th class="col-letter">F</th>
-      <th class="col-letter">G</th>
-      <th class="col-letter">H</th>
-      <th class="col-letter">I</th>
-      <th class="col-letter">J</th>
-      <th class="col-letter">K</th>
-      <th class="col-letter">L</th>
-      <th class="col-letter">M</th>
-      <th class="col-letter">N</th>
-    </tr>
     <tr>
       <th class="th-func">FUNCIONALIDADES</th>
       <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
