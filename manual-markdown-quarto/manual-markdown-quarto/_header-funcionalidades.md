@@ -2,7 +2,7 @@
 
 <div class="left">
 
-Manual de uso: Funcionalidades
+Funcionalidades
 
 </div>
 
