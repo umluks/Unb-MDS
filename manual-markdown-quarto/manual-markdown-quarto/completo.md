@@ -76,7 +76,7 @@ Janeiro de 2026
 
 - [Migrar Prontuário](#migrar-prontuário) [23]{.n}
 
-- [Excluir Prontuário](#excluir-prontuário) [27]{.n}
+<!-- - [Excluir Prontuário](#excluir-prontuário) [27]{.n} -->
 
 - [Identificação da pessoa de referência e endereço da família](#identificação-da-pessoa-de-referência-e-endereço-da-família) [28]{.n}
 
@@ -345,6 +345,7 @@ Responsável pela gestão nacional do Prontuário Eletrônico do SUAS. Suas atri
 - Coordenar e integrar o sistema em todo o país.
 - Definir normas e diretrizes nacionais de uso.
 - Apoiar monitoramento e planejamento com dados agregados.
+- Prestar apoio técnico aos estados.
 
 **Gestor Municipal**
 
@@ -352,14 +353,17 @@ Responsável pela administração dos acessos e permissões no Prontuário SUAS 
 
 - Acompanhar o uso do sistema, garantindo consistência e qualidade dos registros.
 - Utilizar dados consolidados para gestão estratégica (sem acesso a prontuários individuais).
+- Garantir condições éticas e técnicas para o uso qualificado do Novo Prontuário Eletrônico SUAS.
 
 **Técnico da Gestão Municipal**
 
 Atua no acompanhamento do Prontuário SUAS em nível municipal, assegurando a qualidade das informações. Suas atribuições são:
 
 - Apoiar o planejamento municipal com dados agregados.
-- Oferecer suporte e capacitação ao município.
+- Oferecer suporte e planejamento e capacitação aos profissionais das unidades.
 - Definir normas e rotinas de uso do sistema.
+- Realizar atendimentos socioassistencias em situações de emergência.
+- Realizar encaminhamentos quando necessário.
 
 Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como "TÉCNICO(A) DE NÍVEL SUPERIOR" ou "COORDENADOR(A)/DIRIGENTE" possuem acesso a esse perfil.
 
@@ -387,7 +391,6 @@ Atua no acompanhamento do Prontuário SUAS em nível estadual, assegurando a qua
 - Monitorar dados registrados pelos municípios.
 - Apoiar o planejamento estadual com dados agregados.
 - Oferecer suporte e capacitação aos municípios.
-- Definir normas e rotinas de uso do sistema.
 
 Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como "TÉCNICO(A) DE NÍVEL SUPERIOR" ou "COORDENADOR(A)/DIRIGENTE" possuem acesso a esse perfil.
 
@@ -395,7 +398,7 @@ Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como 
 
 Atua na gestão e no controle social, sem acesso a dados individualizados. Suas atribuições são:
 
-- Fiscalizar políticas públicas por meio de relatórios e dados agregados.
+- Acompanhar ou realizar o monitoramento da oferta dos serviços, programas e benefícios socioassistenciais a nível de controle social.
 
 **Apoio Administrativo – CRAS**
 
@@ -405,21 +408,24 @@ Auxilia na organização dos prontuários e no suporte às equipes do CRAS. Suas
 - Apoiar processos relacionados ao CadÚnico.
 - Emitir documentos e relatórios.
 - Apoiar os fluxos internos de atendimento.
+- Realizar procedimento de migração quando necessário.
 
 **Coordenador – CRAS**
 
 Responsável pela gestão operacional do sistema e pela supervisão dos atendimentos. Suas atribuições são:
 
+- Realizar atendimentos quando necessário.
 - Supervisionar registros e atendimentos realizados pela equipe.
 - Garantir sigilo e segurança das informações.
 - Planejar e avaliar ações com base em dados do sistema.
 - Articular comunicação interna e com a rede socioassistencial.
+- Realizar mapeamento territorial a partir dos relatórios gerados no Novo Prontuário Eletrônico SUAS.
 
 **Psicólogo – CRAS**
 
 Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:
 
-- Realizar acolhimento e atendimentos especializados.
+- Realizar acolhimento, atendimentos especializados e acompanhamento (se necessário).
 - Fortalecer vínculos familiares e comunitários.
 - Orientar e encaminhar para serviços e benefícios da rede.
 - Atuar em equipe multiprofissional.
@@ -456,12 +462,13 @@ Registra as ações socioeducativas e o acompanhamento de usuários, garantindo 
 - Identificar e registrar riscos e vulnerabilidades.
 - Manter registros claros e alinhados às normas do SUAS.
 - Registrar articulações com a rede de serviços.
+- Realizar procedimento de migração quando necessário.
 
 **Técnico de Nível Superior – CRAS**
 
 Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:
 
-- Realizar acolhimento e atendimentos especializados.
+- Realizar acolhimento, atendimentos especializados e acompanhamento (se necessário).
 - Fortalecer vínculos familiares e comunitários.
 - Orientar e encaminhar para serviços e benefícios da rede.
 - Atuar em equipe multiprofissional.
@@ -472,13 +479,37 @@ Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Su
 
 Registra as ações socioeducativas e o acompanhamento de usuários, garantindo organização e continuidade do atendimento. Suas atribuições são:
 
-- Produzir relatórios e pareceres.
+- Produzir relatórios.
 - Registrar oficinas, grupos e atividades socioeducativas.
 - Documentar atendimentos, orientações e encaminhamentos.
 - Contribuir com o plano de acompanhamento familiar, registrando metas e evolução.
 - Identificar e registrar riscos e vulnerabilidades.
 - Manter registros claros e alinhados às normas do SUAS.
 - Registrar articulações com a rede de serviços.
+- Realizar procedimento de migração quando necessário.
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-apresentacao.md >}}
+
+## Perfis do Prontuário SUAS
+
+O Novo Prontuário Eletrônico SUAS possui diferentes perfis de acesso. A cada perfil são atribuídas permissões próprias para consultar e gerenciar as informações registradas no referido prontuário. Essa estrutura visa garantir a integridade, a segurança e a proteção dos dados, em conformidade com a Lei Geral de Proteção de Dados Pessoais (LGPD).
+
+**Na prática:**
+
+- Alguns perfis permitem apenas a visualização das informações registradas, sem a possibilidade de inserir, editar ou excluir dados.
+- Outros perfis permitem visualizar informações gerais, mas restringem o acesso a determinados campos como “observações” e “marcadores”.
+
+<div class="col-break"></div>
+
+> **Importante:** se um bloco ou uma funcionalidade não estiver disponível, não abrir ou apresentar opções de ação desabilitadas, confirme se o seu perfil tem a permissão necessária para executar a ação desejada.
+>
+> Para verificar as funcionalidades e as permissões correspondentes a cada perfil, consulte o anexo “Prontuário: Descritivo de perfis e permissões”, **disponível na página (pag 155)**.
 
 </div>
 
@@ -488,7 +519,7 @@ Registra as ações socioeducativas e o acompanhamento de usuários, garantindo 
  
 {{< include _header-acesso.md >}}
 
-![Login gov.br](img/login-no-sistema-1.png){.img-pagina}
+![Login gov.br](img/login-no-sistema-1.png)
 
 ## Login no sistema {.col-break}
 
@@ -657,7 +688,7 @@ Para **visualizar o registro de observação**, acione a opção <kbd>2</kbd> **
 
 {{< include _header-prontuario-individual.md >}}
 
-![Visualizar e Alterar observação](img/aspectos-globais-do-modulo-prontuario-3.png){.w-80}
+![Visualizar e Alterar observação](img/aspectos-globais-do-modulo-prontuario-3.png)
 
 A janela <kbd>2</kbd> **Visualizar observação**, contém os seguintes dados:
 
@@ -718,7 +749,7 @@ Os benefícios ofertados pela assistência social têm como objetivo garantir pr
 
 ### Registro de marcadores
 
-![Registro de marcadores](img/aspectos-globais-do-modulo-prontuario-8.png){.w-90}
+![Registro de marcadores](img/aspectos-globais-do-modulo-prontuario-8.png)
 
 O **Registro de marcadores** permite identificar e sinalizar situações ou particularidades relacionadas aos membros da família no Prontuário.
 
@@ -792,7 +823,7 @@ Para editar, acione a opção <kbd>3</kbd> **Alterar marcador** (ícone de lápi
 
 ### Registrar data de término
 
-![Registrar data de término](img/aspectos-globais-do-modulo-prontuario-11.png){.w-70}
+![Registrar data de término](img/aspectos-globais-do-modulo-prontuario-11.png)
 
 Para definir o encerramento da vigência do marcador, acione a opção <kbd>4</kbd> **Registrar data de término** (ícone `+`) na tabela. O sistema apresentará a janela **Registrar data de término** com os seguintes campos:
 
@@ -813,7 +844,7 @@ Para excluir, acione a opção <kbd>5</kbd> **Excluir marcador** (ícone de lixe
 
 {{< include _header-prontuario-individual.md >}}
 
-![Informações do Prontuário](img/informacoes-do-prontuario-1.png)
+![Informações do Prontuário](img/informacoes-do-prontuario-1.png){.img-pagina}
 
 ## Informações do Prontuário
 
@@ -837,7 +868,7 @@ Caso exista solicitação de migração para o prontuário eletrônico da pessoa
 
 {{< include _header-prontuario-individual.md >}}
 
-![Migrar Prontuário](img/migrar-prontuario-1.png)
+![Migrar Prontuário](img/migrar-prontuario-1.png){.img-pagina}
 
 ## Migrar Prontuário
 
@@ -853,7 +884,7 @@ Para migrar o prontuário eletrônico para outra unidade de atendimento, acione 
 
 {{< include _header-prontuario-individual.md >}}
 
-![Migrar Prontuário](img/migrar-prontuario-1.png)
+![Migrar Prontuário](img/migrar-prontuario-1.png){.img-pagina}
 
 ## Migrar Prontuário
 
@@ -876,7 +907,7 @@ Conforme representado na janela representada na página anterior, o agrupamento 
 
 {{< include _header-prontuario-individual.md >}}
 
-![Migrar Prontuário](img/migrar-prontuario-1.png)
+![Migrar Prontuário](img/migrar-prontuario-1.png){.img-pagina}
 
 ## Migrar Prontuário
 
@@ -907,7 +938,7 @@ Conforme representado na janela representada na página anterior, o agrupamento 
 
 {{< include _header-prontuario-individual.md >}}
 
-![Migrar Prontuário](img/migrar-prontuario-1.png)
+![Migrar Prontuário](img/migrar-prontuario-1.png){.img-pagina}
 
 ## Migrar Prontuário
 
@@ -930,7 +961,7 @@ Conforme representado na janela representada na página anterior, o agrupamento 
 
 {{< include _header-prontuario-individual.md >}}
 
-![Excluir Prontuário](img/excluir-prontuario-1.png)
+![Excluir Prontuário](img/excluir-prontuario-1.png){.img-pagina}
 
 ## Excluir Prontuário
 
@@ -959,7 +990,7 @@ Conforme representado na janela acima, o agrupamento é composto pelos campos:
 
 {{< include _header-prontuario-individual.md >}}
 
-![Identificação da pessoa de referência e endereço da família](img/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-1.png)
+![Identificação da pessoa de referência e endereço da família](img/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-1.png){.img-pagina}
 
 ## Identificação da pessoa de referência e endereço da família
 
@@ -991,7 +1022,7 @@ No agrupamento <kbd>5</kbd> **Identificação da pessoa de referência e endere�
 
 {{< include _header-prontuario-individual.md >}}
 
-![Identificação da pessoa de referência e endereço da família](img/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-1.png)
+![Identificação da pessoa de referência e endereço da família](img/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-1.png){.img-pagina}
 
 ## Identificação da pessoa de referência e endereço da família
 
@@ -1023,7 +1054,7 @@ No agrupamento <kbd>5</kbd> **Identificação da pessoa de referência e endere�
 
 {{< include _header-prontuario-individual.md >}}
 
-![Identificação da pessoa de referência e endereço da família](img/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-2.png)
+![Identificação da pessoa de referência e endereço da família](img/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-2.png){.img-pagina}
 
 ## Identificação da pessoa de referência e endereço da família
 
@@ -1050,7 +1081,7 @@ No agrupamento <kbd>5</kbd> **Identificação da pessoa de referência e endere�
 
 {{< include _header-prontuario-individual.md >}}
 
-![Informações da Família](img/informacoes-da-familia-1.png)
+![Informações da Família](img/informacoes-da-familia-1.png){.img-pagina}
 
 ## Informações da família
 
@@ -1080,7 +1111,7 @@ Conforme tela ao lado, o agrupamento é composto pelos campos:
 
 {{< include _header-prontuario-individual.md >}}
 
-![Composição Familiar](img/composicao-familiar-1.png){.w-85}
+![Composição Familiar](img/composicao-familiar-1.png){.img-pagina}
 
 ## Composição familiar
 
@@ -1110,7 +1141,7 @@ Conforme imagem ao lado, o agrupamento é composto pelos campos:
 
 {{< include _header-prontuario-individual.md >}}
 
-![Composição Familiar](img/composicao-familiar-1.png){.w-85}
+![Composição Familiar](img/composicao-familiar-1.png){.img-pagina}
 
 ## Composição familiar
 
@@ -1126,7 +1157,7 @@ Conforme imagem ao lado, o agrupamento é composto pelos campos:
 
 {{< include _header-prontuario-individual.md >}}
 
-![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png)
+![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png){.img-pagina}
 
 ## Forma de ingresso na unidade e motivo do primeiro atendimento
 
@@ -1147,7 +1178,7 @@ A **lista de registro de atendimentos** é composta por:
 
 {{< include _header-prontuario-individual.md >}}
 
-![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png)
+![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png){.img-pagina}
 
 ## Forma de ingresso na unidade e motivo do primeiro atendimento
 
@@ -1167,7 +1198,7 @@ Preencha os dados solicitados e acione a opção <kbd>7</kbd> **Incluir**, em se
 
 {{< include _header-prontuario-individual.md >}}
 
-![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png)
+![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png){.img-pagina}
 
 ## Forma de ingresso na unidade e motivo do primeiro atendimento
 
@@ -1191,7 +1222,7 @@ A janela <kbd>2</kbd> **Incluir forma de ingresso** contém os seguintes dados:
 
 {{< include _header-prontuario-individual.md >}}
 
-![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png)
+![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png){.img-pagina}
 
 ## Forma de ingresso na unidade e motivo do primeiro atendimento
 
@@ -1209,7 +1240,7 @@ Para **visualizar o registro do atendimento**, acione a opção <kbd>3</kbd> **V
 
 {{< include _header-prontuario-individual.md >}}
 
-![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png)
+![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png){.img-pagina}
 
 ## Forma de ingresso na unidade e motivo do primeiro atendimento
 
@@ -1233,7 +1264,7 @@ A janela <kbd>3</kbd> **Visualizar forma de ingresso**, contém os seguintes dad
 
 {{< include _header-prontuario-individual.md >}}
 
-![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png)
+![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png){.img-pagina}
 
 ## Forma de ingresso na unidade e motivo do primeiro atendimento
 
@@ -1253,7 +1284,7 @@ Informe os ajustes e acione a opção <kbd>7</kbd> **Alterar**, em seguida o sis
 
 {{< include _header-prontuario-individual.md >}}
 
-![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png)
+![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png){.img-pagina}
 
 ## Forma de ingresso na unidade e motivo do primeiro atendimento
 
@@ -1282,7 +1313,7 @@ A janela <kbd>4</kbd> **Alterar forma de ingresso** contém os seguintes dados:
 
 {{< include _header-prontuario-individual.md >}}
 
-![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png)
+![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png){.img-pagina}
 
 ## Forma de ingresso na unidade e motivo do primeiro atendimento
 
@@ -1304,7 +1335,7 @@ A janela <kbd>4</kbd> **Alterar forma de ingresso** contém os seguintes dados:
 
 {{< include _header-prontuario-individual.md >}}
 
-![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png)
+![Forma de Ingresso](img/forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento-1.png){.img-pagina}
 
 ## Forma de ingresso na unidade e motivo do primeiro atendimento
 
@@ -1320,7 +1351,7 @@ Para **excluir o registro da lista**, acione a opção <kbd>5</kbd> **Excluir fo
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condiçõess habitacionais da família](img/condicoes-habitacionais-da-familia-1.png)
+![Condiçõess habitacionais da família](img/condicoes-habitacionais-da-familia-1.png){.img-pagina}
 
 ## Condições habitacionais da família
 
@@ -1348,7 +1379,7 @@ O agrupamento de campos <kbd>2</kbd> **características do domicílio**, é comp
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições habitacionais da família](img/condicoes-habitacionais-da-família-2.png)
+![Condições habitacionais da família](img/condicoes-habitacionais-da-família-2.png){.img-pagina}
 
 ## Condições habitacionais da família
 
@@ -1370,7 +1401,7 @@ O agrupamento de campos <kbd>3</kbd> **condições habitacionais da família** �
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições habitacionais da família](img/condicoes-habitacionais-da-familia-1.png)
+![Condições habitacionais da família](img/condicoes-habitacionais-da-familia-1.png){.img-pagina}
 
 ## Condições habitacionais da família
 
@@ -1388,7 +1419,7 @@ Para **adicionar informações de habitação**, acione a opção <kbd>4</kbd> *
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições habitacionais da família](img/condicoes-habitacionais-da-familia-1.png)
+![Condições habitacionais da família](img/condicoes-habitacionais-da-familia-1.png){.img-pagina}
 
 ## Condições habitacionais da família
 
@@ -1413,7 +1444,7 @@ A janela <kbd>4</kbd> **Incluir informações de habitação**, representada na 
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições habitacionais da família](img/condicoes-habitacionais-da-familia-1.png)
+![Condições habitacionais da família](img/condicoes-habitacionais-da-familia-1.png){.img-pagina}
 
 ## Condições habitacionais da família
 
@@ -1431,7 +1462,7 @@ Para **editar as informações de habitação**, acione a opção <kbd>5</kbd> *
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições habitacionais da família](img/condicoes-habitacionais-da-familia-1.png)
+![Condições habitacionais da família](img/condicoes-habitacionais-da-familia-1.png){.img-pagina}
 
 ## Condições habitacionais da família
 
@@ -1456,7 +1487,7 @@ A janela <kbd>5</kbd> **Atualizar informações de habitação**, representada n
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições habitacionais da família](img/condicoes-habitacionais-da-familia-1.png)
+![Condições habitacionais da família](img/condicoes-habitacionais-da-familia-1.png){.img-pagina}
 
 ## Condições habitacionais da família
 
@@ -1466,7 +1497,7 @@ Para mais informações sobre <kbd>6</kbd> **registro de observações**, consul
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8</kbd> **ícone**.
 
 </div>
 
@@ -1476,7 +1507,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições Educacionais](img/condicoes-educacionais-da-familia-1.png)
+![Condições Educacionais](img/condicoes-educacionais-da-familia-1.png){.img-pagina}
 
 ## Condições educacionais da família
 
@@ -1506,7 +1537,7 @@ O <kbd>3</kbd> **agrupamento de campos da identificação de vulnerabilidade edu
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições Educacionais](img/condicoes-educacionais-da-familia-1.png)
+![Condições Educacionais](img/condicoes-educacionais-da-familia-1.png){.img-pagina}
 
 ## Condições educacionais da família
 
@@ -1516,7 +1547,7 @@ Para mais informações sobre <kbd>4</kbd> **registro de observações**, consul
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>6</kbd> **ícone**.
 
 </div>
 
@@ -1526,7 +1557,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições de Saúde](img/condicoes-de-saude-da-familia-1.png)
+![Condições de Saúde](img/condicoes-de-saude-da-familia-1.png){.img-pagina}
 
 ## Condições de saúde da família
 
@@ -1556,7 +1587,7 @@ A <kbd>2</kbd> **lista das marcações de saúde da família** é composta por:
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições de Saúde](img/condicoes-de-saude-da-familia-1.png)
+![Condições de Saúde](img/condicoes-de-saude-da-familia-1.png){.img-pagina}
 
 ## Condições de saúde da família
 
@@ -1576,7 +1607,7 @@ Preencha os dados solicitados e acione a opção <kbd>9</kbd> **Incluir**, em se
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições de Saúde](img/condicoes-de-saude-da-familia-1.png)
+![Condições de Saúde](img/condicoes-de-saude-da-familia-1.png){.img-pagina}
 
 ## Condições de saúde da família
 
@@ -1598,7 +1629,7 @@ A janela <kbd>3</kbd> **Incluir marcação de saúde**, representada na página 
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições de Saúde](img/condicoes-de-saude-da-familia-1.png)
+![Condições de Saúde](img/condicoes-de-saude-da-familia-1.png){.img-pagina}
 
 ## Condições de saúde da família
 
@@ -1623,7 +1654,7 @@ A janela <kbd>4</kbd> **Visualizar marcação de saúde**, representada acima, c
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições de Saúde](img/condicoes-de-saude-da-familia-1.png)
+![Condições de Saúde](img/condicoes-de-saude-da-familia-1.png){.img-pagina}
 
 ## Condições de saúde da família
 
@@ -1651,7 +1682,7 @@ A janela <kbd>5</kbd> **Alterar marcação de saúde**, representada acima, cont
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições de Saúde](img/condicoes-de-saude-da-familia-1.png)
+![Condições de Saúde](img/condicoes-de-saude-da-familia-1.png){.img-pagina}
 
 ## Condições de saúde da família
 
@@ -1667,7 +1698,7 @@ Para mais informações sobre o <kbd>7</kbd> **registro de observações**, cons
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>9</kbd> **ícone**.
 
 </div>
 
@@ -1677,7 +1708,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8
 
 {{< include _header-prontuario-individual.md >}}
 
-![TCondições de Trabalho](img/condicoes-de-trabalho-e-rendimento-da-familia-1.png)
+![TCondições de Trabalho](img/condicoes-de-trabalho-e-rendimento-da-familia-1.png){.img-pagina}
 
 ## Condições de trabalho e rendimento da família
 
@@ -1699,7 +1730,7 @@ A lista das <kbd>2</kbd> **condições de trabalho da família** é composta por
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições de Trabalho](img/condicoes-de-trabalho-e-rendimento-da-familia-1.png)
+![Condições de Trabalho](img/condicoes-de-trabalho-e-rendimento-da-familia-1.png){.img-pagina}
 
 ## Condições de trabalho e rendimento da família
 
@@ -1723,7 +1754,7 @@ O <kbd>3</kbd> **agrupamento de campos dos valores recebidos por Programas Socia
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições de Trabalho](img/condicoes-de-trabalho-e-rendimento-da-familia-1.png)
+![Condições de Trabalho](img/condicoes-de-trabalho-e-rendimento-da-familia-1.png){.img-pagina}
 
 ## Condições de trabalho e rendimento da família
 
@@ -1733,7 +1764,7 @@ Para mais informações sobre o <kbd>4</kbd> **registro de observações**, cons
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>6</kbd> **ícone**.
 
 </div>
 
@@ -1743,7 +1774,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5
 
 {{< include _header-prontuario-individual.md >}}
 
-![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png)
+![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png){.img-pagina}
 
 ## Registro de atendimentos socioassistenciais
 
@@ -1777,7 +1808,7 @@ A lista de <kbd>2</kbd> **Registro de atendimentos socioassistenciais** é compo
 
 {{< include _header-prontuario-individual.md >}}
 
-![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png)
+![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png){.img-pagina}
 
 ## Registro de atendimentos socioassistenciais
 
@@ -1796,7 +1827,7 @@ A lista de <kbd>2</kbd> **Registro de atendimentos socioassistenciais** é compo
 
 {{< include _header-prontuario-individual.md >}}
 
-![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png)
+![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png){.img-pagina}
 
 ## Registro de atendimentos socioassistenciais
 
@@ -1814,7 +1845,7 @@ Para **adicionar novo atendimento**, acione a opção <kbd>3</kbd> **Incluir ate
 
 {{< include _header-prontuario-individual.md >}}
 
-![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png)
+![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png){.img-pagina}
 
 ## Registro de atendimentos socioassistenciais
 
@@ -1840,7 +1871,7 @@ A janela <kbd>3</kbd> **Incluir atendimento**, representada na página anterior,
 
 {{< include _header-prontuario-individual.md >}}
 
-![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png)
+![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png){.img-pagina}
 
 ## Registro de atendimentos socioassistenciais
 
@@ -1858,7 +1889,7 @@ Para **visualizar o registro do atendimento**, acione a opção <kbd>4</kbd> **V
 
 {{< include _header-prontuario-individual.md >}}
 
-![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png)
+![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png){.img-pagina}
 
 ## Registro de atendimentos socioassistenciais
 
@@ -1881,7 +1912,7 @@ A janela <kbd>4</kbd> **Visualizar atendimento**, representada na página anteri
 
 {{< include _header-prontuario-individual.md >}}
 
-![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png)
+![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png){.img-pagina}
 
 ## Registro de atendimentos socioassistenciais
 
@@ -1901,7 +1932,7 @@ Informe os ajustes e acione a opção <kbd>8</kbd> **Alterar**, em seguida o sis
 
 {{< include _header-prontuario-individual.md >}}
 
-![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png)
+![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png){.img-pagina}
 
 ## Registro de atendimentos socioassistenciais
 
@@ -1925,7 +1956,7 @@ A janela <kbd>5</kbd> **Alterar atendimento**, representada na página anterior,
 
 {{< include _header-prontuario-individual.md >}}
 
-![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png)
+![Registro de atendimentos socioassistenciais](img/registro-de-atendimentos-socioassistenciais-1.png){.img-pagina}
 
 ## Registro de atendimentos socioassistenciais
 
@@ -1935,7 +1966,7 @@ Para **excluir o atendimento da lista**, acione a opção <kbd>6</kbd> **Excluir
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5</kbd> **ícone**.
 
 </div>
 
@@ -1945,7 +1976,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7
 
 {{< include _header-prontuario-individual.md >}}
 
-![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png)
+![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png){.img-pagina}
 
 ## Acesso a benefícios eventuais
 
@@ -1968,7 +1999,7 @@ A <kbd>2</kbd> **lista dos benefícios eventuais concedidos** à família é com
 
 {{< include _header-prontuario-individual.md >}}
 
-![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png)
+![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png){.img-pagina}
 
 ## Acesso a benefícios eventuais
 
@@ -1988,7 +2019,7 @@ Preencha os dados solicitados e acione a opção <kbd>9</kbd> **Incluir**, em se
 
 {{< include _header-prontuario-individual.md >}}
 
-![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png)
+![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png){.img-pagina}
 
 ## Acesso a benefícios eventuais
 
@@ -2014,7 +2045,7 @@ A janela <kbd>3</kbd> **Incluir benefício eventual**, representada na página a
 
 {{< include _header-prontuario-individual.md >}}
 
-![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png)
+![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png){.img-pagina}
 
 ## Acesso a benefícios eventuais
 
@@ -2039,7 +2070,7 @@ A janela <kbd>4</kbd> **Visualizar benefício eventual**, representada acima, co
 
 {{< include _header-prontuario-individual.md >}}
 
-![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png)
+![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png){.img-pagina}
 
 ## Acesso a benefícios eventuais
 
@@ -2059,7 +2090,7 @@ Informe os ajustes e acione a opção <kbd>9</kbd> **Atualizar**, em seguida o s
 
 {{< include _header-prontuario-individual.md >}}
 
-![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png)
+![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png){.img-pagina}
 
 ## Acesso a benefícios eventuais
 
@@ -2081,7 +2112,7 @@ A janela <kbd>5</kbd> **Alterar benefício eventual**, representada na página a
 
 {{< include _header-prontuario-individual.md >}}
 
-![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png)
+![Acesso a benefícios eventuais](img/acesso-a-beneficios-eventuais-1.png){.img-pagina}
 
 ## Acesso a benefícios eventuais
 
@@ -2093,11 +2124,11 @@ Para **excluir o benefício da lista**, acione a opção <kbd>6</kbd> **Excluir 
 
 ### Observações do acesso a benefícios eventuais
 
-Para mais informações sobre o <kbd>7</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
+Para mais informações sobre o <kbd>5</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7</kbd> **ícone**.
 
 </div>
 
@@ -2107,7 +2138,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8
 
 {{< include _header-prontuario-individual.md >}}
 
-![Convivência Familiar e Comunitária](img/convivencia-familiar-e-comunitaria-1.png)
+![Convivência Familiar e Comunitária](img/convivencia-familiar-e-comunitaria-1.png){.img-pagina}
 
 ## Convivência familiar e comunitária
 
@@ -2131,7 +2162,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>3
 
 {{< include _header-prontuario-individual.md >}}
 
-![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png){.img-pagina}
 
 ## Situações de vulnerabilidades e desproteções sociais da família
 
@@ -2160,7 +2191,7 @@ Os <kbd>2</kbd> **indicadores automáticos** mostram, de forma rápida, algumas 
 
 {{< include _header-prontuario-individual.md >}}
 
-![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png){.img-pagina}
 
 ## Situações de vulnerabilidades e desproteções sociais da família
 
@@ -2181,7 +2212,7 @@ A lista <kbd>3</kbd> **Situações de vulnerabilidade e desproteção social da 
 
 {{< include _header-prontuario-individual.md >}}
 
-![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png){.img-pagina}
 
 ## Situações de vulnerabilidades e desproteções sociais da família
 
@@ -2199,7 +2230,7 @@ Para **adicionar uma nova vulnerabilidade**, acione a opção <kbd>4</kbd> **Inc
 
 {{< include _header-prontuario-individual.md >}}
 
-![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png){.img-pagina}
 
 ## Situações de vulnerabilidades e desproteções sociais da família
 
@@ -2223,7 +2254,7 @@ A janela <kbd>4</kbd> **Situações de vulnerabilidades e desproteções sociais
 
 {{< include _header-prontuario-individual.md >}}
 
-![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png){.img-pagina}
 
 ## Situações de vulnerabilidades e desproteções sociais da família
 
@@ -2241,7 +2272,7 @@ Para **visualizar o registro de vulnerabilidade**, acione a opção <kbd>5</kbd>
 
 {{< include _header-prontuario-individual.md >}}
 
-![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png){.img-pagina}
 
 ## Situações de vulnerabilidades e desproteções sociais da família
 
@@ -2266,7 +2297,7 @@ Para os registros atualizados, é apresentada a lista:
 
 {{< include _header-prontuario-individual.md >}}
 
-![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png){.img-pagina}
 
 ## Situações de vulnerabilidades e desproteções sociais da família
 
@@ -2286,7 +2317,7 @@ Informe os ajustes e acione a opção <kbd>13</kbd> **Alterar**, em seguida o si
 
 {{< include _header-prontuario-individual.md >}}
 
-![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png){.img-pagina}
 
 ## Situações de vulnerabilidades e desproteções sociais da família
 
@@ -2309,7 +2340,7 @@ A janela <kbd>11</kbd> **Situações de vulnerabilidades e desproteções sociai
 
 {{< include _header-prontuario-individual.md >}}
 
-![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png){.img-pagina}
 
 ## Situações de vulnerabilidades e desproteções sociais da família
 
@@ -2325,7 +2356,7 @@ Para **excluir atualização de vulnerabilidade da lista na janela**, acione a o
 
 {{< include _header-prontuario-individual.md >}}
 
-![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png){.img-pagina}
 
 ## Situações de vulnerabilidades e desproteções sociais da família
 
@@ -2345,7 +2376,7 @@ Informe os dados e acione a opção <kbd>13</kbd> **Atualizar**, em seguida o si
 
 {{< include _header-prontuario-individual.md >}}
 
-![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png){.img-pagina}
 
 ## Situações de vulnerabilidades e desproteções sociais da família
 
@@ -2368,7 +2399,7 @@ A janela <kbd>6</kbd> **Situações de vulnerabilidades e desproteções sociais
 
 {{< include _header-prontuario-individual.md >}}
 
-![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png){.img-pagina}
 
 ## Situações de vulnerabilidades e desproteções sociais da família
 
@@ -2395,7 +2426,7 @@ A janela <kbd>13</kbd> Situações de vulnerabilidades e desproteções sociais 
 
 {{< include _header-prontuario-individual.md >}}
 
-![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png)
+![Vulnerabilidades e desproteções sociais da família](img/situacoes-de-vulnerabilidades-e-desprotecoes-sociais-da-familia-1.png){.img-pagina}
 
 ## Situações de vulnerabilidades e desproteções sociais da família
 
@@ -2421,7 +2452,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>1
 
 {{< include _header-prontuario-individual.md >}}
 
-![Situações de violência e violação de direitos](img/situacoes-de-violencia-e-violacao-de-direitos-1.png)
+![Situações de violência e violação de direitos](img/situacoes-de-violencia-e-violacao-de-direitos-1.png){.img-pagina}
 
 ## Situações de violência e violação de direitos
 
@@ -2445,7 +2476,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>3
 
 {{< include _header-prontuario-individual.md >}}
 
-![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png)
+![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png){.img-pagina}
 
 ## Planejamento e evolução do acompanhamento familiar
 
@@ -2470,7 +2501,7 @@ A lista <kbd>2</kbd> **Inserção e desligamento da família no acompanhamento f
 
 {{< include _header-prontuario-individual.md >}}
 
-![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png)
+![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png){.img-pagina}
 
 ## Planejamento e evolução do acompanhamento familiar
 
@@ -2488,7 +2519,7 @@ Para **adicionar a família ao acompanhamento**, acione a opção <kbd>3</kbd> *
 
 {{< include _header-prontuario-individual.md >}}
 
-![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png)
+![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png){.img-pagina}
 
 ## Planejamento e evolução do acompanhamento familiar
 
@@ -2515,7 +2546,7 @@ A janela <kbd>3</kbd> **Incluir acompanhamento familiar**, representada na pági
 
 {{< include _header-prontuario-individual.md >}}
 
-![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png)
+![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png){.img-pagina}
 
 ## Planejamento e evolução do acompanhamento familiar
 
@@ -2533,7 +2564,7 @@ Para **visualizar** o registro de acompanhamento da família, acione a opção <
 
 {{< include _header-prontuario-individual.md >}}
 
-![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png)
+![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png){.img-pagina}
 
 ## Planejamento e evolução do acompanhamento familiar
 
@@ -2555,7 +2586,7 @@ A janela <kbd>4</kbd> **Visualizar acompanhamento familiar**, representada na p�
 
 {{< include _header-prontuario-individual.md >}}
 
-![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png)
+![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png){.img-pagina}
 
 ## Planejamento e evolução do acompanhamento familiar
 
@@ -2575,7 +2606,7 @@ Informe os ajustes e acione a opção <kbd>10</kbd> **Alterar**, em seguida o si
 
 {{< include _header-prontuario-individual.md >}}
 
-![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png)
+![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png){.img-pagina}
 
 ## Planejamento e evolução do acompanhamento familiar
 
@@ -2603,7 +2634,7 @@ A janela <kbd>5</kbd> **Alterar acompanhamento familiar**, representada na pági
 
 {{< include _header-prontuario-individual.md >}}
 
-![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png)
+![Planejamento e evolução do acompanhamento familiar](img/planejamento-e-evolucao-do-acompanhamento-familiar-1.png){.img-pagina}
 
 ## Planejamento e evolução do acompanhamento familiar
 
@@ -2633,7 +2664,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8
 
 {{< include _header-prontuario-individual.md >}}
 
-![Participação em serviços programas e projetos](img/participacao-em-servicos-programas-e-projetos-1.png)
+![Participação em serviços programas e projetos](img/participacao-em-servicos-programas-e-projetos-1.png){.img-pagina}
 
 ## Participação em serviços, programas e projetos
 
@@ -2657,7 +2688,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>3
 
 {{< include _header-prontuario-individual.md >}}
 
-![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png)
+![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png){.img-pagina}
 
 ## Histórico de cumprimento de medidas socioeducativas
 
@@ -2684,7 +2715,7 @@ A <kbd>2</kbd> **lista de medidas socioeducativas para adolescentes (cumpridas e
 
 {{< include _header-prontuario-individual.md >}}
 
-![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png)
+![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png){.img-pagina}
 
 ## Histórico de cumprimento de medidas socioeducativas
 
@@ -2704,7 +2735,7 @@ Preencha os dados solicitados e acione a opção <kbd>9</kbd> **Incluir**, em se
 
 {{< include _header-prontuario-individual.md >}}
 
-![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png)
+![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png){.img-pagina}
 
 ## Histórico de cumprimento de medidas socioeducativas
 
@@ -2729,7 +2760,7 @@ A janela <kbd>3</kbd> **Incluir medida socioeducativa**, representada na página
 
 {{< include _header-prontuario-individual.md >}}
 
-![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png)
+![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png){.img-pagina}
 
 ## Histórico de cumprimento de medidas socioeducativas
 
@@ -2747,7 +2778,7 @@ Para **visualizar o registro da medida socioeducativa**, acione a opção <kbd>4
 
 {{< include _header-prontuario-individual.md >}}
 
-![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png)
+![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png){.img-pagina}
 
 ## Histórico de cumprimento de medidas socioeducativas
 
@@ -2771,7 +2802,7 @@ A janela <kbd>4</kbd> Visualizar medida socioeducativa, representada na página 
 
 {{< include _header-prontuario-individual.md >}}
 
-![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png)
+![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png){.img-pagina}
 
 ## Histórico de cumprimento de medidas socioeducativas
 
@@ -2791,7 +2822,7 @@ Informe os ajustes e acione a opção <kbd>9</kbd> **Alterar**, em seguida o sis
 
 {{< include _header-prontuario-individual.md >}}
 
-![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png)
+![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png){.img-pagina}
 
 ## Histórico de cumprimento de medidas socioeducativas
 
@@ -2816,7 +2847,7 @@ A janela <kbd>5</kbd> **Alterar medida socioeducativa**, representada na página
 
 {{< include _header-prontuario-individual.md >}}
 
-![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png)
+![Histórico de cumprimento de medidas socioeducativas](img/historico-de-cumprimento-de-medidas-socioeducativas-1.png){.img-pagina}
 
 ## Histórico de cumprimento de medidas socioeducativas
 
@@ -2842,7 +2873,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8
 
 {{< include _header-prontuario-individual.md >}}
 
-![Histórico de acolhimento institucional](img/historico-de-acolhimento-institucional-1.png)
+![Histórico de acolhimento institucional](img/historico-de-acolhimento-institucional-1.png){.img-pagina}
 
 ## Histórico de acolhimento institucional
 
@@ -3122,7 +3153,7 @@ Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>8</kb
 
 {{< include _header-prontuario-individual.md >}}
 
-![Relatório de participação em atendimentos coletivos](img/relatorio-de-participacao-em-atendimentos-coletivos-1.png)
+![Relatório de participação em atendimentos coletivos](img/relatorio-de-participacao-em-atendimentos-coletivos-1.png){.img-pagina}
 
 ## Relatório de participação em atendimentos coletivos
 
@@ -3148,7 +3179,7 @@ A <kbd>2</kbd> **lista atendimentos da pessoa** é composta por:
 
 {{< include _header-prontuario-individual.md >}}
 
-![Relatório de participação em atendimentos coletivos](img/relatorio-de-participacao-em-atendimentos-coletivos-1.png)
+![Relatório de participação em atendimentos coletivos](img/relatorio-de-participacao-em-atendimentos-coletivos-1.png){.img-pagina}
 
 ## Relatório de participação em atendimentos coletivos
 
@@ -3166,7 +3197,7 @@ Para **visualizar o atendimento coletivo**, acione a opção <kbd>3</kbd> **Visu
 
 {{< include _header-prontuario-individual.md >}}
 
-![Relatório de participação em atendimentos coletivos](img/relatorio-de-participacao-em-atendimentos-coletivos-1.png)
+![Relatório de participação em atendimentos coletivos](img/relatorio-de-participacao-em-atendimentos-coletivos-1.png){.img-pagina}
 
 ## Relatório de participação em atendimentos coletivos
 
@@ -3194,7 +3225,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>4
 
 {{< include _header-prontuario-individual.md >}}
 
-![Relatório simplificado dos atendimentos](img/relatorio-de-participacao-em-atendimentos-coletivos-1.png)
+![Relatório simplificado dos atendimentos](img/relatorio-de-participacao-em-atendimentos-coletivos-1.png){.img-pagina}
 
 ## Relatório simplificado dos atendimentos
 
@@ -3251,7 +3282,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>3
 
 {{< include _header-prontuario-coletivo.md >}}
 
-![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-1.png)
+![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-1.png){.img-pagina}
 
 ## Atendimento coletivo
 
@@ -3315,7 +3346,7 @@ Preencha os dados solicitados e acione a opção <kbd>12</kbd> **Incluir**, em s
 
 {{< include _header-prontuario-coletivo.md >}}
 
-![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png)
+![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png){.img-pagina}
 
 ## Atendimento coletivo
 
@@ -3331,7 +3362,7 @@ Preencha os dados solicitados e acione a opção <kbd>12</kbd> **Incluir**, em s
 
 {{< include _header-prontuario-coletivo.md >}}
 
-![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png)
+![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png){.img-pagina}
 
 ## Atendimento coletivo
 
@@ -3366,7 +3397,7 @@ A janela <kbd>7</kbd> **Incluir atendimento coletivo**, representada na página 
 
 {{< include _header-prontuario-coletivo.md >}}
 
-![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png)
+![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png){.img-pagina}
 
 ## Atendimento coletivo
 
@@ -3384,7 +3415,7 @@ Para **visualizar o atendimento coletivo**, acione a opção <kbd>8</kbd> **Visu
 
 {{< include _header-prontuario-coletivo.md >}}
 
-![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png)
+![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png){.img-pagina}
 
 ## Atendimento coletivo
 
@@ -3409,7 +3440,7 @@ A janela <kbd>8</kbd> **Visualizar atendimento coletivo**, representada na pági
 
 {{< include _header-prontuario-coletivo.md >}}
 
-![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png)
+![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png){.img-pagina}
 
 ## Atendimento coletivo
 
@@ -3427,7 +3458,7 @@ Para **editar o registro de atendimento coletivo**, acione a opção <kbd>9</kbd
 
 {{< include _header-prontuario-coletivo.md >}}
 
-![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png)
+![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png){.img-pagina}
 
 ## Atendimento coletivo
 
@@ -3459,7 +3490,7 @@ A janela <kbd>9</kbd> **Alterar atendimento coletivo**, representada na página 
 
 {{< include _header-prontuario-coletivo.md >}}
 
-![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png)
+![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-2.png){.img-pagina}
 
 ## Atendimento coletivo
 
@@ -3490,7 +3521,7 @@ Informe os ajustes e acione a opção <kbd>12</kbd> **Incluir**, em seguida o si
 
 {{< include _header-prontuario-coletivo.md >}}
 
-![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-1.png)
+![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-1.png){.img-pagina}
 
 ## Atendimento coletivo
 
@@ -3522,7 +3553,7 @@ A janela <kbd>11</kbd> **Incluir atendimento coletivo**, representada na página
 
 {{< include _header-prontuario-coletivo.md >}}
 
-![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-1.png)
+![Prontuário: Atendimento Coletivo](img/prontuario-atendimento-coletivo-1.png){.img-pagina}
 
 ## Atendimento coletivo
 
@@ -3627,7 +3658,7 @@ Para visualizar solicitação de migração, acione a opção <kbd>8</kbd> **Vis
 
 {{< include _header-migrar-prontuario.md >}}
 
-![Prontuário: Atendimento Coletivo](img/migrar-prontuario-suas-2.png)
+![Prontuário: Atendimento Coletivo](img/migrar-prontuario-suas-2.png){.img-pagina}
 
 ## Migrar Prontuário {.col-break}
 
@@ -3780,7 +3811,7 @@ A janela **Aprovar migração de prontuário eletrônico** é composta por:
 
 {{< include _header-prontuario-painel-estatistico.md >}}
 
-![Prontuário: Atendimento Coletivo](img/painel-estatistico-1.png)
+![Prontuário: Atendimento Coletivo](img/painel-estatistico-1.png){.img-pagina}
 
 ## Painel Estatístico {.col-break}
 
@@ -3814,7 +3845,9 @@ Preencha os campos conforme as informações que deseja visualizar:
 
 {{< include _header-prontuario-painel-estatistico.md >}}
 
-![Prontuário: Atendimento Coletivo](img/painel-estatistico-1.png)
+![Prontuário: Atendimento Coletivo](img/painel-estatistico-1.png){.img-pagina}
+
+<div class="col-break"></div>
 
 - **Tipo** – coluna para informar o tipo específico de atendimento, conforme escolhido no campo anterior.
 
@@ -3833,7 +3866,7 @@ Quanto mais específicos forem os filtros aplicados, mais precisos serão os res
 
 {{< include _header-prontuario-painel-estatistico.md >}}
 
-![Prontuário: Painel Estatístico](img/painel-estatistico-2.png)
+![Prontuário: Painel Estatístico](img/painel-estatistico-2.png){.img-pagina}
 
 ## Painel Estatístico {.col-break}
 
@@ -3872,7 +3905,7 @@ Esse indicador auxilia na análise do perfil étnico-racial do público atendido
 
 {{< include _header-prontuario-painel-estatistico.md >}}
 
-![Prontuário: Painel Estatístico](img/painel-estatistico-3.png)
+![Prontuário: Painel Estatístico](img/painel-estatistico-3.png){.img-pagina}
 
 ## Painel Estatístico {.col-break}
 
@@ -3911,7 +3944,7 @@ O gráfico apresenta as seguintes categorias:
 
 {{< include _header-prontuario-painel-estatistico.md >}}
 
-![Prontuário: Painel Estatístico](img/painel-estatistico-4.png)
+![Prontuário: Painel Estatístico](img/painel-estatistico-4.png){.img-pagina}
 
 ## Painel Estatístico {.col-break}
 
@@ -3946,7 +3979,7 @@ Mostra a quantidade de atendimentos realizados com participantes do programa, co
 
 {{< include _header-prontuario-painel-estatistico.md >}}
 
-![Prontuário: Painel Estatístico](img/painel-estatistico-5.png)
+![Prontuário: Painel Estatístico](img/painel-estatistico-5.png){.img-pagina}
 
 ## Painel Estatístico {.col-break}
 
@@ -3977,7 +4010,7 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 
 <div class="middle">
 
-# Funcionalidades
+# Prontuário: Descritivo de </br> perfis e permissões
 
 </div>
 
@@ -4000,7 +4033,7 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <table class="tabela-matriz">
   <thead>
     <tr>
-      <th class="th-func">FUNCIONALIDADES</th>
+      <th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
       <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
       <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
       <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
@@ -4018,31 +4051,18 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
   </thead>
   <tbody>
     <tr>
-      <td class="td-func">Permissão para aprovação (individual e em lote) dos registros de migração.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
+      <th class="th-subtitle" colspan="14">GLOBAL</th>
     </tr>
     <tr>
-      <td class="td-func">Permissão para incluir novo prontuário.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
+      <td class="td-func">Permissão para buscar pessoa no CadÚnico no modo simples</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
       <td class="td-check">X</td>
       <td class="td-check">X</td>
       <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
       <td class="td-check">X</td>
       <td class="td-check">X</td>
       <td class="td-check">X</td>
@@ -4050,215 +4070,87 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
       <td class="td-check">X</td>
     </tr>
     <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir registros no bloco “Planejamento e evolução do acompanhamento familiar”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
+      <td class="td-func">Permissão para buscar pessoa no CadÚnico no modo avançado</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
       <td class="td-check">X</td>
       <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
       <td class="td-check">X</td>
-      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
     </tr>
     <tr>
-      <td class="td-func">Permissão para incluir, alterar, excluir e clonar registros de atendimento coletivo.</td>
-      <td class="td-check"></td>
+      <td class="td-func">Permissão para incluir Novo prontuário e realizar cadastro EXTRACAD</td>
       <td class="td-check"></td>
       <td class="td-check"></td>
       <td class="td-check"></td>
       <td class="td-check"></td>
       <td class="td-check"></td>
       <td class="td-check">X</td>
-      <td class="td-check"></td>
       <td class="td-check">X</td>
       <td class="td-check"></td>
       <td class="td-check">X</td>
       <td class="td-check">X</td>
-      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
     </tr>
     <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir registros (Registro de atendimentos socioassistenciais) no bloco “Benefícios Eventuais”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
+      <td class="td-func">Permissão para visualizar o menu referente ao CRAS. Caso o usuário não tenha essa permissão não acessará nenhuma outra funcionalidade abaixo do menu CRAS</td>
       <td class="td-check">X</td>
-      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
       <td class="td-check">X</td>
       <td class="td-check"></td>
       <td class="td-check">X</td>
       <td class="td-check">X</td>
       <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
     </tr>
     <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir registros no bloco “Benefícios Eventuais”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
+      <td class="td-func">Permissão para acessar o menu do Prontuário SUAS</td>
       <td class="td-check">X</td>
-      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
       <td class="td-check">X</td>
       <td class="td-check"></td>
       <td class="td-check">X</td>
       <td class="td-check">X</td>
       <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir registros no bloco “Condições habitacionais da família”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
       <td class="td-check">X</td>
       <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-  <thead>
-    <tr>
-      <th class="th-func">FUNCIONALIDADES</th>
-      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>CONSELHEIRO</span></th>
-      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="td-func">Permissão para incluir e alterar registros no bloco “Condições de saúde da família”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
       <td class="td-check">X</td>
       <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir registros no bloco “Formulário de controle de encaminhamentos”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
       <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
     </tr>
     <tr class="td-highlight">
-      <td class="td-func td-highlight"><strong>Permissão para incluir, alterar e excluir registros no bloco “Forma de Ingresso”.</strong></td>
-      <td class="td-check td-highlight"></td>
-      <td class="td-check td-highlight"></td>
-      <td class="td-check td-highlight"></td>
-      <td class="td-check td-highlight"></td>
-      <td class="td-check td-highlight"></td>
-      <td class="td-check td-highlight"></td>
-      <td class="td-check td-highlight">X</td>
-      <td class="td-check td-highlight"></td>
-      <td class="td-check td-highlight">X</td>
-      <td class="td-check td-highlight"></td>
+      <td class="td-func td-highlight">Permissão para acessar o menu do Prontuário SUAS</td>
       <td class="td-check td-highlight">X</td>
       <td class="td-check td-highlight">X</td>
-      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
     </tr>
     <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir registros no bloco “Histórico de cumprimento de medidas socioeducativas”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir e alterar os registros de migração.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir registros no bloco “Situações de vulnerabilidades e desproteções sociais da família”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar o menu do Atendimento Coletivo e consultar o que foi cadastrado.</td>
-      <td class="td-check"></td>
+      <td class="td-func">Permissão para visualizar um prontuário existente. As operações que o(a) profissional pode realizar no prontuário são definidas a partir do perfil vinculado</td>
       <td class="td-check"></td>
       <td class="td-check"></td>
       <td class="td-check"></td>
@@ -4266,6 +4158,7 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
       <td class="td-check"></td>
       <td class="td-check">X</td>
       <td class="td-check">X</td>
+      <td class="td-check"></td>
       <td class="td-check">X</td>
       <td class="td-check">X</td>
       <td class="td-check">X</td>
@@ -4286,7 +4179,7 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <table class="tabela-matriz">
   <thead>
     <tr>
-      <th class="th-func">FUNCIONALIDADES</th>
+      <th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
       <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
       <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
       <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
@@ -4303,11 +4196,1294 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <th class="th-subtitle" colspan="14">MIGRAR PRONTUÁRIO</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir e alterar os registros de migração</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar o menu e consultar o que foi cadastrado</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para acessar o menu do Migrar Prontuários</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para aprovação (individual e em lote) dos registros de migração</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr>
+      <th class="th-subtitle" colspan="14">FORMA DE INGRESSO NA UNIDADE E MOTIVO DO PRIMEIRO ATENDIMENTO</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permite a manutenção (incluir, alterar e excluir) de registros</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
     <tr class="td-highlight">
-      <td class="td-func td-highlight"><strong class="text-red">Permissão para visualizar o menu referente ao CRAS. Caso o usuário não tenha essa permissão não acessará nenhuma outra funcionalidade “abaixo” do menu CRAS. POR FAVOR, ESTÁ CORRETA ESSA INFORMAÇÃO?</strong></td>
+      <td class="td-func td-highlight">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar o bloco com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+---
+
+<div class="page-1col">
+
+{{< include _header-funcionalidades.md >}}
+
+<table class="tabela-matriz">
+  <thead>
+    <tr>
+      <th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
+      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
+      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>CONSELHEIRO</span></th>
+      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
+      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
+      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
+      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
+      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
+      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="th-subtitle" colspan="14">COMPOSIÇÃO FAMILIAR</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <th class="th-subtitle" colspan="14">CONDIÇÕES HABITACIONAIS DA FAMÍLIA</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir registros</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar o bloco com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+---
+
+<div class="page-1col">
+
+{{< include _header-funcionalidades.md >}}
+
+<table class="tabela-matriz">
+  <thead>
+    <tr>
+      <th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
+      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
+      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>CONSELHEIRO</span></th>
+      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
+      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
+      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
+      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
+      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
+      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="th-subtitle" colspan="14">CONDIÇÕES EDUCACIONAIS DA FAMÍLIA</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <th class="th-subtitle" colspan="14">CONDIÇÕES DE SAÚDE DA FAMÍLIA</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir e alterar registros</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar o bloco com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+---
+
+<div class="page-1col">
+
+{{< include _header-funcionalidades.md >}}
+
+<table class="tabela-matriz">
+  <thead>
+    <tr>
+      <th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
+      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
+      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>CONSELHEIRO</span></th>
+      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
+      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
+      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
+      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
+      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
+      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="th-subtitle" colspan="14">CONDIÇÕES DE TRABALHO E RENDIMENTO DA FAMÍLIA</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <th class="th-subtitle" colspan="14">REGISTRO DE ATENDIMENTOS SOCIOASSISTENCIAIS</th>
+    </tr>
+    <tr class="td-highlight">
+      <td class="td-func td-highlight">Permissão para incluir, alterar e excluir registros</td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight"></td>
       <td class="td-check td-highlight">X</td>
       <td class="td-check td-highlight">X</td>
       <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados.</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar o bloco com seus devidos registros. Possibilita o detalhamento dos registros apresentados.</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+---
+
+<div class="page-1col">
+
+{{< include _header-funcionalidades.md >}}
+
+<table class="tabela-matriz">
+  <thead>
+    <tr>
+      <th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
+      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
+      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>CONSELHEIRO</span></th>
+      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
+      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
+      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
+      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
+      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
+      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="th-subtitle" colspan="14">ACESSO A BENEFÍCIOS EVENTUAIS</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir registros</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar o bloco com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação nesse bloco</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr>
+      <th class="th-subtitle" colspan="14">CONVIVÊNCIA FAMILIAR E COMUNITÁRIA</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+---
+
+<div class="page-1col">
+
+{{< include _header-funcionalidades.md >}}
+
+<table class="tabela-matriz">
+  <thead>
+    <tr>
+      <th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
+      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
+      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>CONSELHEIRO</span></th>
+      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
+      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
+      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
+      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
+      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
+      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="th-subtitle" colspan="14">SITUAÇÕES DE VULNERABILIDADES E DESPROTEÇÕES SOCIAIS DA FAMÍLIA</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir registros</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar o bloco com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <th class="th-subtitle" colspan="14">SITUAÇÕES DE VIOLÊNCIA E VIOLAÇÃO DE DIREITOS</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+---
+
+<div class="page-1col">
+
+{{< include _header-funcionalidades.md >}}
+
+<table class="tabela-matriz">
+  <thead>
+    <tr>
+      <th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
+      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
+      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>CONSELHEIRO</span></th>
+      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
+      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
+      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
+      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
+      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
+      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="th-subtitle" colspan="14">PLANEJAMENTO E EVOLUÇÃO DO ACOMPANHAMENTO FAMILIAR</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir registros</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar o bloco com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <th class="th-subtitle" colspan="14">PARTICIPAÇÃO EM SERVIÇOS, PROGRAMAS E PROJETOS</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+---
+
+<div class="page-1col">
+
+{{< include _header-funcionalidades.md >}}
+
+<table class="tabela-matriz">
+  <thead>
+    <tr>
+      <th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
+      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
+      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>CONSELHEIRO</span></th>
+      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
+      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
+      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
+      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
+      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
+      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="th-subtitle" colspan="14">HISTÓRICO DE CUMPRIMENTO DE MEDIDAS SOCIOEDUCATIVAS</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir registros</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar o bloco com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr>
+      <th class="th-subtitle" colspan="14">HISTÓRICO DO ACOLHIMENTO INSTITUCIONAL</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação e área de marcadores com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+---
+
+<div class="page-1col">
+
+{{< include _header-funcionalidades.md >}}
+
+<table class="tabela-matriz">
+  <thead>
+    <tr>
+      <th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
+      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
+      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>CONSELHEIRO</span></th>
+      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
+      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
+      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
+      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
+      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
+      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="th-subtitle" colspan="14">FORMULÁRIO DE CONTROLE DE ENCAMINHAMENTOS</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir registros</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar e excluir "observações" e "marcadores"</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar a área de observação com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar o bloco com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para emitir Formulário de Encaminhamento em PDF</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr>
+      <th class="th-subtitle" colspan="14">RELATÓRIO DE PARTICIPAÇÃO EM ATENDIMENTOS COLETIVOS</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar o bloco com seus devidos registros</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr>
+      <th class="th-subtitle" colspan="14">RELATÓRIO SIMPLIFICADO DOS ATENDIMENTOS</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar o bloco com seus devidos registros.</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+---
+
+<div class="page-1col">
+
+{{< include _header-funcionalidades.md >}}
+
+<table class="tabela-matriz">
+  <thead>
+    <tr>
+      <th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
+      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
+      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
+      <th class="th-perfil"><span>CONSELHEIRO</span></th>
+      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
+      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
+      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
+      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
+      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
+      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
+      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th class="th-subtitle" colspan="14">ATENDIMENTO COLETIVO</th>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para incluir, alterar, excluir e clonar registros</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr>
+      <td class="td-func">Permissão para visualizar o menu do Atendimento Coletivo e consultar o que foi cadastrado</td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check"></td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+      <td class="td-check">X</td>
+    </tr>
+    <tr class="td-highlight">
+      <td class="td-func td-highlight">Permissão para visualizar o menu Atendimento Coletivo e consultar o que foi registrado</td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight"></td>
+      <td class="td-check td-highlight"></td>
       <td class="td-check td-highlight">X</td>
       <td class="td-check td-highlight"></td>
       <td class="td-check td-highlight"></td>
@@ -4320,23 +5496,10 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
       <td class="td-check td-highlight">X</td>
     </tr>
     <tr>
-      <td class="td-func">Permissão para visualizar o menu Migração e consultar o que foi cadastrado.</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
+      <th class="th-subtitle" colspan="14">PAINEL ESTATÍSTICO</th>
     </tr>
     <tr>
-      <td class="td-func">Permissão para visualizar o menu do Painel Estatístico e consultar seus dados.</td>
+      <td class="td-func">Permissão para visualizar o menu e consultar seus dados</td>
       <td class="td-check">X</td>
       <td class="td-check">X</td>
       <td class="td-check">X</td>
@@ -4351,863 +5514,21 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
       <td class="td-check">X</td>
       <td class="td-check">X</td>
     </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar o menu Parâmetros e altere as informações cadastradas.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para acessar o menu do Prontuário SUAS.</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir <span class="text-red">"observação"</span> e <span class="text-red">"marcadores"</span> no bloco “Histórico de acolhimento institucional”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir <span class="text-red">"observação"</span> e <span class="text-red">"marcadores"</span> no bloco “Planejamento e evolução do acompanhamento familiar”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-  <thead>
-    <tr>
-      <th class="th-func">FUNCIONALIDADES</th>
-      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>CONSELHEIRO</span></th>
-      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir <span class="text-red">"observação"</span> e <span class="text-red">"marcadores"</span> no bloco “Benefícios Eventuais”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir <span class="text-red">"observação"</span> e <span class="text-red">"marcadores"</span> no bloco “Forma Ingresso”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir <span class="text-red">"observação"</span> e <span class="text-red">"marcadores"</span> no bloco “Condições educacionais da família”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir <span class="text-red">"observação"</span> e <span class="text-red">"marcadores"</span> no bloco “Condições habitacionais da família”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir <span class="text-red">"observação"</span> e <span class="text-red">"marcadores"</span> no bloco “Condições de saúde da família”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir <span class="text-red">"observação"</span> e <span class="text-red">"marcadores"</span> no bloco “Condições de trabalho e rendimento da família”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir <span class="text-red">"observação"</span> e <span class="text-red">"marcadores"</span> no bloco “Convivência familiar e comunitária”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-  <thead>
-    <tr>
-      <th class="th-func">FUNCIONALIDADES</th>
-      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>CONSELHEIRO</span></th>
-      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir <span class="text-red">"observação"</span> e <span class="text-red">"marcadores"</span> no bloco “Histórico de cumprimento de medidas socioeducativas”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir <span class="text-red">"observação"</span> e <span class="text-red">"marcadores"</span> no bloco “Participação em serviços, programas e projetos”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir <span class="text-red">"observação"</span> e <span class="text-red">"marcadores"</span> no bloco “Situações de violência e violação de direitos”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para incluir, alterar e excluir <span class="text-red">"observação"</span> e <span class="text-red">"marcadores"</span> no bloco “Situações de vulnerabilidades e desproteções sociais da família”.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar a área de observação e <span class="text-red">área de marcadores</span> do bloco “Histórico de acolhimento institucional” no prontuário com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação de observação.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar a área de observação e <span class="text-red">área de marcadores</span> do bloco “Planejamento e evolução do acompanhamento familiar” no prontuário com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação de observação.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-  <thead>
-    <tr>
-      <th class="th-func">FUNCIONALIDADES</th>
-      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>CONSELHEIRO</span></th>
-      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="td-func">Permissão para visualizar a área de observação e <span class="text-red">área de marcadores</span> do bloco “Benefícios Eventuais” no prontuário com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação de observação.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar a área de observação e <span class="text-red">área de marcadores</span> do bloco “Composição familiar” no prontuário com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação de observação.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar a área de observação e <span class="text-red">área de marcadores</span> do bloco “Condições educacionais da família” no prontuário com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação de observação.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar a área de observação e <span class="text-red">área de marcadores</span> do bloco “Condições habitacionais da família” no prontuário com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação de observação.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-  <thead>
-    <tr>
-      <th class="th-func">FUNCIONALIDADES</th>
-      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>CONSELHEIRO</span></th>
-      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="td-func">Permissão para visualizar a área de observação e <span class="text-red">área de marcadores</span> do bloco “Condições de saúde da família” no prontuário com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação de observação.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar a área de observação e <span class="text-red">área de marcadores</span> do bloco “Condições de trabalho e rendimento da família” no prontuário com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação de observação.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar a área de observação e <span class="text-red">área de marcadores</span> do bloco “Convivência familiar e comunitária” no prontuário com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação de observação.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar a área de observação e <span class="text-red">área de marcadores</span> do bloco “Histórico de cumprimento de medidas socioeducativas” no prontuário com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação de observação.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-  <thead>
-    <tr>
-      <th class="th-func">FUNCIONALIDADES</th>
-      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>CONSELHEIRO</span></th>
-      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="td-func">Permissão para visualizar a área de observação e <span class="text-red">área de marcadores</span> do bloco “Participação em serviços, programas e projetos” no prontuário com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação de observação.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar a área de observação e <span class="text-red">área de marcadores</span> do bloco “Situações de violência e violação de direitos” no prontuário com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação de observação.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar a área de observação e <span class="text-red">área de marcadores</span> do bloco “Situações de vulnerabilidades e desproteções sociais da família” no prontuário com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação de observação.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar o bloco “Planejamento e evolução do acompanhamento familiar” com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação nesse bloco.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-  <thead>
-    <tr>
-      <th class="th-func">FUNCIONALIDADES</th>
-      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>CONSELHEIRO</span></th>
-      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-    </tr>
-
-  </thead>
-  <tbody>
-    <tr>
-      <td class="td-func">Permissão para visualizar o bloco “Relatório de participação em atendimentos coletivos” no prontuário com seus devidos registros.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar o bloco “Registro de atendimentos socioassistenciais” com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação nesse bloco.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar o bloco “Benefícios Eventuais” com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação nesse bloco.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar o bloco “Condições habitacionais da família” com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação nesse bloco.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar o bloco “Condições de saúde da família” com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação nesse bloco.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-  <thead>
-    <tr>
-      <th class="th-func">FUNCIONALIDADES</th>
-      <th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-      <th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-      <th class="th-perfil"><span>CONSELHEIRO</span></th>
-      <th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-      <th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-      <th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-      <th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-      <th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-      <th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-      <th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td class="td-func">Permissão para visualizar o bloco “Formulário de controle de encaminhamentos” com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação nesse bloco.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar o bloco “Forma de Ingresso” com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação nesse bloco.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar o bloco “Histórico de cumprimento de medidas socioeducativas” com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação nesse bloco.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-    </tr>
-    <tr>
-      <td class="td-func"><span class="text-red">Permissão para visualizar um prontuário existente. As operações que o(a) profissional pode realizar no prontuário são definidas a partir do perfil vinculado.</span></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar o bloco “Relatório simplificado dos atendimentos” com seus devidos registros.</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-    </tr>
-    <tr>
-      <td class="td-func">Permissão para visualizar o bloco “Situações de vulnerabilidades e desproteções sociais da família” com seus devidos registros. Possibilita o detalhamento dos registros apresentados. Caso não esteja habilitado não possibilita nenhuma outra operação nesse bloco.</td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
-      <td class="td-check">X</td>
-      <td class="td-check">X</td>
-      <td class="td-check"></td>
+    <tr class="td-highlight">
+      <td class="td-func td-highlight">Permissão para visualizar o menu e consultar o que foi cadastrado</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
+      <td class="td-check td-highlight">X</td>
     </tr>
   </tbody>
 </table>
