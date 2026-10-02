@@ -1343,6 +1343,64 @@ A janela <kbd>4</kbd> **Alterar forma de ingresso** contém os seguintes dados:
 
 Para **excluir o registro da lista**, acione a opção <kbd>5</kbd> **Excluir forma de ingresso**, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem _"Forma de ingresso excluída com sucesso"_.
 
+### Observações e Marcadores de forma de ingresso e motivo do primeiro atendimento
+
+Para mais informações sobre o <kbd>5</kbd> **registro de observações** e o <kbd>6</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+
+<br>
+
+Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>8</kbd> ícone.
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-prontuario-individual.md >}}
+
+![Composição familiar](img/composicao-familiar-2.png){.img-pagina}
+
+## Composição familiar
+
+Ao acionar o bloco <kbd>1</kbd> **Composição familiar**, ao expandir as informações, você pode consultar o perfil etário do grupo familiar, especificidades sociais, étnicas e culturais.
+
+### Perfil etário do grupo familiar
+
+O agrupamento de campos do <kbd>2</kbd> **perfil etário do grupo familiar** é composto por:
+
+- **Perfil etário do grupo familiar** – campo que informa a quantidade de pessoas por faixa etária e o total de pessoas que compõem a família;
+
+### Especificidades sociais, étnicas ou culturais da família
+
+O agrupamento de campos das <kbd>3</kbd> **especificidades sociais, étnicas ou culturais da família** é composto por:
+
+- **Família indígena** – campo que informa se a família é indígena;
+- **Povo indígena** – campo que informa o nome do povo indígena ao qual a família pertence;
+- **Terra ou reserva indígena** – campo que informa se a família reside em terra ou reserva indígena;
+- **Família quilombola** – campo que informa se a família é quilombola;
+- **Comunidade quilombola** – campo que informa o nome da comunidade quilombola ao qual a família pertence;
+- **Grupos tradicionais e específicos** – campo que informa se a família faz parte de grupos tradicionais e específicos e qual(is) grupo(s);
+- **Família em situação de rua** – campo que informa se a família está em situação de rua;
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-prontuario-individual.md >}}
+
+![Composição familiar](img/composicao-familiar-2.png){.img-pagina}
+
+## Composição familiar
+
+Para mais informações sobre o <kbd>4</kbd> **registro de observações** e o <kbd>5</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+
+<br>
+
+Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>6</kbd> ícone.
+
 </div>
 
 ---
@@ -1379,7 +1437,7 @@ O agrupamento de campos <kbd>2</kbd> **características do domicílio**, é comp
 
 {{< include _header-prontuario-individual.md >}}
 
-![Condições habitacionais da família](img/condicoes-habitacionais-da-família-2.png){.img-pagina}
+![Condições habitacionais da família](img/condicoes-habitacionais-da-familia-1.png){.img-pagina}
 
 ## Condições habitacionais da família
 
@@ -1407,7 +1465,7 @@ O agrupamento de campos <kbd>3</kbd> **condições habitacionais da família** �
 
 ### Incluir habitação
 
-Para **adicionar informações de habitação**, acione a opção <kbd>4</kbd> **Incluir habitação**, então o sistema vai apresentar a janela para cadastro. Preencha os dados solicitados e acione a opção <kbd>8</kbd> **Incluir**, em seguida o sistema fecha a janela, apresenta as Condições habitacionais da família e a mensagem _"Condições habitacionais incluída com sucesso"_.
+Para **adicionar informações de habitação**, acione a opção <kbd>4</kbd> **Atualizar habitação**, então o sistema vai apresentar a janela para cadastro. Preencha os dados solicitados e acione a opção <kbd>8</kbd> **Incluir**, em seguida o sistema fecha a janela, apresenta as Condições habitacionais da família e a mensagem _"Condições habitacionais incluída com sucesso"_.
 
 ![Incluir Habitação](img/condicoes-habitacionais-da-família-modal-1.png){.w-60}
 
@@ -1425,7 +1483,7 @@ Para **adicionar informações de habitação**, acione a opção <kbd>4</kbd> *
 
 ### Incluir habitação _(continuação)_
 
-A janela <kbd>4</kbd> **Incluir informações de habitação**, representada na página anterior, contém os seguintes dados:
+A janela <kbd>4</kbd> **Atualizar informações de habitação**, representada na página anterior, contém os seguintes dados:
 
 - **Data do atendimento** – campo para informar a data em que o atendimento foi realizado;
 - **Quanto é o número de pessoas do domicílio dividido pelo número de dormitórios?** – campo para informar a quantidade de pessoas por dormitório;
@@ -1450,7 +1508,7 @@ A janela <kbd>4</kbd> **Incluir informações de habitação**, representada na 
 
 ### Atualizar habitação
 
-Para **editar as informações de habitação**, acione a opção <kbd>5</kbd> **Atualizar habitação**, então o sistema vai apresentar a janela com os campos habilitados. Informe os ajustes e acione a opção <kbd>8</kbd> **Incluir**, em seguida o sistema fecha a janela, atualiza as Condições habitacionais da família e apresenta a mensagem _"Condições habitacionais atualizadas com sucesso"_.
+Para **editar as informações de habitação**, acione a opção <kbd>4</kbd> **Atualizar habitação**, então o sistema vai apresentar a janela com os campos habilitados. Informe os ajustes e acione a opção <kbd>8</kbd> **Incluir**, em seguida o sistema fecha a janela, atualiza as Condições habitacionais da família e apresenta a mensagem _"Condições habitacionais atualizadas com sucesso"_.
 
 ![Atualizar Habitação](img/condicoes-habitacionais-da-família-modal-2.png){.w-60}
 
@@ -1468,7 +1526,7 @@ Para **editar as informações de habitação**, acione a opção <kbd>5</kbd> *
 
 ### Atualizar habitação _(continuação)_
 
-A janela <kbd>5</kbd> **Atualizar informações de habitação**, representada na página anterior, contém os seguintes dados:
+A janela <kbd>4</kbd> **Atualizar informações de habitação**, representada na página anterior, contém os seguintes dados:
 
 - **Data do atendimento** – campo para informar a data em que o atendimento foi realizado;
 - **Quanto é o número de pessoas do domicílio dividido pelo número de dormitórios?** – campo para informar a quantidade de pessoas por dormitório;
@@ -1493,11 +1551,11 @@ A janela <kbd>5</kbd> **Atualizar informações de habitação**, representada n
 
 ### Observações das condições habitacionais da família
 
-Para mais informações sobre <kbd>6</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
+Para mais informações sobre o <kbd>5</kbd> **registro de observações** e o <kbd>6</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7</kbd> **ícone**.
 
 </div>
 
@@ -1543,7 +1601,7 @@ O <kbd>3</kbd> **agrupamento de campos da identificação de vulnerabilidade edu
 
 ### Observações das condições educacionais da família
 
-Para mais informações sobre <kbd>4</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
+Para mais informações sobre o <kbd>4</kbd> **registro de observações** e o <kbd>5</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -1660,7 +1718,7 @@ A janela <kbd>4</kbd> **Visualizar marcação de saúde**, representada acima, c
 
 ### Editar marcações de saúde
 
-Para **editar o registro marcação de saúde**, acione a opção <kbd>4</kbd> **Alterar marcação**, então o sistema vai apresentar a janela com os campos habilitados.
+Para **editar o registro marcação de saúde**, acione a opção <kbd>5</kbd> **Alterar marcação**, então o sistema vai apresentar a janela com os campos habilitados.
 
 ![Janela Editar Marcação](img/condicoes-de-saude-da-familia-4.png){.w-60}
 
@@ -1694,7 +1752,7 @@ Para **excluir marcação de saúde**, acione a opção <kbd>6</kbd> **Excluir m
 
 ### Observações das condições de saúde da família
 
-Para mais informações sobre o <kbd>7</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
+Para mais informações sobre o <kbd>7</kbd> **registro de observações** e o <kbd>8</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -1760,7 +1818,7 @@ O <kbd>3</kbd> **agrupamento de campos dos valores recebidos por Programas Socia
 
 ### Observações das condições de trabalho e rendimento da família
 
-Para mais informações sobre o <kbd>4</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
+Para mais informações sobre o <kbd>4</kbd> **registro de observações** e o <kbd>5</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -1966,7 +2024,13 @@ Para **excluir o atendimento da lista**, acione a opção <kbd>6</kbd> **Excluir
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5</kbd> **ícone**.
+### Observações de registro de atendimentos socioassistenciais
+
+Para mais informações sobre o <kbd>7</kbd> **registro de observações** e o <kbd>8</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+
+<br>
+
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>9</kbd> **ícone**.
 
 </div>
 
@@ -2124,11 +2188,11 @@ Para **excluir o benefício da lista**, acione a opção <kbd>6</kbd> **Excluir 
 
 ### Observações do acesso a benefícios eventuais
 
-Para mais informações sobre o <kbd>5</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
+Para mais informações sobre o <kbd>7</kbd> **registro de observações** e o <kbd>8</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>9</kbd> **ícone**.
 
 </div>
 
@@ -2138,7 +2202,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>7
 
 {{< include _header-prontuario-individual.md >}}
 
-![Convivência Familiar e Comunitária](img/convivencia-familiar-e-comunitaria-1.png){.img-pagina}
+![Convivência Familiar e Comunitária](img/convivenvia-familiar-e-comunitaria-1.png){.img-pagina}
 
 ## Convivência familiar e comunitária
 
@@ -2148,11 +2212,11 @@ No bloco <kbd>1</kbd> **Convivência Familiar e Comunitária**, ao expandir as i
 
 ### Observações da convivência familiar e comunitária
 
-Para mais informações sobre o <kbd>2</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
+Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>3</kbd> **ícone**.
+Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>4</kbd> ícone.
 
 </div>
 
@@ -2438,11 +2502,11 @@ Para **excluir o registro** de vulnerabilidade da lista, acione a opção <kbd>8
 
 ### Observações das situações de vulnerabilidades e desproteções sociais da família
 
-Para mais informações sobre o <kbd>9</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
+Para mais informações sobre o <kbd>9</kbd> **registro de observações** e o <kbd>10</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>10</kbd> **ícone**.
+Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>14</kbd> ícone.
 
 </div>
 
@@ -2462,11 +2526,11 @@ No bloco <kbd>1</kbd> **Situação de violência e violação de direitos**, ao 
 
 ### Observações das situações de violência e violação de direitos
 
-Para mais informações sobre o <kbd>2</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
+Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>3</kbd> **ícone**.
+Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>4</kbd> ícone.
 
 </div>
 
@@ -2646,7 +2710,7 @@ Para **excluir o registro** de acompanhamento familiar da lista, acione a opçã
 
 ### Observações do planejamento e evolução do acompanhamento familiar
 
-Para mais informações sobre o <kbd>7</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
+Para mais informações sobre o <kbd>8</kbd> **registro de observações** e o <kbd>9</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -2654,7 +2718,7 @@ Para mais informações sobre o <kbd>7</kbd> **registro de observações**, cons
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>10</kbd> **ícone**.
 
 </div>
 
@@ -2674,11 +2738,11 @@ Ao acionar o bloco <kbd>1</kbd> **Participação em serviços, programas e proje
 
 ### Observações da participação em serviços, programas e projetos
 
-Para mais informações sobre o <kbd>2</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
+Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>3</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>4</kbd> **ícone**.
 
 </div>
 
@@ -2828,7 +2892,7 @@ Informe os ajustes e acione a opção <kbd>9</kbd> **Alterar**, em seguida o sis
 
 ### Editar medida socioeducativa _(continuação)_
 
-A janela <kbd>5</kbd> **Alterar medida socioeducativa**, representada na página anterior, contém os seguintes dados:
+A janela <kbd>6</kbd> **Alterar medida socioeducativa**, representada na página anterior, contém os seguintes dados:
 
 - **Pessoa** – campo para informar a pessoa (adolescente) atendida;
 - **Número do processo** – campo para informar o número do processo da medida socioeducativa;
@@ -2853,17 +2917,17 @@ A janela <kbd>5</kbd> **Alterar medida socioeducativa**, representada na página
 
 ### Excluir medida socioeducativa
 
-Para **excluir o registro de medida socioeducativa**, acione a opção <kbd>6</kbd> **Excluir medida**, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem “_Medida socioeducativa excluída com sucesso_”.
+Para **excluir o registro de medida socioeducativa**, acione a opção <kbd>7</kbd> **Excluir medida**, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem “_Medida socioeducativa excluída com sucesso_”.
 
 <br>
 
 ### Observações das medidas socioeducativas
 
-Para mais informações sobre o <kbd>7</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
+Para mais informações sobre o <kbd>8</kbd> **registro de observações** e o <kbd>9</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>10</kbd> **ícone**.
 
 </div>
 
@@ -2873,7 +2937,7 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8
 
 {{< include _header-prontuario-individual.md >}}
 
-![Histórico de acolhimento institucional](img/historico-de-acolhimento-institucional-1.png){.img-pagina}
+![Histórico de acolhimento institucional](img/historico-de-acolhimento-insitucional-1.png){.img-pagina}
 
 ## Histórico de acolhimento institucional
 
@@ -2883,11 +2947,11 @@ Ao acionar o bloco <kbd>1</kbd> **Histórico de acolhimento institucional**, par
 
 ### Observações do histórico de acolhimento institucional
 
-Para mais informações sobre o <kbd>2</kbd> **registro de observações**, consulte a [página 19](#aspectos-globais-do-módulo-prontuário) deste manual.
+Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>3</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>4</kbd> **ícone**.
 
 </div>
 
@@ -3141,9 +3205,13 @@ Para excluir o registro de encaminhamento, acione a opção <kbd>6</kbd> **Exclu
 
 Para gerar o PDF do encaminhamento, acione a opção <kbd>7</kbd> **Gerar PDF**, o sistema apresenta a mensagem “_PDF gerado com sucesso_” e disponibiliza o arquivo do encaminhamento em outra aba do navegador.
 
-![PDF do encaminhamento](img/formulario-de-controle-de-encaminhamentos-16.png){.w-40}
+![PDF do encaminhamento](img/formulario-de-controle-de-encaminhamentos-16.png){.w-20}
 
-Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>8</kbd> **ícone**.
+### Observações de registro de atendimentos socioassistenciais
+
+Para mais informações sobre o <kbd>8</kbd> **registro de observações** e o <kbd>9</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+
+Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>10</kbd> ícone.
 
 </div>
 
@@ -3244,9 +3312,13 @@ A <kbd>2</kbd> **lista atendimentos da pessoa** é composta por:
 - **Nome do técnico** – campo que informa o nome do técnico responsável pelo atendimento;
 - **Município/ UF** – coluna que informa o município e o estado onde a unidade de atendimento está localizada;
 
+### Observações de relatório simplificado dos atendimentos
+
+Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>3</kbd> **ícone**.
+Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>4</kbd> ícone.
 
 </div>
 
