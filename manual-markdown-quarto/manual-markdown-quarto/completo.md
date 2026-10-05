@@ -62,71 +62,71 @@ Janeiro de 2026
 
 - [CadSUAS e as permissões do prontuário SUAS](#cadsuas-e-as-permissões-do-prontuário-suas) [10]{.n}
 
-- [Login no sistema](#login-no-sistema) [13]{.n}
+- [Login no sistema](#login-no-sistema) [14]{.n}
 
-- [Termo de uso](#termo-de-uso) [15]{.n}
+- [Termo de uso](#termo-de-uso) [16]{.n}
 
-**[Prontuário: Atendimento individual e familiar](#prontuário-atendimento-individual-e-familiar)** [16]{.n}
+**[Prontuário: Atendimento individual e familiar](#prontuário-atendimento-individual-e-familiar)** [17]{.n}
 
-- [Realizar atendimento](#realizar-atendimento) [17]{.n}
+- [Realizar atendimento](#realizar-atendimento) [18]{.n}
 
-- [Aspectos globais do módulo Prontuário](#aspectos-globais-do-módulo-prontuário) [19]{.n}
+- [Aspectos globais do módulo Prontuário](#aspectos-globais-do-módulo-prontuário) [20]{.n}
 
-- [Informações do Prontuário](#informações-do-prontuário) [22]{.n}
+- [Informações do Prontuário](#informações-do-prontuário) [26]{.n}
 
-- [Migrar Prontuário](#migrar-prontuário) [23]{.n}
+- [Migrar Prontuário](#migrar-prontuário) [27]{.n}
 
-<!-- - [Excluir Prontuário](#excluir-prontuário) [27]{.n} -->
+<!-- - [Excluir Prontuário](#excluir-prontuário) [31]{.n} -->
 
-- [Identificação da pessoa de referência e endereço da família](#identificação-da-pessoa-de-referência-e-endereço-da-família) [28]{.n}
+- [Identificação da pessoa de referência e endereço da família](#identificação-da-pessoa-de-referência-e-endereço-da-família) [32]{.n}
 
-- [Informações da família](#informações-da-família) [31]{.n}
+- [Informações da família](#informações-da-família) [35]{.n}
 
-- [Composição familiar (quadro)](#composição-familiar-quadro) [32]{.n}
+- [Composição familiar (quadro)](#composição-familiar-quadro) [36]{.n}
 
-- [Forma de ingresso na unidade e motivo do primeiro atendimento](#forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento) [35]{.n}
+- [Forma de ingresso na unidade e motivo do primeiro atendimento](#forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento) [39]{.n}
 
-- [Composição familiar (bloco)](#composição-familiar-bloco) [43]{.n}
+- [Composição familiar (bloco)](#composição-familiar-bloco) [48]{.n}
 
-- [Condições habitacionais da família](#condições-habitacionais-da-família) [44]{.n}
+- [Condições habitacionais da família](#condições-habitacionais-da-família) [50]{.n}
 
-- [Condições educacionais da família](#condições-educacionais-da-família) [51]{.n}
+- [Condições educacionais da família](#condições-educacionais-da-família) [57]{.n}
 
-- [Condições de saúde da família](#condições-de-saúde-da-família) [53]{.n}
+- [Condições de saúde da família](#condições-de-saúde-da-família) [59]{.n}
 
-- [Condições de trabalho e rendimento da família](#condições-de-trabalho-e-rendimento-da-família) [59]{.n}
+- [Condições de trabalho e rendimento da família](#condições-de-trabalho-e-rendimento-da-família) [65]{.n}
 
-- [Registro de atendimentos socioassistenciais](#registro-de-atendimentos-socioassistenciais) [62]{.n}
+- [Registro de atendimentos socioassistenciais](#registro-de-atendimentos-socioassistenciais) [68]{.n}
 
-- [Acesso a benefícios eventuais](#acesso-a-benefícios-eventuais) [71]{.n}
+- [Acesso a benefícios eventuais](#acesso-a-benefícios-eventuais) [77]{.n}
 
-- [Convivência familiar e comunitária](#convivência-familiar-e-comunitária) [78]{.n}
+- [Convivência familiar e comunitária](#convivência-familiar-e-comunitária) [84]{.n}
 
-- [Situações de vulnerabilidades e desproteções sociais da família](#situações-de-vulnerabilidades-e-desproteções-sociais-da-família) [79]{.n}
+- [Situações de vulnerabilidades e desproteções sociais da família](#situações-de-vulnerabilidades-e-desproteções-sociais-da-família) [85]{.n}
 
-- [Situações de violência e violação de direitos](#situações-de-violência-e-violação-de-direitos) [92]{.n}
+- [Situações de violência e violação de direitos](#situações-de-violência-e-violação-de-direitos) [98]{.n}
 
-- [Planejamento e evolução do acompanhamento familiar](#planejamento-e-evolução-do-acompanhamento-familiar) [93]{.n}
+- [Planejamento e evolução do acompanhamento familiar](#planejamento-e-evolução-do-acompanhamento-familiar) [99]{.n}
 
-- [Participação em serviços, programas e projetos](#participação-em-serviços-programas-e-projetos) [101]{.n}
+- [Participação em serviços, programas e projetos](#participação-em-serviços-programas-e-projetos) [107]{.n}
 
-- [Histórico de cumprimento de medidas socioeducativas](#histórico-de-cumprimento-de-medidas-socioeducativas) [102]{.n}
+- [Histórico de cumprimento de medidas socioeducativas](#histórico-de-cumprimento-de-medidas-socioeducativas) [108]{.n}
 
-- [Histórico de acolhimento institucional](#histórico-de-acolhimento-institucional) [110]{.n}
+- [Histórico de acolhimento institucional](#histórico-de-acolhimento-institucional) [116]{.n}
 
-- [Formulário de controle de encaminhamentos](#formulário-de-controle-de-encaminhamentos) [111]{.n}
+- [Formulário de controle de encaminhamentos](#formulário-de-controle-de-encaminhamentos) [117]{.n}
 
-- [Relatório de participação em atendimentos coletivos](#relatório-de-participação-em-atendimentos-coletivos) [122]{.n}
+- [Relatório de participação em atendimentos coletivos](#relatório-de-participação-em-atendimentos-coletivos) [128]{.n}
 
-- [Relatório simplificado dos atendimentos](#relatório-simplificado-dos-atendimentos) [125]{.n}
+- [Relatório simplificado dos atendimentos](#relatório-simplificado-dos-atendimentos) [131]{.n}
 
-**[Prontuário: Atendimento Coletivo](#prontuário-atendimento-coletivo)** [126]{.n}
+**[Prontuário: Atendimento Coletivo](#prontuário-atendimento-coletivo)** [132]{.n}
 
-**[Prontuário: Migrar Prontuário](#prontuário-migrar-prontuário)** [138]{.n}
+**[Prontuário: Migrar Prontuário](#prontuário-migrar-prontuário)** [144]{.n}
 
-**[Prontuário: Painel Estatístico](#prontuário-painel-estatístico)** [146]{.n}
+**[Prontuário: Painel Estatístico](#prontuário-painel-estatístico)** [152]{.n}
 
-**[Prontuário: Funcionalidades](#prontuário-funcionalidades)** [155]{.n}
+**[Prontuário: Funcionalidades](#prontuário-funcionalidades)** [159]{.n}
 
 </div>
 
