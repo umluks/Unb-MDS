@@ -62,71 +62,71 @@ Janeiro de 2026
 
 - [CadSUAS e as permissões do prontuário SUAS](#cadsuas-e-as-permissões-do-prontuário-suas) [10]{.n}
 
-- [Login no sistema](#login-no-sistema) [14]{.n}
+- [Login no sistema](#login-no-sistema) [15]{.n}
 
-- [Termo de uso](#termo-de-uso) [16]{.n}
+- [Termo de uso](#termo-de-uso) [17]{.n}
 
-**[Prontuário: Atendimento individual e familiar](#prontuário-atendimento-individual-e-familiar)** [17]{.n}
+**[Prontuário: Atendimento individual e familiar](#prontuário-atendimento-individual-e-familiar)** [18]{.n}
 
-- [Realizar atendimento](#realizar-atendimento) [18]{.n}
+- [Realizar atendimento](#realizar-atendimento) [19]{.n}
 
-- [Aspectos globais do módulo Prontuário](#aspectos-globais-do-módulo-prontuário) [20]{.n}
+- [Aspectos globais do módulo Prontuário](#aspectos-globais-do-módulo-prontuário) [21]{.n}
 
-- [Informações do Prontuário](#informações-do-prontuário) [26]{.n}
+- [Informações do Prontuário](#informações-do-prontuário) [27]{.n}
 
-- [Migrar Prontuário](#migrar-prontuário) [27]{.n}
+- [Migrar Prontuário](#migrar-prontuário) [28]{.n}
 
-<!-- - [Excluir Prontuário](#excluir-prontuário) [31]{.n} -->
+<!-- - [Excluir Prontuário](#excluir-prontuário) [32]{.n} -->
 
-- [Identificação da pessoa de referência e endereço da família](#identificação-da-pessoa-de-referência-e-endereço-da-família) [32]{.n}
+- [Identificação da pessoa de referência e endereço da família](#identificação-da-pessoa-de-referência-e-endereço-da-família) [33]{.n}
 
-- [Informações da família](#informações-da-família) [35]{.n}
+- [Informações da família](#informações-da-família) [36]{.n}
 
-- [Composição familiar (quadro)](#composição-familiar-quadro) [36]{.n}
+- [Composição familiar (quadro)](#composição-familiar-quadro) [37]{.n}
 
-- [Forma de ingresso na unidade e motivo do primeiro atendimento](#forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento) [39]{.n}
+- [Forma de ingresso na unidade e motivo do primeiro atendimento](#forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento) [40]{.n}
 
-- [Composição familiar (bloco)](#composição-familiar-bloco) [48]{.n}
+- [Composição familiar (bloco)](#composição-familiar-bloco) [49]{.n}
 
-- [Condições habitacionais da família](#condições-habitacionais-da-família) [50]{.n}
+- [Condições habitacionais da família](#condições-habitacionais-da-família) [51]{.n}
 
-- [Condições educacionais da família](#condições-educacionais-da-família) [57]{.n}
+- [Condições educacionais da família](#condições-educacionais-da-família) [58]{.n}
 
-- [Condições de saúde da família](#condições-de-saúde-da-família) [59]{.n}
+- [Condições de saúde da família](#condições-de-saúde-da-família) [60]{.n}
 
-- [Condições de trabalho e rendimento da família](#condições-de-trabalho-e-rendimento-da-família) [65]{.n}
+- [Condições de trabalho e rendimento da família](#condições-de-trabalho-e-rendimento-da-família) [66]{.n}
 
-- [Registro de atendimentos socioassistenciais](#registro-de-atendimentos-socioassistenciais) [68]{.n}
+- [Registro de atendimentos socioassistenciais](#registro-de-atendimentos-socioassistenciais) [69]{.n}
 
-- [Acesso a benefícios eventuais](#acesso-a-benefícios-eventuais) [77]{.n}
+- [Acesso a benefícios eventuais](#acesso-a-benefícios-eventuais) [78]{.n}
 
-- [Convivência familiar e comunitária](#convivência-familiar-e-comunitária) [84]{.n}
+- [Convivência familiar e comunitária](#convivência-familiar-e-comunitária) [85]{.n}
 
-- [Situações de vulnerabilidades e desproteções sociais da família](#situações-de-vulnerabilidades-e-desproteções-sociais-da-família) [85]{.n}
+- [Situações de vulnerabilidades e desproteções sociais da família](#situações-de-vulnerabilidades-e-desproteções-sociais-da-família) [86]{.n}
 
-- [Situações de violência e violação de direitos](#situações-de-violência-e-violação-de-direitos) [98]{.n}
+- [Situações de violência e violação de direitos](#situações-de-violência-e-violação-de-direitos) [99]{.n}
 
-- [Planejamento e evolução do acompanhamento familiar](#planejamento-e-evolução-do-acompanhamento-familiar) [99]{.n}
+- [Planejamento e evolução do acompanhamento familiar](#planejamento-e-evolução-do-acompanhamento-familiar) [100]{.n}
 
-- [Participação em serviços, programas e projetos](#participação-em-serviços-programas-e-projetos) [107]{.n}
+- [Participação em serviços, programas e projetos](#participação-em-serviços-programas-e-projetos) [108]{.n}
 
-- [Histórico de cumprimento de medidas socioeducativas](#histórico-de-cumprimento-de-medidas-socioeducativas) [108]{.n}
+- [Histórico de cumprimento de medidas socioeducativas](#histórico-de-cumprimento-de-medidas-socioeducativas) [109]{.n}
 
-- [Histórico de acolhimento institucional](#histórico-de-acolhimento-institucional) [116]{.n}
+- [Histórico de acolhimento institucional](#histórico-de-acolhimento-institucional) [117]{.n}
 
-- [Formulário de controle de encaminhamentos](#formulário-de-controle-de-encaminhamentos) [117]{.n}
+- [Formulário de controle de encaminhamentos](#formulário-de-controle-de-encaminhamentos) [118]{.n}
 
-- [Relatório de participação em atendimentos coletivos](#relatório-de-participação-em-atendimentos-coletivos) [128]{.n}
+- [Relatório de participação em atendimentos coletivos](#relatório-de-participação-em-atendimentos-coletivos) [129]{.n}
 
-- [Relatório simplificado dos atendimentos](#relatório-simplificado-dos-atendimentos) [131]{.n}
+- [Relatório simplificado dos atendimentos](#relatório-simplificado-dos-atendimentos) [132]{.n}
 
-**[Prontuário: Atendimento Coletivo](#prontuário-atendimento-coletivo)** [132]{.n}
+**[Prontuário: Atendimento Coletivo](#prontuário-atendimento-coletivo)** [133]{.n}
 
-**[Prontuário: Migrar Prontuário](#prontuário-migrar-prontuário)** [144]{.n}
+**[Prontuário: Migrar Prontuário](#prontuário-migrar-prontuário)** [145]{.n}
 
-**[Prontuário: Painel Estatístico](#prontuário-painel-estatístico)** [152]{.n}
+**[Prontuário: Painel Estatístico](#prontuário-painel-estatístico)** [153]{.n}
 
-**[Prontuário: Funcionalidades](#prontuário-funcionalidades)** [159]{.n}
+**[Prontuário: Funcionalidades](#prontuário-funcionalidades)** [160]{.n}
 
 </div>
 
@@ -328,14 +328,25 @@ Mantém a estrutura do formulário físico, com recursos adicionais que garantem
 
 É o sistema que centraliza e gerencia as informações da rede socioassistencial em todo o país. Suas principais funções são:
 
-- Cadastro e gestão de informações sobre prefeituras, órgãos gestores, fundos, conselhos, unidades da rede (CRAS, CREAS, acolhimento) e trabalhadores do SUAS.
-- Integração de dados com outros sistemas da Rede SUAS, garantindo informações atualizadas e sem duplicidades.
-- Apoio à gestão e ao planejamento, oferecendo uma base de dados unificada para monitoramento e tomada de decisão.
+- Registro das unidades públicas e privadas que integram o Sistema Único de Assistência Social em todos o território brasileiro;
+- Registro dos gestores, trabalhadores e conselheiros do SUAS nos estados e municípios, vinculados às unidades e com identificação de seus cargos e funções desempenhadas;
+- Integração de dados com outros sistemas da Rede SUAS, garantindo informações atualizadas e sem duplicidades;
+- Apoio à gestão e ao planejamento, oferecendo uma base de dados unificada para monitoramento e tomada de decisão;
 - Fortalecimento do controle social, permitindo o acompanhamento e a fiscalização das ações da assistência social.
 
-O CadSUAS é essencial para organizar e padronizar as informações do SUAS em todo o país. O acesso é realizado pelo portal do MDS.
+O CadSUAS é essencial para organizar e padronizar as informações do SUAS em todo o país. Pode ser acessado através de consulta pública sem senha de acesso e por consulta com senha através de login no SAA.
 
-### Perfis de Acesso {.col-break}
+O CadSuas como um sistema que pode ser alterado constantemente necessita de atualização sempre que os dados de unidades e/ou gestores, trabalhadores e conselheiros mudarem.
+
+### Perfis de Acesso
+
+O uso do Prontuário SUAS está vinculado aos perfis de acesso e permissões de profissionais da gestão e das unidades executoras. A natureza do trabalho realizado indica um tipo de permissão no sistema.
+
+Nesse sentido, cada profissional com permissão de uso ao Prontuário Suas deve se orientar a partir da Resolução CIT nº 29 de 06 de outubro de 2025; dos direitos socioassistenciais, dos princípios éticos dos profissionais do SUAS e dos códigos de ética das profissões regulamentadas.
+
+A qualidade do Trabalho social requer conhecimentos teóricos, técnicos e éticos necessários à ampliação e fortalecimento dos direitos sociais.
+
+A seguir são descritas as atribuições de cada perfil.
 
 **Administrador Federal**
 
@@ -345,7 +356,16 @@ Responsável pela gestão nacional do Prontuário Eletrônico do SUAS. Suas atri
 - Coordenar e integrar o sistema em todo o país.
 - Definir normas e diretrizes nacionais de uso.
 - Apoiar monitoramento e planejamento com dados agregados.
+- Garantir o aprimoramento das funcionalidades do sistema a partir das necessidades apontadas pelos técnicos.
 - Prestar apoio técnico aos estados.
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-apresentacao.md >}}
 
 **Gestor Municipal**
 
@@ -354,6 +374,7 @@ Responsável pela administração dos acessos e permissões no Prontuário SUAS 
 - Acompanhar o uso do sistema, garantindo consistência e qualidade dos registros.
 - Utilizar dados consolidados para gestão estratégica (sem acesso a prontuários individuais).
 - Garantir condições éticas e técnicas para o uso qualificado do Novo Prontuário Eletrônico SUAS.
+- Solicitar orientações técnicas aos estados sempre que houver necessidade;
 
 **Técnico da Gestão Municipal**
 
@@ -363,7 +384,31 @@ Atua no acompanhamento do Prontuário SUAS em nível municipal, assegurando a qu
 - Oferecer suporte e planejamento e capacitação aos profissionais das unidades.
 - Definir normas e rotinas de uso do sistema.
 - Realizar atendimentos socioassistencias em situações de emergência.
-- Realizar encaminhamentos quando necessário.
+- Realizar encaminhamentos quando a realidade municipal se fizer necessária.
+- Zelar pelo uso ético e sigiloso dos dados das famílias.
+
+Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como "TÉCNICO(A) DE NÍVEL SUPERIOR" ou "COORDENADOR(A)/DIRIGENTE" possuem acesso a esse perfil.
+
+<div class="col-break"></div>
+
+**Gestor Estadual**
+
+Responsável pela gestão macro das informações do Prontuário SUAS no estado, apoiando e orientando os municípios. Suas atribuições são:
+
+- Monitorar e avaliar ações municipais com base em dados consolidados.
+- Planejar ações estratégicas a partir das informações do sistema.
+- Prestar apoio técnico aos municípios.
+- Garantir a qualidade e segurança dos dados em nível estadual (sem acesso a prontuários individuais).
+- Solicitar orientações técnicas à gestão federal sempre que houver necessidade.
+
+**Técnico da Gestão Estadual**
+
+Atua no acompanhamento do Prontuário SUAS em nível estadual, assegurando a qualidade das informações. Suas atribuições são:
+
+- Monitorar dados registrados pelos municípios.
+- Apoiar o planejamento estadual com dados agregados.
+- Oferecer suporte e capacitação aos municípios.
+- Garantir a qualidade e segurança dos dados em nível estadual (sem acesso a prontuários individuais).
 
 Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como "TÉCNICO(A) DE NÍVEL SUPERIOR" ou "COORDENADOR(A)/DIRIGENTE" possuem acesso a esse perfil.
 
@@ -375,30 +420,12 @@ Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como 
 
 {{< include _header-apresentacao.md >}}
 
-**Gestor Estadual**
-
-Responsável pela gestão macro das informações do Prontuário SUAS no estado, apoiando e orientando os municípios. Suas atribuições são:
-
-- Monitorar e avaliar ações municipais com base em dados consolidados.
-- Planejar ações estratégicas a partir das informações do sistema.
-- Prestar apoio técnico aos municípios.
-- Garantir a qualidade e segurança dos dados em nível estadual (sem acesso a prontuários individuais).
-
-**Técnico da Gestão Estadual**
-
-Atua no acompanhamento do Prontuário SUAS em nível estadual, assegurando a qualidade das informações. Suas atribuições são:
-
-- Monitorar dados registrados pelos municípios.
-- Apoiar o planejamento estadual com dados agregados.
-- Oferecer suporte e capacitação aos municípios.
-
-Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como "TÉCNICO(A) DE NÍVEL SUPERIOR" ou "COORDENADOR(A)/DIRIGENTE" possuem acesso a esse perfil.
-
-**Conselheiro**
+**Conselheiro(a)**
 
 Atua na gestão e no controle social, sem acesso a dados individualizados. Suas atribuições são:
 
 - Acompanhar ou realizar o monitoramento da oferta dos serviços, programas e benefícios socioassistenciais a nível de controle social.
+- Conhecer a importância do Prontuário SUAS no registro do Trabalho Social.
 
 **Apoio Administrativo – CRAS**
 
@@ -408,29 +435,33 @@ Auxilia na organização dos prontuários e no suporte às equipes do CRAS. Suas
 - Apoiar processos relacionados ao CadÚnico.
 - Emitir documentos e relatórios.
 - Apoiar os fluxos internos de atendimento.
-- Realizar procedimento de migração quando necessário.
+- Realizar procedimento de migração a partir da realidade da unidade, assim como da qualificação técnica do profissional. A avaliação do órgão gestor e coordenação da unidade permitirá usos específicos do Prontuário SUAS.
+- Zelar por conduta ética alinhada com os princípios do SUAS.
+
+<div class="col-break"></div>
 
 **Coordenador – CRAS**
 
 Responsável pela gestão operacional do sistema e pela supervisão dos atendimentos. Suas atribuições são:
 
 - Realizar atendimentos quando necessário.
-- Supervisionar registros e atendimentos realizados pela equipe.
-- Garantir sigilo e segurança das informações.
+- Supervisionar a qualidade dos registros e atendimentos realizados pela equipe (nível médio e superior).
+- Garantir condições éticas para o uso do sistema nas unidades e zelar pela segurança das informações.
 - Planejar e avaliar ações com base em dados do sistema.
-- Articular comunicação interna e com a rede socioassistencial.
+- Aprimorar a comunicação interna com a rede socioassistencial.
 - Realizar mapeamento territorial a partir dos relatórios gerados no Novo Prontuário Eletrônico SUAS.
 
 **Psicólogo – CRAS**
 
 Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:
 
-- Realizar acolhimento, atendimentos especializados e acompanhamento (se necessário).
-- Fortalecer vínculos familiares e comunitários.
-- Orientar e encaminhar para serviços e benefícios da rede.
+- Realizar acolhida, escuta, atendimentos especializados e acompanhamento (se necessário).
+- Estimular o fortalecimento de vínculos familiares e comunitários.
+- Orientar e encaminhar para serviços e benefícios da rede socioassistencial e de outras políticas públicas.
 - Atuar em equipe multiprofissional.
 - Realizar intervenções individuais, grupais e comunitárias.
 - Emitir documentos técnicos quando necessário.
+- Estar orientado por normativas éticas e técnicas de sua profissão.
 
 </div>
 
@@ -444,12 +475,13 @@ Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Su
 
 Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:
 
-- Realizar acolhimento e atendimentos especializados.
-- Fortalecer vínculos familiares e comunitários.
-- Orientar e encaminhar para serviços e benefícios da rede.
+- Realizar acolhida, escuta, atendimentos especializados e acompanhamento (se necessário).
+- Estimular o fortalecimento de vínculos familiares e comunitários.
+- Orientar e encaminhar para serviços e benefícios da rede socioassistencial e de outras políticas públicas.
 - Atuar em equipe multiprofissional.
 - Realizar intervenções individuais, grupais e comunitárias.
 - Emitir documentos técnicos quando necessário.
+- Estar orientado por normativas éticas e técnicas de sua profissão.
 
 **Educador Social – CRAS**
 
@@ -462,18 +494,23 @@ Registra as ações socioeducativas e o acompanhamento de usuários, garantindo 
 - Identificar e registrar riscos e vulnerabilidades.
 - Manter registros claros e alinhados às normas do SUAS.
 - Registrar articulações com a rede de serviços.
-- Realizar procedimento de migração quando necessário.
+- Realizar procedimento de migração a partir da realidade da unidade, assim como da qualificação técnica do profissional. A avaliação do órgão gestor e coordenação da unidade permitirá usos específicos do Prontuário SUAS.
+- Zelar por conduta ética alinhada com os princípios do SUAS.
+
+<div class="col-break"></div>
 
 **Técnico de Nível Superior – CRAS**
 
 Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:
 
-- Realizar acolhimento, atendimentos especializados e acompanhamento (se necessário).
-- Fortalecer vínculos familiares e comunitários.
-- Orientar e encaminhar para serviços e benefícios da rede.
+- Realizar acolhida, escuta, atendimentos especializados e acompanhamento (se necessário).
+- Estimular o fortalecimento de vínculos familiares e comunitários.
+- Orientar e encaminhar para serviços e benefícios da rede socioassistencial e de outras políticas públicas.
 - Atuar em equipe multiprofissional.
 - Realizar intervenções individuais, grupais e comunitárias.
 - Emitir documentos técnicos quando necessário.
+- Estar orientado por normativas éticas e técnicas de sua profissão.
+- Zelar por conduta ética alinhada com os princípios do SUAS.
 
 **Técnico de Nível Médio – CRAS**
 
@@ -487,6 +524,7 @@ Registra as ações socioeducativas e o acompanhamento de usuários, garantindo 
 - Manter registros claros e alinhados às normas do SUAS.
 - Registrar articulações com a rede de serviços.
 - Realizar procedimento de migração quando necessário.
+- Zelar por conduta ética alinhada com os princípios do SUAS.
 
 </div>
 
@@ -509,7 +547,7 @@ O Novo Prontuário Eletrônico SUAS possui diferentes perfis de acesso. A cada p
 
 > **Importante:** se um bloco ou uma funcionalidade não estiver disponível, não abrir ou apresentar opções de ação desabilitadas, confirme se o seu perfil tem a permissão necessária para executar a ação desejada.
 >
-> Para verificar as funcionalidades e as permissões correspondentes a cada perfil, consulte o anexo “Prontuário: Descritivo de perfis e permissões”, **disponível na página (pag 155)**.
+> Para verificar as funcionalidades e as permissões correspondentes a cada perfil, consulte o anexo “Prontuário: Descritivo de perfis e permissões”, **disponível na página (pag 160)**.
 
 </div>
 
