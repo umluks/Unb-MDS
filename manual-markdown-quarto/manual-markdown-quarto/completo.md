@@ -316,7 +316,7 @@ O Painel Estatístico apresenta uma visão clara, organizada e agregada dos aten
 
 {{< include _header-apresentacao.md >}}
 
-## CadSUAS e as permissões do prontuário SUAS
+## CadSUAS e as permissões do Prontuário SUAS
 
 ### Prontuário Eletrônico do SUAS
 
