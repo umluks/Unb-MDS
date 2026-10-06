@@ -399,6 +399,14 @@ Responsável pela gestão macro das informações do Prontuário SUAS no estado,
 - Garantir a qualidade e segurança dos dados em nível estadual (sem acesso a prontuários individuais).
 - Solicitar orientações técnicas à gestão federal sempre que houver necessidade.
 
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-apresentacao.md >}}
+
 **Técnico(a) da Gestão Estadual**
 
 Atua no acompanhamento do Prontuário SUAS em nível estadual, assegurando a qualidade das informações. Suas atribuições são:
@@ -409,14 +417,6 @@ Atua no acompanhamento do Prontuário SUAS em nível estadual, assegurando a qua
 - Garantir a qualidade e segurança dos dados em nível estadual (sem acesso a prontuários individuais).
 
 Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como "TÉCNICO(A) DE NÍVEL SUPERIOR" ou "COORDENADOR(A)/DIRIGENTE" possuem acesso a esse perfil.
-
-</div>
-
----
-
-<div class="page-2col">
-
-{{< include _header-apresentacao.md >}}
 
 **Conselheiro(a)**
 
@@ -435,8 +435,6 @@ Auxilia na organização dos prontuários e no suporte às equipes do CRAS. Suas
 - Apoiar os fluxos internos de atendimento.
 - Realizar procedimento de migração a partir da realidade da unidade, assim como da qualificação técnica do profissional. A avaliação do órgão gestor e coordenação da unidade permitirá usos específicos do Prontuário SUAS.
 - Zelar por conduta ética alinhada com os princípios do SUAS.
-
-<div class="col-break"></div>
 
 **Coordenador(a) – CRAS**
 
@@ -510,6 +508,14 @@ Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Su
 - Estar orientado por normativas éticas e técnicas de sua profissão.
 - Zelar por conduta ética alinhada com os princípios do SUAS.
 
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-apresentacao.md >}}
+
 **Técnico(a) de Nível Médio – CRAS**
 
 Registra as ações socioeducativas e o acompanhamento de usuários, garantindo organização e continuidade do atendimento. Suas atribuições são:
@@ -524,13 +530,7 @@ Registra as ações socioeducativas e o acompanhamento de usuários, garantindo 
 - Realizar procedimento de migração quando necessário.
 - Zelar por conduta ética alinhada com os princípios do SUAS.
 
-</div>
-
----
-
-<div class="page-2col">
-
-{{< include _header-apresentacao.md >}}
+<div class="col-break"></div>
 
 ## Perfis do Prontuário SUAS
 
@@ -540,8 +540,6 @@ O Novo Prontuário Eletrônico SUAS possui diferentes perfis de acesso. A cada p
 
 - Alguns perfis permitem apenas a visualização das informações registradas, sem a possibilidade de inserir, editar ou excluir dados.
 - Outros perfis permitem visualizar informações gerais, mas restringem o acesso a determinados campos como “observações” e “marcadores”.
-
-<div class="col-break"></div>
 
 > **Importante:** se um bloco ou uma funcionalidade não estiver disponível, não abrir ou apresentar opções de ação desabilitadas, confirme se o seu perfil tem a permissão necessária para executar a ação desejada.
 >
