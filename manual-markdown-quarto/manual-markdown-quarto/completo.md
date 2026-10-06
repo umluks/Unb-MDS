@@ -329,14 +329,14 @@ Mantém a estrutura do formulário físico, com recursos adicionais que garantem
 É o sistema que centraliza e gerencia as informações da rede socioassistencial em todo o país. Suas principais funções são:
 
 - Registro das unidades públicas e privadas que integram o Sistema Único de Assistência Social em todos o território brasileiro;
-- Registro dos gestores, trabalhadores e conselheiros do SUAS nos estados e municípios, vinculados às unidades e com identificação de seus cargos e funções desempenhadas;
-- Integração de dados com outros sistemas da Rede SUAS, garantindo informações atualizadas e sem duplicidades;
-- Apoio à gestão e ao planejamento, oferecendo uma base de dados unificada para monitoramento e tomada de decisão;
+- Registro dos gestores, trabalhadores e conselheiros do SUAS nos estados e municípios, vinculados às unidades e com identificação de seus cargos e funções desempenhadas.
+- Integração de dados com outros sistemas da Rede SUAS, garantindo informações atualizadas e sem duplicidades.
+- Apoio à gestão e ao planejamento, oferecendo uma base de dados unificada para monitoramento e tomada de decisão.
 - Fortalecimento do controle social, permitindo o acompanhamento e a fiscalização das ações da assistência social.
 
-O CadSUAS é essencial para organizar e padronizar as informações do SUAS em todo o país. Pode ser acessado através de consulta pública sem senha de acesso e por consulta com senha através de login no SAA.
+O CadSUAS é essencial para organizar e padronizar as informações do SUAS em todo o país. O sistema pode ser acessado através de consulta pública sem senha de acesso, por meio do link: [{https://aplicacoes.mds.gov.br/cadsuas/visualizarConsultaExterna.html}](https://aplicacoes.mds.gov.br/cadsuas/visualizarConsultaExterna.html). E, também por consulta com senha, através de login no SAA.
 
-O CadSuas como um sistema que pode ser alterado constantemente necessita de atualização sempre que os dados de unidades e/ou gestores, trabalhadores e conselheiros mudarem.
+O CadSuas é um sistema que passa por mudanças frequentes. Lembre-se de atualizar os dados de unidades, gestores, conselheiros, e entre outros trabalhadores do SUAS, sempre que houver alterações.
 
 ### Perfis de Acesso
 
@@ -348,7 +348,15 @@ A qualidade do Trabalho social requer conhecimentos teóricos, técnicos e étic
 
 A seguir são descritas as atribuições de cada perfil.
 
-**Administrador Federal**
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-apresentacao.md >}}
+
+**Administrador(a) Federal**
 
 Responsável pela gestão nacional do Prontuário Eletrônico do SUAS. Suas atribuições são:
 
@@ -359,15 +367,7 @@ Responsável pela gestão nacional do Prontuário Eletrônico do SUAS. Suas atri
 - Garantir o aprimoramento das funcionalidades do sistema a partir das necessidades apontadas pelos técnicos.
 - Prestar apoio técnico aos estados.
 
-</div>
-
----
-
-<div class="page-2col">
-
-{{< include _header-apresentacao.md >}}
-
-**Gestor Municipal**
+**Gestor(a) Municipal**
 
 Responsável pela administração dos acessos e permissões no Prontuário SUAS no âmbito municipal. Suas atribuições são:
 
@@ -376,7 +376,7 @@ Responsável pela administração dos acessos e permissões no Prontuário SUAS 
 - Garantir condições éticas e técnicas para o uso qualificado do Novo Prontuário Eletrônico SUAS.
 - Solicitar orientações técnicas aos estados sempre que houver necessidade;
 
-**Técnico da Gestão Municipal**
+**Técnico(a) da Gestão Municipal**
 
 Atua no acompanhamento do Prontuário SUAS em nível municipal, assegurando a qualidade das informações. Suas atribuições são:
 
@@ -389,9 +389,7 @@ Atua no acompanhamento do Prontuário SUAS em nível municipal, assegurando a qu
 
 Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como "TÉCNICO(A) DE NÍVEL SUPERIOR" ou "COORDENADOR(A)/DIRIGENTE" possuem acesso a esse perfil.
 
-<div class="col-break"></div>
-
-**Gestor Estadual**
+**Gestor(a) Estadual**
 
 Responsável pela gestão macro das informações do Prontuário SUAS no estado, apoiando e orientando os municípios. Suas atribuições são:
 
@@ -401,7 +399,7 @@ Responsável pela gestão macro das informações do Prontuário SUAS no estado,
 - Garantir a qualidade e segurança dos dados em nível estadual (sem acesso a prontuários individuais).
 - Solicitar orientações técnicas à gestão federal sempre que houver necessidade.
 
-**Técnico da Gestão Estadual**
+**Técnico(a) da Gestão Estadual**
 
 Atua no acompanhamento do Prontuário SUAS em nível estadual, assegurando a qualidade das informações. Suas atribuições são:
 
@@ -440,7 +438,7 @@ Auxilia na organização dos prontuários e no suporte às equipes do CRAS. Suas
 
 <div class="col-break"></div>
 
-**Coordenador – CRAS**
+**Coordenador(a) – CRAS**
 
 Responsável pela gestão operacional do sistema e pela supervisão dos atendimentos. Suas atribuições são:
 
@@ -451,7 +449,7 @@ Responsável pela gestão operacional do sistema e pela supervisão dos atendime
 - Aprimorar a comunicação interna com a rede socioassistencial.
 - Realizar mapeamento territorial a partir dos relatórios gerados no Novo Prontuário Eletrônico SUAS.
 
-**Psicólogo – CRAS**
+**Psicólogo(a) – CRAS**
 
 Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:
 
@@ -483,7 +481,7 @@ Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Su
 - Emitir documentos técnicos quando necessário.
 - Estar orientado por normativas éticas e técnicas de sua profissão.
 
-**Educador Social – CRAS**
+**Educador(a) Social – CRAS**
 
 Registra as ações socioeducativas e o acompanhamento de usuários, garantindo organização e continuidade do atendimento. Suas atribuições são:
 
@@ -497,9 +495,9 @@ Registra as ações socioeducativas e o acompanhamento de usuários, garantindo 
 - Realizar procedimento de migração a partir da realidade da unidade, assim como da qualificação técnica do profissional. A avaliação do órgão gestor e coordenação da unidade permitirá usos específicos do Prontuário SUAS.
 - Zelar por conduta ética alinhada com os princípios do SUAS.
 
-<div class="col-break"></div>
+A utilização de funcionalidades específicas do prontuário SUAS deve ser orientada pelo contexto de trabalho da unidade e da qualificação técnica do(a) profissional. As permissões são definidas pelo MDS, mas a utilização do sistema está sujeita à avaliação do órgão gestor, da coordenação da unidade, preferencialmente, mediante treinamento e supervisão.
 
-**Técnico de Nível Superior – CRAS**
+**Técnico(a) de Nível Superior – CRAS**
 
 Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:
 
@@ -512,7 +510,7 @@ Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Su
 - Estar orientado por normativas éticas e técnicas de sua profissão.
 - Zelar por conduta ética alinhada com os princípios do SUAS.
 
-**Técnico de Nível Médio – CRAS**
+**Técnico(a) de Nível Médio – CRAS**
 
 Registra as ações socioeducativas e o acompanhamento de usuários, garantindo organização e continuidade do atendimento. Suas atribuições são:
 
