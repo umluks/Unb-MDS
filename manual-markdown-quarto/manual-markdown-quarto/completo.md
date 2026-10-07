@@ -66,7 +66,7 @@ Janeiro de 2026
 
 - [Termo de uso](#termo-de-uso) [17]{.n}
 
-**[Prontuário: Atendimento individual e familiar](#prontuário-atendimento-individual-e-familiar)** [18]{.n}
+**[Prontuário: Atendimento individual e familiar](#prontuário-atendimento-individual-e-familiar)** [19]{.n}
 
 - [Realizar atendimento](#realizar-atendimento) [19]{.n}
 
@@ -78,55 +78,55 @@ Janeiro de 2026
 
 <!-- - [Excluir Prontuário](#excluir-prontuário) [32]{.n} -->
 
-- [Identificação da pessoa de referência e endereço da família](#identificação-da-pessoa-de-referência-e-endereço-da-família) [33]{.n}
+- [Identificação da pessoa de referência e endereço da família](#identificação-da-pessoa-de-referência-e-endereço-da-família) [30]{.n}
 
-- [Informações da família](#informações-da-família) [36]{.n}
+- [Informações da família](#informações-da-família) [35]{.n}
 
-- [Composição familiar (quadro)](#composição-familiar-quadro) [37]{.n}
+- [Composição familiar (quadro)](#composição-familiar-quadro) [36]{.n}
 
-- [Forma de ingresso na unidade e motivo do primeiro atendimento](#forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento) [40]{.n}
+- [Forma de ingresso na unidade e motivo do primeiro atendimento](#forma-de-ingresso-na-unidade-e-motivo-do-primeiro-atendimento) [38]{.n}
 
-- [Composição familiar (bloco)](#composição-familiar-bloco) [49]{.n}
+- [Composição familiar (bloco)](#composição-familiar-bloco) [47]{.n}
 
-- [Condições habitacionais da família](#condições-habitacionais-da-família) [51]{.n}
+- [Condições habitacionais da família](#condições-habitacionais-da-família) [49]{.n}
 
-- [Condições educacionais da família](#condições-educacionais-da-família) [58]{.n}
+- [Condições educacionais da família](#condições-educacionais-da-família) [56]{.n}
 
-- [Condições de saúde da família](#condições-de-saúde-da-família) [60]{.n}
+- [Condições de saúde da família](#condições-de-saúde-da-família) [58]{.n}
 
-- [Condições de trabalho e rendimento da família](#condições-de-trabalho-e-rendimento-da-família) [66]{.n}
+- [Condições de trabalho e rendimento da família](#condições-de-trabalho-e-rendimento-da-família) [64]{.n}
 
-- [Registro de atendimentos socioassistenciais](#registro-de-atendimentos-socioassistenciais) [69]{.n}
+- [Registro de atendimentos socioassistenciais](#registro-de-atendimentos-socioassistenciais) [67]{.n}
 
-- [Acesso a benefícios eventuais](#acesso-a-benefícios-eventuais) [78]{.n}
+- [Acesso a benefícios eventuais](#acesso-a-benefícios-eventuais) [76]{.n}
 
-- [Convivência familiar e comunitária](#convivência-familiar-e-comunitária) [85]{.n}
+- [Convivência familiar e comunitária](#convivência-familiar-e-comunitária) [83]{.n}
 
-- [Situações de vulnerabilidades e desproteções sociais da família](#situações-de-vulnerabilidades-e-desproteções-sociais-da-família) [86]{.n}
+- [Situações de vulnerabilidades e desproteções sociais da família](#situações-de-vulnerabilidades-e-desproteções-sociais-da-família) [84]{.n}
 
-- [Situações de violência e violação de direitos](#situações-de-violência-e-violação-de-direitos) [99]{.n}
+- [Situações de violência e violação de direitos](#situações-de-violência-e-violação-de-direitos) [97]{.n}
 
-- [Planejamento e evolução do acompanhamento familiar](#planejamento-e-evolução-do-acompanhamento-familiar) [100]{.n}
+- [Planejamento e evolução do acompanhamento familiar](#planejamento-e-evolução-do-acompanhamento-familiar) [98]{.n}
 
-- [Participação em serviços, programas e projetos](#participação-em-serviços-programas-e-projetos) [108]{.n}
+- [Participação em serviços, programas e projetos](#participação-em-serviços-programas-e-projetos) [106]{.n}
 
-- [Histórico de cumprimento de medidas socioeducativas](#histórico-de-cumprimento-de-medidas-socioeducativas) [109]{.n}
+- [Histórico de cumprimento de medidas socioeducativas](#histórico-de-cumprimento-de-medidas-socioeducativas) [107]{.n}
 
-- [Histórico de acolhimento institucional](#histórico-de-acolhimento-institucional) [117]{.n}
+- [Histórico de acolhimento institucional](#histórico-de-acolhimento-institucional) [115]{.n}
 
-- [Formulário de controle de encaminhamentos](#formulário-de-controle-de-encaminhamentos) [118]{.n}
+- [Formulário de controle de encaminhamentos](#formulário-de-controle-de-encaminhamentos) [117]{.n}
 
-- [Relatório de participação em atendimentos coletivos](#relatório-de-participação-em-atendimentos-coletivos) [129]{.n}
+- [Relatório de participação em atendimentos coletivos](#relatório-de-participação-em-atendimentos-coletivos) [128]{.n}
 
-- [Relatório simplificado dos atendimentos](#relatório-simplificado-dos-atendimentos) [132]{.n}
+- [Relatório simplificado dos atendimentos](#relatório-simplificado-dos-atendimentos) [131]{.n}
 
-**[Prontuário: Atendimento Coletivo](#prontuário-atendimento-coletivo)** [133]{.n}
+**[Prontuário: Atendimento Coletivo](#prontuário-atendimento-coletivo)** [132]{.n}
 
-**[Prontuário: Migrar Prontuário](#prontuário-migrar-prontuário)** [145]{.n}
+**[Prontuário: Migrar Prontuário](#prontuário-migrar-prontuário)** [142]{.n}
 
-**[Prontuário: Painel Estatístico](#prontuário-painel-estatístico)** [153]{.n}
+**[Prontuário: Painel Estatístico](#prontuário-painel-estatístico)** [152]{.n}
 
-**[Prontuário: Funcionalidades](#prontuário-funcionalidades)** [160]{.n}
+**[Prontuário: Descritivo de perfis e permissões](#prontuário-funcionalidades)** [159]{.n}
 
 </div>
 
@@ -4271,37 +4271,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check">X</td>
 <td class="td-check">X</td>
 </tr>
-</tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-<thead>
-<tr>
-<th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
-<th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-<th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-<th class="th-perfil"><span>CONSELHEIRO</span></th>
-<th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-<th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-<th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-<th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-<th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-<th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <th class="th-subtitle" colspan="14">MIGRAR PRONTUÁRIO</th>
 </tr>
@@ -4353,6 +4322,37 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check">X</td>
 <td class="td-check">X</td>
 </tr>
+</tbody>
+</table>
+
+</div>
+
+---
+
+<div class="page-1col">
+
+{{< include _header-funcionalidades.md >}}
+
+<table class="tabela-matriz">
+<thead>
+<tr>
+<th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
+<th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
+<th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
+<th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
+<th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
+<th class="th-perfil"><span>CONSELHEIRO</span></th>
+<th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
+<th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
+<th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
+<th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
+<th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
+<th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
+<th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
+<th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <th class="th-subtitle" colspan="14">FORMA DE INGRESSO NA UNIDADE E MOTIVO DO PRIMEIRO ATENDIMENTO</th>
 </tr>
@@ -4420,37 +4420,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check">X</td>
 <td class="td-check">X</td>
 </tr>
-</tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-<thead>
-<tr>
-<th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
-<th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-<th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-<th class="th-perfil"><span>CONSELHEIRO</span></th>
-<th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-<th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-<th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-<th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-<th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-<th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <th class="th-subtitle" colspan="14">COMPOSIÇÃO FAMILIAR</th>
 </tr>
@@ -4686,37 +4655,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check">X</td>
 <td class="td-check">X</td>
 </tr>
-</tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-<thead>
-<tr>
-<th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
-<th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-<th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-<th class="th-perfil"><span>CONSELHEIRO</span></th>
-<th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-<th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-<th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-<th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-<th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-<th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <th class="th-subtitle" colspan="14">CONDIÇÕES DE TRABALHO E RENDIMENTO DA FAMÍLIA</th>
 </tr>
@@ -4752,6 +4690,37 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check">X</td>
 <td class="td-check"></td>
 </tr>
+</tbody>
+</table>
+
+</div>
+
+---
+
+<div class="page-1col">
+
+{{< include _header-funcionalidades.md >}}
+
+<table class="tabela-matriz">
+<thead>
+<tr>
+<th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
+<th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
+<th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
+<th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
+<th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
+<th class="th-perfil"><span>CONSELHEIRO</span></th>
+<th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
+<th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
+<th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
+<th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
+<th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
+<th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
+<th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
+<th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <th class="th-subtitle" colspan="14">REGISTRO DE ATENDIMENTOS SOCIOASSISTENCIAIS</th>
 </tr>
@@ -4819,37 +4788,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check">X</td>
 <td class="td-check">X</td>
 </tr>
-</tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-<thead>
-<tr>
-<th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
-<th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-<th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-<th class="th-perfil"><span>CONSELHEIRO</span></th>
-<th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-<th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-<th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-<th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-<th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-<th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <th class="th-subtitle" colspan="14">ACESSO A BENEFÍCIOS EVENTUAIS</th>
 </tr>
@@ -4917,6 +4855,37 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check">X</td>
 <td class="td-check">X</td>
 </tr>
+</tbody>
+</table>
+
+</div>
+
+---
+
+<div class="page-1col">
+
+{{< include _header-funcionalidades.md >}}
+
+<table class="tabela-matriz">
+<thead>
+<tr>
+<th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
+<th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
+<th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
+<th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
+<th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
+<th class="th-perfil"><span>CONSELHEIRO</span></th>
+<th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
+<th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
+<th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
+<th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
+<th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
+<th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
+<th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
+<th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <th class="th-subtitle" colspan="14">CONVIVÊNCIA FAMILIAR E COMUNITÁRIA</th>
 </tr>
@@ -4952,37 +4921,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check">X</td>
 <td class="td-check"></td>
 </tr>
-</tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-<thead>
-<tr>
-<th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
-<th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-<th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-<th class="th-perfil"><span>CONSELHEIRO</span></th>
-<th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-<th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-<th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-<th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-<th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-<th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <th class="th-subtitle" colspan="14">SITUAÇÕES DE VULNERABILIDADES E DESPROTEÇÕES SOCIAIS DA FAMÍLIA</th>
 </tr>
@@ -5218,37 +5156,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check">X</td>
 <td class="td-check">X</td>
 </tr>
-</tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-<thead>
-<tr>
-<th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
-<th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-<th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-<th class="th-perfil"><span>CONSELHEIRO</span></th>
-<th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-<th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-<th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-<th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-<th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-<th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <th class="th-subtitle" colspan="14">HISTÓRICO DE CUMPRIMENTO DE MEDIDAS SOCIOEDUCATIVAS</th>
 </tr>
@@ -5316,6 +5223,37 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check">X</td>
 <td class="td-check">X</td>
 </tr>
+</tbody>
+</table>
+
+</div>
+
+---
+
+<div class="page-1col">
+
+{{< include _header-funcionalidades.md >}}
+
+<table class="tabela-matriz">
+<thead>
+<tr>
+<th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
+<th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
+<th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
+<th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
+<th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
+<th class="th-perfil"><span>CONSELHEIRO</span></th>
+<th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
+<th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
+<th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
+<th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
+<th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
+<th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
+<th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
+<th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <th class="th-subtitle" colspan="14">HISTÓRICO DO ACOLHIMENTO INSTITUCIONAL</th>
 </tr>
@@ -5351,37 +5289,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check">X</td>
 <td class="td-check"></td>
 </tr>
-</tbody>
-</table>
-
-</div>
-
----
-
-<div class="page-1col">
-
-{{< include _header-funcionalidades.md >}}
-
-<table class="tabela-matriz">
-<thead>
-<tr>
-<th class="th-func">PERFIS x PERMISSÕES </br> PRONTUÁRIO SUAS</th>
-<th class="th-perfil"><span>GESTOR_ESTADUAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_ESTADUAL</span></th>
-<th class="th-perfil"><span>GESTOR_MUNICIPAL</span></th>
-<th class="th-perfil"><span>TECNICO_GESTAO_MUNICIPAL</span></th>
-<th class="th-perfil"><span>CONSELHEIRO</span></th>
-<th class="th-perfil"><span>APOIO_ADMINISTRATIVO_CRAS</span></th>
-<th class="th-perfil"><span>ASSIST_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>CADASTRADOR_CRAS</span></th>
-<th class="th-perfil"><span>COORDENADOR_CRAS</span></th>
-<th class="th-perfil"><span>EDUCADOR_SOCIAL_CRAS</span></th>
-<th class="th-perfil"><span>OUTRO_TECNICO_NIVEL_SUPERIOR_CRAS</span></th>
-<th class="th-perfil"><span>PSICOLOGO_CRAS</span></th>
-<th class="th-perfil"><span>TECNICO_NIVEL_MEDIO_CRAS</span></th>
-</tr>
-</thead>
-<tbody>
 <tr>
 <th class="th-subtitle" colspan="14">FORMULÁRIO DE CONTROLE DE ENCAMINHAMENTOS</th>
 </tr>
@@ -5484,25 +5391,6 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check">X</td>
 <td class="td-check">X</td>
 </tr>
-<tr>
-<th class="th-subtitle" colspan="14">RELATÓRIO SIMPLIFICADO DOS ATENDIMENTOS</th>
-</tr>
-<tr>
-<td class="td-func">Permissão para visualizar e detalhar os registros do bloco</td>
-<td class="td-check">X</td>
-<td class="td-check">X</td>
-<td class="td-check">X</td>
-<td class="td-check">X</td>
-<td class="td-check"></td>
-<td class="td-check">X</td>
-<td class="td-check">X</td>
-<td class="td-check"></td>
-<td class="td-check">X</td>
-<td class="td-check">X</td>
-<td class="td-check">X</td>
-<td class="td-check">X</td>
-<td class="td-check">X</td>
-</tr>
 </tbody>
 </table>
 
@@ -5534,6 +5422,25 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 </tr>
 </thead>
 <tbody>
+<tr>
+<th class="th-subtitle" colspan="14">RELATÓRIO SIMPLIFICADO DOS ATENDIMENTOS</th>
+</tr>
+<tr>
+<td class="td-func">Permissão para visualizar e detalhar os registros do bloco</td>
+<td class="td-check">X</td>
+<td class="td-check">X</td>
+<td class="td-check">X</td>
+<td class="td-check">X</td>
+<td class="td-check"></td>
+<td class="td-check">X</td>
+<td class="td-check">X</td>
+<td class="td-check"></td>
+<td class="td-check">X</td>
+<td class="td-check">X</td>
+<td class="td-check">X</td>
+<td class="td-check">X</td>
+<td class="td-check">X</td>
+</tr>
 <tr>
 <th class="th-subtitle" colspan="14">ATENDIMENTO COLETIVO</th>
 </tr>
@@ -5590,5 +5497,29 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 </tr>
 </tbody>
 </table>
+
+</div>
+
+---
+
+<div class="title back-cover">
+
+```{=html}
+{{< include svg/back-cover.svg >}}
+```
+
+<div class="top"></div>
+
+<div class="middle"></div>
+
+<div class="bottom">
+
+<div class="logo">
+
+![logos](img/logos.png)
+
+</div>
+
+</div>
 
 </div>
