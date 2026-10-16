@@ -120,13 +120,15 @@ Janeiro de 2026
 
 - [Relatório simplificado dos atendimentos](#relatório-simplificado-dos-atendimentos) [131]{.n}
 
-**[Prontuário: Atendimento Coletivo](#prontuário-atendimento-coletivo)** [132]{.n}
+**[Prontuário: Extra cadastro](#prontuário-extra-cadastro)** [132]{.n}
 
-**[Prontuário: Migrar Prontuário](#prontuário-migrar-prontuário)** [142]{.n}
+**[Prontuário: Atendimento Coletivo](#prontuário-atendimento-coletivo)** [154]{.n}
 
-**[Prontuário: Painel Estatístico](#prontuário-painel-estatístico)** [152]{.n}
+**[Prontuário: Migrar Prontuário](#prontuário-migrar-prontuário)** [166]{.n}
 
-**[Prontuário: Descritivo de perfis e permissões](#prontuário-funcionalidades)** [159]{.n}
+**[Prontuário: Painel Estatístico](#prontuário-painel-estatístico)** [174]{.n}
+
+**[Prontuário: Descritivo de perfis e permissões](#prontuário-funcionalidades)** [181]{.n}
 
 </div>
 
@@ -316,13 +318,15 @@ O Painel Estatístico apresenta uma visão clara, organizada e agregada dos aten
 
 {{< include _header-apresentacao.md >}}
 
-## CadSUAS e as permissões do Prontuário SUAS
+## CadSUAS e as permissões do Prontuário Eletrônico SUAS 
 
-### Prontuário Eletrônico do SUAS
+### Prontuário Eletrônico SUAS
 
-O Prontuário Eletrônico do SUAS é a versão digital do prontuário utilizado no atendimento socioassistencial. Ele registra os atendimentos de forma organizada e sintética, centralizando informações para apoiar o trabalho das equipes e a gestão das unidades.
+O Prontuário Eletrônico SUAS é a versão digital e atualizada do prontuário utilizado no atendimento socioassistencial. Ele registra os atendimentos de forma organizada e sintética, centralizando informações para apoiar o trabalho das equipes e a gestão das unidades.
 
 Mantém a estrutura do formulário físico, com recursos adicionais que garantem mais segurança, agilidade e continuidade no acompanhamento das famílias.
+
+O objetivo é ampliar as informações cadastrais das famílias para que o Trabalho Social do SUAS seja direcionado à escuta atenta e respeitosa, à construção de uma relação de segurança e confiança entre profissionais e famílias e, assim, possibilite o acesso aos direitos sociais.
 
 ### CadSUAS
 
@@ -336,13 +340,13 @@ Mantém a estrutura do formulário físico, com recursos adicionais que garantem
 
 O CadSUAS é essencial para organizar e padronizar as informações do SUAS em todo o país. O sistema pode ser acessado através de consulta pública sem senha de acesso, por meio do link: [{https://aplicacoes.mds.gov.br/cadsuas/visualizarConsultaExterna.html}](https://aplicacoes.mds.gov.br/cadsuas/visualizarConsultaExterna.html). E, também por consulta com senha, através de login no SAA.
 
-O CadSuas é um sistema que passa por mudanças frequentes. Lembre-se de atualizar os dados de unidades, gestores, conselheiros, e entre outros trabalhadores do SUAS, sempre que houver alterações.
+Lembre-se de atualizar os dados de unidades, gestores, conselheiros, e entre outros trabalhadores do SUAS, sempre que houver alterações.
 
 ### Perfis de Acesso
 
-O uso do Prontuário SUAS está vinculado aos perfis de acesso e permissões de profissionais da gestão e das unidades executoras. A natureza do trabalho realizado indica um tipo de permissão no sistema.
+O uso do Prontuário Eletrônico SUAS está vinculado aos perfis de acesso e permissões de profissionais da gestão e das unidades executoras. A natureza do trabalho realizado indica um tipo de permissão no sistema.
 
-Nesse sentido, cada profissional com permissão de uso ao Prontuário Suas deve se orientar a partir da Resolução CIT nº 29 de 06 de outubro de 2025; dos direitos socioassistenciais, dos princípios éticos dos profissionais do SUAS e dos códigos de ética das profissões regulamentadas.
+Nesse sentido, cada profissional com permissão de uso ao Prontuário Eletrônico SUAS deve se orientar a partir da Resolução CIT nº 29 de 06 de outubro de 2025;  dos direitos socioassistenciais, dos princípios éticos dos trabalhadores do SUAS e dos códigos de ética das profissões regulamentadas, como Serviço Social, Psicologia e Direito.
 
 A qualidade do Trabalho social requer conhecimentos teóricos, técnicos e éticos necessários à ampliação e fortalecimento dos direitos sociais.
 
@@ -358,7 +362,7 @@ A seguir são descritas as atribuições de cada perfil.
 
 **Administrador(a) Federal**
 
-Responsável pela gestão nacional do Prontuário Eletrônico do SUAS. Suas atribuições são:
+Responsável pela gestão nacional do Prontuário Eletrônico SUAS. Suas atribuições são:
 
 - Gerenciar acessos e perfis na Rede SUAS.
 - Coordenar e integrar o sistema em todo o país.
@@ -369,7 +373,7 @@ Responsável pela gestão nacional do Prontuário Eletrônico do SUAS. Suas atri
 
 **Gestor(a) Municipal**
 
-Responsável pela administração dos acessos e permissões no Prontuário SUAS no âmbito municipal. Suas atribuições são:
+Responsável pela administração dos acessos e permissões no Prontuário Eletrônico SUAS no âmbito municipal. Suas atribuições são:
 
 - Acompanhar o uso do sistema, garantindo consistência e qualidade dos registros.
 - Utilizar dados consolidados para gestão estratégica (sem acesso a prontuários individuais).
@@ -382,9 +386,9 @@ Atua no acompanhamento do Prontuário SUAS em nível municipal, assegurando a qu
 
 - Apoiar o planejamento municipal com dados agregados.
 - Oferecer suporte e planejamento e capacitação aos profissionais das unidades.
-- Definir normas e rotinas de uso do sistema.
-- Realizar atendimentos socioassistencias em situações de emergência.
-- Realizar encaminhamentos quando a realidade municipal se fizer necessária.
+- Definir rotinas de uso do sistema.
+- Realizar atendimentos socioassistenciais em situações de emergência.
+- Realizar encaminhamentos quando a realidade municipal se fizer necessária. 
 - Zelar pelo uso ético e sigiloso dos dados das famílias.
 
 Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como "TÉCNICO(A) DE NÍVEL SUPERIOR" ou "COORDENADOR(A)/DIRIGENTE" possuem acesso a esse perfil.
@@ -409,7 +413,7 @@ Responsável pela gestão macro das informações do Prontuário SUAS no estado,
 
 **Técnico(a) da Gestão Estadual**
 
-Atua no acompanhamento do Prontuário SUAS em nível estadual, assegurando a qualidade das informações. Suas atribuições são:
+Atua no acompanhamento do Prontuário Eletrônico SUAS em nível estadual, assegurando a qualidade das informações. Suas atribuições são:
 
 - Monitorar dados registrados pelos municípios.
 - Apoiar o planejamento estadual com dados agregados.
@@ -423,7 +427,7 @@ Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como 
 Atua na gestão e no controle social, sem acesso a dados individualizados. Suas atribuições são:
 
 - Acompanhar ou realizar o monitoramento da oferta dos serviços, programas e benefícios socioassistenciais a nível de controle social.
-- Conhecer a importância do Prontuário SUAS no registro do Trabalho Social.
+- Garantir a qualidade e segurança dos dados em nível estadual (sem acesso a prontuários individuais).Conhecer a importância do Prontuário SUAS no registro do Trabalho Social.
 
 **Apoio Administrativo – CRAS**
 
@@ -436,6 +440,8 @@ Auxilia na organização dos prontuários e no suporte às equipes do CRAS. Suas
 - Realizar procedimento de migração a partir da realidade da unidade, assim como da qualificação técnica do profissional. A avaliação do órgão gestor e coordenação da unidade permitirá usos específicos do Prontuário SUAS.
 - Zelar por conduta ética alinhada com os princípios do SUAS.
 
+Atenção: a  utilização de funcionalidades específicas do prontuário SUAS deve ser orientada pelo contexto de trabalho da unidade e da qualificação técnica do(a) profissional. As permissões são definidas pelo MDS, mas a utilização do sistema está sujeita à avaliação do órgão gestor, da coordenação da unidade, preferencialmente, mediante treinamento e supervisão.
+
 **Coordenador(a) – CRAS**
 
 Responsável pela gestão operacional do sistema e pela supervisão dos atendimentos. Suas atribuições são:
@@ -445,19 +451,7 @@ Responsável pela gestão operacional do sistema e pela supervisão dos atendime
 - Garantir condições éticas para o uso do sistema nas unidades e zelar pela segurança das informações.
 - Planejar e avaliar ações com base em dados do sistema.
 - Aprimorar a comunicação interna com a rede socioassistencial.
-- Realizar mapeamento territorial a partir dos relatórios gerados no Novo Prontuário Eletrônico SUAS.
-
-**Psicólogo(a) – CRAS**
-
-Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:
-
-- Realizar acolhida, escuta, atendimentos especializados e acompanhamento (se necessário).
-- Estimular o fortalecimento de vínculos familiares e comunitários.
-- Orientar e encaminhar para serviços e benefícios da rede socioassistencial e de outras políticas públicas.
-- Atuar em equipe multiprofissional.
-- Realizar intervenções individuais, grupais e comunitárias.
-- Emitir documentos técnicos quando necessário.
-- Estar orientado por normativas éticas e técnicas de sua profissão.
+- Realizar mapeamento territorial a partir dos relatórios gerados no Prontuário Eletrônico SUAS.
 
 </div>
 
@@ -467,11 +461,24 @@ Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Su
 
 {{< include _header-apresentacao.md >}}
 
+**Psicólogo(a) – CRAS**
+
+Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:
+
+- Realizar acolhida, escuta, atendimentos especializados e acompanhamento (quando necessário).
+- Estimular o fortalecimento de vínculos familiares e comunitários.
+- Orientar e encaminhar para serviços e benefícios da rede socioassistencial e de outras políticas públicas.
+- Atuar em equipe multiprofissional.
+- Realizar intervenções individuais, grupais e comunitárias.
+- Emitir documentos técnicos quando necessário.
+- Estar orientado por normativas éticas e técnicas de sua profissão.
+
+
 **Assistente Social – CRAS**
 
 Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:
 
-- Realizar acolhida, escuta, atendimentos especializados e acompanhamento (se necessário).
+- Realizar acolhida, escuta, atendimentos especializados e acompanhamento (quando necessário). 
 - Estimular o fortalecimento de vínculos familiares e comunitários.
 - Orientar e encaminhar para serviços e benefícios da rede socioassistencial e de outras políticas públicas.
 - Atuar em equipe multiprofissional.
@@ -483,23 +490,22 @@ Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Su
 
 Registra as ações socioeducativas e o acompanhamento de usuários, garantindo organização e continuidade do atendimento. Suas atribuições são:
 
-- Produzir relatórios e pareceres.
+- Produzir relatórios sob orientação da coordenação e/ou dos técnicos de nível superior. 
 - Registrar oficinas, grupos e atividades socioeducativas.
 - Documentar atendimentos, orientações e encaminhamentos.
-- Contribuir com o plano de acompanhamento familiar, registrando metas e evolução.
+- Contribuir com o plano de acompanhamento familiar, registrando metas e aquisições familiares (quando necessário).
 - Identificar e registrar riscos e vulnerabilidades.
 - Manter registros claros e alinhados às normas do SUAS.
 - Registrar articulações com a rede de serviços.
-- Realizar procedimento de migração a partir da realidade da unidade, assim como da qualificação técnica do profissional. A avaliação do órgão gestor e coordenação da unidade permitirá usos específicos do Prontuário SUAS.
 - Zelar por conduta ética alinhada com os princípios do SUAS.
 
-A utilização de funcionalidades específicas do prontuário SUAS deve ser orientada pelo contexto de trabalho da unidade e da qualificação técnica do(a) profissional. As permissões são definidas pelo MDS, mas a utilização do sistema está sujeita à avaliação do órgão gestor, da coordenação da unidade, preferencialmente, mediante treinamento e supervisão.
+Atenção: a utilização de funcionalidades específicas do prontuário SUAS deve ser orientada pelo contexto de trabalho da unidade e da qualificação técnica do(a) profissional. As permissões são definidas pelo MDS, mas a utilização do sistema está sujeita à avaliação do órgão gestor, da coordenação da unidade, preferencialmente, mediante treinamento e supervisão.
 
 **Técnico(a) de Nível Superior – CRAS**
 
 Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Suas atribuições são:
 
-- Realizar acolhida, escuta, atendimentos especializados e acompanhamento (se necessário).
+- Realizar acolhida, escuta, atendimentos especializados e acompanhamento (quando necessário). 
 - Estimular o fortalecimento de vínculos familiares e comunitários.
 - Orientar e encaminhar para serviços e benefícios da rede socioassistencial e de outras políticas públicas.
 - Atuar em equipe multiprofissional.
@@ -520,10 +526,10 @@ Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Su
 
 Registra as ações socioeducativas e o acompanhamento de usuários, garantindo organização e continuidade do atendimento. Suas atribuições são:
 
-- Produzir relatórios.
+- Produzir relatórios sob orientação da coordenação e/ou dos técnicos de nível superior. 
 - Registrar oficinas, grupos e atividades socioeducativas.
 - Documentar atendimentos, orientações e encaminhamentos.
-- Contribuir com o plano de acompanhamento familiar, registrando metas e evolução.
+- Contribuir com o plano de acompanhamento familiar, registrando metas e aquisições familiares (quando necessário).
 - Identificar e registrar riscos e vulnerabilidades.
 - Manter registros claros e alinhados às normas do SUAS.
 - Registrar articulações com a rede de serviços.
@@ -543,7 +549,7 @@ O Novo Prontuário Eletrônico SUAS possui diferentes perfis de acesso. A cada p
 
 > **Importante:** se um bloco ou uma funcionalidade não estiver disponível, não abrir ou apresentar opções de ação desabilitadas, confirme se o seu perfil tem a permissão necessária para executar a ação desejada.
 >
-> Para verificar as funcionalidades e as permissões correspondentes a cada perfil, consulte o anexo “Prontuário: Descritivo de perfis e permissões”, **disponível na página (pag 160)**.
+> Para verificar as funcionalidades e as permissões correspondentes a cada perfil, consulte o anexo “Prontuário: Descritivo de perfis e permissões”, **disponível na página (pag 191)**.
 
 </div>
 
@@ -3353,6 +3359,625 @@ Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <
 <br>
 
 Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>4</kbd> ícone.
+
+</div>
+
+---
+
+<div class="title">
+
+```{=html}
+{{< include svg/title.svg >}}
+```
+
+<div class="top"></div>
+
+<div class="middle">
+
+# Prontuário: Extra Cadastro
+
+</div>
+
+<div class="bottom qr">
+
+![QR Code image](img/qrcode-apresentacao.png){.qr-code}
+
+[Clique aqui](https://www.mylink.com) ou escaneie o QR Code para acessar o vídeo explicativo.
+
+</div>
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Extra cadastro com CPF (Consulta simples)](img/extra-cadastro-1.png){.img-pagina}
+
+## Extra cadastro com CPF (Consulta simples)
+
+Caso seja realizada uma consulta simples de usuário, conforme indicado na página XX, e seja constatado que a pessoa atendida não possui cadastro no CadÚnico, será possível realizar um extra cadastro.
+
+Para realizar o extra cadastro a pessoa atendida no Prontuário Eletrônico, acione a opção <kbd>1</kbd> **Sim** na pergunta “Gostaria de cadastrá-la no prontuário?”. O sistema apresentará a tela de Cadastro de pessoa.
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Cadastro de pessoa](img/extra-cadastro-2.png){.img-pagina}
+
+## Extra cadastro com CPF (Consulta simples)
+
+Na tela de Cadastro de pessoa, o sistema apresentará também a seguinte mensagem informativa: O sistema encontrou informações referentes ao cidadão na base de dados da Receita Federal. Os dados encontrados estão preenchidos nos campos abaixo e podem ser editados com exceção do Nome, Nome da Mãe, Data de Nascimento, CPF, Sexo e Nacionalidade.
+
+### Dados cadastrais
+
+- **Nome** – campo que informa o nome completo conforme base de dados da Receita Federal;
+- **Nome da mãe** – campo que informa o nome completo conforme base de dados da Receita Federal;
+- **Nome do pai** – campo para informar o nome conforme base de dados da Receita Federal;
+- **Data de nascimento** - campo que informa a data de nascimento conforme base de dados da Receita Federal;
+- **Relação de parentesco** – campo para informar a relação da pessoa com a pessoa responsável pela Unidade Familiar -RF. Os graus de parentesco são:
+
+<div class="two-cols">
+
+- Pessoa Responsável pela Unidade Familiar - RF;
+- Cônjuge ou companheiro(a);
+- Filho(a)
+- Enteado(a)
+- Neto(a) ou bisneto(a)
+- Pai ou mãe
+- Sogro(a)
+- Irmão ou irmã
+- Genro ou nora
+- Outro parente
+- Não parente.
+
+</div>
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Documentos](img/extra-cadastro-3.png){.img-pagina}
+
+## Extra cadastro com CPF (Consulta simples)
+
+### Documentos
+
+- **CPF** – campo que informa o número do CPF;
+- **NIS** – campo que informa o número do NIS;
+- **Número da identidade** – campo que informa o número da identidade;
+- **Data de emissão da identidade** – campo que informa a data de emissão da identidade;
+- **Órgão emissor da identidade** – campo que informa o órgão emissor da identidade;
+- **UF da identidade** – campo que informa a UF o órgão emissor da identidade; 
+- **Número da CTPS** – campo que informa o número da CTPS; 
+- **Série da CTPS** – campo que informa o número de série da CTPS;
+- **Data de emissão da CTPS** – campo que informa a data de emissão da CTPS; 
+- **UF da CTPS** – campo que informa a UF da CTPS.
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Incluir contato](img/extra-cadastro-4.png){.img-pagina}
+
+## Extra cadastro com CPF (Consulta simples)
+
+### Incluir contato
+
+Para adicionar o contato, acione o botão <kbd>2</kbd> **Incluir contato**, então o sistema vai apresentar a janela para cadastro. 
+
+A janela Incluir contato contém os seguintes dados: 
+
+- **Tipo** – campo para informar o tipo de contato do cadastro. Os tipos de cadastros são:
+  - Telefone;
+  - Celular;
+  - E-mail.
+- **Contato** – campo para informar o contato;
+- **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela. 
+- **Incluir** – opção que, ao ser acionada, salva o registro e atualiza a lista.
+
+![Incluir contato modal](img/extra-cadastro-modal-1.png){.w-60}
+
+</div>
+
+---
+
+<div class="page-2col compact-list">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Lista de contatos](img/extra-cadastro-5.png){.img-pagina}
+
+## Extra cadastro com CPF (Consulta simples)
+
+Após a inclusão, os contatos são exibidos em lista com as seguintes informações: Tipo, Contato, e as opções na coluna Ações:
+
+- **Editar contato** – permite editar o contato;
+- **Excluir contato** – remove o registro do marcador mediante confirmação.
+
+### Informações adicionais
+
+- **Nome social** – campo para informar o nome social da pessoa;
+- **Sexo** – campo para informar o sexo da pessoa. Os sexos são:
+  - Feminino;
+  - Masculino.
+- **Identidade de gênero** – campo para informar a identidade de gênero. Os gêneros são:
+  - Feminina;
+  - Masculina;
+  - Não binária. 
+- **É pessoa trans?** – campo para informar se a pessoa é trans. As opções são:
+  - Sim, transgênero;
+  - Sim, travesti;
+  - Não.
+- **Em situação de rua** – campo para informar se a pessoa está em situação de rua.
+- **É estrangeiro?** – campo para informar se a pessoa é estrangeira.
+- **País de origem** – campo para informar o país de origem.
+
+</div>
+
+---
+
+<div class="page-2col compact-list">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Escolaridade](img/extra-cadastro-6.png){.img-pagina}
+
+## Extra cadastro com CPF (Consulta simples)
+
+### Escolaridade 
+
+- **Sabe ler ou escrever?** – campo para informar se a pessoa sabe ler ou escrever;
+- **Frequenta escola ou creche?** – campo para informar se a pessoa frequenta escola ou creche. As opções são:
+  - Sim, rede pública;
+  - Sim, rede particular;
+  - Não, já frequentou;
+  - Nunca frequentou.
+
+### Endereço
+
+- **CEP** – campo para informar código de endereçamento postal da residência da pessoa;
+- **Localidade (bairro, povoado, vila, etc.)** – campo para informar a localidade da residência da pessoa;
+- **Tipo (rua, avenida, igarapé, etc.)** – campo para informar o tipo da residência da pessoa;
+- **Título (general, santa, pintor, etc.)** – campo para informar o título da residência da pessoa;
+- **Nome do logradouro** – campo para informar o nome do logradouro da residência da pessoa;
+- **Número do logradouro** – campo para informar o número do logradouro da residência da pessoa;
+- **Complemento do número (s/n, Km, FUNASA, SUCAN, etc.)** – campo para informar o complemento do número do logradouro da residência da pessoa;
+- **Complemento adicional (apartamento, casa, sobrado, fundos, bloco, lote, quadra, etc)** – campo para informar o complemento adicional logradouro da residência da pessoa;
+
+</div>
+
+---
+
+<div class="page-2col compact-list">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Endereço](img/extra-cadastro-7.png){.img-pagina}
+
+## Extra cadastro com CPF (Consulta simples)
+
+### Endereço _(continuação)_
+
+- **Estado (UF)** – campo para informar o estado do logradouro da residência da pessoa;
+- **Município** – campo para informar o município da residência da pessoa;
+- **Referência para localização** - campo para informar a referência da localização da residência da pessoa;
+- **Quantas pessoas da sua família moram no seu endereço?** – campo para informar quantas pessoas da família residem no endereço;
+- **Quantas famílias moram no seu endereço?** – campo para informar quantas famílias moram no endereço. 
+
+### Informações familiares
+
+- **A família é indígena?** – campo para informar se a família é indígena;
+- **Reside em terra indígena?** – campo para informar se a família reside em terra indígena;
+- **A família é quilombola?** – campo para informar se a família é quilombola; 
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Concluir extra cadastro](img/extra-cadastro-8.png){.img-pagina}
+
+## Extra cadastro com CPF (Consulta simples)
+
+- **GPTE** - Campo para informar se a família é pertencente de Grupos Populacionais Tradicionais e Específicos. As opções são: 
+
+<div class="two-cols">
+
+- Família de pescadores artesanais;
+- Família ribeirinha;
+- Família atingida por empreendimentos de infraestrutura;
+- Desalojados ou desabrigados
+- Família cigana
+- Família extrativista
+- Família assentada da reforma agrária;
+- Família beneficiaria do crédito fundiária;
+- Família acampada;
+- Família de catadores de material reciclável;
+- Família de agricultores familiares;
+- Família de preso do sistema carcerário; 
+- Família pertencente à comunidade de terreiro.
+
+</div>
+
+- **Cancelar** – cancela a ação e retornar a tela de consulta Buscar pessoa no CadÚnico; 
+- **Concluir** – acione a opção Incluir para salvar o extra cadastro.
+
+Após a inclusão, o sistema apresenta a funcionalidade, Gerenciar família, **descrita na página 150**.
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Extra cadastro sem CPF (Consulta avançada)](img/extra-cadastro-9.png){.img-pagina}
+
+## Extra cadastro sem CPF (Consulta avançada)
+
+Caso seja realizada uma consulta avançada de usuário, **conforme indicado na página 20**, e seja constatado que a pessoa atendida não possui cadastro no **CadÚnico**, será possível realizar um extra cadastro.
+
+Para realizar o extra cadastro a pessoa atendida no Prontuário Eletrônico, acione a opção <kbd>3</kbd> **Sim** na pergunta **“Gostaria de cadastrá-la no prontuário?”**. O sistema apresentará a tela de **Cadastro de pessoa**.
+
+Ao selecionar a opção <kbd>3</kbd> **Avançada**, novos campos serão apresentados. O sistema consultará informações equivalentes nas bases de dados do Cadastro Único, e ExtraCad (Prontuário Eletrônico).
+
+- **Nome** – campo para informar o nome completo da pessoa em atendimento;
+- **Data de Nascimento** – campo para informar a data de nascimento da pessoa em atendimento;
+- **Nome da mãe** – campo para informar o nome completo da mãe da pessoa em atendimento.
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Cadastro de pessoa - Busca avançada](img/extra-cadastro-10.png){.img-pagina}
+
+## Extra cadastro sem CPF (Consulta avançada)
+
+### Dados cadastrais
+
+- **Nome** - campo que informa o nome completo conforme busca avançada;
+- **Nome da mãe** - campo que informa o nome completo da mãe conforme busca avançada;
+- **Nome do pai** - campo para informar o nome completo do pai;
+- **Data de nascimento** - campo que informa a data de nascimento conforme busca avançada;
+- **Relação de parentesco** – campo para informar a relação da pessoa com a pessoa responsável pela Unidade Familiar - RF. Os graus de parentesco são:
+
+<div class="two-cols">
+
+- Pessoa Responsável pela Unidade Familiar - RF;
+- Cônjuge ou companheiro(a);
+- Filho(a)
+- Enteado(a)
+- Neto(a) ou bisneto(a)
+- Pai ou mãe
+- Sogro(a)
+- Irmão ou irmã
+- Genro ou nora
+- Outro parente
+- Não parente.
+
+</div>
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Documentos](img/extra-cadastro-11.png){.img-pagina}
+
+## Extra cadastro sem CPF (Consulta avançada)
+
+### Documentos
+
+- **CPF** - campo que informa o número do CPF;
+- **NIS** - campo que informa o número do NIS;
+- **Número da identidade** - campo que informa o número da identidade;
+- **Data de emissão da identidade** - campo que informa a data de emissão da identidade;
+- **Órgão emissor da identidade** - campo que informa o órgão emissor da identidade;
+- **UF da identidade** - campo que informa a UF o órgão emissor da identidade; 
+- **Número da CTPS** - campo que informa o número da CTPS; 
+- **Série da CTPS** - campo que informa o número de série da CTPS;
+- **Data de emissão da CTPS** - campo que informa a data de emissão da CTPS; 
+- **UF da CTPS** - campo que informa a UF da CTPS;
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Incluir contato](img/extra-cadastro-12.png){.img-pagina}
+
+## Extra cadastro sem CPF (Consulta avançada)
+
+### Incluir contato
+
+Para adicionar o contato, acione o botão <kbd>6</kbd> **Incluir contato**, então o sistema vai apresentar a janela para cadastro. 
+A janela Incluir contato, contém os seguintes dados: 
+
+- **Tipo** – campo para informar o tipo de contato do cadastro. Os tipos de cadastros são:
+  - Telefone;
+  - Celular;
+  - E-mail.
+- **Contato** – campo para informar o contato;
+- **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela. 
+- **Incluir** – opção que, ao ser acionada, salva o registro e atualiza a lista.
+
+![Incluir contato modal](img/extra-cadastro-modal-1.png){.w-60}
+
+</div>
+
+---
+
+<div class="page-2col compact-list">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Lista de contatos e informações adicionais](img/extra-cadastro-13.png){.img-pagina}
+
+## Extra cadastro sem CPF (Consulta avançada)
+
+Após a inclusão, os contatos são exibidos em lista com as seguintes informações: Tipo, Contato, e as opções na coluna Ações:
+
+- **Editar contato** – permite editar o contato;
+- **Excluir contato** – remove o registro do marcador mediante confirmação.
+
+### Informações adicionais
+
+- **Nome social** – campo para informar o nome social da pessoa;
+- **Sexo** – campo para informar o sexo da pessoa. Os sexos são:
+  - Feminino;
+  - Masculino.
+- **Identidade de gênero** – campo para informar a identidade de gênero. Os gêneros são:
+  - Feminina;
+  - Masculina;
+  - Não binária. 
+- **É pessoa trans?** – campo para informar se a pessoa é trans. As opções são:
+  - Sim, transgênero;
+  - Sim, travesti;
+  - Não.
+- **Em situação de rua** – campo para informar se a pessoa está em situação de rua.
+- **É estrangeiro?** – campo para informar se a pessoa é estrangeira.
+- **País de origem** – campo para informar o país de origem.
+
+</div>
+
+---
+
+<div class="page-2col compact-list">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Escolaridade](img/extra-cadastro-14.png){.img-pagina}
+
+## Extra cadastro sem CPF (Consulta avançada)
+
+### Escolaridade 
+
+- **Sabe ler ou escrever?** – campo para informar se a pessoa sabe ler ou escrever;
+- **Frequenta escola ou creche?** – campo para informar se a pessoa frequenta escola ou creche. As opções são:
+  - Sim, rede pública;
+  - Sim, rede particular;
+  - Não, já frequentou;
+  - Nunca frequentou.
+
+### Endereço
+
+- **CEP** – campo para informar código de endereçamento postal da residência da pessoa;
+- **Localidade (bairro, povoado, vila, etc.)** – campo para informar a localidade da residência da pessoa;
+- **Tipo (rua, avenida, igarapé, etc.)** – campo para informar o tipo da residência da pessoa;
+- **Título (general, santa, pintor, etc.)** – campo para informar o título da residência da pessoa;
+- **Nome do logradouro** – campo para informar o nome do logradouro da residência da pessoa;
+- **Número do logradouro** – campo para informar o número do logradouro da residência da pessoa;
+- **Complemento do número (s/n, Km, FUNASA, SUCAN, etc.)** – campo para informar o complemento do número do logradouro da residência da pessoa;
+- **Complemento adicional (apartamento, casa, sobrado, fundos, bloco, lote, quadra, etc)** – campo para informar o complemento adicional logradouro da residência da pessoa;
+
+</div>
+
+---
+
+<div class="page-2col compact-list">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Endereço](img/extra-cadastro-15.png){.img-pagina}
+
+## Extra cadastro sem CPF (Consulta avançada)
+
+### Endereço _(continuação)_
+
+- **Estado (UF)** – campo para informar o estado do logradouro da residência da pessoa;
+- **Município** – campo para informar o município da residência da pessoa;
+- **Referência para localização** - campo para informar a referência da localização da residência da pessoa;
+- **Quantas pessoas da sua família moram no seu endereço?** – campo para informar quantas pessoas da família residem no endereço;
+- **Quantas famílias moram no seu endereço?** – campo para informar quantas famílias moram no endereço. 
+
+### Informações familiares
+
+- **A família é indígena?** – campo para informar se a família é indígena;
+- **Reside em terra indígena?** – campo para informar se a família reside em terra indígena;
+- **A família é quilombola?** – campo para informar se a família é quilombola; 
+- **GPTE** - Campo para informar se a família é pertencente de Grupos Populacionais Tradicionais e Específicos. As opções são: 
+
+<div class="two-cols">
+
+- Família de pescadores artesanais;
+- Família ribeirinha;
+- Família atingida por empreendimentos de infraestrutura;
+- Desalojados ou desabrigados
+- Família cigana
+- Família extrativista
+- Família assentada da reforma agrária;
+- Família beneficiaria do crédito fundiária;
+- Família acampada;
+- Família de catadores de material reciclável;
+- Família de agricultores familiares;
+- Família de preso do sistema carcerário; 
+- Família pertencente à comunidade de terreiro.
+
+</div>
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Concluir extra cadastro sem CPF](img/extra-cadastro-16.png){.img-pagina}
+
+## Extra cadastro sem CPF (Consulta avançada)
+
+- **Cancelar** – cancela a ação e retornar a tela de consulta Buscar pessoa no CadÚnico; 
+- **Concluir** – acione a opção Incluir para salvar o extra cadastro. 
+
+Após a inclusão, o sistema apresenta a funcionalidade Gerenciar família, descrita a seguir.
+
+</div>
+
+---
+
+<div class="page-2col compact-list">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Gerenciar Família](img/extra-cadastro-17.png){.img-pagina}
+
+## Gerenciar família 
+
+Para detalhar, atualizar e adicionar novos membros à família, acione o menu <kbd>4</kbd> **Gestão da Família**, consulte a unidade de atendimento, busque o membro da família  e o sistema apresentará a tela para Gerenciar Família.
+
+### Família ExtraCad
+
+- **Logradouro** – campo que informa o logradouro da família;
+- **Tipo de logradouro** – campo que informa o tipo do logradouro;
+- **Título do logradouro** – campo que informa o tipo do logradouro;
+- **Nome do logradouro** – campo que informa o nome do logradouro;
+- **Número** – campo que informa o número do logradouro;
+- **CEP** – campo que informa o CEP do logradouro;
+- **Complemento** – campo que informa o complemento do logradouro;
+- **Complemento adicional** – campo que informar o complemento adicional do logradouro;
+- **Referência** – campo que informa a referência para o logradouro;
+- **Família indígena?** – campo que informa se a família é indígena; 
+- **Reside em terra indígena?** – campo que informa se a família reside em terra indígena;
+- **Família quilombola?** – campo que informa se a família é quilombola;
+- **Povo indígena** – campo que informa qual o povo indígena;
+- **Terra indígena** – campo que informa qual a terra indígena;
+- **Nome da comunidade quilombola** – campo que informa o nome da comunidade quilombola;
+- **GPTE** – campo que informa o Grupos Populacionais Tradicionais e Específicos;
+- **Renda média familiar** – campo que informa a renda média da família. 
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Gerenciar Família - Ações e Membros](img/extra-cadastro-17.png){.img-pagina}
+
+## Gerenciar família 
+
+Acione a opção <kbd>5</kbd> **Dados Familiares** para atualizar os dados da família.
+
+Acione a opção <kbd>6</kbd> **Incluir membro** para incluir membro a composição familiar (apresenta a funcionalidade **Consultar pessoa**, descrita na página **17**)
+
+### Lista de membros da composição familiar
+
+- **Nome** – coluna que apresenta o nome do membro;
+- **Nome da mãe** – coluna que apresenta o nome da mãe;
+- **Data de nascimento** – coluna que apresenta a data de nascimento;
+- **Relação de parentesco** – coluna que apresenta a relação de parentesco em relação a referência familiar;
+- **Ações** – Visualizar, Atualizar e Desvincular pessoa
+  - **Visualizar pessoa** – permite visualizar cadastro da pessoa;
+  - **Atualizar pessoa** – permite atualizar o cadastro da pessoa;
+  - **Desvincular pessoa** – permite desvincular o cadastro da pessoa da família.
+
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Alterar Dados da Família](img/extra-cadastro-17.png){.img-pagina}
+
+### Alterar Dados da Família
+
+Para alterar os dados da família, acione a opção <kbd>5</kbd> **Dados Familiares**, o sistema apresentará a janela Alterar família.
+
+![Alterar família modal](img/extra-cadastro-modal-2.png){.w-60}
+
+### Endereço
+
+- **CEP** – campo para informar o CEP do logradouro;
+- **Localidade** – campo para informar a localidade do logradouro; 
+- **Tipo** – campo para informar o tipo do logradouro;
+- **Título** – campo para informar o título do logradouro;
+- **Nome do logradouro** – campo para informar o nome do logradouro;
+- **Número do logradouro** – campo para informar o número do logradouro;
+- **Complemento do número** – campo para informar o complemento do logradouro;
+
+</div>
+
+---
+
+<div class="page-2col">
+
+{{< include _header-extra-cadastro.md >}}
+
+![Alterar Dados da Família](img/extra-cadastro-17.png){.img-pagina}
+
+### Endereço (continuação)
+
+- **Complemento adicional** – campo para informar o complemento adicional do logradouro;
+- **Estado (UF)** – campo para informar o estado do logradouro;
+- **Município** – campo para informar o município do logradouro;
+- **Referência para localização** – campo para informar referência para localização;
+- **Quantas pessoas da sua família moram no seu endereço?** – campo para informar quantas pessoas da sua família moram no endereço/ logradouro;
+- **Quantas famílias moram no seu endereço?** – campo para informar quantas famílias moram no endereço/ logradouro;
+
+### Informações familiares
+
+- **A família é indígena?** - campo para informar se a família é indígena;
+- **Reside em terra indígena?** – campo para informar se a família reside em terra indígena;
+- **Família quilombola?** – campo para informar se a família é quilombola;
+- **GPTE** – campo para informar se a família e pertencente de Grupos Populacionais Tradicionais e Específicos;
+- **Renda média familiar** – campo para informar a renda média da família. 
+- **Cancelar** – opção que, ao ser acionada, cancela a ação e fecha a janela. 
+- **Incluir** – opção que, ao ser acionada, salva o registro.
 
 </div>
 
