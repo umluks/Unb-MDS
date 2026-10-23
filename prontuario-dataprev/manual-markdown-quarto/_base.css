@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root {
   --gray: #4c4b4b;
   --light-gray: #b8b8b8;
@@ -9,8 +11,8 @@
 
   /* Brand & Primary Colors */
   --primary-color: #005AAA;
-  --secondary-color:#F28735; 
-  
+  --secondary-color: #F28735;
+
   /* Link States */
   --link-visited-color: #144f5a;
   --link-hover-color: #982c61;
@@ -22,8 +24,8 @@
 
 
   /* landscape A4 */
-  --a4-small: 21cm; 
-  --a4-big: 29.7cm; 
+  --a4-small: 21cm;
+  --a4-big: 29.7cm;
 
   --gap: 30px;
   --ngap: calc(-1 * var(--gap));
@@ -40,11 +42,13 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Rawline", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -84,8 +88,8 @@ hr::before {
   transform: translateY(calc(var(--ngap) * 1.5));
 }
 
-.summary + hr::before, 
-.title + hr::before {
+.summary+hr::before,
+.title+hr::before {
   display: none;
 }
 
@@ -96,9 +100,9 @@ hr::before {
   flex-direction: column;
   justify-content: space-between;
   column-span: all;
-  margin-top: calc(var(--ngap));  
+  margin-top: calc(var(--ngap));
   margin-left: calc(var(--ngap));
-  padding: calc(var(--gap) * 2); 
+  padding: calc(var(--gap) * 2);
   height: var(--a4-small);
   width: var(--a4-big);
   background: linear-gradient(to bottom, var(--dark-green), var(--green));
@@ -121,7 +125,7 @@ hr::before {
   height: calc(var(--line-height) * 6);
 }
 
-.qr > p {
+.qr>p {
   border-style: solid;
   border-width: 1px;
   border-color: var(--light-gray);
@@ -152,9 +156,9 @@ hr::before {
   column-width: calc((var(--a4-big) / 2) - 4 * var(--gap));
   column-count: 2;
   column-gap: calc(2 * var(--gap));
-  margin-top: calc(var(--ngap));  
+  margin-top: calc(var(--ngap));
   margin-left: calc(var(--ngap));
-  padding: calc(var(--gap) * 2) var(--gap);  
+  padding: calc(var(--gap) * 2) var(--gap);
   overflow: hidden;
 }
 
@@ -176,7 +180,8 @@ hr::before {
   justify-content: space-between;
   width: calc(var(--a4-big) / 2 - 2 * var(--gap));
 }
- /* image on the left pages */
+
+/* image on the left pages */
 .manual-paginas {
   background-color: var(--white);
   margin: 0 auto;
@@ -200,29 +205,29 @@ hr::before {
 }
 
 .title svg {
-  margin-top: calc(var(--ngap) * 2);   
+  margin-top: calc(var(--ngap) * 2);
   margin-left: calc(var(--ngap) * 2);
   height: calc(var(--a4-small) * 1.09);
 }
 
 .page-2col.summary svg {
-  margin-top: calc(var(--ngap) * 6);   
+  margin-top: calc(var(--ngap) * 6);
   margin-left: calc(var(--ngap) * 2);
   height: calc(var(--a4-small) * 1.09);
 }
 
 .page-2col svg {
-  margin-top: calc(var(--ngap) * 2);   
+  margin-top: calc(var(--ngap) * 2);
   margin-left: calc(var(--gap) * 2);
 }
 
 .page-2col.intro svg {
-  margin-top: calc(var(--ngap) * 4);   
+  margin-top: calc(var(--ngap) * 4);
   margin-left: calc(var(--gap) * 1);
 }
 
 .page-2col.estrutura svg {
-  margin-top: calc(var(--ngap) * 4);   
+  margin-top: calc(var(--ngap) * 4);
   margin-left: calc(var(--gap) * 1);
 }
 
@@ -309,7 +314,7 @@ figcaption {
 
 /* summary */
 .summary {
-  background-color: var(--green); 
+  background-color: var(--green);
   color: var(--white);
   overflow: hidden;
   padding-top: calc(var(--gap) * 4);
@@ -331,7 +336,7 @@ figcaption {
 
 .summary strong a {
   color: var(--light-green);
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 .summary ul {
@@ -339,12 +344,12 @@ figcaption {
 }
 
 .summary p {
-  margin-bottom: 1rem; 
-  line-height: 2rem; 
+  margin-bottom: 1rem;
+  line-height: 2rem;
 }
 
-.summary li > p {
-  margin-bottom: 0.2rem;  
+.summary li>p {
+  margin-bottom: 0.2rem;
 }
 
 .n {
@@ -399,7 +404,12 @@ figcaption {
   }
 } */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   line-height: 1.1;
   font-weight: 700;
   /* margin-top: 3rem; */
@@ -442,7 +452,9 @@ p {
   margin-bottom: 1rem;
 }
 
-small, sub, sup {
+small,
+sub,
+sup {
   font-size: 75%;
 }
 
@@ -450,9 +462,11 @@ a {
   text-decoration: none;
   color: var(--primary-color);
 }
+
 a:visited {
   color: var(--link-visited-color);
 }
+
 a:hover {
   color: var(--link-hover-color);
   border-bottom: 2px solid var(--link-hover-border-color);
@@ -501,7 +515,8 @@ img {
 }
 
 /* Single column full-width page */
-.page-1col, .page-full {
+.page-1col,
+.page-full {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -510,13 +525,14 @@ img {
   background-color: var(--white);
   height: var(--a4-small);
   width: var(--a4-big);
-  margin-top: calc(var(--ngap));  
+  margin-top: calc(var(--ngap));
   margin-left: calc(var(--ngap));
-  padding: 55px var(--gap) 50px var(--gap);  
+  padding: 55px var(--gap) 50px var(--gap);
   overflow: hidden;
 }
 
-.page-1col .header, .page-full .header {
+.page-1col .header,
+.page-full .header {
   position: absolute;
   display: flex;
   width: calc(var(--a4-big) - 2 * var(--gap));
@@ -534,7 +550,8 @@ table {
   margin-bottom: 2rem;
 }
 
-td, th {
+td,
+th {
   padding: 0.5em;
   border-bottom: 1px solid var(--gray);
 }
@@ -549,7 +566,8 @@ td, th {
   border: 1.5px solid #2d4f38;
 }
 
-.tabela-matriz th, .tabela-matriz td {
+.tabela-matriz th,
+.tabela-matriz td {
   border: 1px solid #b2c4b5;
   padding: 4px;
 }
@@ -684,41 +702,49 @@ kbd {
   border: 1px solid var(--light-gray);
   margin: 2rem auto;
 }
+
 .w-20 {
   max-width: 20%;
   border: 1px solid var(--light-gray);
   margin: 2rem auto;
 }
+
 .w-30 {
   max-width: 30%;
   border: 1px solid var(--light-gray);
   margin: 2rem auto;
 }
+
 .w-40 {
   max-width: 40%;
   border: 1px solid var(--light-gray);
   margin: 2rem auto;
 }
+
 .w-50 {
   max-width: 50%;
   border: 1px solid var(--light-gray);
   margin: 2rem auto;
 }
+
 .w-60 {
   max-width: 60%;
   border: 1px solid var(--light-gray);
   margin: 2rem auto;
 }
+
 .w-70 {
   max-width: 70%;
   border: 1px solid var(--light-gray);
   margin: 2rem auto;
 }
+
 .w-80 {
   max-width: 80%;
   border: 1px solid var(--light-gray);
   margin: 2rem auto;
 }
+
 .w-90 {
   max-width: 90%;
   border: 1px solid var(--light-gray);

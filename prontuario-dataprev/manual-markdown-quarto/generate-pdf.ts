@@ -1,7 +1,7 @@
 import { existsSync } from "https://deno.land/std@0.224.0/fs/mod.ts";
 
-// Se o preview estiver rodando, não travamos o processo nem geramos PDF a cada keystroke
-if (Deno.env.get("QUARTO_PREVIEW") === "1") {
+// Se estiver em modo preview ou render incremental, não geramos PDF para manter o recarregamento rápido
+if (!Deno.env.get("QUARTO_PROJECT_RENDER_ALL")) {
   Deno.exit(0);
 }
 

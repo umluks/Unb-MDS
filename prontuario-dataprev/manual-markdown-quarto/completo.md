@@ -128,7 +128,7 @@ Janeiro de 2026
 
 **[Prontuário: Painel Estatístico](#prontuário-painel-estatístico)** [174]{.n}
 
-**[Prontuário: Descritivo de perfis e permissões](#prontuário-funcionalidades)** [181]{.n}
+**[Prontuário: Descritivo de perfis e permissões](#prontuário-descritivo-de-perfis-e-permissões)** [181]{.n}
 
 </div>
 
@@ -306,7 +306,7 @@ O Painel Estatístico apresenta uma visão clara, organizada e agregada dos aten
 
 ![QR Code image](img/qrcode-apresentacao.png){.qr-code}
 
-[Clique aqui](https://www.mylink.com) ou escaneie o QR Code para acessar o vídeo explicativo.
+[Clique aqui](https://aplicacoes.mds.gov.br/snas/defeso/ProntuarioEletronicoLoginAtendimento.mp4) ou escaneie o QR Code para acessar o vídeo explicativo.
 
 </div>
 
@@ -338,7 +338,7 @@ O objetivo é ampliar as informações cadastrais das famílias para que o Traba
 - Apoio à gestão e ao planejamento, oferecendo uma base de dados unificada para monitoramento e tomada de decisão.
 - Fortalecimento do controle social, permitindo o acompanhamento e a fiscalização das ações da assistência social.
 
-O CadSUAS é essencial para organizar e padronizar as informações do SUAS em todo o país. O sistema pode ser acessado através de consulta pública sem senha de acesso, por meio do link: [{https://aplicacoes.mds.gov.br/cadsuas/visualizarConsultaExterna.html}](https://aplicacoes.mds.gov.br/cadsuas/visualizarConsultaExterna.html). E, também por consulta com senha, através de login no SAA.
+O CadSUAS é essencial para organizar e padronizar as informações do SUAS em todo o país. O sistema pode ser acessado através de consulta pública sem senha de acesso, por meio do **[link]**(https://aplicacoes.mds.gov.br/cadsuas/visualizarConsultaExterna.html). E, também por consulta com senha, através de login no SAA.
 
 Lembre-se de atualizar os dados de unidades, gestores, conselheiros, e entre outros trabalhadores do SUAS, sempre que houver alterações.
 
@@ -379,6 +379,8 @@ Responsável pela administração dos acessos e permissões no Prontuário Eletr
 - Utilizar dados consolidados para gestão estratégica (sem acesso a prontuários individuais).
 - Garantir condições éticas e técnicas para o uso qualificado do Novo Prontuário Eletrônico SUAS.
 - Solicitar orientações técnicas aos estados sempre que houver necessidade;
+
+<div class="col-break"></div>
 
 **Técnico(a) da Gestão Municipal**
 
@@ -427,7 +429,7 @@ Apenas profissionais vinculados ao órgão gestor e cadastrados no CadSUAS como 
 Atua na gestão e no controle social, sem acesso a dados individualizados. Suas atribuições são:
 
 - Acompanhar ou realizar o monitoramento da oferta dos serviços, programas e benefícios socioassistenciais a nível de controle social.
-- Garantir a qualidade e segurança dos dados em nível estadual (sem acesso a prontuários individuais).Conhecer a importância do Prontuário SUAS no registro do Trabalho Social.
+- Conhecer a importância do Prontuário SUAS no registro do Trabalho Social.
 
 **Apoio Administrativo – CRAS**
 
@@ -437,7 +439,6 @@ Auxilia na organização dos prontuários e no suporte às equipes do CRAS. Suas
 - Apoiar processos relacionados ao CadÚnico.
 - Emitir documentos e relatórios.
 - Apoiar os fluxos internos de atendimento.
-- Realizar procedimento de migração a partir da realidade da unidade, assim como da qualificação técnica do profissional. A avaliação do órgão gestor e coordenação da unidade permitirá usos específicos do Prontuário SUAS.
 - Zelar por conduta ética alinhada com os princípios do SUAS.
 
 Atenção: a  utilização de funcionalidades específicas do prontuário SUAS deve ser orientada pelo contexto de trabalho da unidade e da qualificação técnica do(a) profissional. As permissões são definidas pelo MDS, mas a utilização do sistema está sujeita à avaliação do órgão gestor, da coordenação da unidade, preferencialmente, mediante treinamento e supervisão.
@@ -549,7 +550,7 @@ O Novo Prontuário Eletrônico SUAS possui diferentes perfis de acesso. A cada p
 
 > **Importante:** se um bloco ou uma funcionalidade não estiver disponível, não abrir ou apresentar opções de ação desabilitadas, confirme se o seu perfil tem a permissão necessária para executar a ação desejada.
 >
-> Para verificar as funcionalidades e as permissões correspondentes a cada perfil, consulte o anexo “Prontuário: Descritivo de perfis e permissões”, **disponível na página (pag 191)**.
+> Para verificar as funcionalidades e as permissões correspondentes a cada perfil, consulte o anexo “Prontuário: Descritivo de perfis e permissões”, [disponível na página 180](#prontuário-descritivo-de-perfis-e-permissões).
 
 </div>
 
@@ -559,7 +560,7 @@ O Novo Prontuário Eletrônico SUAS possui diferentes perfis de acesso. A cada p
  
 {{< include _header-acesso.md >}}
 
-![Login gov.br](img/login-no-sistema-1.png)
+![Login gov.br](img/login-no-sistema-1.png){.img-pagina}
 
 ## Login no sistema {.col-break}
 
@@ -1188,8 +1189,6 @@ Conforme imagem ao lado, o agrupamento é composto pelos campos:
 - **Ocorrências e pendências** – opção que ao ser acionada, expande apresentado ocorrências e pendencias para o cadastro do membro da composição familiar. Não havendo ocorrências e pendencias, será apresentada a mensagem: _"Nenhuma ocorrência ou pendência encontrada."_
 
 </div>
-
----
 
 ---
 
@@ -4741,7 +4740,7 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 
 <div class="middle">
 
-# Prontuário: Descritivo de </br> perfis e permissões
+# Prontuário: Descritivo de </br> perfis e permissões {#prontuário-descritivo-de-perfis-e-permissões}
 
 </div>
 
