@@ -1,0 +1,3 @@
+project:
+  post-render:
+    - quarto run generate-pdf.ts

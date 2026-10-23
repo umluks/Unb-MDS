@@ -1,0 +1,13 @@
+# Participação em serviços, programas e projetos
+
+Ao acionar o bloco <kbd>1</kbd> **Participação em serviços, programas e projetos**, para expandir as informações, você pode consultar observações de participação dos membros da família em serviços, programas e projetos.
+
+![Participação em serviços, programas e projetos](<../../../.gitbook/assets/participacao-em-servicos-programas-e-projetos-1 (1).png>)
+
+***
+
+## Observações da participação em serviços, programas e projetos
+
+Para mais detalhes sobre o <kbd>7</kbd> **registro de observações**, consulte a seção [Aspectos Globais](aspectos-globais.md).
+
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>8</kbd> **ícone**.
