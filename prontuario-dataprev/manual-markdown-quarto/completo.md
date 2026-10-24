@@ -731,7 +731,7 @@ Para **visualizar o registro de observação**, acione a opção <kbd>2</kbd> **
 
 {{< include _header-prontuario-individual.md >}}
 
-![Visualizar e Alterar observação](img/aspectos-globais-do-modulo-prontuario-3.png)
+![Visualizar e Alterar observação](img/aspectos-globais-do-modulo-prontuario-3.png){.w-80}
 
 A janela <kbd>2</kbd> **Visualizar observação**, contém os seguintes dados:
 
