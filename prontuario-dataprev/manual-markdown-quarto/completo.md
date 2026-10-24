@@ -644,9 +644,9 @@ Ao ler e aceitar o Termo de Uso, o usuário se compromete a:
 
 <div class="bottom qr">
 
-![QR Code image](img/qrcode-apresentacao.png){.qr-code}
+![QR Code image](img/prontuario-dataprev_qr-code-login-e-atendimento.png){.qr-code}
 
-[Clique aqui](https://www.mylink.com) ou escaneie o QR Code para acessar o vídeo explicativo.
+[Clique aqui](https://aplicacoes.mds.gov.br/snas/defeso/ProntuarioEletronicoLoginAtendimento.mp4) ou escaneie o QR Code para acessar o vídeo explicativo.
 
 </div>
 
@@ -668,7 +668,7 @@ O refinamento da lista de resultados de unidades pode ser feito informando os pa
 
 Para selecionar a unidade responsável pelo atendimento da pessoa, acione o <kbd>4</kbd> **registro na lista**. O sistema apresenta a funcionalidade para busca do cadastro único da pessoa atendida. Se o perfil possuir apenas uma unidade de atendimento, esse passo não será necessário e o usuário acessará diretamente a funcionalidade de busca do cadastro único da pessoa atendida.
 
-### Consulta simples:
+### Consulta simples
 
 ![Consulta simples](img/realizar-atendimento-2.png){.w-100}
 
@@ -686,11 +686,13 @@ Para consultar o cadastro único da pessoa atendida na consulta simples, informe
 
 ## Realizar atendimento {.col-break}
 
-### Consulta avançada:
+### Consulta avançada
 
 ![Lista de resultados](img/realizar-atendimento-4.png){.w-100}
 
 Para consultar o cadastro único da pessoa atendida na consulta avançada, informe o **nome**, **data de nascimento** e **nome da mãe** e acione a opção <kbd>6</kbd> **Pesquisar**.
+
+Caso a pessoa não possua registro do CadÚnico ou um cadastro no Prontuário Eletrônico, será necessário realizar um **Extra Cadastro**, [conforme indicado na página 131](#extra-cadastro-sem-cpf-consulta-avançada).
 
 </div>
 
