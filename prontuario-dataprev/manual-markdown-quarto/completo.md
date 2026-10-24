@@ -775,7 +775,7 @@ Na página de blocos de atendimento, clique em <kbd>1</kbd> **Expandir todos** p
 
 ### Registro de pessoa e família
 
-Os benefícios ofertados pela assistência social têm como objetivo garantir proteção, promover o bem-estar e fortalecer os vínculos familiares e comunitários. Eles podem ser destinados à família como um todo ou a um de seus membros em particular, conforme a situação identificada no atendimento.
+Os benefícios ofertados pela assistência social têm como objetivo garantir proteção, promover o bem-estar e fortalecer os vínculos familiares e comunitários. Eles podem ser destinados à família como um todo ou a um de seus membros em particular, conforme a situação identificada no atendimento <kbd>2</kbd>.
 
 - **Benefícios voltados à família:** são aqueles que consideram as necessidades do núcleo familiar de forma integrada, buscando melhorar suas condições de vida de maneira coletiva. Exemplos incluem benefícios que apoiam a renda familiar, a moradia ou o acesso a serviços essenciais, fortalecendo a estrutura e a autonomia da família como um todo.
 - **Benefícios voltados a um membro específico:** destinam-se a atender situações particulares de um integrante da família, quando há uma vulnerabilidade individual que requer atenção diferenciada — como uma pessoa idosa, com deficiência, gestante, criança ou adolescente em situação de risco.
@@ -788,11 +788,9 @@ Os benefícios ofertados pela assistência social têm como objetivo garantir pr
 
 {{< include _header-prontuario-individual.md >}}
 
-## Aspectos globais do módulo Prontuário
-
 ### Registro de marcadores
 
-![Registro de marcadores](img/aspectos-globais-do-modulo-prontuario-8.png)
+![Registro de marcadores](img/aspectos-globais-do-modulo-prontuario-8.png){.w-80}
 
 O **Registro de marcadores** permite identificar e sinalizar situações ou particularidades relacionadas aos membros da família no Prontuário.
 
@@ -866,7 +864,9 @@ Para editar, acione a opção <kbd>3</kbd> **Alterar marcador** (ícone de lápi
 
 ### Registrar data de término
 
-![Registrar data de término](img/aspectos-globais-do-modulo-prontuario-11.png)
+![Registrar data de término](img/aspectos-globais-do-modulo-prontuario-11.png){.w-80}
+
+</br>
 
 Para definir o encerramento da vigência do marcador, acione a opção <kbd>4</kbd> **Registrar data de término** (ícone `+`) na tabela. O sistema apresentará a janela **Registrar data de término** com os seguintes campos:
 
@@ -899,7 +899,8 @@ Conforme representado na tela ao lado, o agrupamento é composto pelos campos:
 - **N.º do identificador** – campo que informa o número de identificação do prontuário de atendimento da pessoa;
 - **Data de abertura** – campo que informa a data em que o prontuário de atendimento da pessoa foi criado;
 - **Unidade** – campo que informa o nome da unidade CRAS responsável pelo cadastro do prontuário de atendimento da pessoa;
-- **Município/ UF** – campo que informa o município e estado onde está localizada a unidade CRAS responsável pelo cadastro do prontuário de atendimento da pessoa.
+- **Município/ UF** – campo que informa o município e estado onde está localizada a unidade CRAS responsável pelo cadastro do prontuário de atendimento da pessoa;
+- **Origem das informações** – campo que informa a origem das informações do prontuário.
 
 Caso exista solicitação de migração para o prontuário eletrônico da pessoa/ família, será apresentada a mensagem: _"Existe solicitação de migração em andamento para a unidade <<cód. e nome da unidade de destino>>"_.
 
@@ -931,7 +932,7 @@ Para migrar o prontuário eletrônico para outra unidade de atendimento, acione 
 
 ## Migrar Prontuário
 
-Conforme representado na janela representada na página anterior, o agrupamento é composto pelos campos:
+Conforme representado na janela da página anterior, o agrupamento é composto pelos campos:
 
 - **Texto informativo** – Ao confirmar a operação, será criada uma solicitação de migração do prontuário da pessoa e demais membros da família para a unidade de destino.
 
@@ -991,7 +992,8 @@ Conforme representado na janela representada na página anterior, o agrupamento 
 - **Nome do técnico responsável** – campo que informa o nome do técnico responsável pela solicitação;
 - **UF** – campo para informar a UF da unidade de destino;
 - **Município** – campo para informar o município conforme UF da unidade de destino;
-- **Motivo** – campo para informar o motivo da solicitação de migração do prontuário da pessoa/ família. O sistema listará as unidades conforme UF/ município informado anteriormente;
+- **Unidade de destino** – campo para informar a unidade de destino do prontuário da pessoa/ família. O sistema listará as unidades conforme UF/ município informado anteriormente;
+- **Motivo** – campo para informar o motivo da solicitação de migração do prontuário da pessoa/ família;
 - **Cancelar** – opção que ao ser acionada, cancela a ação e fecha a janela;
 - **Confirmar** – opção que, ao ser acionada, salva a solicitação de migração do prontuário eletrônico.
 
@@ -1384,9 +1386,9 @@ A janela <kbd>4</kbd> **Alterar forma de ingresso** contém os seguintes dados:
 
 Para **excluir o registro da lista**, acione a opção <kbd>5</kbd> **Excluir forma de ingresso**, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem _"Forma de ingresso excluída com sucesso"_.
 
-### Observações e Marcadores de forma de ingresso e motivo do primeiro atendimento
+### Observações e marcadores de forma de ingresso e motivo do primeiro atendimento
 
-Para mais informações sobre o <kbd>5</kbd> **registro de observações** e o <kbd>6</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>5</kbd> **registro de observações** e o <kbd>6</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -1436,7 +1438,9 @@ O agrupamento de campos das <kbd>3</kbd> **especificidades sociais, étnicas ou 
 
 ## Composição familiar
 
-Para mais informações sobre o <kbd>4</kbd> **registro de observações** e o <kbd>5</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+### Observações e marcadores de Composição familiar
+
+Para mais informações sobre o <kbd>4</kbd> **registro de observações** e o <kbd>5</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
