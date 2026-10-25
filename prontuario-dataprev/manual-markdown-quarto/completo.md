@@ -3872,6 +3872,8 @@ Após a inclusão, os contatos são exibidos em lista com as seguintes informaç
 
 ## Extra cadastro sem CPF (Consulta avançada)
 
+### Informações familiares (continuação)
+
 - **Cancelar** – cancela a ação e retornar a tela de consulta Buscar pessoa no CadÚnico; 
 - **Concluir** – acione a opção Incluir para salvar o extra cadastro. 
 
@@ -3925,7 +3927,7 @@ Para detalhar, atualizar e adicionar novos membros à família, acione o menu <k
 
 Acione a opção <kbd>5</kbd> **Dados Familiares** para atualizar os dados da família.
 
-Acione a opção <kbd>6</kbd> **Incluir membro** para incluir membro a composição familiar (apresenta a funcionalidade **Consultar pessoa**, descrita na página **17**)
+Acione a opção <kbd>6</kbd> **Incluir membro** para incluir membro a composição familiar (apresenta a funcionalidade **Consultar pessoa**, descrita na página [19](#realizar-atendimento))
 
 ### Lista de membros da composição familiar
 
@@ -3949,11 +3951,13 @@ Acione a opção <kbd>6</kbd> **Incluir membro** para incluir membro a composiç
 
 ![Alterar Dados da Família](img/extra-cadastro-17.png){.img-pagina}
 
+## Gerenciar família
+
 ### Alterar Dados da Família
 
 Para alterar os dados da família, acione a opção <kbd>5</kbd> **Dados Familiares**, o sistema apresentará a janela Alterar família.
 
-![Alterar família modal](img/extra-cadastro-modal-2.png){.w-60}
+![Alterar família modal](img/extra-cadastro-modal-2.png){.w-5}
 
 ### Endereço
 
