@@ -1386,7 +1386,7 @@ A janela <kbd>4</kbd> **Alterar forma de ingresso** contém os seguintes dados:
 
 Para **excluir o registro da lista**, acione a opção <kbd>5</kbd> **Excluir forma de ingresso**, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem _"Forma de ingresso excluída com sucesso"_.
 
-### Observações e marcadores de forma de ingresso e motivo do primeiro atendimento
+### Observações e marcadores e marcadores de forma de ingresso e motivo do primeiro atendimento
 
 Para mais informações sobre o <kbd>5</kbd> **registro de observações** e o <kbd>6</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
@@ -1438,7 +1438,7 @@ O agrupamento de campos das <kbd>3</kbd> **especificidades sociais, étnicas ou 
 
 ## Composição familiar
 
-### Observações e marcadores de Composição familiar
+### Observações e marcadores e marcadores de Composição familiar
 
 Para mais informações sobre o <kbd>4</kbd> **registro de observações** e o <kbd>5</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
@@ -1594,9 +1594,9 @@ A janela <kbd>4</kbd> **Atualizar informações de habitação**, representada n
 
 ## Condições habitacionais da família
 
-### Observações das condições habitacionais da família
+### Observações e marcadores e marcadores das condições habitacionais da família
 
-Para mais informações sobre o <kbd>5</kbd> **registro de observações** e o <kbd>6</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>5</kbd> **registro de observações** e o <kbd>6</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -1644,9 +1644,9 @@ O <kbd>3</kbd> **agrupamento de campos da identificação de vulnerabilidade edu
 
 ## Condições educacionais da família
 
-### Observações das condições educacionais da família
+### Observações e marcadores e marcadores das condições educacionais da família
 
-Para mais informações sobre o <kbd>4</kbd> **registro de observações** e o <kbd>5</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>4</kbd> **registro de observações** e o <kbd>5</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -1795,9 +1795,9 @@ Para **excluir marcação de saúde**, acione a opção <kbd>6</kbd> **Excluir m
 
 <br>
 
-### Observações das condições de saúde da família
+### Observações e marcadores e marcadores das condições de saúde da família
 
-Para mais informações sobre o <kbd>7</kbd> **registro de observações** e o <kbd>8</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>7</kbd> **registro de observações** e o <kbd>8</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -1861,9 +1861,9 @@ O <kbd>3</kbd> **agrupamento de campos dos valores recebidos por Programas Socia
 
 ## Condições de trabalho e rendimento da família
 
-### Observações das condições de trabalho e rendimento da família
+### Observações e marcadores das condições de trabalho e rendimento da família
 
-Para mais informações sobre o <kbd>4</kbd> **registro de observações** e o <kbd>5</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>4</kbd> **registro de observações** e o <kbd>5</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -2069,9 +2069,9 @@ Para **excluir o atendimento da lista**, acione a opção <kbd>6</kbd> **Excluir
 
 <br>
 
-### Observações de registro de atendimentos socioassistenciais
+### Observações e marcadores de registro de atendimentos socioassistenciais
 
-Para mais informações sobre o <kbd>7</kbd> **registro de observações** e o <kbd>8</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>7</kbd> **registro de observações** e o <kbd>8</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -2231,9 +2231,9 @@ Para **excluir o benefício da lista**, acione a opção <kbd>6</kbd> **Excluir 
 
 <br>
 
-### Observações do acesso a benefícios eventuais
+### Observações e marcadores do acesso a benefícios eventuais
 
-Para mais informações sobre o <kbd>7</kbd> **registro de observações** e o <kbd>8</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>7</kbd> **registro de observações** e o <kbd>8</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -2255,9 +2255,9 @@ No bloco <kbd>1</kbd> **Convivência Familiar e Comunitária**, ao expandir as i
 
 <br>
 
-### Observações da convivência familiar e comunitária
+### Observações e marcadores da convivência familiar e comunitária
 
-Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -2545,9 +2545,9 @@ Para **excluir o registro** de vulnerabilidade da lista, acione a opção <kbd>8
 
 <br>
 
-### Observações das situações de vulnerabilidades e desproteções sociais da família
+### Observações e marcadores das situações de vulnerabilidades e desproteções sociais da família
 
-Para mais informações sobre o <kbd>9</kbd> **registro de observações** e o <kbd>10</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>9</kbd> **registro de observações** e o <kbd>10</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -2569,9 +2569,9 @@ No bloco <kbd>1</kbd> **Situação de violência e violação de direitos**, ao 
 
 <br>
 
-### Observações das situações de violência e violação de direitos
+### Observações e marcadores das situações de violência e violação de direitos
 
-Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -2753,9 +2753,9 @@ Para **excluir o registro** de acompanhamento familiar da lista, acione a opçã
 
 <br>
 
-### Observações do planejamento e evolução do acompanhamento familiar
+### Observações e marcadores do planejamento e evolução do acompanhamento familiar
 
-Para mais informações sobre o <kbd>8</kbd> **registro de observações** e o <kbd>9</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>8</kbd> **registro de observações** e o <kbd>9</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -2781,9 +2781,9 @@ Ao acionar o bloco <kbd>1</kbd> **Participação em serviços, programas e proje
 
 <br>
 
-### Observações da participação em serviços, programas e projetos
+### Observações e marcadores da participação em serviços, programas e projetos
 
-Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -2966,9 +2966,9 @@ Para **excluir o registro de medida socioeducativa**, acione a opção <kbd>7</k
 
 <br>
 
-### Observações das medidas socioeducativas
+### Observações e marcadores das medidas socioeducativas
 
-Para mais informações sobre o <kbd>8</kbd> **registro de observações** e o <kbd>9</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>8</kbd> **registro de observações** e o <kbd>9</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -2990,9 +2990,9 @@ Ao acionar o bloco <kbd>1</kbd> **Histórico de acolhimento institucional**, par
 
 <br>
 
-### Observações do histórico de acolhimento institucional
+### Observações e marcadores do histórico de acolhimento institucional
 
-Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
@@ -3252,9 +3252,9 @@ Para gerar o PDF do encaminhamento, acione a opção <kbd>7</kbd> **Gerar PDF**,
 
 ![PDF do encaminhamento](img/formulario-de-controle-de-encaminhamentos-16.png){.w-20}
 
-### Observações de registro de atendimentos socioassistenciais
+### Observações e marcadores de registro de atendimentos socioassistenciais
 
-Para mais informações sobre o <kbd>8</kbd> **registro de observações** e o <kbd>9</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>8</kbd> **registro de observações** e o <kbd>9</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>10</kbd> ícone.
 
@@ -3357,9 +3357,9 @@ A <kbd>2</kbd> **lista atendimentos da pessoa** é composta por:
 - **Nome do técnico** – campo que informa o nome do técnico responsável pelo atendimento;
 - **Município/ UF** – coluna que informa o município e o estado onde a unidade de atendimento está localizada;
 
-### Observações de relatório simplificado dos atendimentos
+### Observações e marcadores de relatório simplificado dos atendimentos
 
-Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [19](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
