@@ -31,3 +31,19 @@ Este arquivo registra cronologicamente as principais alterações, decisões edi
   - Atribuídos IDs explícitos para evitar ambiguidades no Pandoc (`#cadsuas-e-as-permissões-do-prontuário-suas`, `#migrar-prontuário-modulo`, `#identificação-da-pessoa-de-referência-e-endereço-da-família`, `#composição-familiar-quadro`, `#composição-familiar-bloco`, `#prontuário-migrar-prontuário`, `#prontuário-painel-estatístico`).
   - Atualizadas referências cruzadas no texto: página 180 -> **178** (anexo de permissões, linha 553) e página 150 -> **147** (Gerenciar família, linha 3639).
 
+---
+
+## [2026-10-25] - Consolidação das Bases de Contexto, Skills e Atualização do GEMINI.md
+
+- **Criação das Bases de Contexto (`.agents/context/`):**
+  - [`projeto-prontuario-suas.md`](projeto-prontuario-suas.md): Fundamentação institucional UnB/Dataprev/MDS, diretrizes da PNAS/NOB-SUAS e mapeamento completo dos 7 módulos do sistema.
+  - [`estrutura-documentacao.md`](estrutura-documentacao.md): Mapeamento da arquitetura GitBook vs. Quarto, mecânica de paginação CSS (`counter(page)` por `<hr>`), regras de capas de capítulo e resolução de colisões de âncoras.
+  - [`diretrizes-estilo-e-conteudo.md`](diretrizes-estilo-e-conteudo.md): Tabela de terminologia assistencial oficial (termos obrigatórios vs. proibidos), estilo instrucional direto, marcação com `<kbd>` e classes CSS utilitárias para imagens.
+- **Implementação das Skills Automatizadas (`.agents/skills/`):**
+  - [`quarto-manual-build`](../skills/quarto-manual-build/SKILL.md): Instruções para preview local, compilação estática Quarto e geração de PDF via Playwright (`generate-pdf.ts`).
+  - [`suas-doc-review`](../skills/suas-doc-review/SKILL.md): Instruções para auditoria contínua de vocabulário e referências, acompanhada do script oficial [`validate-summary.ps1`](../skills/suas-doc-review/scripts/validate-summary.ps1) (auditoria automática 100% dos 40 itens do sumário contra o HTML compilado).
+- **Atualização das Diretrizes Globais (`GEMINI.md`):**
+  - Atualizada a árvore de arquivos com links diretos para os contextos e skills.
+  - Adicionadas regras técnicas obrigatórias sobre paginação Quarto e prevenção de títulos homônimos com sufixos automáticos do Pandoc.
+
+
