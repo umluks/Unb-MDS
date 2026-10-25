@@ -66,7 +66,7 @@ Janeiro de 2026
 
 - [Termo de uso](#termo-de-uso) [17]{.n}
 
-**[Prontuário: Atendimento individual e familiar](#prontuário-atendimento-individual-e-familiar)** [19]{.n}
+**[Prontuário: Atendimento individual e familiar](#prontuário-atendimento-individual-e-familiar)** [18]{.n}
 
 - [Realizar atendimento](#realizar-atendimento) [19]{.n}
 
@@ -74,11 +74,9 @@ Janeiro de 2026
 
 - [Informações do Prontuário](#informações-do-prontuário) [27]{.n}
 
-- [Migrar Prontuário](#migrar-prontuário) [28]{.n}
+- [Migrar Prontuário](#migrar-prontuário-modulo) [28]{.n}
 
-<!-- - [Excluir Prontuário](#excluir-prontuário) [32]{.n} -->
-
-- [Identificação da pessoa de referência e endereço da família](#identificação-da-pessoa-de-referência-e-endereço-da-família) [30]{.n}
+- [Identificação da pessoa de referência e endereço da família](#identificação-da-pessoa-de-referência-e-endereço-da-família) [32]{.n}
 
 - [Informações da família](#informações-da-família) [35]{.n}
 
@@ -114,21 +112,19 @@ Janeiro de 2026
 
 - [Histórico de acolhimento institucional](#histórico-de-acolhimento-institucional) [115]{.n}
 
-- [Formulário de controle de encaminhamentos](#formulário-de-controle-de-encaminhamentos) [117]{.n}
+- [Formulário de controle de encaminhamentos](#formulário-de-controle-de-encaminhamentos) [116]{.n}
 
-- [Relatório de participação em atendimentos coletivos](#relatório-de-participação-em-atendimentos-coletivos) [128]{.n}
+- [Relatório de participação em atendimentos coletivos](#relatório-de-participação-em-atendimentos-coletivos) [127]{.n}
 
-- [Relatório simplificado dos atendimentos](#relatório-simplificado-dos-atendimentos) [131]{.n}
+**[Prontuário: Extra cadastro](#prontuário-extra-cadastro)** [130]{.n}
 
-**[Prontuário: Extra cadastro](#prontuário-extra-cadastro)** [132]{.n}
+**[Prontuário: Atendimento Coletivo](#prontuário-atendimento-coletivo)** [151]{.n}
 
-**[Prontuário: Atendimento Coletivo](#prontuário-atendimento-coletivo)** [154]{.n}
+**[Prontuário: Migrar Prontuário](#prontuário-migrar-prontuário)** [163]{.n}
 
-**[Prontuário: Migrar Prontuário](#prontuário-migrar-prontuário)** [166]{.n}
+**[Prontuário: Painel Estatístico](#prontuário-painel-estatístico)** [171]{.n}
 
-**[Prontuário: Painel Estatístico](#prontuário-painel-estatístico)** [174]{.n}
-
-**[Prontuário: Descritivo de perfis e permissões](#prontuário-descritivo-de-perfis-e-permissões)** [181]{.n}
+**[Prontuário: Descritivo de perfis e permissões](#prontuário-descritivo-de-perfis-e-permissões)** [178]{.n}
 
 </div>
 
@@ -318,7 +314,7 @@ O Painel Estatístico apresenta uma visão clara, organizada e agregada dos aten
 
 {{< include _header-apresentacao.md >}}
 
-## CadSUAS e as permissões do Prontuário Eletrônico SUAS 
+## CadSUAS e as permissões do Prontuário Eletrônico SUAS {#cadsuas-e-as-permissões-do-prontuário-suas}
 
 ### Prontuário Eletrônico SUAS
 
@@ -550,7 +546,7 @@ O Novo Prontuário Eletrônico SUAS possui diferentes perfis de acesso. A cada p
 
 > **Importante:** se um bloco ou uma funcionalidade não estiver disponível, não abrir ou apresentar opções de ação desabilitadas, confirme se o seu perfil tem a permissão necessária para executar a ação desejada.
 >
-> Para verificar as funcionalidades e as permissões correspondentes a cada perfil, consulte o anexo “Prontuário: Descritivo de perfis e permissões”, [disponível na página 180](#prontuário-descritivo-de-perfis-e-permissões).
+> Para verificar as funcionalidades e as permissões correspondentes a cada perfil, consulte o anexo “Prontuário: Descritivo de perfis e permissões”, [disponível na página 178](#prontuário-descritivo-de-perfis-e-permissões).
 
 </div>
 
@@ -914,7 +910,7 @@ Caso exista solicitação de migração para o prontuário eletrônico da pessoa
 
 ![Migrar Prontuário](img/migrar-prontuario-1.png){.img-pagina}
 
-## Migrar Prontuário
+## Migrar Prontuário {#migrar-prontuário-modulo}
 
 Para migrar o prontuário eletrônico para outra unidade de atendimento, acione o ícone <kbd>2</kbd> **opções** e em seguida <kbd>3</kbd> **Migrar prontuário**, então o sistema vai apresentar a janela:
 
@@ -955,7 +951,7 @@ Conforme representado na janela da página anterior, o agrupamento é composto p
 
 ## Migrar Prontuário
 
-### Identificação da pessoa de referência e endereço da família
+### Identificação da pessoa de referência e endereço da família {#migrar-prontuario-identificacao}
 
 - **Nome** – campo que informa o nome da pessoa;
 - **CPF** – campo que informa o número do CPF da pessoa;
@@ -1037,7 +1033,7 @@ Conforme representado na janela acima, o agrupamento é composto pelos campos:
 
 ![Identificação da pessoa de referência e endereço da família](img/identificacao-da-pessoa-de-referencia-e-endereco-da-familia-1.png){.img-pagina}
 
-## Identificação da pessoa de referência e endereço da família
+## Identificação da pessoa de referência e endereço da família {#identificação-da-pessoa-de-referência-e-endereço-da-família}
 
 No agrupamento <kbd>5</kbd> **Identificação da pessoa de referência e endereço da família**, você pode verificar informações pessoais, endereço e composição da família de acordo com o Cadastro Único ao qual o prontuário pertence.
 
@@ -1158,7 +1154,7 @@ Conforme tela ao lado, o agrupamento é composto pelos campos:
 
 ![Composição Familiar](img/composicao-familiar-1.png){.img-pagina}
 
-## Composição familiar
+## Composição familiar {#composição-familiar-quadro}
 
 No agrupamento <kbd>8</kbd> **Composição Familiar**, você pode verificar os dados cadastrais dos membros que compõem o núcleo familiar da pessoa, de acordo com o **Cadastro Único**.
 
@@ -1404,7 +1400,7 @@ Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>8</kb
 
 ![Composição familiar](img/composicao-familiar-2.png){.img-pagina}
 
-## Composição familiar
+## Composição familiar {#composição-familiar-bloco}
 
 Ao acionar o bloco <kbd>1</kbd> **Composição familiar**, ao expandir as informações, você pode consultar o perfil etário do grupo familiar, especificidades sociais, étnicas e culturais.
 
@@ -3636,7 +3632,7 @@ Após a inclusão, os contatos são exibidos em lista com as seguintes informaç
 - **Cancelar** – cancela a ação e retornar a tela de consulta Buscar pessoa no CadÚnico; 
 - **Concluir** – acione a opção Incluir para salvar o extra cadastro.
 
-Após a inclusão, o sistema apresenta a funcionalidade, Gerenciar família, **descrita na página 150**.
+Após a inclusão, o sistema apresenta a funcionalidade, Gerenciar família, **descrita na página 147**.
 
 </div>
 
@@ -4328,9 +4324,7 @@ A janela <kbd>11</kbd> **Incluir atendimento coletivo**, representada na página
 
 <div class="middle">
 
-# Prontuário:
-
-# Migrar Prontuário
+# Prontuário: </br> Migrar Prontuário {#prontuário-migrar-prontuário}
 
 </div>
 
@@ -4542,9 +4536,7 @@ A janela **Aprovar migração de prontuário eletrônico** é composta por:
 
 <div class="middle">
 
-# Prontuário:
-
-# Painel Estatístico
+# Prontuário: </br> Painel Estatístico {#prontuário-painel-estatístico}
 
 </div>
 
