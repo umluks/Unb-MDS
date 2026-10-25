@@ -3957,11 +3957,11 @@ Acione a opção <kbd>6</kbd> **Incluir membro** para incluir membro a composiç
 
 Para alterar os dados da família, acione a opção <kbd>5</kbd> **Dados Familiares**, o sistema apresentará a janela Alterar família.
 
-![Alterar família modal](img/extra-cadastro-modal-2.png){.w-5}
+![Alterar família modal](img/extra-cadastro-modal-2.png){.w-40}
 
 ### Endereço
 
-- **CEP** – campo para informar o CEP do logradouro;
+- **CEP** – campo para informar o CEP do logradouro;'
 - **Localidade** – campo para informar a localidade do logradouro; 
 - **Tipo** – campo para informar o tipo do logradouro;
 - **Título** – campo para informar o título do logradouro;
@@ -3978,6 +3978,8 @@ Para alterar os dados da família, acione a opção <kbd>5</kbd> **Dados Familia
 {{< include _header-extra-cadastro.md >}}
 
 ![Alterar Dados da Família](img/extra-cadastro-17.png){.img-pagina}
+
+## Gerenciar família
 
 ### Endereço (continuação)
 
@@ -4018,9 +4020,9 @@ Para alterar os dados da família, acione a opção <kbd>5</kbd> **Dados Familia
 
 <div class="bottom qr">
 
-![QR Code image](img/qrcode-apresentacao.png){.qr-code}
+![QR Code image](img/prontuario-dataprev_qr-code-atendimento-coletivo.png){.qr-code}
 
-[Clique aqui](https://www.mylink.com) ou escaneie o QR Code para acessar o vídeo explicativo.
+[Clique aqui](https://aplicacoes.mds.gov.br/snas/defeso/ProntuarioEletronicoAtendimentoColetivo.mp4) ou escaneie o QR Code para acessar o vídeo explicativo.
 
 </div>
 
@@ -4334,9 +4336,9 @@ A janela <kbd>11</kbd> **Incluir atendimento coletivo**, representada na página
 
 <div class="bottom qr">
 
-![QR Code image](img/qrcode-apresentacao.png){.qr-code}
+![QR Code image](img/prontuario-dataprev_qr-code-migrar-prontuario.png){.qr-code}
 
-[Clique aqui](https://www.mylink.com) ou escaneie o QR Code para acessar o vídeo explicativo.
+[Clique aqui](https://blog.mds.gov.br/redesuas/wp-content/uploads/2025/12/Prontuario-Eletronico-Migrar-Prontuario.mp4) ou escaneie o QR Code para acessar o vídeo explicativo.
 
 </div>
 
@@ -4432,6 +4434,7 @@ A janela <kbd>8</kbd> **Visualizar solicitação de migração de prontuário el
 {{< include _header-migrar-prontuario.md >}}
 
 ![Prontuário: Atendimento Coletivo](img/migrar-prontuario-suas-2.png){.img-pagina}
+
 
 ### Identificação da pessoa de referência e endereço da família {.col-break}
 
@@ -4547,9 +4550,9 @@ A janela **Aprovar migração de prontuário eletrônico** é composta por:
 
 <div class="bottom qr">
 
-![QR Code image](img/qrcode-apresentacao.png){.qr-code}
+<!-- ![QR Code image](img/qrcode-apresentacao.png){.qr-code}
 
-[Clique aqui](https://www.mylink.com) ou escaneie o QR Code para acessar o vídeo explicativo.
+[Clique aqui](https://www.mylink.com) ou escaneie o QR Code para acessar o vídeo explicativo. -->
 
 </div>
 
@@ -4598,6 +4601,8 @@ Preencha os campos conforme as informações que deseja visualizar:
 ![Prontuário: Atendimento Coletivo](img/painel-estatistico-1.png){.img-pagina}
 
 <div class="col-break"></div>
+
+## Painel Estatístico
 
 - **Tipo** – coluna para informar o tipo específico de atendimento, conforme escolhido no campo anterior.
 
@@ -4698,6 +4703,8 @@ O gráfico apresenta as seguintes categorias:
 
 ## Painel Estatístico {.col-break}
 
+### GPTE (continuação)
+
 - **Família em Situação de Rua**;
 - **Família de Pescadores Artesanais**;
 - **Família Cigana**;
@@ -4732,6 +4739,8 @@ Mostra a quantidade de atendimentos realizados com participantes do programa, co
 ![Prontuário: Painel Estatístico](img/painel-estatistico-5.png){.img-pagina}
 
 ## Painel Estatístico {.col-break}
+
+### GPTE (continuação)
 
 O agrupamento <kbd>9</kbd> **Recebe BPC** traz dados referentes às pessoas atendidas que recebem o auxílio BPC. Esse indicador mostra as pessoas atendidas que recebem o Benefício de Prestação Continuada (BPC).
 
