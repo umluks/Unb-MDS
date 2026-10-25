@@ -1386,7 +1386,7 @@ A janela <kbd>4</kbd> **Alterar forma de ingresso** contém os seguintes dados:
 
 Para **excluir o registro da lista**, acione a opção <kbd>5</kbd> **Excluir forma de ingresso**, e o sistema solicitará a confirmação da ação. Caso confirmada, o sistema atualiza a lista e apresenta a mensagem _"Forma de ingresso excluída com sucesso"_.
 
-### Observações e marcadores e marcadores de forma de ingresso e motivo do primeiro atendimento
+### Observações e marcadores de forma de ingresso e motivo do primeiro atendimento
 
 Para mais informações sobre o <kbd>5</kbd> **registro de observações** e o <kbd>6</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
@@ -1438,7 +1438,7 @@ O agrupamento de campos das <kbd>3</kbd> **especificidades sociais, étnicas ou 
 
 ## Composição familiar
 
-### Observações e marcadores e marcadores de Composição familiar
+### Observações e marcadores de Composição familiar
 
 Para mais informações sobre o <kbd>4</kbd> **registro de observações** e o <kbd>5</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
@@ -1594,7 +1594,7 @@ A janela <kbd>4</kbd> **Atualizar informações de habitação**, representada n
 
 ## Condições habitacionais da família
 
-### Observações e marcadores e marcadores das condições habitacionais da família
+### Observações e marcadores das condições habitacionais da família
 
 Para mais informações sobre o <kbd>5</kbd> **registro de observações** e o <kbd>6</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [23](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
@@ -1644,7 +1644,7 @@ O <kbd>3</kbd> **agrupamento de campos da identificação de vulnerabilidade edu
 
 ## Condições educacionais da família
 
-### Observações e marcadores e marcadores das condições educacionais da família
+### Observações e marcadores das condições educacionais da família
 
 Para mais informações sobre o <kbd>4</kbd> **registro de observações** e o <kbd>5</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
@@ -1795,7 +1795,7 @@ Para **excluir marcação de saúde**, acione a opção <kbd>6</kbd> **Excluir m
 
 <br>
 
-### Observações e marcadores e marcadores das condições de saúde da família
+### Observações e marcadores das condições de saúde da família
 
 Para mais informações sobre o <kbd>7</kbd> **registro de observações** e o <kbd>8</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
@@ -3052,6 +3052,8 @@ Para **adicionar um encaminhamento**, acione a opção <kbd>3</kbd> **Incluir en
 
 ## Formulário de controle de encaminhamentos
 
+### Incluir encaminhamento (continuação)
+
 Preencha os dados solicitados e acione a opção <kbd>9</kbd> **Incluir**, em seguida o sistema fecha a janela, atualiza a lista de encaminhamentos e apresenta a mensagem “_Encaminhamento incluído com sucesso_”.
 
 A janela <kbd>3</kbd> **Incluir encaminhamento**, representada na página anterior, contém os seguintes dados:
@@ -3066,7 +3068,6 @@ A janela <kbd>3</kbd> **Incluir encaminhamento**, representada na página anteri
   - 8 - Para inclusão no CadÚnico (inclusive quando realizada nesta própria Unidade)
   - 9 - Para o INSS, visando acesso ao BPC
   - 10 - Para o INSS, visando acesso a outros direitos, que não o BPC
-  - 11 - Para acesso a Benefícios Eventuais
 
 </div>
 
@@ -3081,6 +3082,7 @@ A janela <kbd>3</kbd> **Incluir encaminhamento**, representada na página anteri
 ## Formulário de controle de encaminhamentos
 
 - _continuação_
+  - 11 - Para acesso a Benefícios Eventuais
   - 12 - Para acesso a Documentação Civil (Certidão de Nascimento, RG, Carteira de Trabalho, etc)
   - 13 - Encaminhamento do CRAS para o CREAS (marcação exclusiva para o CRAS)
   - 14 - Encaminhamento do CREAS para o CRAS (marcação exclusiva para o CRAS)
@@ -3095,7 +3097,6 @@ A janela <kbd>3</kbd> **Incluir encaminhamento**, representada na página anteri
   - 42 - Para Educação de Jovens Adultos (por exemplo: Brasil Alfabetizado)
   - 50 - Para Serviços, Programas ou Projetos voltados à capacitação profissional
   - 51 - Para Serviços, Programas ou Projetos voltados à geração de trabalho e renda
-  - 52 - Para Serviços, Programas ou Projetos voltados à intermediação de mão-de-obra
 
 </div>
 
@@ -3110,6 +3111,7 @@ A janela <kbd>3</kbd> **Incluir encaminhamento**, representada na página anteri
 ## Formulário de controle de encaminhamentos
 
 - _continuação_
+  - 52 - Para Serviços, Programas ou Projetos voltados à intermediação de mão-de-obra
   - 53 - Para acesso a microcrédito
   - 54 - Para o Programa BPC-Trabalho
   - 55 - Para o Programa ACESSUAS Trabalho
@@ -3175,6 +3177,8 @@ Para visualizar o encaminhamento, acione a opção <kbd>4</kbd> **Visualizar enc
 
 ## Formulário de controle de encaminhamentos
 
+### Visualizar encaminhamento (continuação)
+
 A janela <kbd>4</kbd> **Visualizar encaminhamento**, representada na página anterior, contém os seguintes dados:
 
 - **Pessoa(s)** – campo para informar o(s) nome(s) da(s) pessoa(s) atendida(s);
@@ -3216,6 +3220,8 @@ Para editar o encaminhamento, acione a opção <kbd>5</kbd> **Alterar encaminham
 ![Formulário de controle de encaminhamentos](img/formulario-de-controle-de-encaminhamentos-1.png){.img-pagina}
 
 ## Formulário de controle de encaminhamentos
+
+### Editar encaminhamento (continuação)
 
 Informe os ajustes e acione a opção <kbd>9</kbd> **Alterar**, em seguida o sistema fecha a janela, atualiza a lista e apresenta a mensagem “_Encaminhamento alterado com sucesso_”.
 
@@ -3326,14 +3332,17 @@ A janela <kbd>3</kbd> **Visualizar atendimento**, representada na página anteri
 - **Unidade** – campo que informa o nome da unidade de atendimento;
 - **Fechar** – opção que, ao ser acionada, fecha a janela.
 
+### Observações e marcadores de relatório de participação em atendimento coletivo
+
+Para mais informações sobre o <kbd>3</kbd> **registro de observações** e o <kbd>4</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>4</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5</kbd> **ícone**.
 
 </div>
 
----
-
+<!--
 <div class="page-2col">
 
 {{< include _header-prontuario-individual.md >}}
@@ -3343,8 +3352,6 @@ Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>4
 ## Relatório simplificado dos atendimentos
 
 Ao acionar o bloco <kbd>1</kbd> **Relatório simplificado dos atendimentos**, para expandir as informações, você pode consultar os atendimentos coletivos ao qual a família participou.
-
-<br>
 
 ### Atendimentos da pessoa
 
@@ -3361,11 +3368,10 @@ A <kbd>2</kbd> **lista atendimentos da pessoa** é composta por:
 
 Para mais informações sobre o <kbd>2</kbd> **registro de observações** e o <kbd>3</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
-<br>
-
 Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>4</kbd> ícone.
 
 </div>
+-->
 
 ---
 
@@ -3385,9 +3391,9 @@ Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>4</kb
 
 <div class="bottom qr">
 
-![QR Code image](img/qrcode-apresentacao.png){.qr-code}
+<!-- ![QR Code image](img/qrcode-apresentacao.png){.qr-code}
 
-[Clique aqui](https://www.mylink.com) ou escaneie o QR Code para acessar o vídeo explicativo.
+[Clique aqui](https://www.mylink.com) ou escaneie o QR Code para acessar o vídeo explicativo. -->
 
 </div>
 
@@ -3403,7 +3409,7 @@ Para retrair ou reexibir as informações contidas no bloco, acione o <kbd>4</kb
 
 ## Extra cadastro com CPF (Consulta simples)
 
-Caso seja realizada uma consulta simples de usuário, conforme indicado na página XX, e seja constatado que a pessoa atendida não possui cadastro no CadÚnico, será possível realizar um extra cadastro.
+Caso seja realizada uma consulta simples de usuário, conforme indicado na página [18](#consulta-simples-de-usuario), e seja constatado que a pessoa atendida não possui cadastro no CadÚnico, será possível realizar um extra cadastro.
 
 Para realizar o extra cadastro a pessoa atendida no Prontuário Eletrônico, acione a opção <kbd>1</kbd> **Sim** na pergunta “Gostaria de cadastrá-la no prontuário?”. O sistema apresentará a tela de Cadastro de pessoa.
 
@@ -3427,11 +3433,11 @@ Na tela de Cadastro de pessoa, o sistema apresentará também a seguinte mensage
 - **Nome da mãe** – campo que informa o nome completo conforme base de dados da Receita Federal;
 - **Nome do pai** – campo para informar o nome conforme base de dados da Receita Federal;
 - **Data de nascimento** - campo que informa a data de nascimento conforme base de dados da Receita Federal;
-- **Relação de parentesco** – campo para informar a relação da pessoa com a pessoa responsável pela Unidade Familiar -RF. Os graus de parentesco são:
+- **Relação de parentesco** – campo para informar a relação da pessoa com a Pessoa Responsável pela Unidade Familiar (RF). Os graus de parentesco são:
 
 <div class="two-cols">
 
-- Pessoa Responsável pela Unidade Familiar - RF;
+- Pessoa Responsável pela Unidade Familiar (RF);
 - Cônjuge ou companheiro(a);
 - Filho(a)
 - Enteado(a)
@@ -3509,6 +3515,8 @@ A janela Incluir contato contém os seguintes dados:
 ![Lista de contatos](img/extra-cadastro-5.png){.img-pagina}
 
 ## Extra cadastro com CPF (Consulta simples)
+
+### Incluir contato (continuação)
 
 Após a inclusão, os contatos são exibidos em lista com as seguintes informações: Tipo, Contato, e as opções na coluna Ações:
 
@@ -3603,7 +3611,9 @@ Após a inclusão, os contatos são exibidos em lista com as seguintes informaç
 
 ## Extra cadastro com CPF (Consulta simples)
 
-- **GPTE** - Campo para informar se a família é pertencente de Grupos Populacionais Tradicionais e Específicos. As opções são: 
+### Informações familiares (continuação)
+
+- **GPTE** – Campo para informar se a família é pertencente de Grupos Populacionais Tradicionais e Específicos. As opções são: 
 
 <div class="two-cols">
 
@@ -3640,7 +3650,7 @@ Após a inclusão, o sistema apresenta a funcionalidade, Gerenciar família, **d
 
 ## Extra cadastro sem CPF (Consulta avançada)
 
-Caso seja realizada uma consulta avançada de usuário, **conforme indicado na página 20**, e seja constatado que a pessoa atendida não possui cadastro no **CadÚnico**, será possível realizar um extra cadastro.
+Caso seja realizada uma consulta avançada de usuário, **conforme indicado na página [20](#realizar-atendimento)**, e seja constatado que a pessoa atendida não possui cadastro no **CadÚnico**, será possível realizar um extra cadastro.
 
 Para realizar o extra cadastro a pessoa atendida no Prontuário Eletrônico, acione a opção <kbd>3</kbd> **Sim** na pergunta **“Gostaria de cadastrá-la no prontuário?”**. O sistema apresentará a tela de **Cadastro de pessoa**.
 
