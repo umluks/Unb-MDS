@@ -436,6 +436,7 @@ Auxilia na organização dos prontuários e no suporte às equipes do CRAS. Suas
 - Emitir documentos e relatórios.
 - Apoiar os fluxos internos de atendimento.
 - Zelar por conduta ética alinhada com os princípios do SUAS.
+- Realizar procedimento de migração (quando necessário).
 
 Atenção: a  utilização de funcionalidades específicas do prontuário SUAS deve ser orientada pelo contexto de trabalho da unidade e da qualificação técnica do(a) profissional. As permissões são definidas pelo MDS, mas a utilização do sistema está sujeita à avaliação do órgão gestor, da coordenação da unidade, preferencialmente, mediante treinamento e supervisão.
 
@@ -443,7 +444,7 @@ Atenção: a  utilização de funcionalidades específicas do prontuário SUAS d
 
 Responsável pela gestão operacional do sistema e pela supervisão dos atendimentos. Suas atribuições são:
 
-- Realizar atendimentos quando necessário.
+- Realizar atendimentos e registrar no sistema (quando necessário).
 - Supervisionar a qualidade dos registros e atendimentos realizados pela equipe (nível médio e superior).
 - Garantir condições éticas para o uso do sistema nas unidades e zelar pela segurança das informações.
 - Planejar e avaliar ações com base em dados do sistema.
@@ -467,8 +468,8 @@ Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Su
 - Orientar e encaminhar para serviços e benefícios da rede socioassistencial e de outras políticas públicas.
 - Atuar em equipe multiprofissional.
 - Realizar intervenções individuais, grupais e comunitárias.
-- Emitir documentos técnicos quando necessário.
-- Estar orientado por normativas éticas e técnicas de sua profissão.
+- Emitir documentos técnicos (quando necessário).
+- Estar orientado(a) por normativas éticas e técnicas de sua profissão.
 
 
 **Assistente Social – CRAS**
@@ -495,6 +496,7 @@ Registra as ações socioeducativas e o acompanhamento de usuários, garantindo 
 - Manter registros claros e alinhados às normas do SUAS.
 - Registrar articulações com a rede de serviços.
 - Zelar por conduta ética alinhada com os princípios do SUAS.
+- Realizar procedimento de migração (quando necessário).
 
 Atenção: a utilização de funcionalidades específicas do prontuário SUAS deve ser orientada pelo contexto de trabalho da unidade e da qualificação técnica do(a) profissional. As permissões são definidas pelo MDS, mas a utilização do sistema está sujeita à avaliação do órgão gestor, da coordenação da unidade, preferencialmente, mediante treinamento e supervisão.
 
@@ -507,7 +509,7 @@ Registra, planeja e acompanha ações socioassistenciais no Prontuário SUAS. Su
 - Orientar e encaminhar para serviços e benefícios da rede socioassistencial e de outras políticas públicas.
 - Atuar em equipe multiprofissional.
 - Realizar intervenções individuais, grupais e comunitárias.
-- Emitir documentos técnicos quando necessário.
+- Emitir documentos técnicos (quando necessário).
 - Estar orientado por normativas éticas e técnicas de sua profissão.
 - Zelar por conduta ética alinhada com os princípios do SUAS.
 
@@ -530,7 +532,7 @@ Registra as ações socioeducativas e o acompanhamento de usuários, garantindo 
 - Identificar e registrar riscos e vulnerabilidades.
 - Manter registros claros e alinhados às normas do SUAS.
 - Registrar articulações com a rede de serviços.
-- Realizar procedimento de migração quando necessário.
+- Realizar procedimento de migração (quando necessário).
 - Zelar por conduta ética alinhada com os princípios do SUAS.
 
 <div class="col-break"></div>
@@ -5618,7 +5620,7 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check"></td>
 </tr>
 <tr>
-<td class="td-func">Permissão para **visualizar** o bloco com seus devidos registros</td>
+<td class="td-func">Permissão para **visualizar** e **detalhar** o bloco com seus devidos registros</td>
 <td class="td-check"></td>
 <td class="td-check"></td>
 <td class="td-check"></td>
@@ -5970,7 +5972,7 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check"></td>
 </tr>
 <tr>
-<td class="td-func">Permissão para **visualizar** e **detalhar** a área de observação com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+<td class="td-func">Permissão para **visualizar** e **detalhar** a área de observação e área de marcadores com seus devidos registros</td>
 <td class="td-check"></td>
 <td class="td-check"></td>
 <td class="td-check"></td>
@@ -5986,7 +5988,7 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <td class="td-check">X</td>
 </tr>
 <tr>
-<td class="td-func">Permissão para **visualizar** o bloco com seus devidos registros. Possibilita o detalhamento dos registros apresentados</td>
+<td class="td-func">Permissão para **visualizar** e detalhar os registros do bloco</td>
 <td class="td-check"></td>
 <td class="td-check"></td>
 <td class="td-check"></td>
@@ -6125,7 +6127,7 @@ Utilize a exportação para análises mais aprofundadas ou para integrar os dado
 <th class="th-subtitle" colspan="14">PAINEL ESTATÍSTICO</th>
 </tr>
 <tr>
-<td class="td-func">Permissão para **visualizar** o menu e consultar dados</td>
+<td class="td-func">Permissão para **visualizar** o menu Painel Estatístico e consultar dados</td>
 <td class="td-check">X</td>
 <td class="td-check">X</td>
 <td class="td-check">X</td>
