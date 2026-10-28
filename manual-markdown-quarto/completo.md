@@ -334,7 +334,7 @@ O objetivo é ampliar as informações cadastrais das famílias para que o Traba
 - Apoio à gestão e ao planejamento, oferecendo uma base de dados unificada para monitoramento e tomada de decisão.
 - Fortalecimento do controle social, permitindo o acompanhamento e a fiscalização das ações da assistência social.
 
-O CadSUAS é essencial para organizar e padronizar as informações do SUAS em todo o país. O sistema pode ser acessado através de consulta pública sem senha de acesso, por meio do **[link]**(https://aplicacoes.mds.gov.br/cadsuas/visualizarConsultaExterna.html). E, também por consulta com senha, através de login no SAA.
+O CadSUAS é essencial para organizar e padronizar as informações do SUAS em todo o país. O sistema pode ser acessado através de consulta pública sem senha de acesso, por meio do [link](https://aplicacoes.mds.gov.br/cadsuas/visualizarConsultaExterna.html). E, também por consulta com senha, através de login no SAA.
 
 Lembre-se de atualizar os dados de unidades, gestores, conselheiros, e entre outros trabalhadores do SUAS, sempre que houver alterações.
 
