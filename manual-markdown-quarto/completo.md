@@ -3332,11 +3332,11 @@ A janela <kbd>3</kbd> **Visualizar atendimento**, representada na página anteri
 
 ### Observações e marcadores de relatório de participação em atendimento coletivo
 
-Para mais informações sobre o <kbd>3</kbd> **registro de observações** e o <kbd>4</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
+Para mais informações sobre o <kbd>4</kbd> **registro de observações** e o <kbd>5</kbd> **registro de marcadores**, consulte as páginas [21](#aspectos-globais-do-módulo-prontuário) e [24](#aspectos-globais-do-módulo-prontuário) deste manual, respectivamente.
 
 <br>
 
-Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>5</kbd> **ícone**.
+Para **retrair ou reexibir** as informações contidas no bloco, acione o <kbd>6</kbd> **ícone**.
 
 </div>
 
